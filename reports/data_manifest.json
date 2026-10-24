@@ -1,0 +1,18 @@
+{
+  "pipeline_version": "1.1.0",
+  "data_pipeline_version": "1.0.0",
+  "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_9_January_2025_through_February_2025.zip",
+  "source_page": "https://www.consumerfinance.gov/foia-requests/foia-electronic-reading-room/cfpb-consumer-complaint-database-narratives-archive/",
+  "source_sha256": "11c18bb0973eed8f5e4f66e2979346af0671a3aefcb5a6b9eec73009d53cff64",
+  "source_bytes": 75475199,
+  "date_min": "2025-01-01",
+  "date_max": "2025-02-28",
+  "source_rows": 811019,
+  "with_narrative": 265405,
+  "narratives_too_short": 3301,
+  "database_rows": 811019,
+  "duplicate_ids_removed": 0,
+  "text_filter": "At least 12 normalized words; URLs, emails, digits and redaction markers removed.",
+  "analytics_population": "All archived records, including records without narrative text.",
+  "limitations": "Historical self-selected, unverified complaints; counts do not measure company failure rates or prove misconduct."
+}
