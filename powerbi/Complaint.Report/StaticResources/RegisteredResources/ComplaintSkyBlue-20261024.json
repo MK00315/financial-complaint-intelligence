@@ -1,0 +1,31 @@
+{
+  "name": "ComplaintSkyBlue-20261024.json",
+  "dataColors": [
+    "#0EA5E9",
+    "#0369A1",
+    "#7DD3FC",
+    "#38BDF8",
+    "#64748B",
+    "#A96C13"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#16324F",
+  "tableAccent": "#0369A1",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 13,
+      "color": "#16324F"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 11,
+      "color": "#566F85"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 33,
+      "color": "#0369A1"
+    }
+  }
+}
