@@ -2,7 +2,7 @@
 
 An analytics and NLP project for exploring financial complaint reporting, investigating issues and reviewing model-assisted product classification. It includes a sky-blue web dashboard and a separate four-page Power BI report.
 
-**Live demo:** deployment is being prepared; a verified public URL will be added after hosting checks pass.
+**Live demo:** [Open Financial Complaint Intelligence](https://financial-complaint-intelligence.onrender.com). Free hosting can take about a minute to wake up after inactivity.
 
 **Power BI:** [download the report](powerbi/Financial_Complaint_Intelligence.pbix) · [report guide](powerbi/README.md) · [deployment instructions](docs/DEPLOYMENT.md).
 
@@ -112,6 +112,8 @@ The development workspace passed **40 automated checks**, including independent 
 Three raw-SQL comparison cases skip in the portable delivery because SQLite is intentionally excluded. Rebuild with prepare_dashboard.py to enable them. Reduced-motion CSS is included; no OS preference change was performed during QA.
 
 The original local implementation passed the checks above. The publication copy additionally passed **40 tests with 3 raw-database comparisons skipped**, including hosted processing disclosure and real inference. Linux Python 3.13 wheels for the runtime requirements were downloaded successfully. The GitHub workflow checks the portable project on Ubuntu.
+
+The deployed service passed **11 live HTTP checks** covering source totals, filtered counts, CSV export, real inference, validation errors, hosted processing disclosure, static assets and the public Power BI download. All four live browser views were inspected; issue searching and an actual credit-report prediction were exercised. See [live verification](docs/LIVE_VERIFICATION.json) for the recorded results. GitHub Actions status is shown in the repository's Actions tab and is separate from those completed local and live checks.
 
 The native Power BI report was opened and saved in Desktop; all four pages were reviewed and six native DAX queries passed. Source validation returned zero errors and one warning because a Microsoft schema URL emitted by Desktop was unavailable. Details are recorded under `powerbi/docs/`.
 

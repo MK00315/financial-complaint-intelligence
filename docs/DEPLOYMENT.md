@@ -2,6 +2,8 @@
 
 The app serves its dashboard and Python API from the same origin. It loads the saved uncapped classifier and aggregate counts at startup. Hosting does not download the CFPB dataset or train a new model.
 
+The verified live service is [financial-complaint-intelligence.onrender.com](https://financial-complaint-intelligence.onrender.com), running on Render's Free plan in Oregon. It was created from this public Git repository. No new GitHub permissions or persistent access keys were required. The first deployment of commit `4ec8fc507eec6d0cb869cfcd457ccfae163e8e4e` was verified with 11 HTTP checks and all four browser views. Later documentation updates do not change the model or application assets.
+
 ## Render configuration
 
 `render.yaml` defines one **free Python web service** with:

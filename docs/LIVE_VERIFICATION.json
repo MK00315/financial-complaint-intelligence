@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-10-24T22:44:08.200500+05:30",
+  "live_url": "https://financial-complaint-intelligence.onrender.com",
+  "repository": "https://github.com/MK00315/financial-complaint-intelligence",
+  "passed": true,
+  "checks": [
+    "HTTPS health and selected uncapped profile",
+    "Full source population and held-out model metrics",
+    "Hosted processing disclosure and complete evaluation matrix",
+    "All-record totals and January credit-card filtering",
+    "Issue drilldown preserves the original reporting counts",
+    "Filtered, searched and sorted CSV export",
+    "Real model inference on an illustrative complaint",
+    "Useful validation errors for invalid text and dates",
+    "Reporting filters do not change fixed model evaluation",
+    "Dashboard HTML and all 11 browser/font assets match the repository",
+    "Public GitHub Power BI download matches the verified local file"
+  ],
+  "check_count": 11,
+  "health": {
+    "status": "ok",
+    "profile": "uncapped",
+    "project": "Financial Complaint Intelligence",
+    "app_version": "1.2.0"
+  },
+  "illustrative_prediction": {
+    "category": "Credit reporting or other personal consumer reports",
+    "score": 0.893051028251648,
+    "human_review": false
+  },
+  "powerbi_sha256": "ac6ebec65ef2d097f2af005ec5a9d93c2bab32e542c3cd611477023fe74d3168",
+  "raw_complaints_uploaded": false,
+  "plan": "Render Free",
+  "powerbi_service_published": false,
+  "first_verified_source_commit": "4ec8fc507eec6d0cb869cfcd457ccfae163e8e4e",
+  "render_deploy_id": "dep-dbeecmjncjis73e00kl0",
+  "browser_checks": {
+    "views": [
+      "Overview",
+      "Issue Explorer",
+      "Classify Complaint",
+      "Model & Data"
+    ],
+    "issue_search": "purchase returned three matching issues",
+    "real_prediction": "Credit reporting; score 0.893; suggested category",
+    "hosted_processing_notice": "observed",
+    "finished_on": "Overview; all products and full dates"
+  },
+  "github_actions_at_live_verification": "in_progress; not represented as a passed check"
+}
