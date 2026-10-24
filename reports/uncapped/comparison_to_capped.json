@@ -1,0 +1,13 @@
+{
+  "criterion": "validation macro-F1 only; test metrics do not choose the profile",
+  "capped_selected_model": "logistic_regression",
+  "capped_training_rows": 60444,
+  "capped_validation_macro_f1": 0.6538825375829431,
+  "uncapped_selected_model": "logistic_regression",
+  "uncapped_validation_macro_f1": 0.657203750197552,
+  "delta_validation_macro_f1": 0.003321212614608826,
+  "recommended_profile": "uncapped",
+  "tie_rule": "Preserve capped model when validation macro-F1 ties.",
+  "reference_archive_sha256": "f29504445d3d7754ce4ed2850bd22f26c5066c8844663c4eb9781f1d1381e359",
+  "identical_holdouts_verified": true
+}

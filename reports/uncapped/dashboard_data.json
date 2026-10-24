@@ -1,0 +1,5493 @@
+{
+  "source": {
+    "pipeline_version": "1.1.0",
+    "data_pipeline_version": "1.0.0",
+    "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_9_January_2025_through_February_2025.zip",
+    "source_page": "https://www.consumerfinance.gov/foia-requests/foia-electronic-reading-room/cfpb-consumer-complaint-database-narratives-archive/",
+    "source_sha256": "11c18bb0973eed8f5e4f66e2979346af0671a3aefcb5a6b9eec73009d53cff64",
+    "source_bytes": 75475199,
+    "date_min": "2025-01-01",
+    "date_max": "2025-02-28",
+    "source_rows": 811019,
+    "with_narrative": 265405,
+    "narratives_too_short": 3301,
+    "database_rows": 811019,
+    "duplicate_ids_removed": 0,
+    "text_filter": "At least 12 normalized words; URLs, emails, digits and redaction markers removed.",
+    "analytics_population": "All archived records, including records without narrative text.",
+    "limitations": "Historical self-selected, unverified complaints; counts do not measure company failure rates or prove misconduct."
+  },
+  "analytics": {
+    "daily": [
+      {
+        "date": "2025-01-01",
+        "product": "Checking or savings account",
+        "complaints": 80,
+        "narratives": 48
+      },
+      {
+        "date": "2025-01-01",
+        "product": "Credit card",
+        "complaints": 120,
+        "narratives": 64
+      },
+      {
+        "date": "2025-01-01",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 4750,
+        "narratives": 1087
+      },
+      {
+        "date": "2025-01-01",
+        "product": "Debt collection",
+        "complaints": 348,
+        "narratives": 133
+      },
+      {
+        "date": "2025-01-01",
+        "product": "Debt or credit management",
+        "complaints": 19,
+        "narratives": 9
+      },
+      {
+        "date": "2025-01-01",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 21,
+        "narratives": 16
+      },
+      {
+        "date": "2025-01-01",
+        "product": "Mortgage",
+        "complaints": 35,
+        "narratives": 26
+      },
+      {
+        "date": "2025-01-01",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 16,
+        "narratives": 10
+      },
+      {
+        "date": "2025-01-01",
+        "product": "Prepaid card",
+        "complaints": 18,
+        "narratives": 15
+      },
+      {
+        "date": "2025-01-01",
+        "product": "Student loan",
+        "complaints": 28,
+        "narratives": 16
+      },
+      {
+        "date": "2025-01-01",
+        "product": "Vehicle loan or lease",
+        "complaints": 18,
+        "narratives": 13
+      },
+      {
+        "date": "2025-01-02",
+        "product": "Checking or savings account",
+        "complaints": 185,
+        "narratives": 97
+      },
+      {
+        "date": "2025-01-02",
+        "product": "Credit card",
+        "complaints": 323,
+        "narratives": 127
+      },
+      {
+        "date": "2025-01-02",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 11287,
+        "narratives": 2862
+      },
+      {
+        "date": "2025-01-02",
+        "product": "Debt collection",
+        "complaints": 823,
+        "narratives": 273
+      },
+      {
+        "date": "2025-01-02",
+        "product": "Debt or credit management",
+        "complaints": 23,
+        "narratives": 15
+      },
+      {
+        "date": "2025-01-02",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 70,
+        "narratives": 47
+      },
+      {
+        "date": "2025-01-02",
+        "product": "Mortgage",
+        "complaints": 83,
+        "narratives": 50
+      },
+      {
+        "date": "2025-01-02",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 32,
+        "narratives": 20
+      },
+      {
+        "date": "2025-01-02",
+        "product": "Prepaid card",
+        "complaints": 23,
+        "narratives": 12
+      },
+      {
+        "date": "2025-01-02",
+        "product": "Student loan",
+        "complaints": 48,
+        "narratives": 24
+      },
+      {
+        "date": "2025-01-02",
+        "product": "Vehicle loan or lease",
+        "complaints": 67,
+        "narratives": 43
+      },
+      {
+        "date": "2025-01-03",
+        "product": "Checking or savings account",
+        "complaints": 239,
+        "narratives": 145
+      },
+      {
+        "date": "2025-01-03",
+        "product": "Credit card",
+        "complaints": 360,
+        "narratives": 116
+      },
+      {
+        "date": "2025-01-03",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 12285,
+        "narratives": 3319
+      },
+      {
+        "date": "2025-01-03",
+        "product": "Debt collection",
+        "complaints": 839,
+        "narratives": 194
+      },
+      {
+        "date": "2025-01-03",
+        "product": "Debt or credit management",
+        "complaints": 29,
+        "narratives": 17
+      },
+      {
+        "date": "2025-01-03",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 72,
+        "narratives": 49
+      },
+      {
+        "date": "2025-01-03",
+        "product": "Mortgage",
+        "complaints": 81,
+        "narratives": 51
+      },
+      {
+        "date": "2025-01-03",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 41,
+        "narratives": 21
+      },
+      {
+        "date": "2025-01-03",
+        "product": "Prepaid card",
+        "complaints": 37,
+        "narratives": 21
+      },
+      {
+        "date": "2025-01-03",
+        "product": "Student loan",
+        "complaints": 67,
+        "narratives": 45
+      },
+      {
+        "date": "2025-01-03",
+        "product": "Vehicle loan or lease",
+        "complaints": 71,
+        "narratives": 36
+      },
+      {
+        "date": "2025-01-04",
+        "product": "Checking or savings account",
+        "complaints": 108,
+        "narratives": 64
+      },
+      {
+        "date": "2025-01-04",
+        "product": "Credit card",
+        "complaints": 161,
+        "narratives": 87
+      },
+      {
+        "date": "2025-01-04",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 6477,
+        "narratives": 1377
+      },
+      {
+        "date": "2025-01-04",
+        "product": "Debt collection",
+        "complaints": 514,
+        "narratives": 199
+      },
+      {
+        "date": "2025-01-04",
+        "product": "Debt or credit management",
+        "complaints": 21,
+        "narratives": 13
+      },
+      {
+        "date": "2025-01-04",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 42,
+        "narratives": 32
+      },
+      {
+        "date": "2025-01-04",
+        "product": "Mortgage",
+        "complaints": 39,
+        "narratives": 29
+      },
+      {
+        "date": "2025-01-04",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 21,
+        "narratives": 10
+      },
+      {
+        "date": "2025-01-04",
+        "product": "Prepaid card",
+        "complaints": 23,
+        "narratives": 15
+      },
+      {
+        "date": "2025-01-04",
+        "product": "Student loan",
+        "complaints": 89,
+        "narratives": 44
+      },
+      {
+        "date": "2025-01-04",
+        "product": "Vehicle loan or lease",
+        "complaints": 33,
+        "narratives": 22
+      },
+      {
+        "date": "2025-01-05",
+        "product": "Checking or savings account",
+        "complaints": 82,
+        "narratives": 53
+      },
+      {
+        "date": "2025-01-05",
+        "product": "Credit card",
+        "complaints": 109,
+        "narratives": 69
+      },
+      {
+        "date": "2025-01-05",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 5053,
+        "narratives": 1207
+      },
+      {
+        "date": "2025-01-05",
+        "product": "Debt collection",
+        "complaints": 335,
+        "narratives": 133
+      },
+      {
+        "date": "2025-01-05",
+        "product": "Debt or credit management",
+        "complaints": 19,
+        "narratives": 13
+      },
+      {
+        "date": "2025-01-05",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 33,
+        "narratives": 18
+      },
+      {
+        "date": "2025-01-05",
+        "product": "Mortgage",
+        "complaints": 36,
+        "narratives": 28
+      },
+      {
+        "date": "2025-01-05",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 19,
+        "narratives": 12
+      },
+      {
+        "date": "2025-01-05",
+        "product": "Prepaid card",
+        "complaints": 15,
+        "narratives": 9
+      },
+      {
+        "date": "2025-01-05",
+        "product": "Student loan",
+        "complaints": 24,
+        "narratives": 14
+      },
+      {
+        "date": "2025-01-05",
+        "product": "Vehicle loan or lease",
+        "complaints": 32,
+        "narratives": 16
+      },
+      {
+        "date": "2025-01-06",
+        "product": "Checking or savings account",
+        "complaints": 193,
+        "narratives": 106
+      },
+      {
+        "date": "2025-01-06",
+        "product": "Credit card",
+        "complaints": 276,
+        "narratives": 119
+      },
+      {
+        "date": "2025-01-06",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 11871,
+        "narratives": 3047
+      },
+      {
+        "date": "2025-01-06",
+        "product": "Debt collection",
+        "complaints": 729,
+        "narratives": 243
+      },
+      {
+        "date": "2025-01-06",
+        "product": "Debt or credit management",
+        "complaints": 19,
+        "narratives": 8
+      },
+      {
+        "date": "2025-01-06",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 81,
+        "narratives": 51
+      },
+      {
+        "date": "2025-01-06",
+        "product": "Mortgage",
+        "complaints": 84,
+        "narratives": 41
+      },
+      {
+        "date": "2025-01-06",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 33,
+        "narratives": 22
+      },
+      {
+        "date": "2025-01-06",
+        "product": "Prepaid card",
+        "complaints": 25,
+        "narratives": 14
+      },
+      {
+        "date": "2025-01-06",
+        "product": "Student loan",
+        "complaints": 80,
+        "narratives": 43
+      },
+      {
+        "date": "2025-01-06",
+        "product": "Vehicle loan or lease",
+        "complaints": 69,
+        "narratives": 30
+      },
+      {
+        "date": "2025-01-07",
+        "product": "Checking or savings account",
+        "complaints": 255,
+        "narratives": 134
+      },
+      {
+        "date": "2025-01-07",
+        "product": "Credit card",
+        "complaints": 289,
+        "narratives": 140
+      },
+      {
+        "date": "2025-01-07",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 13063,
+        "narratives": 3345
+      },
+      {
+        "date": "2025-01-07",
+        "product": "Debt collection",
+        "complaints": 781,
+        "narratives": 256
+      },
+      {
+        "date": "2025-01-07",
+        "product": "Debt or credit management",
+        "complaints": 23,
+        "narratives": 9
+      },
+      {
+        "date": "2025-01-07",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 71,
+        "narratives": 48
+      },
+      {
+        "date": "2025-01-07",
+        "product": "Mortgage",
+        "complaints": 97,
+        "narratives": 63
+      },
+      {
+        "date": "2025-01-07",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 36,
+        "narratives": 22
+      },
+      {
+        "date": "2025-01-07",
+        "product": "Prepaid card",
+        "complaints": 26,
+        "narratives": 17
+      },
+      {
+        "date": "2025-01-07",
+        "product": "Student loan",
+        "complaints": 77,
+        "narratives": 37
+      },
+      {
+        "date": "2025-01-07",
+        "product": "Vehicle loan or lease",
+        "complaints": 75,
+        "narratives": 50
+      },
+      {
+        "date": "2025-01-08",
+        "product": "Checking or savings account",
+        "complaints": 206,
+        "narratives": 113
+      },
+      {
+        "date": "2025-01-08",
+        "product": "Credit card",
+        "complaints": 300,
+        "narratives": 116
+      },
+      {
+        "date": "2025-01-08",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 13087,
+        "narratives": 3323
+      },
+      {
+        "date": "2025-01-08",
+        "product": "Debt collection",
+        "complaints": 805,
+        "narratives": 300
+      },
+      {
+        "date": "2025-01-08",
+        "product": "Debt or credit management",
+        "complaints": 28,
+        "narratives": 16
+      },
+      {
+        "date": "2025-01-08",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 56,
+        "narratives": 34
+      },
+      {
+        "date": "2025-01-08",
+        "product": "Mortgage",
+        "complaints": 87,
+        "narratives": 53
+      },
+      {
+        "date": "2025-01-08",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 42,
+        "narratives": 24
+      },
+      {
+        "date": "2025-01-08",
+        "product": "Prepaid card",
+        "complaints": 15,
+        "narratives": 9
+      },
+      {
+        "date": "2025-01-08",
+        "product": "Student loan",
+        "complaints": 47,
+        "narratives": 28
+      },
+      {
+        "date": "2025-01-08",
+        "product": "Vehicle loan or lease",
+        "complaints": 64,
+        "narratives": 42
+      },
+      {
+        "date": "2025-01-09",
+        "product": "Checking or savings account",
+        "complaints": 183,
+        "narratives": 95
+      },
+      {
+        "date": "2025-01-09",
+        "product": "Credit card",
+        "complaints": 324,
+        "narratives": 135
+      },
+      {
+        "date": "2025-01-09",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 13048,
+        "narratives": 3315
+      },
+      {
+        "date": "2025-01-09",
+        "product": "Debt collection",
+        "complaints": 836,
+        "narratives": 321
+      },
+      {
+        "date": "2025-01-09",
+        "product": "Debt or credit management",
+        "complaints": 24,
+        "narratives": 14
+      },
+      {
+        "date": "2025-01-09",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 71,
+        "narratives": 47
+      },
+      {
+        "date": "2025-01-09",
+        "product": "Mortgage",
+        "complaints": 78,
+        "narratives": 49
+      },
+      {
+        "date": "2025-01-09",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 34,
+        "narratives": 20
+      },
+      {
+        "date": "2025-01-09",
+        "product": "Prepaid card",
+        "complaints": 26,
+        "narratives": 12
+      },
+      {
+        "date": "2025-01-09",
+        "product": "Student loan",
+        "complaints": 62,
+        "narratives": 29
+      },
+      {
+        "date": "2025-01-09",
+        "product": "Vehicle loan or lease",
+        "complaints": 59,
+        "narratives": 38
+      },
+      {
+        "date": "2025-01-10",
+        "product": "Checking or savings account",
+        "complaints": 182,
+        "narratives": 106
+      },
+      {
+        "date": "2025-01-10",
+        "product": "Credit card",
+        "complaints": 252,
+        "narratives": 124
+      },
+      {
+        "date": "2025-01-10",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 12528,
+        "narratives": 3160
+      },
+      {
+        "date": "2025-01-10",
+        "product": "Debt collection",
+        "complaints": 737,
+        "narratives": 261
+      },
+      {
+        "date": "2025-01-10",
+        "product": "Debt or credit management",
+        "complaints": 19,
+        "narratives": 8
+      },
+      {
+        "date": "2025-01-10",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 61,
+        "narratives": 45
+      },
+      {
+        "date": "2025-01-10",
+        "product": "Mortgage",
+        "complaints": 88,
+        "narratives": 59
+      },
+      {
+        "date": "2025-01-10",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 35,
+        "narratives": 23
+      },
+      {
+        "date": "2025-01-10",
+        "product": "Prepaid card",
+        "complaints": 40,
+        "narratives": 27
+      },
+      {
+        "date": "2025-01-10",
+        "product": "Student loan",
+        "complaints": 76,
+        "narratives": 43
+      },
+      {
+        "date": "2025-01-10",
+        "product": "Vehicle loan or lease",
+        "complaints": 66,
+        "narratives": 44
+      },
+      {
+        "date": "2025-01-11",
+        "product": "Checking or savings account",
+        "complaints": 92,
+        "narratives": 61
+      },
+      {
+        "date": "2025-01-11",
+        "product": "Credit card",
+        "complaints": 150,
+        "narratives": 101
+      },
+      {
+        "date": "2025-01-11",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 7947,
+        "narratives": 1632
+      },
+      {
+        "date": "2025-01-11",
+        "product": "Debt collection",
+        "complaints": 497,
+        "narratives": 206
+      },
+      {
+        "date": "2025-01-11",
+        "product": "Debt or credit management",
+        "complaints": 20,
+        "narratives": 15
+      },
+      {
+        "date": "2025-01-11",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 47,
+        "narratives": 32
+      },
+      {
+        "date": "2025-01-11",
+        "product": "Mortgage",
+        "complaints": 47,
+        "narratives": 28
+      },
+      {
+        "date": "2025-01-11",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 36,
+        "narratives": 22
+      },
+      {
+        "date": "2025-01-11",
+        "product": "Prepaid card",
+        "complaints": 11,
+        "narratives": 5
+      },
+      {
+        "date": "2025-01-11",
+        "product": "Student loan",
+        "complaints": 49,
+        "narratives": 29
+      },
+      {
+        "date": "2025-01-11",
+        "product": "Vehicle loan or lease",
+        "complaints": 36,
+        "narratives": 20
+      },
+      {
+        "date": "2025-01-12",
+        "product": "Checking or savings account",
+        "complaints": 61,
+        "narratives": 43
+      },
+      {
+        "date": "2025-01-12",
+        "product": "Credit card",
+        "complaints": 121,
+        "narratives": 61
+      },
+      {
+        "date": "2025-01-12",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 5697,
+        "narratives": 1376
+      },
+      {
+        "date": "2025-01-12",
+        "product": "Debt collection",
+        "complaints": 433,
+        "narratives": 169
+      },
+      {
+        "date": "2025-01-12",
+        "product": "Debt or credit management",
+        "complaints": 15,
+        "narratives": 10
+      },
+      {
+        "date": "2025-01-12",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 24,
+        "narratives": 16
+      },
+      {
+        "date": "2025-01-12",
+        "product": "Mortgage",
+        "complaints": 31,
+        "narratives": 24
+      },
+      {
+        "date": "2025-01-12",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 15,
+        "narratives": 8
+      },
+      {
+        "date": "2025-01-12",
+        "product": "Prepaid card",
+        "complaints": 16,
+        "narratives": 13
+      },
+      {
+        "date": "2025-01-12",
+        "product": "Student loan",
+        "complaints": 33,
+        "narratives": 10
+      },
+      {
+        "date": "2025-01-12",
+        "product": "Vehicle loan or lease",
+        "complaints": 27,
+        "narratives": 12
+      },
+      {
+        "date": "2025-01-13",
+        "product": "Checking or savings account",
+        "complaints": 210,
+        "narratives": 114
+      },
+      {
+        "date": "2025-01-13",
+        "product": "Credit card",
+        "complaints": 322,
+        "narratives": 126
+      },
+      {
+        "date": "2025-01-13",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 11936,
+        "narratives": 3258
+      },
+      {
+        "date": "2025-01-13",
+        "product": "Debt collection",
+        "complaints": 765,
+        "narratives": 280
+      },
+      {
+        "date": "2025-01-13",
+        "product": "Debt or credit management",
+        "complaints": 23,
+        "narratives": 14
+      },
+      {
+        "date": "2025-01-13",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 55,
+        "narratives": 36
+      },
+      {
+        "date": "2025-01-13",
+        "product": "Mortgage",
+        "complaints": 80,
+        "narratives": 58
+      },
+      {
+        "date": "2025-01-13",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 44,
+        "narratives": 33
+      },
+      {
+        "date": "2025-01-13",
+        "product": "Prepaid card",
+        "complaints": 28,
+        "narratives": 16
+      },
+      {
+        "date": "2025-01-13",
+        "product": "Student loan",
+        "complaints": 67,
+        "narratives": 33
+      },
+      {
+        "date": "2025-01-13",
+        "product": "Vehicle loan or lease",
+        "complaints": 60,
+        "narratives": 38
+      },
+      {
+        "date": "2025-01-14",
+        "product": "Checking or savings account",
+        "complaints": 273,
+        "narratives": 142
+      },
+      {
+        "date": "2025-01-14",
+        "product": "Credit card",
+        "complaints": 344,
+        "narratives": 149
+      },
+      {
+        "date": "2025-01-14",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 14232,
+        "narratives": 4089
+      },
+      {
+        "date": "2025-01-14",
+        "product": "Debt collection",
+        "complaints": 873,
+        "narratives": 345
+      },
+      {
+        "date": "2025-01-14",
+        "product": "Debt or credit management",
+        "complaints": 25,
+        "narratives": 16
+      },
+      {
+        "date": "2025-01-14",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 260,
+        "narratives": 157
+      },
+      {
+        "date": "2025-01-14",
+        "product": "Mortgage",
+        "complaints": 88,
+        "narratives": 47
+      },
+      {
+        "date": "2025-01-14",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 47,
+        "narratives": 28
+      },
+      {
+        "date": "2025-01-14",
+        "product": "Prepaid card",
+        "complaints": 27,
+        "narratives": 11
+      },
+      {
+        "date": "2025-01-14",
+        "product": "Student loan",
+        "complaints": 94,
+        "narratives": 47
+      },
+      {
+        "date": "2025-01-14",
+        "product": "Vehicle loan or lease",
+        "complaints": 75,
+        "narratives": 45
+      },
+      {
+        "date": "2025-01-15",
+        "product": "Checking or savings account",
+        "complaints": 1421,
+        "narratives": 1097
+      },
+      {
+        "date": "2025-01-15",
+        "product": "Credit card",
+        "complaints": 375,
+        "narratives": 172
+      },
+      {
+        "date": "2025-01-15",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 13650,
+        "narratives": 4299
+      },
+      {
+        "date": "2025-01-15",
+        "product": "Debt collection",
+        "complaints": 846,
+        "narratives": 324
+      },
+      {
+        "date": "2025-01-15",
+        "product": "Debt or credit management",
+        "complaints": 33,
+        "narratives": 18
+      },
+      {
+        "date": "2025-01-15",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 4725,
+        "narratives": 3970
+      },
+      {
+        "date": "2025-01-15",
+        "product": "Mortgage",
+        "complaints": 87,
+        "narratives": 54
+      },
+      {
+        "date": "2025-01-15",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 46,
+        "narratives": 31
+      },
+      {
+        "date": "2025-01-15",
+        "product": "Prepaid card",
+        "complaints": 11,
+        "narratives": 5
+      },
+      {
+        "date": "2025-01-15",
+        "product": "Student loan",
+        "complaints": 80,
+        "narratives": 47
+      },
+      {
+        "date": "2025-01-15",
+        "product": "Vehicle loan or lease",
+        "complaints": 86,
+        "narratives": 47
+      },
+      {
+        "date": "2025-01-16",
+        "product": "Checking or savings account",
+        "complaints": 2322,
+        "narratives": 1839
+      },
+      {
+        "date": "2025-01-16",
+        "product": "Credit card",
+        "complaints": 527,
+        "narratives": 183
+      },
+      {
+        "date": "2025-01-16",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 15523,
+        "narratives": 4303
+      },
+      {
+        "date": "2025-01-16",
+        "product": "Debt collection",
+        "complaints": 1032,
+        "narratives": 330
+      },
+      {
+        "date": "2025-01-16",
+        "product": "Debt or credit management",
+        "complaints": 32,
+        "narratives": 20
+      },
+      {
+        "date": "2025-01-16",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 4356,
+        "narratives": 3663
+      },
+      {
+        "date": "2025-01-16",
+        "product": "Mortgage",
+        "complaints": 93,
+        "narratives": 55
+      },
+      {
+        "date": "2025-01-16",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 47,
+        "narratives": 30
+      },
+      {
+        "date": "2025-01-16",
+        "product": "Prepaid card",
+        "complaints": 28,
+        "narratives": 12
+      },
+      {
+        "date": "2025-01-16",
+        "product": "Student loan",
+        "complaints": 79,
+        "narratives": 45
+      },
+      {
+        "date": "2025-01-16",
+        "product": "Vehicle loan or lease",
+        "complaints": 80,
+        "narratives": 34
+      },
+      {
+        "date": "2025-01-17",
+        "product": "Checking or savings account",
+        "complaints": 4144,
+        "narratives": 3321
+      },
+      {
+        "date": "2025-01-17",
+        "product": "Credit card",
+        "complaints": 435,
+        "narratives": 196
+      },
+      {
+        "date": "2025-01-17",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 13689,
+        "narratives": 4100
+      },
+      {
+        "date": "2025-01-17",
+        "product": "Debt collection",
+        "complaints": 934,
+        "narratives": 339
+      },
+      {
+        "date": "2025-01-17",
+        "product": "Debt or credit management",
+        "complaints": 45,
+        "narratives": 32
+      },
+      {
+        "date": "2025-01-17",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 14490,
+        "narratives": 12325
+      },
+      {
+        "date": "2025-01-17",
+        "product": "Mortgage",
+        "complaints": 85,
+        "narratives": 45
+      },
+      {
+        "date": "2025-01-17",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 67,
+        "narratives": 43
+      },
+      {
+        "date": "2025-01-17",
+        "product": "Prepaid card",
+        "complaints": 47,
+        "narratives": 31
+      },
+      {
+        "date": "2025-01-17",
+        "product": "Student loan",
+        "complaints": 83,
+        "narratives": 52
+      },
+      {
+        "date": "2025-01-17",
+        "product": "Vehicle loan or lease",
+        "complaints": 72,
+        "narratives": 40
+      },
+      {
+        "date": "2025-01-18",
+        "product": "Checking or savings account",
+        "complaints": 2020,
+        "narratives": 1611
+      },
+      {
+        "date": "2025-01-18",
+        "product": "Credit card",
+        "complaints": 211,
+        "narratives": 123
+      },
+      {
+        "date": "2025-01-18",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 8772,
+        "narratives": 2753
+      },
+      {
+        "date": "2025-01-18",
+        "product": "Debt collection",
+        "complaints": 466,
+        "narratives": 201
+      },
+      {
+        "date": "2025-01-18",
+        "product": "Debt or credit management",
+        "complaints": 22,
+        "narratives": 15
+      },
+      {
+        "date": "2025-01-18",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 9477,
+        "narratives": 8132
+      },
+      {
+        "date": "2025-01-18",
+        "product": "Mortgage",
+        "complaints": 53,
+        "narratives": 36
+      },
+      {
+        "date": "2025-01-18",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 35,
+        "narratives": 21
+      },
+      {
+        "date": "2025-01-18",
+        "product": "Prepaid card",
+        "complaints": 24,
+        "narratives": 16
+      },
+      {
+        "date": "2025-01-18",
+        "product": "Student loan",
+        "complaints": 41,
+        "narratives": 20
+      },
+      {
+        "date": "2025-01-18",
+        "product": "Vehicle loan or lease",
+        "complaints": 58,
+        "narratives": 39
+      },
+      {
+        "date": "2025-01-19",
+        "product": "Checking or savings account",
+        "complaints": 563,
+        "narratives": 446
+      },
+      {
+        "date": "2025-01-19",
+        "product": "Credit card",
+        "complaints": 198,
+        "narratives": 132
+      },
+      {
+        "date": "2025-01-19",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 6223,
+        "narratives": 1933
+      },
+      {
+        "date": "2025-01-19",
+        "product": "Debt collection",
+        "complaints": 389,
+        "narratives": 178
+      },
+      {
+        "date": "2025-01-19",
+        "product": "Debt or credit management",
+        "complaints": 18,
+        "narratives": 11
+      },
+      {
+        "date": "2025-01-19",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 2957,
+        "narratives": 2453
+      },
+      {
+        "date": "2025-01-19",
+        "product": "Mortgage",
+        "complaints": 27,
+        "narratives": 18
+      },
+      {
+        "date": "2025-01-19",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 19,
+        "narratives": 14
+      },
+      {
+        "date": "2025-01-19",
+        "product": "Prepaid card",
+        "complaints": 24,
+        "narratives": 19
+      },
+      {
+        "date": "2025-01-19",
+        "product": "Student loan",
+        "complaints": 34,
+        "narratives": 21
+      },
+      {
+        "date": "2025-01-19",
+        "product": "Vehicle loan or lease",
+        "complaints": 50,
+        "narratives": 30
+      },
+      {
+        "date": "2025-01-20",
+        "product": "Checking or savings account",
+        "complaints": 653,
+        "narratives": 533
+      },
+      {
+        "date": "2025-01-20",
+        "product": "Credit card",
+        "complaints": 282,
+        "narratives": 150
+      },
+      {
+        "date": "2025-01-20",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 13453,
+        "narratives": 3901
+      },
+      {
+        "date": "2025-01-20",
+        "product": "Debt collection",
+        "complaints": 734,
+        "narratives": 258
+      },
+      {
+        "date": "2025-01-20",
+        "product": "Debt or credit management",
+        "complaints": 28,
+        "narratives": 20
+      },
+      {
+        "date": "2025-01-20",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 4403,
+        "narratives": 3729
+      },
+      {
+        "date": "2025-01-20",
+        "product": "Mortgage",
+        "complaints": 42,
+        "narratives": 24
+      },
+      {
+        "date": "2025-01-20",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 31,
+        "narratives": 22
+      },
+      {
+        "date": "2025-01-20",
+        "product": "Prepaid card",
+        "complaints": 17,
+        "narratives": 12
+      },
+      {
+        "date": "2025-01-20",
+        "product": "Student loan",
+        "complaints": 246,
+        "narratives": 121
+      },
+      {
+        "date": "2025-01-20",
+        "product": "Vehicle loan or lease",
+        "complaints": 49,
+        "narratives": 34
+      },
+      {
+        "date": "2025-01-21",
+        "product": "Checking or savings account",
+        "complaints": 625,
+        "narratives": 465
+      },
+      {
+        "date": "2025-01-21",
+        "product": "Credit card",
+        "complaints": 358,
+        "narratives": 143
+      },
+      {
+        "date": "2025-01-21",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 14279,
+        "narratives": 3942
+      },
+      {
+        "date": "2025-01-21",
+        "product": "Debt collection",
+        "complaints": 920,
+        "narratives": 351
+      },
+      {
+        "date": "2025-01-21",
+        "product": "Debt or credit management",
+        "complaints": 25,
+        "narratives": 18
+      },
+      {
+        "date": "2025-01-21",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 2120,
+        "narratives": 1787
+      },
+      {
+        "date": "2025-01-21",
+        "product": "Mortgage",
+        "complaints": 86,
+        "narratives": 55
+      },
+      {
+        "date": "2025-01-21",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 43,
+        "narratives": 23
+      },
+      {
+        "date": "2025-01-21",
+        "product": "Prepaid card",
+        "complaints": 25,
+        "narratives": 11
+      },
+      {
+        "date": "2025-01-21",
+        "product": "Student loan",
+        "complaints": 167,
+        "narratives": 84
+      },
+      {
+        "date": "2025-01-21",
+        "product": "Vehicle loan or lease",
+        "complaints": 94,
+        "narratives": 46
+      },
+      {
+        "date": "2025-01-22",
+        "product": "Checking or savings account",
+        "complaints": 691,
+        "narratives": 526
+      },
+      {
+        "date": "2025-01-22",
+        "product": "Credit card",
+        "complaints": 392,
+        "narratives": 176
+      },
+      {
+        "date": "2025-01-22",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 14925,
+        "narratives": 4172
+      },
+      {
+        "date": "2025-01-22",
+        "product": "Debt collection",
+        "complaints": 973,
+        "narratives": 397
+      },
+      {
+        "date": "2025-01-22",
+        "product": "Debt or credit management",
+        "complaints": 19,
+        "narratives": 13
+      },
+      {
+        "date": "2025-01-22",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 1221,
+        "narratives": 976
+      },
+      {
+        "date": "2025-01-22",
+        "product": "Mortgage",
+        "complaints": 108,
+        "narratives": 58
+      },
+      {
+        "date": "2025-01-22",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 39,
+        "narratives": 20
+      },
+      {
+        "date": "2025-01-22",
+        "product": "Prepaid card",
+        "complaints": 27,
+        "narratives": 16
+      },
+      {
+        "date": "2025-01-22",
+        "product": "Student loan",
+        "complaints": 99,
+        "narratives": 46
+      },
+      {
+        "date": "2025-01-22",
+        "product": "Vehicle loan or lease",
+        "complaints": 81,
+        "narratives": 39
+      },
+      {
+        "date": "2025-01-23",
+        "product": "Checking or savings account",
+        "complaints": 690,
+        "narratives": 524
+      },
+      {
+        "date": "2025-01-23",
+        "product": "Credit card",
+        "complaints": 407,
+        "narratives": 164
+      },
+      {
+        "date": "2025-01-23",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 18157,
+        "narratives": 5702
+      },
+      {
+        "date": "2025-01-23",
+        "product": "Debt collection",
+        "complaints": 1091,
+        "narratives": 431
+      },
+      {
+        "date": "2025-01-23",
+        "product": "Debt or credit management",
+        "complaints": 23,
+        "narratives": 14
+      },
+      {
+        "date": "2025-01-23",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 1044,
+        "narratives": 829
+      },
+      {
+        "date": "2025-01-23",
+        "product": "Mortgage",
+        "complaints": 92,
+        "narratives": 44
+      },
+      {
+        "date": "2025-01-23",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 40,
+        "narratives": 26
+      },
+      {
+        "date": "2025-01-23",
+        "product": "Prepaid card",
+        "complaints": 33,
+        "narratives": 21
+      },
+      {
+        "date": "2025-01-23",
+        "product": "Student loan",
+        "complaints": 82,
+        "narratives": 48
+      },
+      {
+        "date": "2025-01-23",
+        "product": "Vehicle loan or lease",
+        "complaints": 89,
+        "narratives": 55
+      },
+      {
+        "date": "2025-01-24",
+        "product": "Checking or savings account",
+        "complaints": 567,
+        "narratives": 399
+      },
+      {
+        "date": "2025-01-24",
+        "product": "Credit card",
+        "complaints": 362,
+        "narratives": 144
+      },
+      {
+        "date": "2025-01-24",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 17123,
+        "narratives": 5097
+      },
+      {
+        "date": "2025-01-24",
+        "product": "Debt collection",
+        "complaints": 1138,
+        "narratives": 422
+      },
+      {
+        "date": "2025-01-24",
+        "product": "Debt or credit management",
+        "complaints": 28,
+        "narratives": 15
+      },
+      {
+        "date": "2025-01-24",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 755,
+        "narratives": 610
+      },
+      {
+        "date": "2025-01-24",
+        "product": "Mortgage",
+        "complaints": 98,
+        "narratives": 60
+      },
+      {
+        "date": "2025-01-24",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 42,
+        "narratives": 15
+      },
+      {
+        "date": "2025-01-24",
+        "product": "Prepaid card",
+        "complaints": 15,
+        "narratives": 10
+      },
+      {
+        "date": "2025-01-24",
+        "product": "Student loan",
+        "complaints": 72,
+        "narratives": 49
+      },
+      {
+        "date": "2025-01-24",
+        "product": "Vehicle loan or lease",
+        "complaints": 95,
+        "narratives": 48
+      },
+      {
+        "date": "2025-01-25",
+        "product": "Checking or savings account",
+        "complaints": 257,
+        "narratives": 188
+      },
+      {
+        "date": "2025-01-25",
+        "product": "Credit card",
+        "complaints": 181,
+        "narratives": 93
+      },
+      {
+        "date": "2025-01-25",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 9186,
+        "narratives": 2630
+      },
+      {
+        "date": "2025-01-25",
+        "product": "Debt collection",
+        "complaints": 618,
+        "narratives": 275
+      },
+      {
+        "date": "2025-01-25",
+        "product": "Debt or credit management",
+        "complaints": 21,
+        "narratives": 13
+      },
+      {
+        "date": "2025-01-25",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 386,
+        "narratives": 303
+      },
+      {
+        "date": "2025-01-25",
+        "product": "Mortgage",
+        "complaints": 47,
+        "narratives": 32
+      },
+      {
+        "date": "2025-01-25",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 27,
+        "narratives": 17
+      },
+      {
+        "date": "2025-01-25",
+        "product": "Prepaid card",
+        "complaints": 14,
+        "narratives": 10
+      },
+      {
+        "date": "2025-01-25",
+        "product": "Student loan",
+        "complaints": 36,
+        "narratives": 18
+      },
+      {
+        "date": "2025-01-25",
+        "product": "Vehicle loan or lease",
+        "complaints": 37,
+        "narratives": 25
+      },
+      {
+        "date": "2025-01-26",
+        "product": "Checking or savings account",
+        "complaints": 270,
+        "narratives": 208
+      },
+      {
+        "date": "2025-01-26",
+        "product": "Credit card",
+        "complaints": 132,
+        "narratives": 75
+      },
+      {
+        "date": "2025-01-26",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 6232,
+        "narratives": 1831
+      },
+      {
+        "date": "2025-01-26",
+        "product": "Debt collection",
+        "complaints": 547,
+        "narratives": 218
+      },
+      {
+        "date": "2025-01-26",
+        "product": "Debt or credit management",
+        "complaints": 17,
+        "narratives": 15
+      },
+      {
+        "date": "2025-01-26",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 342,
+        "narratives": 264
+      },
+      {
+        "date": "2025-01-26",
+        "product": "Mortgage",
+        "complaints": 23,
+        "narratives": 16
+      },
+      {
+        "date": "2025-01-26",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 23,
+        "narratives": 18
+      },
+      {
+        "date": "2025-01-26",
+        "product": "Prepaid card",
+        "complaints": 21,
+        "narratives": 11
+      },
+      {
+        "date": "2025-01-26",
+        "product": "Student loan",
+        "complaints": 45,
+        "narratives": 22
+      },
+      {
+        "date": "2025-01-26",
+        "product": "Vehicle loan or lease",
+        "complaints": 40,
+        "narratives": 23
+      },
+      {
+        "date": "2025-01-27",
+        "product": "Checking or savings account",
+        "complaints": 373,
+        "narratives": 264
+      },
+      {
+        "date": "2025-01-27",
+        "product": "Credit card",
+        "complaints": 302,
+        "narratives": 115
+      },
+      {
+        "date": "2025-01-27",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 13743,
+        "narratives": 3617
+      },
+      {
+        "date": "2025-01-27",
+        "product": "Debt collection",
+        "complaints": 904,
+        "narratives": 315
+      },
+      {
+        "date": "2025-01-27",
+        "product": "Debt or credit management",
+        "complaints": 14,
+        "narratives": 5
+      },
+      {
+        "date": "2025-01-27",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 408,
+        "narratives": 321
+      },
+      {
+        "date": "2025-01-27",
+        "product": "Mortgage",
+        "complaints": 79,
+        "narratives": 52
+      },
+      {
+        "date": "2025-01-27",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 34,
+        "narratives": 19
+      },
+      {
+        "date": "2025-01-27",
+        "product": "Prepaid card",
+        "complaints": 26,
+        "narratives": 16
+      },
+      {
+        "date": "2025-01-27",
+        "product": "Student loan",
+        "complaints": 56,
+        "narratives": 33
+      },
+      {
+        "date": "2025-01-27",
+        "product": "Vehicle loan or lease",
+        "complaints": 60,
+        "narratives": 34
+      },
+      {
+        "date": "2025-01-28",
+        "product": "Checking or savings account",
+        "complaints": 387,
+        "narratives": 260
+      },
+      {
+        "date": "2025-01-28",
+        "product": "Credit card",
+        "complaints": 372,
+        "narratives": 154
+      },
+      {
+        "date": "2025-01-28",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 14713,
+        "narratives": 3614
+      },
+      {
+        "date": "2025-01-28",
+        "product": "Debt collection",
+        "complaints": 978,
+        "narratives": 373
+      },
+      {
+        "date": "2025-01-28",
+        "product": "Debt or credit management",
+        "complaints": 11,
+        "narratives": 6
+      },
+      {
+        "date": "2025-01-28",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 448,
+        "narratives": 347
+      },
+      {
+        "date": "2025-01-28",
+        "product": "Mortgage",
+        "complaints": 85,
+        "narratives": 38
+      },
+      {
+        "date": "2025-01-28",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 36,
+        "narratives": 21
+      },
+      {
+        "date": "2025-01-28",
+        "product": "Prepaid card",
+        "complaints": 22,
+        "narratives": 13
+      },
+      {
+        "date": "2025-01-28",
+        "product": "Student loan",
+        "complaints": 64,
+        "narratives": 42
+      },
+      {
+        "date": "2025-01-28",
+        "product": "Vehicle loan or lease",
+        "complaints": 75,
+        "narratives": 49
+      },
+      {
+        "date": "2025-01-29",
+        "product": "Checking or savings account",
+        "complaints": 378,
+        "narratives": 260
+      },
+      {
+        "date": "2025-01-29",
+        "product": "Credit card",
+        "complaints": 339,
+        "narratives": 146
+      },
+      {
+        "date": "2025-01-29",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 14658,
+        "narratives": 3777
+      },
+      {
+        "date": "2025-01-29",
+        "product": "Debt collection",
+        "complaints": 963,
+        "narratives": 375
+      },
+      {
+        "date": "2025-01-29",
+        "product": "Debt or credit management",
+        "complaints": 20,
+        "narratives": 10
+      },
+      {
+        "date": "2025-01-29",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 571,
+        "narratives": 472
+      },
+      {
+        "date": "2025-01-29",
+        "product": "Mortgage",
+        "complaints": 87,
+        "narratives": 46
+      },
+      {
+        "date": "2025-01-29",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 42,
+        "narratives": 21
+      },
+      {
+        "date": "2025-01-29",
+        "product": "Prepaid card",
+        "complaints": 23,
+        "narratives": 13
+      },
+      {
+        "date": "2025-01-29",
+        "product": "Student loan",
+        "complaints": 77,
+        "narratives": 50
+      },
+      {
+        "date": "2025-01-29",
+        "product": "Vehicle loan or lease",
+        "complaints": 68,
+        "narratives": 38
+      },
+      {
+        "date": "2025-01-30",
+        "product": "Checking or savings account",
+        "complaints": 330,
+        "narratives": 230
+      },
+      {
+        "date": "2025-01-30",
+        "product": "Credit card",
+        "complaints": 386,
+        "narratives": 133
+      },
+      {
+        "date": "2025-01-30",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 14670,
+        "narratives": 3963
+      },
+      {
+        "date": "2025-01-30",
+        "product": "Debt collection",
+        "complaints": 1085,
+        "narratives": 338
+      },
+      {
+        "date": "2025-01-30",
+        "product": "Debt or credit management",
+        "complaints": 20,
+        "narratives": 16
+      },
+      {
+        "date": "2025-01-30",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 575,
+        "narratives": 440
+      },
+      {
+        "date": "2025-01-30",
+        "product": "Mortgage",
+        "complaints": 89,
+        "narratives": 45
+      },
+      {
+        "date": "2025-01-30",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 46,
+        "narratives": 31
+      },
+      {
+        "date": "2025-01-30",
+        "product": "Prepaid card",
+        "complaints": 47,
+        "narratives": 26
+      },
+      {
+        "date": "2025-01-30",
+        "product": "Student loan",
+        "complaints": 59,
+        "narratives": 30
+      },
+      {
+        "date": "2025-01-30",
+        "product": "Vehicle loan or lease",
+        "complaints": 82,
+        "narratives": 45
+      },
+      {
+        "date": "2025-01-31",
+        "product": "Checking or savings account",
+        "complaints": 327,
+        "narratives": 204
+      },
+      {
+        "date": "2025-01-31",
+        "product": "Credit card",
+        "complaints": 363,
+        "narratives": 159
+      },
+      {
+        "date": "2025-01-31",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 13610,
+        "narratives": 3678
+      },
+      {
+        "date": "2025-01-31",
+        "product": "Debt collection",
+        "complaints": 897,
+        "narratives": 300
+      },
+      {
+        "date": "2025-01-31",
+        "product": "Debt or credit management",
+        "complaints": 10,
+        "narratives": 8
+      },
+      {
+        "date": "2025-01-31",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 501,
+        "narratives": 369
+      },
+      {
+        "date": "2025-01-31",
+        "product": "Mortgage",
+        "complaints": 69,
+        "narratives": 41
+      },
+      {
+        "date": "2025-01-31",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 30,
+        "narratives": 21
+      },
+      {
+        "date": "2025-01-31",
+        "product": "Prepaid card",
+        "complaints": 22,
+        "narratives": 15
+      },
+      {
+        "date": "2025-01-31",
+        "product": "Student loan",
+        "complaints": 71,
+        "narratives": 39
+      },
+      {
+        "date": "2025-01-31",
+        "product": "Vehicle loan or lease",
+        "complaints": 52,
+        "narratives": 28
+      },
+      {
+        "date": "2025-02-01",
+        "product": "Checking or savings account",
+        "complaints": 201,
+        "narratives": 142
+      },
+      {
+        "date": "2025-02-01",
+        "product": "Credit card",
+        "complaints": 172,
+        "narratives": 99
+      },
+      {
+        "date": "2025-02-01",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 7334,
+        "narratives": 1714
+      },
+      {
+        "date": "2025-02-01",
+        "product": "Debt collection",
+        "complaints": 547,
+        "narratives": 186
+      },
+      {
+        "date": "2025-02-01",
+        "product": "Debt or credit management",
+        "complaints": 10,
+        "narratives": 7
+      },
+      {
+        "date": "2025-02-01",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 321,
+        "narratives": 240
+      },
+      {
+        "date": "2025-02-01",
+        "product": "Mortgage",
+        "complaints": 45,
+        "narratives": 22
+      },
+      {
+        "date": "2025-02-01",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 16,
+        "narratives": 9
+      },
+      {
+        "date": "2025-02-01",
+        "product": "Prepaid card",
+        "complaints": 20,
+        "narratives": 11
+      },
+      {
+        "date": "2025-02-01",
+        "product": "Student loan",
+        "complaints": 32,
+        "narratives": 18
+      },
+      {
+        "date": "2025-02-01",
+        "product": "Vehicle loan or lease",
+        "complaints": 38,
+        "narratives": 30
+      },
+      {
+        "date": "2025-02-02",
+        "product": "Checking or savings account",
+        "complaints": 158,
+        "narratives": 112
+      },
+      {
+        "date": "2025-02-02",
+        "product": "Credit card",
+        "complaints": 128,
+        "narratives": 79
+      },
+      {
+        "date": "2025-02-02",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 5414,
+        "narratives": 1397
+      },
+      {
+        "date": "2025-02-02",
+        "product": "Debt collection",
+        "complaints": 469,
+        "narratives": 201
+      },
+      {
+        "date": "2025-02-02",
+        "product": "Debt or credit management",
+        "complaints": 11,
+        "narratives": 6
+      },
+      {
+        "date": "2025-02-02",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 373,
+        "narratives": 279
+      },
+      {
+        "date": "2025-02-02",
+        "product": "Mortgage",
+        "complaints": 19,
+        "narratives": 9
+      },
+      {
+        "date": "2025-02-02",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 16,
+        "narratives": 10
+      },
+      {
+        "date": "2025-02-02",
+        "product": "Prepaid card",
+        "complaints": 22,
+        "narratives": 19
+      },
+      {
+        "date": "2025-02-02",
+        "product": "Student loan",
+        "complaints": 28,
+        "narratives": 16
+      },
+      {
+        "date": "2025-02-02",
+        "product": "Vehicle loan or lease",
+        "complaints": 29,
+        "narratives": 14
+      },
+      {
+        "date": "2025-02-03",
+        "product": "Checking or savings account",
+        "complaints": 254,
+        "narratives": 167
+      },
+      {
+        "date": "2025-02-03",
+        "product": "Credit card",
+        "complaints": 287,
+        "narratives": 128
+      },
+      {
+        "date": "2025-02-03",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 12933,
+        "narratives": 3640
+      },
+      {
+        "date": "2025-02-03",
+        "product": "Debt collection",
+        "complaints": 730,
+        "narratives": 276
+      },
+      {
+        "date": "2025-02-03",
+        "product": "Debt or credit management",
+        "complaints": 14,
+        "narratives": 9
+      },
+      {
+        "date": "2025-02-03",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 298,
+        "narratives": 220
+      },
+      {
+        "date": "2025-02-03",
+        "product": "Mortgage",
+        "complaints": 100,
+        "narratives": 65
+      },
+      {
+        "date": "2025-02-03",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 38,
+        "narratives": 24
+      },
+      {
+        "date": "2025-02-03",
+        "product": "Prepaid card",
+        "complaints": 21,
+        "narratives": 11
+      },
+      {
+        "date": "2025-02-03",
+        "product": "Student loan",
+        "complaints": 39,
+        "narratives": 18
+      },
+      {
+        "date": "2025-02-03",
+        "product": "Vehicle loan or lease",
+        "complaints": 57,
+        "narratives": 36
+      },
+      {
+        "date": "2025-02-04",
+        "product": "Checking or savings account",
+        "complaints": 271,
+        "narratives": 177
+      },
+      {
+        "date": "2025-02-04",
+        "product": "Credit card",
+        "complaints": 316,
+        "narratives": 118
+      },
+      {
+        "date": "2025-02-04",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 14567,
+        "narratives": 3872
+      },
+      {
+        "date": "2025-02-04",
+        "product": "Debt collection",
+        "complaints": 949,
+        "narratives": 358
+      },
+      {
+        "date": "2025-02-04",
+        "product": "Debt or credit management",
+        "complaints": 21,
+        "narratives": 15
+      },
+      {
+        "date": "2025-02-04",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 427,
+        "narratives": 326
+      },
+      {
+        "date": "2025-02-04",
+        "product": "Mortgage",
+        "complaints": 94,
+        "narratives": 51
+      },
+      {
+        "date": "2025-02-04",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 39,
+        "narratives": 23
+      },
+      {
+        "date": "2025-02-04",
+        "product": "Prepaid card",
+        "complaints": 41,
+        "narratives": 23
+      },
+      {
+        "date": "2025-02-04",
+        "product": "Student loan",
+        "complaints": 54,
+        "narratives": 24
+      },
+      {
+        "date": "2025-02-04",
+        "product": "Vehicle loan or lease",
+        "complaints": 93,
+        "narratives": 53
+      },
+      {
+        "date": "2025-02-05",
+        "product": "Checking or savings account",
+        "complaints": 297,
+        "narratives": 185
+      },
+      {
+        "date": "2025-02-05",
+        "product": "Credit card",
+        "complaints": 333,
+        "narratives": 134
+      },
+      {
+        "date": "2025-02-05",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 14527,
+        "narratives": 3509
+      },
+      {
+        "date": "2025-02-05",
+        "product": "Debt collection",
+        "complaints": 970,
+        "narratives": 344
+      },
+      {
+        "date": "2025-02-05",
+        "product": "Debt or credit management",
+        "complaints": 21,
+        "narratives": 15
+      },
+      {
+        "date": "2025-02-05",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 386,
+        "narratives": 302
+      },
+      {
+        "date": "2025-02-05",
+        "product": "Mortgage",
+        "complaints": 93,
+        "narratives": 42
+      },
+      {
+        "date": "2025-02-05",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 34,
+        "narratives": 19
+      },
+      {
+        "date": "2025-02-05",
+        "product": "Prepaid card",
+        "complaints": 22,
+        "narratives": 14
+      },
+      {
+        "date": "2025-02-05",
+        "product": "Student loan",
+        "complaints": 62,
+        "narratives": 33
+      },
+      {
+        "date": "2025-02-05",
+        "product": "Vehicle loan or lease",
+        "complaints": 64,
+        "narratives": 43
+      },
+      {
+        "date": "2025-02-06",
+        "product": "Checking or savings account",
+        "complaints": 277,
+        "narratives": 168
+      },
+      {
+        "date": "2025-02-06",
+        "product": "Credit card",
+        "complaints": 382,
+        "narratives": 144
+      },
+      {
+        "date": "2025-02-06",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 15162,
+        "narratives": 3817
+      },
+      {
+        "date": "2025-02-06",
+        "product": "Debt collection",
+        "complaints": 868,
+        "narratives": 313
+      },
+      {
+        "date": "2025-02-06",
+        "product": "Debt or credit management",
+        "complaints": 13,
+        "narratives": 10
+      },
+      {
+        "date": "2025-02-06",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 347,
+        "narratives": 262
+      },
+      {
+        "date": "2025-02-06",
+        "product": "Mortgage",
+        "complaints": 92,
+        "narratives": 56
+      },
+      {
+        "date": "2025-02-06",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 38,
+        "narratives": 18
+      },
+      {
+        "date": "2025-02-06",
+        "product": "Prepaid card",
+        "complaints": 25,
+        "narratives": 13
+      },
+      {
+        "date": "2025-02-06",
+        "product": "Student loan",
+        "complaints": 55,
+        "narratives": 34
+      },
+      {
+        "date": "2025-02-06",
+        "product": "Vehicle loan or lease",
+        "complaints": 64,
+        "narratives": 45
+      },
+      {
+        "date": "2025-02-07",
+        "product": "Checking or savings account",
+        "complaints": 264,
+        "narratives": 150
+      },
+      {
+        "date": "2025-02-07",
+        "product": "Credit card",
+        "complaints": 266,
+        "narratives": 113
+      },
+      {
+        "date": "2025-02-07",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 13897,
+        "narratives": 3375
+      },
+      {
+        "date": "2025-02-07",
+        "product": "Debt collection",
+        "complaints": 704,
+        "narratives": 239
+      },
+      {
+        "date": "2025-02-07",
+        "product": "Debt or credit management",
+        "complaints": 13,
+        "narratives": 6
+      },
+      {
+        "date": "2025-02-07",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 310,
+        "narratives": 245
+      },
+      {
+        "date": "2025-02-07",
+        "product": "Mortgage",
+        "complaints": 95,
+        "narratives": 46
+      },
+      {
+        "date": "2025-02-07",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 35,
+        "narratives": 22
+      },
+      {
+        "date": "2025-02-07",
+        "product": "Prepaid card",
+        "complaints": 28,
+        "narratives": 14
+      },
+      {
+        "date": "2025-02-07",
+        "product": "Student loan",
+        "complaints": 64,
+        "narratives": 36
+      },
+      {
+        "date": "2025-02-07",
+        "product": "Vehicle loan or lease",
+        "complaints": 49,
+        "narratives": 31
+      },
+      {
+        "date": "2025-02-08",
+        "product": "Checking or savings account",
+        "complaints": 142,
+        "narratives": 97
+      },
+      {
+        "date": "2025-02-08",
+        "product": "Credit card",
+        "complaints": 159,
+        "narratives": 93
+      },
+      {
+        "date": "2025-02-08",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 6964,
+        "narratives": 1598
+      },
+      {
+        "date": "2025-02-08",
+        "product": "Debt collection",
+        "complaints": 465,
+        "narratives": 200
+      },
+      {
+        "date": "2025-02-08",
+        "product": "Debt or credit management",
+        "complaints": 13,
+        "narratives": 10
+      },
+      {
+        "date": "2025-02-08",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 166,
+        "narratives": 128
+      },
+      {
+        "date": "2025-02-08",
+        "product": "Mortgage",
+        "complaints": 41,
+        "narratives": 25
+      },
+      {
+        "date": "2025-02-08",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 19,
+        "narratives": 14
+      },
+      {
+        "date": "2025-02-08",
+        "product": "Prepaid card",
+        "complaints": 16,
+        "narratives": 9
+      },
+      {
+        "date": "2025-02-08",
+        "product": "Student loan",
+        "complaints": 34,
+        "narratives": 21
+      },
+      {
+        "date": "2025-02-08",
+        "product": "Vehicle loan or lease",
+        "complaints": 37,
+        "narratives": 23
+      },
+      {
+        "date": "2025-02-09",
+        "product": "Checking or savings account",
+        "complaints": 121,
+        "narratives": 93
+      },
+      {
+        "date": "2025-02-09",
+        "product": "Credit card",
+        "complaints": 100,
+        "narratives": 67
+      },
+      {
+        "date": "2025-02-09",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 4907,
+        "narratives": 1389
+      },
+      {
+        "date": "2025-02-09",
+        "product": "Debt collection",
+        "complaints": 382,
+        "narratives": 149
+      },
+      {
+        "date": "2025-02-09",
+        "product": "Debt or credit management",
+        "complaints": 16,
+        "narratives": 9
+      },
+      {
+        "date": "2025-02-09",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 220,
+        "narratives": 186
+      },
+      {
+        "date": "2025-02-09",
+        "product": "Mortgage",
+        "complaints": 23,
+        "narratives": 16
+      },
+      {
+        "date": "2025-02-09",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 15,
+        "narratives": 11
+      },
+      {
+        "date": "2025-02-09",
+        "product": "Prepaid card",
+        "complaints": 7,
+        "narratives": 4
+      },
+      {
+        "date": "2025-02-09",
+        "product": "Student loan",
+        "complaints": 152,
+        "narratives": 72
+      },
+      {
+        "date": "2025-02-09",
+        "product": "Vehicle loan or lease",
+        "complaints": 33,
+        "narratives": 16
+      },
+      {
+        "date": "2025-02-10",
+        "product": "Checking or savings account",
+        "complaints": 189,
+        "narratives": 99
+      },
+      {
+        "date": "2025-02-10",
+        "product": "Credit card",
+        "complaints": 238,
+        "narratives": 105
+      },
+      {
+        "date": "2025-02-10",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 10328,
+        "narratives": 2743
+      },
+      {
+        "date": "2025-02-10",
+        "product": "Debt collection",
+        "complaints": 614,
+        "narratives": 244
+      },
+      {
+        "date": "2025-02-10",
+        "product": "Debt or credit management",
+        "complaints": 12,
+        "narratives": 8
+      },
+      {
+        "date": "2025-02-10",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 378,
+        "narratives": 288
+      },
+      {
+        "date": "2025-02-10",
+        "product": "Mortgage",
+        "complaints": 70,
+        "narratives": 43
+      },
+      {
+        "date": "2025-02-10",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 23,
+        "narratives": 14
+      },
+      {
+        "date": "2025-02-10",
+        "product": "Prepaid card",
+        "complaints": 21,
+        "narratives": 12
+      },
+      {
+        "date": "2025-02-10",
+        "product": "Student loan",
+        "complaints": 208,
+        "narratives": 105
+      },
+      {
+        "date": "2025-02-10",
+        "product": "Vehicle loan or lease",
+        "complaints": 51,
+        "narratives": 31
+      },
+      {
+        "date": "2025-02-11",
+        "product": "Checking or savings account",
+        "complaints": 247,
+        "narratives": 134
+      },
+      {
+        "date": "2025-02-11",
+        "product": "Credit card",
+        "complaints": 278,
+        "narratives": 109
+      },
+      {
+        "date": "2025-02-11",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 12754,
+        "narratives": 3489
+      },
+      {
+        "date": "2025-02-11",
+        "product": "Debt collection",
+        "complaints": 717,
+        "narratives": 264
+      },
+      {
+        "date": "2025-02-11",
+        "product": "Debt or credit management",
+        "complaints": 18,
+        "narratives": 10
+      },
+      {
+        "date": "2025-02-11",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 372,
+        "narratives": 290
+      },
+      {
+        "date": "2025-02-11",
+        "product": "Mortgage",
+        "complaints": 88,
+        "narratives": 41
+      },
+      {
+        "date": "2025-02-11",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 38,
+        "narratives": 24
+      },
+      {
+        "date": "2025-02-11",
+        "product": "Prepaid card",
+        "complaints": 15,
+        "narratives": 6
+      },
+      {
+        "date": "2025-02-11",
+        "product": "Student loan",
+        "complaints": 147,
+        "narratives": 79
+      },
+      {
+        "date": "2025-02-11",
+        "product": "Vehicle loan or lease",
+        "complaints": 66,
+        "narratives": 33
+      },
+      {
+        "date": "2025-02-12",
+        "product": "Checking or savings account",
+        "complaints": 228,
+        "narratives": 152
+      },
+      {
+        "date": "2025-02-12",
+        "product": "Credit card",
+        "complaints": 275,
+        "narratives": 130
+      },
+      {
+        "date": "2025-02-12",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 12625,
+        "narratives": 3485
+      },
+      {
+        "date": "2025-02-12",
+        "product": "Debt collection",
+        "complaints": 625,
+        "narratives": 254
+      },
+      {
+        "date": "2025-02-12",
+        "product": "Debt or credit management",
+        "complaints": 16,
+        "narratives": 13
+      },
+      {
+        "date": "2025-02-12",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 263,
+        "narratives": 210
+      },
+      {
+        "date": "2025-02-12",
+        "product": "Mortgage",
+        "complaints": 70,
+        "narratives": 43
+      },
+      {
+        "date": "2025-02-12",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 37,
+        "narratives": 19
+      },
+      {
+        "date": "2025-02-12",
+        "product": "Prepaid card",
+        "complaints": 19,
+        "narratives": 13
+      },
+      {
+        "date": "2025-02-12",
+        "product": "Student loan",
+        "complaints": 114,
+        "narratives": 59
+      },
+      {
+        "date": "2025-02-12",
+        "product": "Vehicle loan or lease",
+        "complaints": 62,
+        "narratives": 39
+      },
+      {
+        "date": "2025-02-13",
+        "product": "Checking or savings account",
+        "complaints": 236,
+        "narratives": 142
+      },
+      {
+        "date": "2025-02-13",
+        "product": "Credit card",
+        "complaints": 292,
+        "narratives": 133
+      },
+      {
+        "date": "2025-02-13",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 12652,
+        "narratives": 3177
+      },
+      {
+        "date": "2025-02-13",
+        "product": "Debt collection",
+        "complaints": 627,
+        "narratives": 241
+      },
+      {
+        "date": "2025-02-13",
+        "product": "Debt or credit management",
+        "complaints": 23,
+        "narratives": 14
+      },
+      {
+        "date": "2025-02-13",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 199,
+        "narratives": 138
+      },
+      {
+        "date": "2025-02-13",
+        "product": "Mortgage",
+        "complaints": 80,
+        "narratives": 40
+      },
+      {
+        "date": "2025-02-13",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 27,
+        "narratives": 17
+      },
+      {
+        "date": "2025-02-13",
+        "product": "Prepaid card",
+        "complaints": 20,
+        "narratives": 11
+      },
+      {
+        "date": "2025-02-13",
+        "product": "Student loan",
+        "complaints": 58,
+        "narratives": 32
+      },
+      {
+        "date": "2025-02-13",
+        "product": "Vehicle loan or lease",
+        "complaints": 62,
+        "narratives": 34
+      },
+      {
+        "date": "2025-02-14",
+        "product": "Checking or savings account",
+        "complaints": 160,
+        "narratives": 103
+      },
+      {
+        "date": "2025-02-14",
+        "product": "Credit card",
+        "complaints": 174,
+        "narratives": 83
+      },
+      {
+        "date": "2025-02-14",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 10744,
+        "narratives": 2809
+      },
+      {
+        "date": "2025-02-14",
+        "product": "Debt collection",
+        "complaints": 502,
+        "narratives": 194
+      },
+      {
+        "date": "2025-02-14",
+        "product": "Debt or credit management",
+        "complaints": 9,
+        "narratives": 7
+      },
+      {
+        "date": "2025-02-14",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 164,
+        "narratives": 118
+      },
+      {
+        "date": "2025-02-14",
+        "product": "Mortgage",
+        "complaints": 62,
+        "narratives": 34
+      },
+      {
+        "date": "2025-02-14",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 27,
+        "narratives": 14
+      },
+      {
+        "date": "2025-02-14",
+        "product": "Prepaid card",
+        "complaints": 8,
+        "narratives": 4
+      },
+      {
+        "date": "2025-02-14",
+        "product": "Student loan",
+        "complaints": 60,
+        "narratives": 30
+      },
+      {
+        "date": "2025-02-14",
+        "product": "Vehicle loan or lease",
+        "complaints": 41,
+        "narratives": 28
+      },
+      {
+        "date": "2025-02-15",
+        "product": "Checking or savings account",
+        "complaints": 111,
+        "narratives": 81
+      },
+      {
+        "date": "2025-02-15",
+        "product": "Credit card",
+        "complaints": 97,
+        "narratives": 55
+      },
+      {
+        "date": "2025-02-15",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 5042,
+        "narratives": 1109
+      },
+      {
+        "date": "2025-02-15",
+        "product": "Debt collection",
+        "complaints": 256,
+        "narratives": 138
+      },
+      {
+        "date": "2025-02-15",
+        "product": "Debt or credit management",
+        "complaints": 7,
+        "narratives": 4
+      },
+      {
+        "date": "2025-02-15",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 89,
+        "narratives": 72
+      },
+      {
+        "date": "2025-02-15",
+        "product": "Mortgage",
+        "complaints": 35,
+        "narratives": 21
+      },
+      {
+        "date": "2025-02-15",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 17,
+        "narratives": 11
+      },
+      {
+        "date": "2025-02-15",
+        "product": "Prepaid card",
+        "complaints": 14,
+        "narratives": 6
+      },
+      {
+        "date": "2025-02-15",
+        "product": "Student loan",
+        "complaints": 34,
+        "narratives": 19
+      },
+      {
+        "date": "2025-02-15",
+        "product": "Vehicle loan or lease",
+        "complaints": 24,
+        "narratives": 15
+      },
+      {
+        "date": "2025-02-16",
+        "product": "Checking or savings account",
+        "complaints": 84,
+        "narratives": 51
+      },
+      {
+        "date": "2025-02-16",
+        "product": "Credit card",
+        "complaints": 82,
+        "narratives": 46
+      },
+      {
+        "date": "2025-02-16",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 3951,
+        "narratives": 898
+      },
+      {
+        "date": "2025-02-16",
+        "product": "Debt collection",
+        "complaints": 269,
+        "narratives": 111
+      },
+      {
+        "date": "2025-02-16",
+        "product": "Debt or credit management",
+        "complaints": 12,
+        "narratives": 8
+      },
+      {
+        "date": "2025-02-16",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 111,
+        "narratives": 83
+      },
+      {
+        "date": "2025-02-16",
+        "product": "Mortgage",
+        "complaints": 13,
+        "narratives": 11
+      },
+      {
+        "date": "2025-02-16",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 9,
+        "narratives": 8
+      },
+      {
+        "date": "2025-02-16",
+        "product": "Prepaid card",
+        "complaints": 8,
+        "narratives": 6
+      },
+      {
+        "date": "2025-02-16",
+        "product": "Student loan",
+        "complaints": 37,
+        "narratives": 25
+      },
+      {
+        "date": "2025-02-16",
+        "product": "Vehicle loan or lease",
+        "complaints": 23,
+        "narratives": 15
+      },
+      {
+        "date": "2025-02-17",
+        "product": "Checking or savings account",
+        "complaints": 106,
+        "narratives": 78
+      },
+      {
+        "date": "2025-02-17",
+        "product": "Credit card",
+        "complaints": 135,
+        "narratives": 85
+      },
+      {
+        "date": "2025-02-17",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 9864,
+        "narratives": 2207
+      },
+      {
+        "date": "2025-02-17",
+        "product": "Debt collection",
+        "complaints": 449,
+        "narratives": 184
+      },
+      {
+        "date": "2025-02-17",
+        "product": "Debt or credit management",
+        "complaints": 5,
+        "narratives": 5
+      },
+      {
+        "date": "2025-02-17",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 109,
+        "narratives": 81
+      },
+      {
+        "date": "2025-02-17",
+        "product": "Mortgage",
+        "complaints": 55,
+        "narratives": 36
+      },
+      {
+        "date": "2025-02-17",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 26,
+        "narratives": 13
+      },
+      {
+        "date": "2025-02-17",
+        "product": "Prepaid card",
+        "complaints": 15,
+        "narratives": 11
+      },
+      {
+        "date": "2025-02-17",
+        "product": "Student loan",
+        "complaints": 53,
+        "narratives": 24
+      },
+      {
+        "date": "2025-02-17",
+        "product": "Vehicle loan or lease",
+        "complaints": 37,
+        "narratives": 26
+      },
+      {
+        "date": "2025-02-18",
+        "product": "Checking or savings account",
+        "complaints": 192,
+        "narratives": 121
+      },
+      {
+        "date": "2025-02-18",
+        "product": "Credit card",
+        "complaints": 217,
+        "narratives": 108
+      },
+      {
+        "date": "2025-02-18",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 11361,
+        "narratives": 2335
+      },
+      {
+        "date": "2025-02-18",
+        "product": "Debt collection",
+        "complaints": 631,
+        "narratives": 257
+      },
+      {
+        "date": "2025-02-18",
+        "product": "Debt or credit management",
+        "complaints": 11,
+        "narratives": 8
+      },
+      {
+        "date": "2025-02-18",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 118,
+        "narratives": 83
+      },
+      {
+        "date": "2025-02-18",
+        "product": "Mortgage",
+        "complaints": 58,
+        "narratives": 34
+      },
+      {
+        "date": "2025-02-18",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 28,
+        "narratives": 12
+      },
+      {
+        "date": "2025-02-18",
+        "product": "Prepaid card",
+        "complaints": 17,
+        "narratives": 11
+      },
+      {
+        "date": "2025-02-18",
+        "product": "Student loan",
+        "complaints": 62,
+        "narratives": 32
+      },
+      {
+        "date": "2025-02-18",
+        "product": "Vehicle loan or lease",
+        "complaints": 51,
+        "narratives": 29
+      },
+      {
+        "date": "2025-02-19",
+        "product": "Checking or savings account",
+        "complaints": 229,
+        "narratives": 142
+      },
+      {
+        "date": "2025-02-19",
+        "product": "Credit card",
+        "complaints": 293,
+        "narratives": 126
+      },
+      {
+        "date": "2025-02-19",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 11292,
+        "narratives": 2688
+      },
+      {
+        "date": "2025-02-19",
+        "product": "Debt collection",
+        "complaints": 740,
+        "narratives": 289
+      },
+      {
+        "date": "2025-02-19",
+        "product": "Debt or credit management",
+        "complaints": 12,
+        "narratives": 6
+      },
+      {
+        "date": "2025-02-19",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 136,
+        "narratives": 100
+      },
+      {
+        "date": "2025-02-19",
+        "product": "Mortgage",
+        "complaints": 93,
+        "narratives": 57
+      },
+      {
+        "date": "2025-02-19",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 33,
+        "narratives": 21
+      },
+      {
+        "date": "2025-02-19",
+        "product": "Prepaid card",
+        "complaints": 16,
+        "narratives": 9
+      },
+      {
+        "date": "2025-02-19",
+        "product": "Student loan",
+        "complaints": 51,
+        "narratives": 37
+      },
+      {
+        "date": "2025-02-19",
+        "product": "Vehicle loan or lease",
+        "complaints": 72,
+        "narratives": 39
+      },
+      {
+        "date": "2025-02-20",
+        "product": "Checking or savings account",
+        "complaints": 207,
+        "narratives": 107
+      },
+      {
+        "date": "2025-02-20",
+        "product": "Credit card",
+        "complaints": 257,
+        "narratives": 128
+      },
+      {
+        "date": "2025-02-20",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 11673,
+        "narratives": 2593
+      },
+      {
+        "date": "2025-02-20",
+        "product": "Debt collection",
+        "complaints": 689,
+        "narratives": 280
+      },
+      {
+        "date": "2025-02-20",
+        "product": "Debt or credit management",
+        "complaints": 8,
+        "narratives": 3
+      },
+      {
+        "date": "2025-02-20",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 122,
+        "narratives": 82
+      },
+      {
+        "date": "2025-02-20",
+        "product": "Mortgage",
+        "complaints": 66,
+        "narratives": 35
+      },
+      {
+        "date": "2025-02-20",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 35,
+        "narratives": 22
+      },
+      {
+        "date": "2025-02-20",
+        "product": "Prepaid card",
+        "complaints": 16,
+        "narratives": 8
+      },
+      {
+        "date": "2025-02-20",
+        "product": "Student loan",
+        "complaints": 66,
+        "narratives": 28
+      },
+      {
+        "date": "2025-02-20",
+        "product": "Vehicle loan or lease",
+        "complaints": 55,
+        "narratives": 29
+      },
+      {
+        "date": "2025-02-21",
+        "product": "Checking or savings account",
+        "complaints": 219,
+        "narratives": 141
+      },
+      {
+        "date": "2025-02-21",
+        "product": "Credit card",
+        "complaints": 237,
+        "narratives": 113
+      },
+      {
+        "date": "2025-02-21",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 11181,
+        "narratives": 2407
+      },
+      {
+        "date": "2025-02-21",
+        "product": "Debt collection",
+        "complaints": 633,
+        "narratives": 242
+      },
+      {
+        "date": "2025-02-21",
+        "product": "Debt or credit management",
+        "complaints": 8,
+        "narratives": 6
+      },
+      {
+        "date": "2025-02-21",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 216,
+        "narratives": 165
+      },
+      {
+        "date": "2025-02-21",
+        "product": "Mortgage",
+        "complaints": 67,
+        "narratives": 43
+      },
+      {
+        "date": "2025-02-21",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 37,
+        "narratives": 25
+      },
+      {
+        "date": "2025-02-21",
+        "product": "Prepaid card",
+        "complaints": 18,
+        "narratives": 10
+      },
+      {
+        "date": "2025-02-21",
+        "product": "Student loan",
+        "complaints": 52,
+        "narratives": 31
+      },
+      {
+        "date": "2025-02-21",
+        "product": "Vehicle loan or lease",
+        "complaints": 49,
+        "narratives": 27
+      },
+      {
+        "date": "2025-02-22",
+        "product": "Checking or savings account",
+        "complaints": 106,
+        "narratives": 62
+      },
+      {
+        "date": "2025-02-22",
+        "product": "Credit card",
+        "complaints": 131,
+        "narratives": 92
+      },
+      {
+        "date": "2025-02-22",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 6023,
+        "narratives": 1223
+      },
+      {
+        "date": "2025-02-22",
+        "product": "Debt collection",
+        "complaints": 357,
+        "narratives": 173
+      },
+      {
+        "date": "2025-02-22",
+        "product": "Debt or credit management",
+        "complaints": 4,
+        "narratives": 2
+      },
+      {
+        "date": "2025-02-22",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 78,
+        "narratives": 55
+      },
+      {
+        "date": "2025-02-22",
+        "product": "Mortgage",
+        "complaints": 22,
+        "narratives": 12
+      },
+      {
+        "date": "2025-02-22",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 17,
+        "narratives": 8
+      },
+      {
+        "date": "2025-02-22",
+        "product": "Prepaid card",
+        "complaints": 14,
+        "narratives": 11
+      },
+      {
+        "date": "2025-02-22",
+        "product": "Student loan",
+        "complaints": 30,
+        "narratives": 15
+      },
+      {
+        "date": "2025-02-22",
+        "product": "Vehicle loan or lease",
+        "complaints": 25,
+        "narratives": 20
+      },
+      {
+        "date": "2025-02-23",
+        "product": "Checking or savings account",
+        "complaints": 83,
+        "narratives": 57
+      },
+      {
+        "date": "2025-02-23",
+        "product": "Credit card",
+        "complaints": 89,
+        "narratives": 62
+      },
+      {
+        "date": "2025-02-23",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 4541,
+        "narratives": 991
+      },
+      {
+        "date": "2025-02-23",
+        "product": "Debt collection",
+        "complaints": 318,
+        "narratives": 133
+      },
+      {
+        "date": "2025-02-23",
+        "product": "Debt or credit management",
+        "complaints": 6,
+        "narratives": 5
+      },
+      {
+        "date": "2025-02-23",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 89,
+        "narratives": 73
+      },
+      {
+        "date": "2025-02-23",
+        "product": "Mortgage",
+        "complaints": 16,
+        "narratives": 13
+      },
+      {
+        "date": "2025-02-23",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 15,
+        "narratives": 13
+      },
+      {
+        "date": "2025-02-23",
+        "product": "Prepaid card",
+        "complaints": 9,
+        "narratives": 8
+      },
+      {
+        "date": "2025-02-23",
+        "product": "Student loan",
+        "complaints": 33,
+        "narratives": 17
+      },
+      {
+        "date": "2025-02-23",
+        "product": "Vehicle loan or lease",
+        "complaints": 23,
+        "narratives": 13
+      },
+      {
+        "date": "2025-02-24",
+        "product": "Checking or savings account",
+        "complaints": 206,
+        "narratives": 116
+      },
+      {
+        "date": "2025-02-24",
+        "product": "Credit card",
+        "complaints": 208,
+        "narratives": 113
+      },
+      {
+        "date": "2025-02-24",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 10518,
+        "narratives": 2403
+      },
+      {
+        "date": "2025-02-24",
+        "product": "Debt collection",
+        "complaints": 626,
+        "narratives": 228
+      },
+      {
+        "date": "2025-02-24",
+        "product": "Debt or credit management",
+        "complaints": 9,
+        "narratives": 3
+      },
+      {
+        "date": "2025-02-24",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 194,
+        "narratives": 145
+      },
+      {
+        "date": "2025-02-24",
+        "product": "Mortgage",
+        "complaints": 58,
+        "narratives": 30
+      },
+      {
+        "date": "2025-02-24",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 17,
+        "narratives": 11
+      },
+      {
+        "date": "2025-02-24",
+        "product": "Prepaid card",
+        "complaints": 9,
+        "narratives": 4
+      },
+      {
+        "date": "2025-02-24",
+        "product": "Student loan",
+        "complaints": 51,
+        "narratives": 26
+      },
+      {
+        "date": "2025-02-24",
+        "product": "Vehicle loan or lease",
+        "complaints": 50,
+        "narratives": 31
+      },
+      {
+        "date": "2025-02-25",
+        "product": "Checking or savings account",
+        "complaints": 247,
+        "narratives": 126
+      },
+      {
+        "date": "2025-02-25",
+        "product": "Credit card",
+        "complaints": 303,
+        "narratives": 145
+      },
+      {
+        "date": "2025-02-25",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 13274,
+        "narratives": 3058
+      },
+      {
+        "date": "2025-02-25",
+        "product": "Debt collection",
+        "complaints": 716,
+        "narratives": 241
+      },
+      {
+        "date": "2025-02-25",
+        "product": "Debt or credit management",
+        "complaints": 16,
+        "narratives": 12
+      },
+      {
+        "date": "2025-02-25",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 167,
+        "narratives": 111
+      },
+      {
+        "date": "2025-02-25",
+        "product": "Mortgage",
+        "complaints": 62,
+        "narratives": 35
+      },
+      {
+        "date": "2025-02-25",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 32,
+        "narratives": 19
+      },
+      {
+        "date": "2025-02-25",
+        "product": "Prepaid card",
+        "complaints": 28,
+        "narratives": 17
+      },
+      {
+        "date": "2025-02-25",
+        "product": "Student loan",
+        "complaints": 61,
+        "narratives": 35
+      },
+      {
+        "date": "2025-02-25",
+        "product": "Vehicle loan or lease",
+        "complaints": 52,
+        "narratives": 24
+      },
+      {
+        "date": "2025-02-26",
+        "product": "Checking or savings account",
+        "complaints": 201,
+        "narratives": 121
+      },
+      {
+        "date": "2025-02-26",
+        "product": "Credit card",
+        "complaints": 255,
+        "narratives": 128
+      },
+      {
+        "date": "2025-02-26",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 13490,
+        "narratives": 3162
+      },
+      {
+        "date": "2025-02-26",
+        "product": "Debt collection",
+        "complaints": 712,
+        "narratives": 291
+      },
+      {
+        "date": "2025-02-26",
+        "product": "Debt or credit management",
+        "complaints": 17,
+        "narratives": 14
+      },
+      {
+        "date": "2025-02-26",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 186,
+        "narratives": 145
+      },
+      {
+        "date": "2025-02-26",
+        "product": "Mortgage",
+        "complaints": 74,
+        "narratives": 43
+      },
+      {
+        "date": "2025-02-26",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 23,
+        "narratives": 17
+      },
+      {
+        "date": "2025-02-26",
+        "product": "Prepaid card",
+        "complaints": 15,
+        "narratives": 8
+      },
+      {
+        "date": "2025-02-26",
+        "product": "Student loan",
+        "complaints": 77,
+        "narratives": 44
+      },
+      {
+        "date": "2025-02-26",
+        "product": "Vehicle loan or lease",
+        "complaints": 60,
+        "narratives": 34
+      },
+      {
+        "date": "2025-02-27",
+        "product": "Checking or savings account",
+        "complaints": 212,
+        "narratives": 125
+      },
+      {
+        "date": "2025-02-27",
+        "product": "Credit card",
+        "complaints": 252,
+        "narratives": 111
+      },
+      {
+        "date": "2025-02-27",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 13477,
+        "narratives": 3127
+      },
+      {
+        "date": "2025-02-27",
+        "product": "Debt collection",
+        "complaints": 781,
+        "narratives": 259
+      },
+      {
+        "date": "2025-02-27",
+        "product": "Debt or credit management",
+        "complaints": 16,
+        "narratives": 9
+      },
+      {
+        "date": "2025-02-27",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 171,
+        "narratives": 124
+      },
+      {
+        "date": "2025-02-27",
+        "product": "Mortgage",
+        "complaints": 89,
+        "narratives": 51
+      },
+      {
+        "date": "2025-02-27",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 34,
+        "narratives": 24
+      },
+      {
+        "date": "2025-02-27",
+        "product": "Prepaid card",
+        "complaints": 19,
+        "narratives": 13
+      },
+      {
+        "date": "2025-02-27",
+        "product": "Student loan",
+        "complaints": 82,
+        "narratives": 37
+      },
+      {
+        "date": "2025-02-27",
+        "product": "Vehicle loan or lease",
+        "complaints": 42,
+        "narratives": 24
+      },
+      {
+        "date": "2025-02-28",
+        "product": "Checking or savings account",
+        "complaints": 204,
+        "narratives": 125
+      },
+      {
+        "date": "2025-02-28",
+        "product": "Credit card",
+        "complaints": 257,
+        "narratives": 119
+      },
+      {
+        "date": "2025-02-28",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 13338,
+        "narratives": 2939
+      },
+      {
+        "date": "2025-02-28",
+        "product": "Debt collection",
+        "complaints": 686,
+        "narratives": 261
+      },
+      {
+        "date": "2025-02-28",
+        "product": "Debt or credit management",
+        "complaints": 12,
+        "narratives": 9
+      },
+      {
+        "date": "2025-02-28",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 118,
+        "narratives": 89
+      },
+      {
+        "date": "2025-02-28",
+        "product": "Mortgage",
+        "complaints": 74,
+        "narratives": 51
+      },
+      {
+        "date": "2025-02-28",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 25,
+        "narratives": 11
+      },
+      {
+        "date": "2025-02-28",
+        "product": "Prepaid card",
+        "complaints": 12,
+        "narratives": 8
+      },
+      {
+        "date": "2025-02-28",
+        "product": "Student loan",
+        "complaints": 72,
+        "narratives": 45
+      },
+      {
+        "date": "2025-02-28",
+        "product": "Vehicle loan or lease",
+        "complaints": 49,
+        "narratives": 25
+      }
+    ],
+    "products": [
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 659700,
+        "narratives": 170863,
+        "timely": 658969,
+        "timeliness_known": 659700
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 55871,
+        "narratives": 46258,
+        "timely": 55723,
+        "timeliness_known": 55871
+      },
+      {
+        "product": "Debt collection",
+        "complaints": 40862,
+        "narratives": 15288,
+        "timely": 39673,
+        "timeliness_known": 40862
+      },
+      {
+        "product": "Checking or savings account",
+        "complaints": 23819,
+        "narratives": 17070,
+        "timely": 23750,
+        "timeliness_known": 23819
+      },
+      {
+        "product": "Credit card",
+        "complaints": 15286,
+        "narratives": 6958,
+        "timely": 15245,
+        "timeliness_known": 15286
+      },
+      {
+        "product": "Student loan",
+        "complaints": 4100,
+        "narratives": 2201,
+        "timely": 3555,
+        "timeliness_known": 4100
+      },
+      {
+        "product": "Mortgage",
+        "complaints": 3958,
+        "narratives": 2330,
+        "timely": 3919,
+        "timeliness_known": 3958
+      },
+      {
+        "product": "Vehicle loan or lease",
+        "complaints": 3278,
+        "narratives": 1910,
+        "timely": 3240,
+        "timeliness_known": 3278
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 1848,
+        "narratives": 1121,
+        "timely": 1793,
+        "timeliness_known": 1848
+      },
+      {
+        "product": "Prepaid card",
+        "complaints": 1251,
+        "narratives": 747,
+        "timely": 1142,
+        "timeliness_known": 1251
+      },
+      {
+        "product": "Debt or credit management",
+        "complaints": 1046,
+        "narratives": 659,
+        "timely": 962,
+        "timeliness_known": 1046
+      }
+    ],
+    "issues": [
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "issue": "Incorrect information on your report",
+        "complaints": 359132
+      },
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "issue": "Improper use of your report",
+        "complaints": 160856
+      },
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "issue": "Problem with a company's investigation into an existing problem",
+        "complaints": 133532
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Other transaction problem",
+        "complaints": 46241
+      },
+      {
+        "product": "Debt collection",
+        "issue": "Attempts to collect debt not owed",
+        "complaints": 19073
+      },
+      {
+        "product": "Checking or savings account",
+        "issue": "Managing an account",
+        "complaints": 11001
+      },
+      {
+        "product": "Debt collection",
+        "issue": "Written notification about debt",
+        "complaints": 8807
+      },
+      {
+        "product": "Checking or savings account",
+        "issue": "Problem caused by your funds being low",
+        "complaints": 8407
+      },
+      {
+        "product": "Debt collection",
+        "issue": "False statements or representation",
+        "complaints": 5907
+      },
+      {
+        "product": "Debt collection",
+        "issue": "Took or threatened to take negative or legal action",
+        "complaints": 4297
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Fraud or scam",
+        "complaints": 3325
+      },
+      {
+        "product": "Credit card",
+        "issue": "Problem with a purchase shown on your statement",
+        "complaints": 2775
+      },
+      {
+        "product": "Credit card",
+        "issue": "Problem with a company's investigation into an existing problem",
+        "complaints": 2724
+      },
+      {
+        "product": "Student loan",
+        "issue": "Dealing with your lender or servicer",
+        "complaints": 2346
+      },
+      {
+        "product": "Mortgage",
+        "issue": "Trouble during payment process",
+        "complaints": 2247
+      },
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "issue": "Unable to get your credit report or credit score",
+        "complaints": 2221
+      },
+      {
+        "product": "Credit card",
+        "issue": "Getting a credit card",
+        "complaints": 1896
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Unauthorized transactions or other transaction problem",
+        "complaints": 1779
+      },
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "issue": "Problem with fraud alerts or security freezes",
+        "complaints": 1737
+      },
+      {
+        "product": "Debt collection",
+        "issue": "Communication tactics",
+        "complaints": 1703
+      },
+      {
+        "product": "Checking or savings account",
+        "issue": "Closing an account",
+        "complaints": 1634
+      },
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "issue": "Credit monitoring or identity theft protection services",
+        "complaints": 1629
+      },
+      {
+        "product": "Credit card",
+        "issue": "Incorrect information on your report",
+        "complaints": 1609
+      },
+      {
+        "product": "Credit card",
+        "issue": "Fees or interest",
+        "complaints": 1571
+      },
+      {
+        "product": "Checking or savings account",
+        "issue": "Problem with a lender or other company charging your account",
+        "complaints": 1547
+      },
+      {
+        "product": "Credit card",
+        "issue": "Other features, terms, or problems",
+        "complaints": 1433
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Other service problem",
+        "complaints": 1280
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Confusing or missing disclosures",
+        "complaints": 1217
+      },
+      {
+        "product": "Student loan",
+        "issue": "Struggling to repay your loan",
+        "complaints": 1181
+      },
+      {
+        "product": "Checking or savings account",
+        "issue": "Opening an account",
+        "complaints": 1147
+      },
+      {
+        "product": "Credit card",
+        "issue": "Closing your account",
+        "complaints": 962
+      },
+      {
+        "product": "Credit card",
+        "issue": "Problem when making payments",
+        "complaints": 949
+      },
+      {
+        "product": "Vehicle loan or lease",
+        "issue": "Repossession",
+        "complaints": 907
+      },
+      {
+        "product": "Mortgage",
+        "issue": "Struggling to pay mortgage",
+        "complaints": 873
+      },
+      {
+        "product": "Vehicle loan or lease",
+        "issue": "Managing the loan or lease",
+        "complaints": 871
+      },
+      {
+        "product": "Debt collection",
+        "issue": "Electronic communications",
+        "complaints": 655
+      },
+      {
+        "product": "Prepaid card",
+        "issue": "Trouble using the card",
+        "complaints": 597
+      },
+      {
+        "product": "Vehicle loan or lease",
+        "issue": "Getting a loan or lease",
+        "complaints": 537
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Money was not available when promised",
+        "complaints": 496
+      },
+      {
+        "product": "Credit card",
+        "issue": "Advertising and marketing, including promotional offers",
+        "complaints": 494
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Charged fees or interest you didn't expect",
+        "complaints": 494
+      },
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "issue": "Problem with a company's investigation into an existing issue",
+        "complaints": 479
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Trouble accessing funds in your mobile or digital wallet",
+        "complaints": 467
+      },
+      {
+        "product": "Credit card",
+        "issue": "Trouble using your card",
+        "complaints": 455
+      },
+      {
+        "product": "Debt collection",
+        "issue": "Threatened to contact someone or share information improperly",
+        "complaints": 420
+      },
+      {
+        "product": "Vehicle loan or lease",
+        "issue": "Problems at the end of the loan or lease",
+        "complaints": 372
+      },
+      {
+        "product": "Mortgage",
+        "issue": "Applying for a mortgage or refinancing an existing mortgage",
+        "complaints": 346
+      },
+      {
+        "product": "Debt or credit management",
+        "issue": "Didn't provide services promised",
+        "complaints": 317
+      },
+      {
+        "product": "Prepaid card",
+        "issue": "Problem with a purchase or transfer",
+        "complaints": 303
+      },
+      {
+        "product": "Mortgage",
+        "issue": "Closing on a mortgage",
+        "complaints": 300
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Managing, opening, or closing your mobile wallet account",
+        "complaints": 284
+      },
+      {
+        "product": "Vehicle loan or lease",
+        "issue": "Incorrect information on your report",
+        "complaints": 247
+      },
+      {
+        "product": "Debt or credit management",
+        "issue": "Charged upfront or unexpected fees",
+        "complaints": 229
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Struggling to pay your loan",
+        "complaints": 216
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Problem when making payments",
+        "complaints": 215
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Unexpected or other fees",
+        "complaints": 211
+      },
+      {
+        "product": "Student loan",
+        "issue": "Improper use of your report",
+        "complaints": 209
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Wrong amount charged or received",
+        "complaints": 206
+      },
+      {
+        "product": "Credit card",
+        "issue": "Struggling to pay your bill",
+        "complaints": 201
+      },
+      {
+        "product": "Student loan",
+        "issue": "Incorrect information on your report",
+        "complaints": 196
+      },
+      {
+        "product": "Prepaid card",
+        "issue": "Problem getting a card or closing an account",
+        "complaints": 175
+      },
+      {
+        "product": "Vehicle loan or lease",
+        "issue": "Struggling to pay your loan",
+        "complaints": 162
+      },
+      {
+        "product": "Credit card",
+        "issue": "Improper use of your report",
+        "complaints": 161
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Problem with the payoff process at the end of the loan",
+        "complaints": 156
+      },
+      {
+        "product": "Debt or credit management",
+        "issue": "Confusing or missing disclosures",
+        "complaints": 154
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Confusing or misleading advertising or marketing",
+        "complaints": 154
+      },
+      {
+        "product": "Debt or credit management",
+        "issue": "Confusing or misleading advertising or marketing",
+        "complaints": 148
+      },
+      {
+        "product": "Prepaid card",
+        "issue": "Unexpected or other fees",
+        "complaints": 144
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Getting the loan",
+        "complaints": 124
+      },
+      {
+        "product": "Mortgage",
+        "issue": "Incorrect information on your report",
+        "complaints": 119
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Incorrect information on your report",
+        "complaints": 112
+      },
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "issue": "Identity theft protection or other monitoring services",
+        "complaints": 108
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Problem with additional add-on products or services",
+        "complaints": 108
+      },
+      {
+        "product": "Debt or credit management",
+        "issue": "Problem with customer service",
+        "complaints": 106
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Problem with customer service",
+        "complaints": 95
+      },
+      {
+        "product": "Debt or credit management",
+        "issue": "Unauthorized withdrawals or charges",
+        "complaints": 92
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Getting a line of credit",
+        "complaints": 82
+      },
+      {
+        "product": "Vehicle loan or lease",
+        "issue": "Problem with a company's investigation into an existing problem",
+        "complaints": 80
+      },
+      {
+        "product": "Vehicle loan or lease",
+        "issue": "Improper use of your report",
+        "complaints": 77
+      },
+      {
+        "product": "Student loan",
+        "issue": "Getting a loan",
+        "complaints": 64
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Received a loan you didn't apply for",
+        "complaints": 59
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Problem adding money",
+        "complaints": 54
+      },
+      {
+        "product": "Mortgage",
+        "issue": "Problem with a company's investigation into an existing problem",
+        "complaints": 52
+      },
+      {
+        "product": "Student loan",
+        "issue": "Problem with a company's investigation into an existing problem",
+        "complaints": 45
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Lost or stolen money order",
+        "complaints": 43
+      },
+      {
+        "product": "Credit card",
+        "issue": "Credit monitoring or identity theft protection services",
+        "complaints": 35
+      },
+      {
+        "product": "Checking or savings account",
+        "issue": "Problem with a company's investigation into an existing problem",
+        "complaints": 34
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Can't contact lender or servicer",
+        "complaints": 29
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Improper use of your report",
+        "complaints": 29
+      },
+      {
+        "product": "Checking or savings account",
+        "issue": "Incorrect information on your report",
+        "complaints": 28
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Problem with a company's investigation into an existing problem",
+        "complaints": 27
+      },
+      {
+        "product": "Prepaid card",
+        "issue": "Advertising",
+        "complaints": 27
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Can't stop withdrawals from your bank account",
+        "complaints": 26
+      },
+      {
+        "product": "Student loan",
+        "issue": "Credit monitoring or identity theft protection services",
+        "complaints": 24
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Issues with repayment",
+        "complaints": 21
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Loan payment wasn't credited to your account",
+        "complaints": 21
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Money was taken from your bank account on the wrong day or for the wrong amount",
+        "complaints": 20
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Vehicle was repossessed or sold the vehicle",
+        "complaints": 19
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Overdraft, savings, or rewards features",
+        "complaints": 17
+      },
+      {
+        "product": "Vehicle loan or lease",
+        "issue": "Credit monitoring or identity theft protection services",
+        "complaints": 17
+      },
+      {
+        "product": "Mortgage",
+        "issue": "Improper use of your report",
+        "complaints": 16
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Was approved for a loan, but didn't receive the money",
+        "complaints": 14
+      },
+      {
+        "product": "Credit card",
+        "issue": "Problem with fraud alerts or security freezes",
+        "complaints": 13
+      },
+      {
+        "product": "Student loan",
+        "issue": "Problem with fraud alerts or security freezes",
+        "complaints": 13
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Problems receiving the advance",
+        "complaints": 11
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Confusing or misleading advertising or marketing",
+        "complaints": 10
+      },
+      {
+        "product": "Student loan",
+        "issue": "Issue with income share agreement",
+        "complaints": 10
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Confusing or missing disclosures",
+        "complaints": 9
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Credit monitoring or identity theft protection services",
+        "complaints": 9
+      },
+      {
+        "product": "Checking or savings account",
+        "issue": "Improper use of your report",
+        "complaints": 8
+      },
+      {
+        "product": "Credit card",
+        "issue": "Unable to get your credit report or credit score",
+        "complaints": 8
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Unexpected fees",
+        "complaints": 8
+      },
+      {
+        "product": "Student loan",
+        "issue": "Issue where my lender is my school",
+        "complaints": 8
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Credit limit changed",
+        "complaints": 7
+      },
+      {
+        "product": "Checking or savings account",
+        "issue": "Credit monitoring or identity theft protection services",
+        "complaints": 5
+      },
+      {
+        "product": "Checking or savings account",
+        "issue": "Problem with fraud alerts or security freezes",
+        "complaints": 5
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Problem with fraud alerts or security freezes",
+        "complaints": 5
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Vehicle was damaged or destroyed the vehicle",
+        "complaints": 5
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Was approved for a loan, but didn't receive money",
+        "complaints": 5
+      },
+      {
+        "product": "Prepaid card",
+        "issue": "Problem with overdraft",
+        "complaints": 5
+      },
+      {
+        "product": "Vehicle loan or lease",
+        "issue": "Unable to get your credit report or credit score",
+        "complaints": 5
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Problem with cash advance",
+        "complaints": 4
+      },
+      {
+        "product": "Student loan",
+        "issue": "Unable to get your credit report or credit score",
+        "complaints": 4
+      },
+      {
+        "product": "Checking or savings account",
+        "issue": "Unable to get your credit report or credit score",
+        "complaints": 3
+      },
+      {
+        "product": "Mortgage",
+        "issue": "Credit monitoring or identity theft protection services",
+        "complaints": 3
+      },
+      {
+        "product": "Vehicle loan or lease",
+        "issue": "Problem with fraud alerts or security freezes",
+        "complaints": 3
+      },
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "issue": "Problems at the end of the loan or lease",
+        "complaints": 2
+      },
+      {
+        "product": "Money transfer, virtual currency, or money service",
+        "issue": "Incorrect exchange rate",
+        "complaints": 2
+      },
+      {
+        "product": "Mortgage",
+        "issue": "Unable to get your credit report or credit score",
+        "complaints": 2
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Unable to get your credit report or credit score",
+        "complaints": 2
+      },
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "issue": "Dealing with your lender or servicer",
+        "complaints": 1
+      },
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "issue": "Managing an account",
+        "complaints": 1
+      },
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "issue": "Problem with a purchase shown on your statement",
+        "complaints": 1
+      },
+      {
+        "product": "Credit reporting or other personal consumer reports",
+        "issue": "Struggling to repay your loan",
+        "complaints": 1
+      },
+      {
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "issue": "Property was sold",
+        "complaints": 1
+      }
+    ],
+    "responses": [
+      {
+        "company_response": "Closed with explanation",
+        "complaints": 465704
+      },
+      {
+        "company_response": "Closed with non-monetary relief",
+        "complaints": 339955
+      },
+      {
+        "company_response": "Closed with monetary relief",
+        "complaints": 4423
+      },
+      {
+        "company_response": "Untimely response",
+        "complaints": 937
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2025-01",
+        "product": "Checking or savings account",
+        "complaints": 18367
+      },
+      {
+        "month": "2025-01",
+        "product": "Credit card",
+        "complaints": 9073
+      },
+      {
+        "month": "2025-01",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 365867
+      },
+      {
+        "month": "2025-01",
+        "product": "Debt collection",
+        "complaints": 23830
+      },
+      {
+        "month": "2025-01",
+        "product": "Debt or credit management",
+        "complaints": 693
+      },
+      {
+        "month": "2025-01",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 49743
+      },
+      {
+        "month": "2025-01",
+        "product": "Mortgage",
+        "complaints": 2204
+      },
+      {
+        "month": "2025-01",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 1098
+      },
+      {
+        "month": "2025-01",
+        "product": "Prepaid card",
+        "complaints": 756
+      },
+      {
+        "month": "2025-01",
+        "product": "Student loan",
+        "complaints": 2232
+      },
+      {
+        "month": "2025-01",
+        "product": "Vehicle loan or lease",
+        "complaints": 1920
+      },
+      {
+        "month": "2025-02",
+        "product": "Checking or savings account",
+        "complaints": 5452
+      },
+      {
+        "month": "2025-02",
+        "product": "Credit card",
+        "complaints": 6213
+      },
+      {
+        "month": "2025-02",
+        "product": "Credit reporting or other personal consumer reports",
+        "complaints": 293833
+      },
+      {
+        "month": "2025-02",
+        "product": "Debt collection",
+        "complaints": 17032
+      },
+      {
+        "month": "2025-02",
+        "product": "Debt or credit management",
+        "complaints": 353
+      },
+      {
+        "month": "2025-02",
+        "product": "Money transfer, virtual currency, or money service",
+        "complaints": 6128
+      },
+      {
+        "month": "2025-02",
+        "product": "Mortgage",
+        "complaints": 1754
+      },
+      {
+        "month": "2025-02",
+        "product": "Payday loan, title loan, personal loan, or advance loan",
+        "complaints": 750
+      },
+      {
+        "month": "2025-02",
+        "product": "Prepaid card",
+        "complaints": 495
+      },
+      {
+        "month": "2025-02",
+        "product": "Student loan",
+        "complaints": 1868
+      },
+      {
+        "month": "2025-02",
+        "product": "Vehicle loan or lease",
+        "complaints": 1358
+      }
+    ],
+    "states": [
+      {
+        "state": "FL",
+        "complaints": 112139
+      },
+      {
+        "state": "TX",
+        "complaints": 111498
+      },
+      {
+        "state": "CA",
+        "complaints": 74805
+      },
+      {
+        "state": "GA",
+        "complaints": 64543
+      },
+      {
+        "state": "NY",
+        "complaints": 49485
+      },
+      {
+        "state": "IL",
+        "complaints": 40484
+      },
+      {
+        "state": "PA",
+        "complaints": 30794
+      },
+      {
+        "state": "NC",
+        "complaints": 28485
+      },
+      {
+        "state": "NJ",
+        "complaints": 26689
+      },
+      {
+        "state": "MD",
+        "complaints": 20719
+      },
+      {
+        "state": "MI",
+        "complaints": 19768
+      },
+      {
+        "state": "AL",
+        "complaints": 18420
+      },
+      {
+        "state": "SC",
+        "complaints": 17994
+      },
+      {
+        "state": "OH",
+        "complaints": 17626
+      },
+      {
+        "state": "LA",
+        "complaints": 17273
+      },
+      {
+        "state": "VA",
+        "complaints": 16892
+      },
+      {
+        "state": "TN",
+        "complaints": 13029
+      },
+      {
+        "state": "AZ",
+        "complaints": 12110
+      },
+      {
+        "state": "NV",
+        "complaints": 10912
+      },
+      {
+        "state": "IN",
+        "complaints": 10327
+      },
+      {
+        "state": "MS",
+        "complaints": 10206
+      },
+      {
+        "state": "MO",
+        "complaints": 9513
+      },
+      {
+        "state": "MA",
+        "complaints": 9287
+      },
+      {
+        "state": "CT",
+        "complaints": 6106
+      },
+      {
+        "state": "WI",
+        "complaints": 5571
+      },
+      {
+        "state": "WA",
+        "complaints": 5358
+      },
+      {
+        "state": "AR",
+        "complaints": 5172
+      },
+      {
+        "state": "CO",
+        "complaints": 4448
+      },
+      {
+        "state": "MN",
+        "complaints": 4085
+      },
+      {
+        "state": "DE",
+        "complaints": 3914
+      },
+      {
+        "state": "OK",
+        "complaints": 3797
+      },
+      {
+        "state": "KY",
+        "complaints": 3720
+      },
+      {
+        "state": "DC",
+        "complaints": 2971
+      },
+      {
+        "state": "PR",
+        "complaints": 2694
+      },
+      {
+        "state": "UT",
+        "complaints": 2102
+      },
+      {
+        "state": "KS",
+        "complaints": 2018
+      },
+      {
+        "state": "OR",
+        "complaints": 1930
+      },
+      {
+        "state": "RI",
+        "complaints": 1829
+      },
+      {
+        "state": "IA",
+        "complaints": 1707
+      },
+      {
+        "state": "NM",
+        "complaints": 1387
+      },
+      {
+        "state": "NE",
+        "complaints": 1312
+      },
+      {
+        "state": "HI",
+        "complaints": 1023
+      },
+      {
+        "state": "WV",
+        "complaints": 869
+      },
+      {
+        "state": "ID",
+        "complaints": 815
+      },
+      {
+        "state": "NH",
+        "complaints": 753
+      },
+      {
+        "state": "ME",
+        "complaints": 423
+      },
+      {
+        "state": "ND",
+        "complaints": 399
+      },
+      {
+        "state": "AK",
+        "complaints": 366
+      },
+      {
+        "state": "MT",
+        "complaints": 285
+      },
+      {
+        "state": "VI",
+        "complaints": 270
+      },
+      {
+        "state": "SD",
+        "complaints": 245
+      },
+      {
+        "state": "VT",
+        "complaints": 197
+      },
+      {
+        "state": "WY",
+        "complaints": 186
+      },
+      {
+        "state": "AE",
+        "complaints": 163
+      },
+      {
+        "state": "AP",
+        "complaints": 92
+      },
+      {
+        "state": "UNITED STATES MINOR OUTLYING ISLANDS",
+        "complaints": 43
+      },
+      {
+        "state": "GU",
+        "complaints": 22
+      },
+      {
+        "state": "AA",
+        "complaints": 17
+      },
+      {
+        "state": "AS",
+        "complaints": 3
+      }
+    ],
+    "signals": {
+      "status": "descriptive_heuristic",
+      "week_start": "2025-02-17",
+      "baseline_weeks": [
+        "2025-01-20",
+        "2025-01-27",
+        "2025-02-03",
+        "2025-02-10"
+      ],
+      "current_week_total": 74507,
+      "baseline_four_week_total": 390250,
+      "rule": "count >=30, baseline weekly mean >=5, volume >=1.5x baseline, share increase >=0.5 percentage points",
+      "limitations": "Exploratory signals, not statistically confirmed anomalies or proof of company misconduct. Only seven complete weeks are available.",
+      "items": []
+    },
+    "signal_history": [
+      {
+        "status": "descriptive_heuristic",
+        "week_start": "2025-02-03",
+        "baseline_weeks": [
+          "2025-01-06",
+          "2025-01-13",
+          "2025-01-20",
+          "2025-01-27"
+        ],
+        "current_week_total": 95532,
+        "baseline_four_week_total": 445363,
+        "rule": "count >=30, baseline weekly mean >=5, volume >=1.5x baseline, share increase >=0.5 percentage points",
+        "limitations": "Exploratory signals, not statistically confirmed anomalies or proof of company misconduct. Only seven complete weeks are available.",
+        "items": []
+      },
+      {
+        "status": "descriptive_heuristic",
+        "week_start": "2025-02-10",
+        "baseline_weeks": [
+          "2025-01-13",
+          "2025-01-20",
+          "2025-01-27",
+          "2025-02-03"
+        ],
+        "current_week_total": 77758,
+        "baseline_four_week_total": 453671,
+        "rule": "count >=30, baseline weekly mean >=5, volume >=1.5x baseline, share increase >=0.5 percentage points",
+        "limitations": "Exploratory signals, not statistically confirmed anomalies or proof of company misconduct. Only seven complete weeks are available.",
+        "items": []
+      },
+      {
+        "status": "descriptive_heuristic",
+        "week_start": "2025-02-17",
+        "baseline_weeks": [
+          "2025-01-20",
+          "2025-01-27",
+          "2025-02-03",
+          "2025-02-10"
+        ],
+        "current_week_total": 74507,
+        "baseline_four_week_total": 390250,
+        "rule": "count >=30, baseline weekly mean >=5, volume >=1.5x baseline, share increase >=0.5 percentage points",
+        "limitations": "Exploratory signals, not statistically confirmed anomalies or proof of company misconduct. Only seven complete weeks are available.",
+        "items": []
+      }
+    ]
+  },
+  "model": {
+    "pipeline_version": "1.1.0",
+    "profile": "uncapped",
+    "execution_environment": "colab_cpu",
+    "execution_time_utc": "2026-10-24T00:01:30.966337+00:00",
+    "python_version": "3.13.16",
+    "sklearn_version": "1.9.1",
+    "pandas_version": "3.1.0",
+    "numpy_version": "2.5.4",
+    "selected_model": "logistic_regression",
+    "selection_metric": "validation macro-F1; test used only after model and routing-threshold selection",
+    "training_cap_per_class": null,
+    "comparison_to_capped": {
+      "criterion": "validation macro-F1 only; test metrics do not choose the profile",
+      "capped_selected_model": "logistic_regression",
+      "capped_training_rows": 60444,
+      "capped_validation_macro_f1": 0.6538825375829431,
+      "uncapped_selected_model": "logistic_regression",
+      "uncapped_validation_macro_f1": 0.657203750197552,
+      "delta_validation_macro_f1": 0.003321212614608826,
+      "recommended_profile": "uncapped",
+      "tie_rule": "Preserve capped model when validation macro-F1 ties.",
+      "reference_archive_sha256": "f29504445d3d7754ce4ed2850bd22f26c5066c8844663c4eb9781f1d1381e359",
+      "identical_holdouts_verified": true
+    },
+    "validation_models": [
+      {
+        "model": "majority_baseline",
+        "accuracy": 0.5637020507916268,
+        "balanced_accuracy": 0.09090909090909091,
+        "macro_f1": 0.06554399663940301,
+        "weighted_f1": 0.4064201385498206,
+        "fit_and_validation_seconds": 59.78
+      },
+      {
+        "model": "complement_naive_bayes",
+        "accuracy": 0.7660184890022315,
+        "balanced_accuracy": 0.4815172559194941,
+        "macro_f1": 0.5043398617623631,
+        "weighted_f1": 0.7580303922631038,
+        "fit_and_validation_seconds": 60.25
+      },
+      {
+        "model": "logistic_regression",
+        "accuracy": 0.78737647433854,
+        "balanced_accuracy": 0.7177274573995128,
+        "macro_f1": 0.657203750197552,
+        "weighted_f1": 0.7964093909362511,
+        "fit_and_validation_seconds": 158.49
+      }
+    ],
+    "test": {
+      "accuracy": 0.7951267056530215,
+      "balanced_accuracy": 0.7184844992741485,
+      "macro_f1": 0.667181565430843,
+      "weighted_f1": 0.8028009987116919
+    },
+    "test_baseline": {
+      "accuracy": 0.5562053281351527,
+      "balanced_accuracy": 0.09090909090909091,
+      "macro_f1": 0.06498386790662364,
+      "weighted_f1": 0.39758810929744526
+    },
+    "classification_report": {
+      "Checking or savings account": {
+        "precision": 0.7572886297376094,
+        "recall": 0.8161822466614297,
+        "f1-score": 0.7856332703213611,
+        "support": 1273.0
+      },
+      "Credit card": {
+        "precision": 0.6327223353699932,
+        "recall": 0.7911714770797963,
+        "f1-score": 0.7031308940022633,
+        "support": 1178.0
+      },
+      "Credit reporting or other personal consumer reports": {
+        "precision": 0.9510547359713222,
+        "recall": 0.805841121495327,
+        "f1-score": 0.8724467210522987,
+        "support": 8560.0
+      },
+      "Debt collection": {
+        "precision": 0.6194392523364486,
+        "recall": 0.8055420515313564,
+        "f1-score": 0.7003381234150465,
+        "support": 2057.0
+      },
+      "Debt or credit management": {
+        "precision": 0.3088235294117647,
+        "recall": 0.2625,
+        "f1-score": 0.28378378378378377,
+        "support": 80.0
+      },
+      "Money transfer, virtual currency, or money service": {
+        "precision": 0.8539682539682539,
+        "recall": 0.6617466174661747,
+        "f1-score": 0.7456687456687456,
+        "support": 813.0
+      },
+      "Mortgage": {
+        "precision": 0.75,
+        "recall": 0.908883826879271,
+        "f1-score": 0.8218331616889805,
+        "support": 439.0
+      },
+      "Payday loan, title loan, personal loan, or advance loan": {
+        "precision": 0.4362934362934363,
+        "recall": 0.5854922279792746,
+        "f1-score": 0.5,
+        "support": 193.0
+      },
+      "Prepaid card": {
+        "precision": 0.5476190476190477,
+        "recall": 0.5948275862068966,
+        "f1-score": 0.5702479338842975,
+        "support": 116.0
+      },
+      "Student loan": {
+        "precision": 0.6639004149377593,
+        "recall": 0.8743169398907104,
+        "f1-score": 0.7547169811320755,
+        "support": 366.0
+      },
+      "Vehicle loan or lease": {
+        "precision": 0.4826923076923077,
+        "recall": 0.7968253968253968,
+        "f1-score": 0.6011976047904192,
+        "support": 315.0
+      },
+      "accuracy": 0.7951267056530215,
+      "macro avg": {
+        "precision": 0.6367092675761766,
+        "recall": 0.7184844992741485,
+        "f1-score": 0.667181565430843,
+        "support": 15390.0
+      },
+      "weighted avg": {
+        "precision": 0.8262239482157434,
+        "recall": 0.7951267056530215,
+        "f1-score": 0.8028009987116919,
+        "support": 15390.0
+      }
+    },
+    "labels": [
+      "Checking or savings account",
+      "Credit card",
+      "Credit reporting or other personal consumer reports",
+      "Debt collection",
+      "Debt or credit management",
+      "Money transfer, virtual currency, or money service",
+      "Mortgage",
+      "Payday loan, title loan, personal loan, or advance loan",
+      "Prepaid card",
+      "Student loan",
+      "Vehicle loan or lease"
+    ],
+    "confusion_matrix": [
+      [
+        1039,
+        91,
+        22,
+        8,
+        3,
+        60,
+        8,
+        12,
+        23,
+        1,
+        6
+      ],
+      [
+        55,
+        932,
+        62,
+        58,
+        2,
+        9,
+        6,
+        21,
+        17,
+        2,
+        14
+      ],
+      [
+        32,
+        281,
+        6898,
+        867,
+        21,
+        8,
+        77,
+        46,
+        1,
+        142,
+        187
+      ],
+      [
+        13,
+        68,
+        214,
+        1657,
+        11,
+        1,
+        18,
+        28,
+        1,
+        10,
+        36
+      ],
+      [
+        2,
+        8,
+        8,
+        29,
+        21,
+        0,
+        5,
+        5,
+        1,
+        0,
+        1
+      ],
+      [
+        192,
+        42,
+        1,
+        6,
+        4,
+        538,
+        3,
+        8,
+        14,
+        1,
+        4
+      ],
+      [
+        7,
+        6,
+        6,
+        6,
+        0,
+        1,
+        399,
+        10,
+        0,
+        2,
+        2
+      ],
+      [
+        8,
+        15,
+        9,
+        18,
+        4,
+        0,
+        6,
+        113,
+        0,
+        3,
+        17
+      ],
+      [
+        16,
+        17,
+        1,
+        1,
+        0,
+        12,
+        0,
+        0,
+        69,
+        0,
+        0
+      ],
+      [
+        3,
+        2,
+        15,
+        13,
+        1,
+        1,
+        2,
+        7,
+        0,
+        320,
+        2
+      ],
+      [
+        5,
+        11,
+        17,
+        12,
+        1,
+        0,
+        8,
+        9,
+        0,
+        1,
+        251
+      ]
+    ],
+    "routing": {
+      "threshold": 0.55,
+      "validation_target_accuracy": 0.85,
+      "validation_target_met": true,
+      "test_coverage": 0.7899935022742041,
+      "test_accepted": 12158,
+      "test_accuracy_when_accepted": 0.8655206448429018,
+      "score_note": "Uncalibrated model score; not a guaranteed probability. Review route is a demonstration, not autonomous financial decision-making."
+    },
+    "threshold_search": [
+      {
+        "threshold": 0.4,
+        "coverage": 0.9193496971628945,
+        "accepted": 8652,
+        "accuracy_when_accepted": 0.8168053629218678
+      },
+      {
+        "threshold": 0.45,
+        "coverage": 0.8851344171713952,
+        "accepted": 8330,
+        "accuracy_when_accepted": 0.828811524609844
+      },
+      {
+        "threshold": 0.5,
+        "coverage": 0.8435872914674317,
+        "accepted": 7939,
+        "accuracy_when_accepted": 0.840911953646555
+      },
+      {
+        "threshold": 0.55,
+        "coverage": 0.8007650621613006,
+        "accepted": 7536,
+        "accuracy_when_accepted": 0.8544320594479831
+      },
+      {
+        "threshold": 0.6,
+        "coverage": 0.7584741260227393,
+        "accepted": 7138,
+        "accuracy_when_accepted": 0.8663491173998319
+      },
+      {
+        "threshold": 0.65,
+        "coverage": 0.7082137923706301,
+        "accepted": 6665,
+        "accuracy_when_accepted": 0.8789197299324831
+      },
+      {
+        "threshold": 0.7,
+        "coverage": 0.665710338965041,
+        "accepted": 6265,
+        "accuracy_when_accepted": 0.8866719872306464
+      },
+      {
+        "threshold": 0.75,
+        "coverage": 0.6114121772394007,
+        "accepted": 5754,
+        "accuracy_when_accepted": 0.8955509210983663
+      },
+      {
+        "threshold": 0.8,
+        "coverage": 0.5471257039634471,
+        "accepted": 5149,
+        "accuracy_when_accepted": 0.9025053408428821
+      },
+      {
+        "threshold": 0.85,
+        "coverage": 0.4667941770268834,
+        "accepted": 4393,
+        "accuracy_when_accepted": 0.9098565900295925
+      },
+      {
+        "threshold": 0.9,
+        "coverage": 0.36404207841887154,
+        "accepted": 3426,
+        "accuracy_when_accepted": 0.9124343257443083
+      },
+      {
+        "threshold": 0.95,
+        "coverage": 0.22303687174582934,
+        "accepted": 2099,
+        "accuracy_when_accepted": 0.9190090519294902
+      }
+    ],
+    "evidence_status": "Uncapped profile executed in colab_cpu; interpret within documented dataset and split scope."
+  },
+  "project": "Financial Complaint Intelligence",
+  "historical": true
+}

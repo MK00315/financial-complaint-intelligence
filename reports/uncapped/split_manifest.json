@@ -1,0 +1,89 @@
+{
+  "strategy": "Chronological; keep earliest normalized text once before splitting. Vocabulary is fitted only on training text.",
+  "profile": "uncapped",
+  "seed": 42,
+  "train_cap_per_class": null,
+  "training_rows_before_cap": 101935,
+  "training_rows_excluded_by_cap": 0,
+  "evaluation_capped": false,
+  "evaluation_scope": "All retained, in-scope unique narratives in each chronological window; all eligible training-window narratives are used.",
+  "labels": [
+    "Checking or savings account",
+    "Credit card",
+    "Credit reporting or other personal consumer reports",
+    "Debt collection",
+    "Debt or credit management",
+    "Money transfer, virtual currency, or money service",
+    "Mortgage",
+    "Payday loan, title loan, personal loan, or advance loan",
+    "Prepaid card",
+    "Student loan",
+    "Vehicle loan or lease"
+  ],
+  "out_of_scope_rows": 0,
+  "normalized_hash_overlap": 0,
+  "holdout_fingerprints": {
+    "validation": "0c1cf57bd276e52752ebed1cbd2d521a64ad360b77712a6a18c04f9edf66061a",
+    "test": "a00bd0d820045066a5ac98627b6a231060294c7ab4eb924b261481e432b1f328"
+  },
+  "near_duplicate_limit": "Normalization catches exact and variable-identifier templates. Paraphrases and other near-duplicates may remain.",
+  "splits": {
+    "train": {
+      "rows": 101935,
+      "date_min": "2025-01-01",
+      "date_max": "2025-02-09",
+      "class_counts": {
+        "Credit reporting or other personal consumer reports": 53512,
+        "Money transfer, virtual currency, or money service": 17979,
+        "Checking or savings account": 10404,
+        "Debt collection": 9198,
+        "Credit card": 4534,
+        "Mortgage": 1650,
+        "Student loan": 1452,
+        "Vehicle loan or lease": 1364,
+        "Payday loan, title loan, personal loan, or advance loan": 794,
+        "Prepaid card": 562,
+        "Debt or credit management": 486
+      }
+    },
+    "validation": {
+      "rows": 9411,
+      "date_min": "2025-02-10",
+      "date_max": "2025-02-16",
+      "class_counts": {
+        "Credit reporting or other personal consumer reports": 5305,
+        "Debt collection": 1150,
+        "Checking or savings account": 688,
+        "Money transfer, virtual currency, or money service": 675,
+        "Credit card": 618,
+        "Student loan": 324,
+        "Mortgage": 233,
+        "Vehicle loan or lease": 193,
+        "Payday loan, title loan, personal loan, or advance loan": 107,
+        "Debt or credit management": 63,
+        "Prepaid card": 55
+      }
+    },
+    "test": {
+      "rows": 15390,
+      "date_min": "2025-02-17",
+      "date_max": "2025-02-28",
+      "class_counts": {
+        "Credit reporting or other personal consumer reports": 8560,
+        "Debt collection": 2057,
+        "Checking or savings account": 1273,
+        "Credit card": 1178,
+        "Money transfer, virtual currency, or money service": 813,
+        "Mortgage": 439,
+        "Student loan": 366,
+        "Vehicle loan or lease": 315,
+        "Payday loan, title loan, personal loan, or advance loan": 193,
+        "Prepaid card": 116,
+        "Debt or credit management": 80
+      }
+    }
+  },
+  "eligible_before_dedup": 262104,
+  "normalized_duplicates_removed": 135368,
+  "unique_eligible_narratives": 126736
+}
