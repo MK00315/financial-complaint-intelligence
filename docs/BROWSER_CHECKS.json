@@ -1,0 +1,151 @@
+[
+  {
+    "check": "January credit-card filter",
+    "chart": 31,
+    "totals": "Total complaints\n\n9,073\n\nArchived records\n\nNarrative coverage\n\n44.00%\n\n3,992 written complaints\n\nProduct categories\n\n1\n\nDistinct product categories\n\nModel: Logistic Reg.\nTEST SET\n\n79.51%\n\nAccuracy on 15,390 held-out complaints"
+  },
+  {
+    "check": "narrative measure and keyboard tooltip",
+    "days": 31,
+    "total": 3992,
+    "tooltip": "Jan 2, 2025\n127\nWith a narrative"
+  },
+  {
+    "check": "search, sort and CSV download",
+    "search": "purchase",
+    "sort": "count_asc",
+    "download": "Financial_Complaints_issues_2025-01-01_2025-02-28.csv"
+  },
+  {
+    "check": "empty search state",
+    "shown": true
+  },
+  {
+    "check": "pagination",
+    "shown": true
+  },
+  {
+    "check": "issue detail",
+    "days": 59,
+    "counts": true
+  },
+  {
+    "check": "signal history",
+    "shown": true
+  },
+  {
+    "check": "real model prediction",
+    "result": "Suggested category\nCredit reporting or other personal consumer reports\n\nReview this suggestion against the complaint before routing it.\n\nTop model score\n0.893\n\nAn uncalibrated model score, not a guaranteed probability. Review threshold: 0.55.\n\nTop three product matches\n01Credit reporting or other personal consumer reports\n0.893\n02Debt collection\n0.093\n03Credit card\n0.009\nThis model suggests a product category. It does not determine whether a complaint is valid or make financial decisions.\nReview model performance & limitations"
+  },
+  {
+    "check": "short input validation",
+    "shown": true
+  },
+  {
+    "check": "unrecognized input validation",
+    "shown": true
+  },
+  {
+    "check": "human review route",
+    "shown": true
+  },
+  {
+    "check": "model evidence page",
+    "categories": 11,
+    "matrixCells": 121,
+    "metrics": "Test accuracy\n\n79.51%\n\nCorrect predictions across the test set\n\nMacro-F1\n\n0.6672\n\nEqual weight for each product category\n\nBalanced accuracy\n\n71.85%\n\nMean recall across the 11 categories\n\nTest complaints\n\n15,390\n\nFebruary 17\u00e2\u20ac\u201c28, 2025 \u00c2\u00b7 unseen at training"
+  },
+  {
+    "check": "category sorting and confusion matrix",
+    "lowest": "Debt/credit management",
+    "cell": "867 actual credit reporting predicted debt collection",
+    "shown": true
+  },
+  {
+    "check": "mobile layouts at 390px",
+    "screens": [
+      {
+        "page": "overview",
+        "bodyWidth": 375,
+        "documentWidth": 375,
+        "navScroll": true,
+        "title": "Complaint overview",
+        "width": 390
+      },
+      {
+        "page": "issues",
+        "bodyWidth": 375,
+        "documentWidth": 375,
+        "navScroll": true,
+        "title": "Issue explorer",
+        "width": 390
+      },
+      {
+        "page": "classify",
+        "bodyWidth": 375,
+        "documentWidth": 375,
+        "navScroll": true,
+        "title": "Classify a complaint",
+        "width": 390
+      },
+      {
+        "page": "model",
+        "bodyWidth": 375,
+        "documentWidth": 375,
+        "navScroll": true,
+        "title": "Model & Data",
+        "width": 390
+      }
+    ]
+  },
+  {
+    "check": "tablet layouts at 768px",
+    "screens": [
+      {
+        "page": "overview",
+        "bodyWidth": 753,
+        "documentWidth": 753,
+        "width": 768
+      },
+      {
+        "page": "issues",
+        "bodyWidth": 753,
+        "documentWidth": 753,
+        "width": 768
+      },
+      {
+        "page": "classify",
+        "bodyWidth": 753,
+        "documentWidth": 753,
+        "width": 768
+      },
+      {
+        "page": "model",
+        "bodyWidth": 753,
+        "documentWidth": 753,
+        "width": 768
+      }
+    ]
+  },
+  {
+    "check": "browser history",
+    "back": "Model & Data",
+    "forward": "Complaint overview"
+  },
+  {
+    "check": "reduced-motion CSS",
+    "normalDuration": "0.22s",
+    "ruleParsed": true,
+    "osPreferenceChanged": false,
+    "animationName": "none",
+    "duration": "auto",
+    "important": "important",
+    "transition": "none"
+  },
+  {
+    "check": "packaged application browser check",
+    "errorCount": 0,
+    "prediction": "credit reporting; top score 0.893",
+    "predictionButtonFocusRestored": true
+  }
+]

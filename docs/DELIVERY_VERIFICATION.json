@@ -1,0 +1,24 @@
+{
+  "local_app": "Financial Complaint Intelligence",
+  "selected_profile": "uncapped",
+  "development_tests": {
+    "passed": 40,
+    "failed": 0,
+    "skipped": 0,
+    "test_adapter_deprecation_warnings": 1
+  },
+  "portable_tests": {
+    "passed": 37,
+    "failed": 0,
+    "skipped": 3,
+    "skip_reason": "Raw source SQLite database is intentionally excluded"
+  },
+  "startup_check": "passed",
+  "runtime": "existing environment matched pinned requirements",
+  "fresh_dependency_install": "not performed",
+  "browser_workflows": 18,
+  "browser_errors": 0,
+  "raw_database_included": false,
+  "public_deployment": false,
+  "temporary_qa_server": "stopped after verification"
+}

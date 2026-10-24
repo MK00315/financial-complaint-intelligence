@@ -1,0 +1,386 @@
+{
+  "project": "Financial Complaint Intelligence",
+  "observation_window": "January 1-February 28, 2025",
+  "total_complaints": 811019,
+  "with_narratives": 265405,
+  "narrative_coverage_pct": 32.72,
+  "product_categories": 11,
+  "test_accuracy_pct": 79.51,
+  "test_macro_f1": 0.6672,
+  "test_complaints": 15390,
+  "products": [
+    {
+      "product": "Credit reporting or other personal consumer reports",
+      "complaints": 659700,
+      "narratives": 170863,
+      "timely": 658969,
+      "timeliness_known": 659700
+    },
+    {
+      "product": "Money transfer, virtual currency, or money service",
+      "complaints": 55871,
+      "narratives": 46258,
+      "timely": 55723,
+      "timeliness_known": 55871
+    },
+    {
+      "product": "Debt collection",
+      "complaints": 40862,
+      "narratives": 15288,
+      "timely": 39673,
+      "timeliness_known": 40862
+    },
+    {
+      "product": "Checking or savings account",
+      "complaints": 23819,
+      "narratives": 17070,
+      "timely": 23750,
+      "timeliness_known": 23819
+    },
+    {
+      "product": "Credit card",
+      "complaints": 15286,
+      "narratives": 6958,
+      "timely": 15245,
+      "timeliness_known": 15286
+    },
+    {
+      "product": "Student loan",
+      "complaints": 4100,
+      "narratives": 2201,
+      "timely": 3555,
+      "timeliness_known": 4100
+    },
+    {
+      "product": "Mortgage",
+      "complaints": 3958,
+      "narratives": 2330,
+      "timely": 3919,
+      "timeliness_known": 3958
+    },
+    {
+      "product": "Vehicle loan or lease",
+      "complaints": 3278,
+      "narratives": 1910,
+      "timely": 3240,
+      "timeliness_known": 3278
+    },
+    {
+      "product": "Payday loan, title loan, personal loan, or advance loan",
+      "complaints": 1848,
+      "narratives": 1121,
+      "timely": 1793,
+      "timeliness_known": 1848
+    },
+    {
+      "product": "Prepaid card",
+      "complaints": 1251,
+      "narratives": 747,
+      "timely": 1142,
+      "timeliness_known": 1251
+    },
+    {
+      "product": "Debt or credit management",
+      "complaints": 1046,
+      "narratives": 659,
+      "timely": 962,
+      "timeliness_known": 1046
+    }
+  ],
+  "top_issues": [
+    {
+      "product": "Credit reporting or other personal consumer reports",
+      "issue": "Incorrect information on your report",
+      "complaints": 359132
+    },
+    {
+      "product": "Credit reporting or other personal consumer reports",
+      "issue": "Improper use of your report",
+      "complaints": 160856
+    },
+    {
+      "product": "Credit reporting or other personal consumer reports",
+      "issue": "Problem with a company's investigation into an existing problem",
+      "complaints": 133532
+    },
+    {
+      "product": "Money transfer, virtual currency, or money service",
+      "issue": "Other transaction problem",
+      "complaints": 46241
+    },
+    {
+      "product": "Debt collection",
+      "issue": "Attempts to collect debt not owed",
+      "complaints": 19073
+    },
+    {
+      "product": "Checking or savings account",
+      "issue": "Managing an account",
+      "complaints": 11001
+    },
+    {
+      "product": "Debt collection",
+      "issue": "Written notification about debt",
+      "complaints": 8807
+    },
+    {
+      "product": "Checking or savings account",
+      "issue": "Problem caused by your funds being low",
+      "complaints": 8407
+    }
+  ],
+  "latest_signals": {
+    "status": "descriptive_heuristic",
+    "week_start": "2025-02-17",
+    "baseline_weeks": [
+      "2025-01-20",
+      "2025-01-27",
+      "2025-02-03",
+      "2025-02-10"
+    ],
+    "current_week_total": 74507,
+    "baseline_four_week_total": 390250,
+    "rule": "count >=30, baseline weekly mean >=5, volume >=1.5x baseline, share increase >=0.5 percentage points",
+    "limitations": "Exploratory signals, not statistically confirmed anomalies or proof of company misconduct. Only seven complete weeks are available.",
+    "items": []
+  },
+  "model_scope": "Test performance uses a fixed historical test set; complaint filters do not alter it.",
+  "daily_volume": [
+    {
+      "date": "2025-01-01",
+      "complaints": 5453
+    },
+    {
+      "date": "2025-01-02",
+      "complaints": 12964
+    },
+    {
+      "date": "2025-01-03",
+      "complaints": 14121
+    },
+    {
+      "date": "2025-01-04",
+      "complaints": 7528
+    },
+    {
+      "date": "2025-01-05",
+      "complaints": 5757
+    },
+    {
+      "date": "2025-01-06",
+      "complaints": 13460
+    },
+    {
+      "date": "2025-01-07",
+      "complaints": 14793
+    },
+    {
+      "date": "2025-01-08",
+      "complaints": 14737
+    },
+    {
+      "date": "2025-01-09",
+      "complaints": 14745
+    },
+    {
+      "date": "2025-01-10",
+      "complaints": 14084
+    },
+    {
+      "date": "2025-01-11",
+      "complaints": 8932
+    },
+    {
+      "date": "2025-01-12",
+      "complaints": 6473
+    },
+    {
+      "date": "2025-01-13",
+      "complaints": 13590
+    },
+    {
+      "date": "2025-01-14",
+      "complaints": 16338
+    },
+    {
+      "date": "2025-01-15",
+      "complaints": 21360
+    },
+    {
+      "date": "2025-01-16",
+      "complaints": 24119
+    },
+    {
+      "date": "2025-01-17",
+      "complaints": 34091
+    },
+    {
+      "date": "2025-01-18",
+      "complaints": 21179
+    },
+    {
+      "date": "2025-01-19",
+      "complaints": 10502
+    },
+    {
+      "date": "2025-01-20",
+      "complaints": 19938
+    },
+    {
+      "date": "2025-01-21",
+      "complaints": 18742
+    },
+    {
+      "date": "2025-01-22",
+      "complaints": 18575
+    },
+    {
+      "date": "2025-01-23",
+      "complaints": 21748
+    },
+    {
+      "date": "2025-01-24",
+      "complaints": 20295
+    },
+    {
+      "date": "2025-01-25",
+      "complaints": 10810
+    },
+    {
+      "date": "2025-01-26",
+      "complaints": 7692
+    },
+    {
+      "date": "2025-01-27",
+      "complaints": 15999
+    },
+    {
+      "date": "2025-01-28",
+      "complaints": 17191
+    },
+    {
+      "date": "2025-01-29",
+      "complaints": 17226
+    },
+    {
+      "date": "2025-01-30",
+      "complaints": 17389
+    },
+    {
+      "date": "2025-01-31",
+      "complaints": 15952
+    },
+    {
+      "date": "2025-02-01",
+      "complaints": 8736
+    },
+    {
+      "date": "2025-02-02",
+      "complaints": 6667
+    },
+    {
+      "date": "2025-02-03",
+      "complaints": 14771
+    },
+    {
+      "date": "2025-02-04",
+      "complaints": 16872
+    },
+    {
+      "date": "2025-02-05",
+      "complaints": 16809
+    },
+    {
+      "date": "2025-02-06",
+      "complaints": 17323
+    },
+    {
+      "date": "2025-02-07",
+      "complaints": 15725
+    },
+    {
+      "date": "2025-02-08",
+      "complaints": 8056
+    },
+    {
+      "date": "2025-02-09",
+      "complaints": 5976
+    },
+    {
+      "date": "2025-02-10",
+      "complaints": 12132
+    },
+    {
+      "date": "2025-02-11",
+      "complaints": 14740
+    },
+    {
+      "date": "2025-02-12",
+      "complaints": 14334
+    },
+    {
+      "date": "2025-02-13",
+      "complaints": 14276
+    },
+    {
+      "date": "2025-02-14",
+      "complaints": 11951
+    },
+    {
+      "date": "2025-02-15",
+      "complaints": 5726
+    },
+    {
+      "date": "2025-02-16",
+      "complaints": 4599
+    },
+    {
+      "date": "2025-02-17",
+      "complaints": 10854
+    },
+    {
+      "date": "2025-02-18",
+      "complaints": 12746
+    },
+    {
+      "date": "2025-02-19",
+      "complaints": 12967
+    },
+    {
+      "date": "2025-02-20",
+      "complaints": 13194
+    },
+    {
+      "date": "2025-02-21",
+      "complaints": 12717
+    },
+    {
+      "date": "2025-02-22",
+      "complaints": 6807
+    },
+    {
+      "date": "2025-02-23",
+      "complaints": 5222
+    },
+    {
+      "date": "2025-02-24",
+      "complaints": 11946
+    },
+    {
+      "date": "2025-02-25",
+      "complaints": 14958
+    },
+    {
+      "date": "2025-02-26",
+      "complaints": 15110
+    },
+    {
+      "date": "2025-02-27",
+      "complaints": 15175
+    },
+    {
+      "date": "2025-02-28",
+      "complaints": 14847
+    }
+  ]
+}
