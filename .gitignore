@@ -1,0 +1,22 @@
+.venv/
+.dashboard-env/
+__pycache__/
+.pytest_cache/
+data/raw/*
+data/processed/*
+# Verified portable models are intentionally included with the local app.
+imports/
+.superdesign/tmp/
+*.log
+*.sqlite
+*.db
+.env
+.env.*
+!.env.example
+.ruff_cache/
+**/.pbi/
+**/.DS_Store
+data/complaints.sqlite*
+reports/**/*_membership.csv
+reports/**/test_predictions.csv
+.runtime_restart_required.json
