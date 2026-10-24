@@ -1,0 +1,32 @@
+table Products
+	lineageTag: f3f6ff7a-416f-44d6-828d-b78cbae9e220
+
+	column 'Product ID'
+		dataType: int64
+		isHidden
+		isKey
+		lineageTag: fac7a51f-fed9-4093-b181-0316b303569f
+		summarizeBy: none
+		sourceColumn: Product ID
+
+	column Product
+		dataType: string
+		lineageTag: 950445fe-4069-4778-bdc5-13a73e028d2f
+		summarizeBy: none
+		sourceColumn: Product
+
+	column 'Product Short'
+		dataType: string
+		lineageTag: b9d4e70d-5dac-47aa-b7cc-b8830d62f6b9
+		summarizeBy: none
+		sourceColumn: Product Short
+
+	partition Products = m
+		mode: import
+		source =
+				let
+				    Snapshot = Json.Document(Binary.Decompress(Binary.FromText("ZVLLasQwDPwVo7Nhu3333F4LC4VeQg6qo03MOnaQnUD+vnIe26R7k2ZGo4ddFEcN7w2Zi/W1CqwiDhJFhcaE3ifYsIeVhFIX90IwVTYpg1zBPhP+4YowdYHTYh9SQ6w64hg8OmWCj30ryCyKcFuVzR41fNCPmAfnyCQbPNwiontaUGlkZpsWPdbU0rTJxG0QqXjW8Bk8jSox+ngm1mqwnPo8W89M3ow627WTKBIP1hD8L5ou8pJRTrW4wyYU5lXDCccKR+UCeq2STY6W+HqKOZVWWA3ozcyL0WkVHFT3ZzJ1fBNW7oS2Wh9hl4rieKfhK/WVbLv67dIskQ/wTY01y0h5BEcY8xIrfrY+jwRl+Qs=", BinaryEncoding.Base64), Compression.Deflate)),
+				    Rows = Table.FromRows(Snapshot, {"Product ID", "Product", "Product Short"}),
+				    Typed = Table.TransformColumnTypes(Rows, {{"Product ID", Int64.Type}, {"Product", type text}, {"Product Short", type text}}, "en-US")
+				in
+				    Typed

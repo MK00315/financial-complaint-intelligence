@@ -1,0 +1,32 @@
+table Issues
+	lineageTag: 3f989644-1d6f-441d-8cf0-a4829fc4a949
+
+	column 'Issue ID'
+		dataType: int64
+		isHidden
+		isKey
+		lineageTag: f9640e5e-00ae-40f0-b634-e022977ffbee
+		summarizeBy: none
+		sourceColumn: Issue ID
+
+	column Issue
+		dataType: string
+		lineageTag: ae55de2c-a985-4a31-8b13-e506d1a2e444
+		summarizeBy: none
+		sourceColumn: Issue
+
+	column Product
+		dataType: string
+		lineageTag: 3febc8a6-9ba4-4e63-b971-b6a62875c982
+		summarizeBy: none
+		sourceColumn: Product
+
+	partition Issues = m
+		mode: import
+		source =
+				let
+				    Snapshot = Json.Document(Binary.Decompress(Binary.FromText("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", BinaryEncoding.Base64), Compression.Deflate)),
+				    Rows = Table.FromRows(Snapshot, {"Issue ID", "Issue", "Product"}),
+				    Typed = Table.TransformColumnTypes(Rows, {{"Issue ID", Int64.Type}, {"Issue", type text}, {"Product", type text}}, "en-US")
+				in
+				    Typed

@@ -1,0 +1,67 @@
+table Splits
+	lineageTag: 53ec3b96-4df3-4e7b-92a5-b818dd14c796
+
+	measure 'Narratives in Split' = SUM('Splits'[Rows])
+		formatString: #,##0
+		lineageTag: 2fdbac67-2afa-4309-8e2c-ca17b6909cd0
+
+	column Split
+		dataType: string
+		lineageTag: 2a011a6e-e666-40d0-b782-932962084dcd
+		summarizeBy: none
+		sourceColumn: Split
+		sortByColumn: Order
+
+	column Rows
+		dataType: int64
+		lineageTag: 8cf715c1-7a23-4265-9c36-539c5eef86a0
+		summarizeBy: sum
+		sourceColumn: Rows
+
+		annotation SummarizationSetBy = Automatic
+
+	column From
+		dataType: dateTime
+		formatString: dd MMM yyyy
+		lineageTag: c3106f98-d2f2-4f16-997e-fdb24ab89e1e
+		summarizeBy: none
+		sourceColumn: From
+
+		variation Variation
+			isDefault
+			relationship: 5bf91187-9d03-4079-a422-912bd96d6f10
+			defaultHierarchy: LocalDateTable_ab6f1351-9c5f-4cd8-9e16-cb6bdf3f01ab.'Date Hierarchy'
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column To
+		dataType: dateTime
+		formatString: dd MMM yyyy
+		lineageTag: e2e5d89c-79cd-4d6c-9d31-70dd52219453
+		summarizeBy: none
+		sourceColumn: To
+
+		variation Variation
+			isDefault
+			relationship: 31784773-29fb-40fe-acc0-f14081469670
+			defaultHierarchy: LocalDateTable_10447894-9d91-4922-81cc-656525cd6698.'Date Hierarchy'
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Order
+		dataType: int64
+		lineageTag: bb3482fd-e038-42da-bb8d-0a81a6788f33
+		summarizeBy: sum
+		sourceColumn: Order
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Splits = m
+		mode: import
+		source =
+				let
+				    Snapshot = Json.Document(Binary.Decompress(Binary.FromText("TcuxCoAwDATQf8mcQpJaNf9RXEqHgg4FUdD+P8ZBLNxy3LuUIF6lHoBMrD4gCElwxBb4ijhSAxkTLGWva2n1tIcOzD9h6jyPgPL6uN3NrsErdevUUZkBfc4P", BinaryEncoding.Base64), Compression.Deflate)),
+				    Rows = Table.FromRows(Snapshot, {"Split", "Rows", "From", "To", "Order"}),
+				    Typed = Table.TransformColumnTypes(Rows, {{"Split", type text}, {"Rows", Int64.Type}, {"From", type date}, {"To", type date}, {"Order", Int64.Type}}, "en-US")
+				in
+				    Typed

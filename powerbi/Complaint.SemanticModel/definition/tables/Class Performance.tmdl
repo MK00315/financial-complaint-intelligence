@@ -1,0 +1,67 @@
+table 'Class Performance'
+	lineageTag: 3a11ab69-6243-4b81-91bf-a3f8520d6c17
+
+	measure 'Class F1' = AVERAGE('Class Performance'[F1])
+		formatString: 0.000
+		lineageTag: f5943d1f-6f4f-40c9-afd6-d514e6d364b6
+
+	measure 'Class Precision' = AVERAGE('Class Performance'[Precision])
+		formatString: 0.0%
+		lineageTag: ff9201f0-edf4-4137-97fc-6487964f100e
+
+	measure 'Class Recall' = AVERAGE('Class Performance'[Recall])
+		formatString: 0.0%
+		lineageTag: 05a5edbb-fea4-4483-897c-bb09bfd370b0
+
+	measure 'Class Support' = SUM('Class Performance'[Support])
+		formatString: #,##0
+		lineageTag: adb04ab6-1545-46de-9c2c-2a91f1fa59dd
+
+	column Product
+		dataType: string
+		lineageTag: 3d9f3041-51fa-4fe6-a11b-7c6bc0a7e5ed
+		summarizeBy: none
+		sourceColumn: Product
+
+	column 'Product Short'
+		dataType: string
+		lineageTag: 3715f8c6-e134-4fe8-a7d5-af7c92bca1f0
+		summarizeBy: none
+		sourceColumn: Product Short
+
+	column Precision
+		dataType: double
+		formatString: 0.0000
+		lineageTag: c76124ba-26d5-4075-89f5-03b421d8bacc
+		summarizeBy: none
+		sourceColumn: Precision
+
+	column Recall
+		dataType: double
+		formatString: 0.0000
+		lineageTag: b852f6da-e682-449d-8377-97ec61c2e9d4
+		summarizeBy: none
+		sourceColumn: Recall
+
+	column F1
+		dataType: double
+		formatString: 0.0000
+		lineageTag: 4315e8cb-9fbf-4786-ac6a-44ad773ee283
+		summarizeBy: none
+		sourceColumn: F1
+
+	column Support
+		dataType: int64
+		lineageTag: 41d1e962-f8eb-466c-ae3d-b59caffcac75
+		summarizeBy: none
+		sourceColumn: Support
+
+	partition 'Class Performance' = m
+		mode: import
+		source =
+				let
+				    Snapshot = Json.Document(Binary.Decompress(Binary.FromText("ZVRNb9swDP0rRs9CK5L6IM/bdUCBAbsUPWiO2hpN7EJ2AuTfj5LrfGBAoEgkRb5HPvnl5eHHR+4/h/G9m0o3p5Pu5i71/XQclwdz9T5tzgdjH6OPyBxQIsVgxamJIQAjuhACOHXUKPaBCKMlBAoABjDSq9GSJe+GpetT2dUStyf7GPQGIpGnICKENZEARHAx2ihRAlWTJSDL4qxF1CpGI/gmd8lfU1m+aU3LRy7dVy7zNKZ910/jfDyoZQ2arxgutyoQ8WC9i+QlAiFWIGw9OwAEJ15hVktE50JEDUUUjkY524rjZ/6rnKb9PvfLMI1a4z+LcgVxJOiVbnCOw1rCO7QevBL0wTWulogByYG3Lnij7nipofz6Ff0hjek9H3IbXPPdWuyj9ouRPIpSiMFV+BjQ1z+mePtTGo3Er2nM524paZzfcjHdaSjLsXbwWEoe+7Op1Q8taM7lNPRZK99fanphTxIYL2ulHiC669L04nwIfF0NA60oyvKuPFrubVtFWIeknJgY9YZghFoLgYlUjYFZtJtGO1yzPKfzLp27/ZRG0y3Dss/f+4su1qMySrtTGvvVr0Wft4Cn7uuapBFzpI+ALmtVpmfvROVSpYrKrpoMSGPyrAJLw25T/v1R41xURdhtrT3x4hij17dmA0to2aJFF0UlwfWhaXIINfnv5bjTSW+o74+14STWOpWuztcLNfE6bZSQsNgItmlNMaiJQSVvo/eGQkv+J38M/XfLaov2Oc11IJv9bRhry1pPdBqCZOO6tsneTT9whWMBRD8eykRBCRoC//r6Dw==", BinaryEncoding.Base64), Compression.Deflate)),
+				    Rows = Table.FromRows(Snapshot, {"Product", "Product Short", "Precision", "Recall", "F1", "Support"}),
+				    Typed = Table.TransformColumnTypes(Rows, {{"Product", type text}, {"Product Short", type text}, {"Precision", type number}, {"Recall", type number}, {"F1", type number}, {"Support", Int64.Type}}, "en-US")
+				in
+				    Typed

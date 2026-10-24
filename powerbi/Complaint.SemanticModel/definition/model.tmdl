@@ -1,0 +1,37 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Products","Issues","Calendar","Complaints","Model","Class Performance","Confusion","Validation Models","Splits","Cleaning","Signal Weeks","Signal Details","Signal Summary"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Products
+ref table Issues
+ref table Calendar
+ref table Complaints
+ref table Model
+ref table 'Class Performance'
+ref table Confusion
+ref table 'Validation Models'
+ref table Splits
+ref table Cleaning
+ref table 'Signal Weeks'
+ref table 'Signal Details'
+ref table 'Signal Summary'
+ref table DateTableTemplate_b87f8f90-138d-4b63-8f7c-243c7c9203fa
+ref table LocalDateTable_cab0568b-c684-4c9c-874f-d4743d7831f9
+ref table LocalDateTable_c66f1302-c66d-4d8f-9a90-ad71e2a7724d
+ref table LocalDateTable_ab6f1351-9c5f-4cd8-9e16-cb6bdf3f01ab
+ref table LocalDateTable_10447894-9d91-4922-81cc-656525cd6698
+ref table LocalDateTable_7332ca22-b8cc-434a-a3c9-d44a6638159e
+ref table LocalDateTable_39f3665e-8795-4084-89dd-4da5fea6707e
+ref table LocalDateTable_72b02c77-eb17-41bc-bc99-f9356011ca97
+
+ref cultureInfo en-US

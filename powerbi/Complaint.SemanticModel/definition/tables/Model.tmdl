@@ -1,0 +1,128 @@
+table Model
+	lineageTag: 8d65ad30-9235-4cae-b397-289cc4ea39df
+
+	measure 'Test Accuracy' = MAX('Model'[Accuracy])
+		formatString: 0.00%
+		lineageTag: 1d95bb97-fdc6-4600-bec8-f60d97f8b740
+
+	measure 'Test Macro F1' = MAX('Model'[Macro F1])
+		formatString: 0.0000
+		lineageTag: 39726ceb-389c-4314-8988-af1d5e331074
+
+	measure 'Test Balanced Accuracy' = MAX('Model'[Balanced Accuracy])
+		formatString: 0.00%
+		lineageTag: 9c514e16-316e-4e44-b52d-14fe4d9a3ffc
+
+	measure 'Test Weighted F1' = MAX('Model'[Weighted F1])
+		formatString: 0.0000
+		lineageTag: 3de7c573-7250-46b9-90e4-48edc57dc23c
+
+	measure 'Held-out Narratives' = MAX('Model'[Test Rows])
+		formatString: #,##0
+		lineageTag: c591fe85-604f-452a-af58-54765ac4396e
+
+	measure 'Training Narratives' = MAX('Model'[Train Rows])
+		formatString: #,##0
+		lineageTag: e5aacfaa-024f-41fe-8b8c-51d82880d2bd
+
+	measure 'Routing Coverage' = MAX('Model'[Routing Coverage Value])
+		formatString: 0.00%
+		lineageTag: 82c18700-81a2-4796-aa05-236806dcdb82
+
+	measure 'Accepted-only Accuracy' = MAX('Model'[Accepted Accuracy])
+		formatString: 0.00%
+		lineageTag: 04ccefcc-e04a-463c-a1b6-083c7f14b5e3
+
+	column Accuracy
+		dataType: double
+		isHidden
+		formatString: 0.0000
+		lineageTag: 96750977-14a4-4684-8afc-772ff7cb5fab
+		summarizeBy: none
+		sourceColumn: Accuracy
+
+	column 'Macro F1'
+		dataType: double
+		isHidden
+		formatString: 0.0000
+		lineageTag: c02b3ea0-3261-46e3-94e9-2c4d8c5313ea
+		summarizeBy: none
+		sourceColumn: Macro F1
+
+	column 'Balanced Accuracy'
+		dataType: double
+		isHidden
+		formatString: 0.0000
+		lineageTag: 895c0863-5571-41bf-a5d6-7d5d2e6f9836
+		summarizeBy: none
+		sourceColumn: Balanced Accuracy
+
+	column 'Weighted F1'
+		dataType: double
+		isHidden
+		formatString: 0.0000
+		lineageTag: 26a3fbd4-26cb-4ba6-9957-4591391a8929
+		summarizeBy: none
+		sourceColumn: Weighted F1
+
+	column 'Test Rows'
+		dataType: int64
+		isHidden
+		lineageTag: 6b9c582c-a70f-4a88-b8ce-eea9647cd308
+		summarizeBy: none
+		sourceColumn: Test Rows
+
+	column 'Train Rows'
+		dataType: int64
+		isHidden
+		lineageTag: 6bb7ecca-7add-4b04-a963-b0346c09d3f8
+		summarizeBy: none
+		sourceColumn: Train Rows
+
+	column 'Validation Rows'
+		dataType: int64
+		isHidden
+		lineageTag: 2bc5f332-9d4d-4675-bcd6-d7cfbb8487e2
+		summarizeBy: none
+		sourceColumn: Validation Rows
+
+	column 'Review Threshold'
+		dataType: double
+		isHidden
+		formatString: 0.0000
+		lineageTag: dbbfa69b-0b88-4bdb-a2b7-f728440d2500
+		summarizeBy: none
+		sourceColumn: Review Threshold
+
+	column 'Accepted Rows'
+		dataType: int64
+		isHidden
+		lineageTag: 34d6fcb8-ee72-47c0-a8b0-f1b6fb448b7a
+		summarizeBy: none
+		sourceColumn: Accepted Rows
+
+	column 'Routing Coverage Value'
+		dataType: double
+		isHidden
+		formatString: 0.0000
+		lineageTag: 8b7726be-4dc7-4e9d-affa-56560e218e16
+		summarizeBy: none
+		sourceColumn: Routing Coverage Value
+
+	column 'Accepted Accuracy'
+		dataType: double
+		isHidden
+		formatString: 0.0000
+		lineageTag: 4ea4f911-32c0-4b64-8f9c-b1fe52c29a85
+		summarizeBy: none
+		sourceColumn: Accepted Accuracy
+
+	partition Model = m
+		mode: import
+		source =
+				let
+				    Snapshot = Json.Document(Binary.Decompress(Binary.FromText("FYzBDcAwDAIXiipwbAdmqbr/GnWeHKd7XzzHxeiD6toI1sLTfSgOyA3lHjI7lWnHSaauJIQAW4ds04u1jUXQu5aTHKlqcZq6CdnzICYRyPuqqwKdkw6D+r4f", BinaryEncoding.Base64), Compression.Deflate)),
+				    Rows = Table.FromRows(Snapshot, {"Accuracy", "Macro F1", "Balanced Accuracy", "Weighted F1", "Test Rows", "Train Rows", "Validation Rows", "Review Threshold", "Accepted Rows", "Routing Coverage Value", "Accepted Accuracy"}),
+				    Typed = Table.TransformColumnTypes(Rows, {{"Accuracy", type number}, {"Macro F1", type number}, {"Balanced Accuracy", type number}, {"Weighted F1", type number}, {"Test Rows", Int64.Type}, {"Train Rows", Int64.Type}, {"Validation Rows", Int64.Type}, {"Review Threshold", type number}, {"Accepted Rows", Int64.Type}, {"Routing Coverage Value", type number}, {"Accepted Accuracy", type number}}, "en-US")
+				in
+				    Typed

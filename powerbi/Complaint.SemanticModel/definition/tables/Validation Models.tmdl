@@ -1,0 +1,36 @@
+table 'Validation Models'
+	lineageTag: 63e517f4-451e-4845-a76f-bbf5df866900
+
+	measure 'Validation Macro F1' = MAX('Validation Models'[Macro F1])
+		formatString: 0.0000
+		lineageTag: 67e55e2e-90ab-4b91-90f1-d8082061f728
+
+	column Model
+		dataType: string
+		lineageTag: c739c56b-7004-46e7-8ad8-498aeac7bea5
+		summarizeBy: none
+		sourceColumn: Model
+
+	column 'Macro F1'
+		dataType: double
+		formatString: 0.0000
+		lineageTag: f471b728-2d2a-40a2-a4f4-8919d3574e15
+		summarizeBy: none
+		sourceColumn: Macro F1
+
+	column Accuracy
+		dataType: double
+		formatString: 0.0000
+		lineageTag: fc587d6c-e268-4c3b-a39c-b182368a12aa
+		summarizeBy: none
+		sourceColumn: Accuracy
+
+	partition 'Validation Models' = m
+		mode: import
+		source =
+				let
+				    Snapshot = Json.Document(Binary.Decompress(Binary.FromText("FcwxDsIwDEDRq1SdK+TYsR2vsAIXqDoUFFVBbYOaLNyeZv3S++PYP+ZPPlL9da+5xDXtsR/gAsLsyUyEzAOBOxsLKSAwqDlBCdMw9re8fde4xb12z2uDDJ7IgjgVJKHmVARc8MEAEMlxc/e8pFLTuzvicsRSUt6bFlYEUgZnyowNByUVr+c1sJ+mPw==", BinaryEncoding.Base64), Compression.Deflate)),
+				    Rows = Table.FromRows(Snapshot, {"Model", "Macro F1", "Accuracy"}),
+				    Typed = Table.TransformColumnTypes(Rows, {{"Model", type text}, {"Macro F1", type number}, {"Accuracy", type number}}, "en-US")
+				in
+				    Typed

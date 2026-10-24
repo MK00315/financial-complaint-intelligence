@@ -1,0 +1,77 @@
+table 'Signal Summary'
+	lineageTag: b6d363ae-9bae-4a19-8221-41bd3f5ebb86
+
+	measure 'Signal Archive Complaints' = VAR w = [Selected Signal Week] RETURN CALCULATE(MAX('Signal Summary'[Archive Total]), 'Signal Summary'[Week] = w)
+		formatString: #,##0
+		lineageTag: 14b0357f-43b6-4997-99f6-3c2b5d8fc126
+
+	measure 'Baseline Weekly Complaints' = VAR w = [Selected Signal Week] RETURN CALCULATE(MAX('Signal Summary'[Baseline Archive Mean]), 'Signal Summary'[Week] = w)
+		formatString: #,##0.0
+		lineageTag: 0b865188-96b8-4142-ad8b-c1394bc719c5
+
+	measure 'Qualifying Signals' = VAR w = [Selected Signal Week] RETURN CALCULATE(MAX('Signal Summary'[Flags]), 'Signal Summary'[Week] = w)
+		formatString: 0
+		lineageTag: 57dba731-c623-4ab4-a21d-ae930cb3a65e
+
+	measure 'Issue Pairs Assessed' = VAR w = [Selected Signal Week] RETURN CALCULATE(MAX('Signal Summary'[Issue Pairs]), 'Signal Summary'[Week] = w)
+		formatString: 0
+		lineageTag: 5df67adc-beb1-4ad8-879f-dd4e00168a3f
+
+	column Week
+		dataType: dateTime
+		formatString: dd MMM yyyy
+		lineageTag: d8cfede3-fd35-4c7b-934f-ba2dab2ee0e3
+		summarizeBy: none
+		sourceColumn: Week
+
+		variation Variation
+			isDefault
+			relationship: 422095fa-b9e2-461b-a54c-2e732e19759d
+			defaultHierarchy: LocalDateTable_72b02c77-eb17-41bc-bc99-f9356011ca97.'Date Hierarchy'
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Archive Total'
+		dataType: int64
+		formatString: #,##0
+		lineageTag: 256e6d22-f672-4f26-a72f-b520e08c7fbe
+		summarizeBy: sum
+		sourceColumn: Archive Total
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Baseline Archive Mean'
+		dataType: double
+		formatString: #,##0.0
+		lineageTag: 4decb22b-a44a-4d6a-b3c4-05bdf29a6404
+		summarizeBy: sum
+		sourceColumn: Baseline Archive Mean
+
+		annotation SummarizationSetBy = Automatic
+
+	column Flags
+		dataType: int64
+		formatString: 0
+		lineageTag: 404f07ec-85a8-4b2f-8694-9f49d84e26ff
+		summarizeBy: sum
+		sourceColumn: Flags
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Issue Pairs'
+		dataType: int64
+		lineageTag: 81932e61-3482-40b0-8054-1bcf19c9ed4f
+		summarizeBy: sum
+		sourceColumn: Issue Pairs
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Signal Summary' = m
+		mode: import
+		source =
+				let
+				    Snapshot = Json.Document(Binary.Decompress(Binary.FromText("bcq5EYAwEAPAXi6WPfdYCNficf9tAAFDwsa7lqUnm2fzMkyyEhFRw7sIRxQ3vhRukMQTzwn9J91p0IUpHtnfsi8=", BinaryEncoding.Base64), Compression.Deflate)),
+				    Rows = Table.FromRows(Snapshot, {"Week", "Archive Total", "Baseline Archive Mean", "Flags", "Issue Pairs"}),
+				    Typed = Table.TransformColumnTypes(Rows, {{"Week", type date}, {"Archive Total", Int64.Type}, {"Baseline Archive Mean", type number}, {"Flags", Int64.Type}, {"Issue Pairs", Int64.Type}}, "en-US")
+				in
+				    Typed

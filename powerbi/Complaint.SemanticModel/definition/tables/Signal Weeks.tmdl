@@ -1,0 +1,36 @@
+table 'Signal Weeks'
+	lineageTag: 13595594-0e13-42a7-afb0-1e05a8459406
+
+	measure 'Selected Signal Week' = SELECTEDVALUE('Signal Weeks'[Week], MAX('Signal Weeks'[Week]))
+		formatString: dd MMM yyyy
+		lineageTag: 355f5282-c08d-423a-ab5b-a218170d98bd
+
+	column Week
+		dataType: dateTime
+		formatString: dd MMM yyyy
+		lineageTag: ba24aa28-d398-4da3-b189-57fcfdfb0d38
+		summarizeBy: none
+		sourceColumn: Week
+
+		variation Variation
+			isDefault
+			relationship: 7297eaf4-aea7-476b-b1b4-dfcbfa7c06fa
+			defaultHierarchy: LocalDateTable_7332ca22-b8cc-434a-a3c9-d44a6638159e.'Date Hierarchy'
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Week Label'
+		dataType: string
+		lineageTag: da19fbdd-bafd-4b9b-b610-bd6aef165393
+		summarizeBy: none
+		sourceColumn: Week Label
+
+	partition 'Signal Weeks' = m
+		mode: import
+		source =
+				let
+				    Snapshot = Json.Document(Binary.Decompress(Binary.FromText("i45WMjIwMtU1MNI1MFbSUTIwVnBLTVIAiSnF6iAkDQ2AkoYGOCTNQZLmSJKxAA==", BinaryEncoding.Base64), Compression.Deflate)),
+				    Rows = Table.FromRows(Snapshot, {"Week", "Week Label"}),
+				    Typed = Table.TransformColumnTypes(Rows, {{"Week", type date}, {"Week Label", type text}}, "en-US")
+				in
+				    Typed

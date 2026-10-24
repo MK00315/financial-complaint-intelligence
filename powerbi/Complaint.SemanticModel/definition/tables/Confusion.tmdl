@@ -1,0 +1,56 @@
+table Confusion
+	lineageTag: d82e2bf8-b928-45cd-958c-1dfc846bd3a7
+
+	measure 'Confusion Cases' = SUM('Confusion'[Cases])
+		formatString: #,##0
+		lineageTag: c769ad83-c80e-4deb-bbfb-bf6756ed4e3f
+
+	measure 'Confusion Row Share' = DIVIDE([Confusion Cases], CALCULATE([Confusion Cases], REMOVEFILTERS('Confusion'[Predicted], 'Confusion'[Predicted Short], 'Confusion'[Predicted Code])))
+		formatString: 0.0%
+		lineageTag: 946b2981-db79-4866-95b3-57cd54667022
+
+	column Actual
+		dataType: string
+		lineageTag: 56299271-7d36-4aba-bcba-30a47e09ae70
+		summarizeBy: none
+		sourceColumn: Actual
+
+	column 'Actual Short'
+		dataType: string
+		lineageTag: 73b6afe7-abd0-4570-afb2-84c690e28cb8
+		summarizeBy: none
+		sourceColumn: Actual Short
+
+	column Predicted
+		dataType: string
+		lineageTag: a224f27e-4ff4-4ca0-8a93-1058be478619
+		summarizeBy: none
+		sourceColumn: Predicted
+
+	column 'Predicted Short'
+		dataType: string
+		lineageTag: 01915ccd-5100-4d5e-974a-d79ab999c07a
+		summarizeBy: none
+		sourceColumn: Predicted Short
+
+	column Cases
+		dataType: int64
+		lineageTag: a0f52018-7a38-4064-bd49-702426215e5e
+		summarizeBy: none
+		sourceColumn: Cases
+
+	column 'Predicted Code'
+		dataType: string
+		lineageTag: 95934582-9358-4327-b80d-4fbb2a236f75
+		summarizeBy: none
+		sourceColumn: Predicted Code
+
+	partition Confusion = m
+		mode: import
+		source =
+				let
+				    Snapshot = Json.Document(Binary.Decompress(Binary.FromText("tZpLb6MwFIX/Cso6Unk/lqNpNbNop1Hb6abqgiFuiyaBipBI+fdjmmZ8C+Zy8WMXHHzODfH5sA1PT4vvb6z4W1avTt04u/zAP+2cvCjqfdUuluLbi/OXsJHcxXODbLm4//a4eF6qWTZsXbZOkTfr/lHm8Ya7S03lhr3XTfvZtW7fWOO8s2ZXV/nGKepqt9/yltNJsl6Lpe93ZaxUy7hkf/gPqjcbVrRlXclaUt719lrLgJ9enCrf5lX+yrbso8PHd7Al4G03P1StbuqKHZ22yavdC2uWzqFs2n13HfdNw6riuOy0th8n7VhzKAs26MRlYpc3PtypF9G0r/wHffnIL+HNrbLkKj+u86OzqfNq6bRlu2Gfn/+PlNMhV8zXh7wqTt93Pc8nXDjvQqQLBh81q+tfyhXxAZiX63Muvh76/F9c3V2pat+3+zUfDOef8PWQZ+7+4beq9CN7K4vPq9d127B8x0D7S1l1V4+PAd529fNkM04AhRKiCOAIU0a4E/gAPNO9tAkTQ8IgfgSURJAlU1JUaPgAGoimGTpkAA6omYQCMaAA0tdC3H0PxB2zxnLtJSDXiAgaYB8EGNEgJ9ULB1HVHvAKue4y2cu1gTLGL5CfegMIGDPUJ0aapQNm6JdHmavEyYAwhozJOPIGPNKvwAy80gG8TFQmIV2SDFCn72SBi2E84KKBOlGIDhiqb4jPmMIhcvUt6XxOEwFoQoBVFnmBYC/JYRyrcSqoOkNKfxHX3cbOvKQYE1q8OAIsJEtQMecBzFHEzRDMEwSjmUrg5IHVGEXExnwsFdwhlUBECkULp4UrYEERI3MgiHsYoI4zBSD4PR7QrcbJ0AfDXE1tRKQ9QJALIPyNftYDxTxxlZnRPBsz8HB78JhhL8FI1KMIWc0CT6IeTui1zAELWRVFTJ8wZFX6nEOgxszAUZmUZIBCpqoYx1MI9oTMummDyxPgMlQZgWixAJpJU+pYDQXoDNmbkYkCsAQ0VpkEjoGAoyEbC9QEkzBTRaI4DQVPDflR98oN2ZEJHEICS4aHAlATiFOpJLKsg3BE+upvfEHWyYzmomtUg0oiF5JIpmZ8XTZmI6NElkFOyE628ezLhbmXmmIxdmGKZb2p+9/y3uSM+SJjFi6SQkJTkVArBY3n24tEwC1aa+MhE3iwUSZlUwg8gLNWgsIsyUYtxheNdorEHxTa8LTB1G4T9gxVKzUTkWzDGwV6IIBuw5u+6AX77OjFUlnMxgDtuDYC6QRAmiJicuWJG1LACbg5raUwO8NVDc3SfACzCT8JllyAJbS3hSCAOduEN3YYZ4AUaD/qFhauQk6vK8KLOqu8miCyOyGNvG4gokvS0I9uJLKLO1KyG4jwEsTIT8BEeHFV40usKTtJdn2RXby3hewmIrsT3sSbPK6C3659EF68o8pKjNxH5d1BEeQZNsgNGbxCNFtQP+GJSDjdnZJ2X6R9prBC8ukOxpcjc6zxd5LpShbokAk6zKiDSAq6InUrla5I50d0fmL1/A8=", BinaryEncoding.Base64), Compression.Deflate)),
+				    Rows = Table.FromRows(Snapshot, {"Actual", "Actual Short", "Predicted", "Predicted Short", "Cases", "Predicted Code"}),
+				    Typed = Table.TransformColumnTypes(Rows, {{"Actual", type text}, {"Actual Short", type text}, {"Predicted", type text}, {"Predicted Short", type text}, {"Cases", Int64.Type}, {"Predicted Code", type text}}, "en-US")
+				in
+				    Typed

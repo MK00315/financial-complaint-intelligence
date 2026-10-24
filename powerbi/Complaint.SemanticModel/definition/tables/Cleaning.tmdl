@@ -1,0 +1,35 @@
+table Cleaning
+	lineageTag: f824d4c2-c21a-4136-ac51-b4cbc5424a10
+
+	measure 'Rows at Stage' = SUM('Cleaning'[Rows])
+		formatString: #,##0
+		lineageTag: 60efd826-969f-42c0-8a42-4317e0ceb377
+
+	column Stage
+		dataType: string
+		lineageTag: 5954d8e4-1e36-41ae-b592-da87117d5d53
+		summarizeBy: none
+		sourceColumn: Stage
+		sortByColumn: Order
+
+	column Rows
+		dataType: int64
+		lineageTag: 58e73a9d-3871-4174-b644-b6b5be077ac3
+		summarizeBy: none
+		sourceColumn: Rows
+
+	column Order
+		dataType: int64
+		lineageTag: 871b8ade-2e39-494c-8fab-b578bfc57242
+		summarizeBy: none
+		sourceColumn: Order
+
+	partition Cleaning = m
+		mode: import
+		source =
+				let
+				    Snapshot = Json.Document(Binary.Decompress(Binary.FromText("Pc0xDgIhEIXhqxDqKRiWRS0tPIKxIBS4TpZJEBXHzR7fpdD6//JeCPrYpswL3dT0uD9L4ipvDXtEgwfACEFfWLKqqbUkm1NCq2iwfnRmBNvBqfDM10KqUJ0l92jROBh6PFd+fUjRz/yHthe0fjd4cDF+AQ==", BinaryEncoding.Base64), Compression.Deflate)),
+				    Rows = Table.FromRows(Snapshot, {"Stage", "Rows", "Order"}),
+				    Typed = Table.TransformColumnTypes(Rows, {{"Stage", type text}, {"Rows", Int64.Type}, {"Order", Int64.Type}}, "en-US")
+				in
+				    Typed

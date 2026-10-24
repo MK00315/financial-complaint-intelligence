@@ -1,0 +1,46 @@
+relationship 811f8f94-c27a-53a2-82d5-e7190da19cc9
+	fromColumn: Complaints.'Product ID'
+	toColumn: Products.'Product ID'
+
+relationship 16f3ae8d-83a8-5916-aa7b-b0ae8fbc439c
+	fromColumn: Complaints.'Issue ID'
+	toColumn: Issues.'Issue ID'
+
+relationship 47fab5ec-f604-53ed-b7ad-cdf44e0f2263
+	fromColumn: Complaints.Date
+	toColumn: Calendar.Date
+
+relationship 702cb6bc-ccb2-4581-bd7c-06eff680201d
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendar.Date
+	toColumn: LocalDateTable_cab0568b-c684-4c9c-874f-d4743d7831f9.Date
+
+relationship 203626ee-cee8-46ff-b163-227328b1b318
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Calendar.'Week Start'
+	toColumn: LocalDateTable_c66f1302-c66d-4d8f-9a90-ad71e2a7724d.Date
+
+relationship 5bf91187-9d03-4079-a422-912bd96d6f10
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Splits.From
+	toColumn: LocalDateTable_ab6f1351-9c5f-4cd8-9e16-cb6bdf3f01ab.Date
+
+relationship 31784773-29fb-40fe-acc0-f14081469670
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Splits.To
+	toColumn: LocalDateTable_10447894-9d91-4922-81cc-656525cd6698.Date
+
+relationship 7297eaf4-aea7-476b-b1b4-dfcbfa7c06fa
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Signal Weeks'.Week
+	toColumn: LocalDateTable_7332ca22-b8cc-434a-a3c9-d44a6638159e.Date
+
+relationship bdd97974-f096-459b-a35b-cc855c9d954b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Signal Details'.Week
+	toColumn: LocalDateTable_39f3665e-8795-4084-89dd-4da5fea6707e.Date
+
+relationship 422095fa-b9e2-461b-a54c-2e732e19759d
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Signal Summary'.Week
+	toColumn: LocalDateTable_72b02c77-eb17-41bc-bc99-f9356011ca97.Date

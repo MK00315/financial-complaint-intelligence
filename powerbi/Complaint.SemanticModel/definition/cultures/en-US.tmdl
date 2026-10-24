@@ -1,0 +1,178 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "signal_details.issue_week_complaints": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Signal Details",
+			          "ConceptualProperty": "Issue Week Complaints"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Week count": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "signal_details.issue_baseline_mean": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Signal Details",
+			          "ConceptualProperty": "Issue Baseline Mean"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Baseline mean": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "signal_details.issue_volume_multiple": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Signal Details",
+			          "ConceptualProperty": "Issue Volume Multiple"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Volume multiple": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "signal_details.issue_share_growth_pp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Signal Details",
+			          "ConceptualProperty": "Issue Share Growth pp"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Share change (pp)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "products.product_short": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Products",
+			          "ConceptualProperty": "Product Short"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Product": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "signal_details.product_short": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Signal Details",
+			          "ConceptualProperty": "Product Short"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Product": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "confusion.actual_short": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Confusion",
+			          "ConceptualProperty": "Actual Short"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Actual product": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "class_performance.product_short": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Class Performance",
+			          "ConceptualProperty": "Product Short"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Product": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
