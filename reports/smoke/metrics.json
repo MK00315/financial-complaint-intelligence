@@ -1,0 +1,375 @@
+{
+  "pipeline_version": "1.1.0",
+  "profile": "smoke",
+  "execution_environment": "local_notebook_qa",
+  "execution_time_utc": "2026-10-23T23:49:17.503136+00:00",
+  "python_version": "3.13.15",
+  "sklearn_version": "1.9.1",
+  "pandas_version": "3.1.0",
+  "numpy_version": "2.5.4",
+  "selected_model": "logistic_regression",
+  "selection_metric": "validation macro-F1; test used only after model and routing-threshold selection",
+  "training_cap_per_class": 250,
+  "comparison_to_capped": null,
+  "validation_models": [
+    {
+      "model": "majority_baseline",
+      "accuracy": 0.0954653937947494,
+      "balanced_accuracy": 0.09090909090909091,
+      "macro_f1": 0.01584472172707467,
+      "weighted_f1": 0.016638848591677458,
+      "fit_and_validation_seconds": 1.19
+    },
+    {
+      "model": "complement_naive_bayes",
+      "accuracy": 0.639618138424821,
+      "balanced_accuracy": 0.6382575757575757,
+      "macro_f1": 0.6277978531290697,
+      "weighted_f1": 0.6352526141128475,
+      "fit_and_validation_seconds": 0.97
+    },
+    {
+      "model": "logistic_regression",
+      "accuracy": 0.6825775656324582,
+      "balanced_accuracy": 0.6766807687262234,
+      "macro_f1": 0.6752982467086899,
+      "weighted_f1": 0.6830234630770908,
+      "fit_and_validation_seconds": 1.71
+    }
+  ],
+  "test": {
+    "accuracy": 0.6568181818181819,
+    "balanced_accuracy": 0.6568181818181819,
+    "macro_f1": 0.6529997710549758,
+    "weighted_f1": 0.6529997710549759
+  },
+  "test_baseline": {
+    "accuracy": 0.09090909090909091,
+    "balanced_accuracy": 0.09090909090909091,
+    "macro_f1": 0.01515151515151515,
+    "weighted_f1": 0.01515151515151515
+  },
+  "classification_report": {
+    "Checking or savings account": {
+      "precision": 0.6097560975609756,
+      "recall": 0.625,
+      "f1-score": 0.6172839506172839,
+      "support": 80.0
+    },
+    "Credit card": {
+      "precision": 0.5047619047619047,
+      "recall": 0.6625,
+      "f1-score": 0.572972972972973,
+      "support": 80.0
+    },
+    "Credit reporting or other personal consumer reports": {
+      "precision": 0.7108433734939759,
+      "recall": 0.7375,
+      "f1-score": 0.7239263803680982,
+      "support": 80.0
+    },
+    "Debt collection": {
+      "precision": 0.5934065934065934,
+      "recall": 0.675,
+      "f1-score": 0.631578947368421,
+      "support": 80.0
+    },
+    "Debt or credit management": {
+      "precision": 0.5849056603773585,
+      "recall": 0.3875,
+      "f1-score": 0.46616541353383456,
+      "support": 80.0
+    },
+    "Money transfer, virtual currency, or money service": {
+      "precision": 0.9642857142857143,
+      "recall": 0.3375,
+      "f1-score": 0.5,
+      "support": 80.0
+    },
+    "Mortgage": {
+      "precision": 0.797752808988764,
+      "recall": 0.8875,
+      "f1-score": 0.8402366863905325,
+      "support": 80.0
+    },
+    "Payday loan, title loan, personal loan, or advance loan": {
+      "precision": 0.48214285714285715,
+      "recall": 0.675,
+      "f1-score": 0.5625,
+      "support": 80.0
+    },
+    "Prepaid card": {
+      "precision": 0.625,
+      "recall": 0.8125,
+      "f1-score": 0.7065217391304348,
+      "support": 80.0
+    },
+    "Student loan": {
+      "precision": 0.9833333333333333,
+      "recall": 0.7375,
+      "f1-score": 0.8428571428571429,
+      "support": 80.0
+    },
+    "Vehicle loan or lease": {
+      "precision": 0.7534246575342466,
+      "recall": 0.6875,
+      "f1-score": 0.7189542483660131,
+      "support": 80.0
+    },
+    "accuracy": 0.6568181818181819,
+    "macro avg": {
+      "precision": 0.6917830000805204,
+      "recall": 0.6568181818181819,
+      "f1-score": 0.6529997710549758,
+      "support": 880.0
+    },
+    "weighted avg": {
+      "precision": 0.6917830000805203,
+      "recall": 0.6568181818181819,
+      "f1-score": 0.6529997710549759,
+      "support": 880.0
+    }
+  },
+  "labels": [
+    "Checking or savings account",
+    "Credit card",
+    "Credit reporting or other personal consumer reports",
+    "Debt collection",
+    "Debt or credit management",
+    "Money transfer, virtual currency, or money service",
+    "Mortgage",
+    "Payday loan, title loan, personal loan, or advance loan",
+    "Prepaid card",
+    "Student loan",
+    "Vehicle loan or lease"
+  ],
+  "confusion_matrix": [
+    [
+      50,
+      15,
+      1,
+      0,
+      1,
+      0,
+      0,
+      4,
+      9,
+      0,
+      0
+    ],
+    [
+      3,
+      53,
+      3,
+      4,
+      2,
+      0,
+      0,
+      5,
+      9,
+      0,
+      1
+    ],
+    [
+      0,
+      3,
+      59,
+      11,
+      4,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2
+    ],
+    [
+      1,
+      4,
+      5,
+      54,
+      4,
+      0,
+      1,
+      9,
+      0,
+      0,
+      2
+    ],
+    [
+      0,
+      7,
+      7,
+      14,
+      31,
+      0,
+      6,
+      12,
+      2,
+      0,
+      1
+    ],
+    [
+      21,
+      9,
+      0,
+      0,
+      1,
+      27,
+      0,
+      2,
+      18,
+      0,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      71,
+      5,
+      0,
+      0,
+      3
+    ],
+    [
+      2,
+      4,
+      0,
+      2,
+      5,
+      0,
+      6,
+      54,
+      1,
+      1,
+      5
+    ],
+    [
+      4,
+      6,
+      0,
+      0,
+      1,
+      1,
+      1,
+      2,
+      65,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      4,
+      5,
+      0,
+      0,
+      1,
+      7,
+      0,
+      59,
+      2
+    ],
+    [
+      1,
+      2,
+      4,
+      1,
+      3,
+      0,
+      2,
+      12,
+      0,
+      0,
+      55
+    ]
+  ],
+  "routing": {
+    "threshold": 0.4,
+    "validation_target_accuracy": 0.85,
+    "validation_target_met": true,
+    "test_coverage": 0.42159090909090907,
+    "test_accepted": 371,
+    "test_accuracy_when_accepted": 0.862533692722372,
+    "score_note": "Uncalibrated model score; not a guaranteed probability. Review route is a demonstration, not autonomous financial decision-making."
+  },
+  "threshold_search": [
+    {
+      "threshold": 0.4,
+      "coverage": 0.46420047732696895,
+      "accepted": 389,
+      "accuracy_when_accepted": 0.8868894601542416
+    },
+    {
+      "threshold": 0.45,
+      "coverage": 0.39737470167064437,
+      "accepted": 333,
+      "accuracy_when_accepted": 0.8978978978978979
+    },
+    {
+      "threshold": 0.5,
+      "coverage": 0.33651551312649164,
+      "accepted": 282,
+      "accuracy_when_accepted": 0.9219858156028369
+    },
+    {
+      "threshold": 0.55,
+      "coverage": 0.29832935560859186,
+      "accepted": 250,
+      "accuracy_when_accepted": 0.936
+    },
+    {
+      "threshold": 0.6,
+      "coverage": 0.2553699284009546,
+      "accepted": 214,
+      "accuracy_when_accepted": 0.9532710280373832
+    },
+    {
+      "threshold": 0.65,
+      "coverage": 0.2159904534606205,
+      "accepted": 181,
+      "accuracy_when_accepted": 0.9502762430939227
+    },
+    {
+      "threshold": 0.7,
+      "coverage": 0.1801909307875895,
+      "accepted": 151,
+      "accuracy_when_accepted": 0.9536423841059603
+    },
+    {
+      "threshold": 0.75,
+      "coverage": 0.1467780429594272,
+      "accepted": 123,
+      "accuracy_when_accepted": 0.9512195121951219
+    },
+    {
+      "threshold": 0.8,
+      "coverage": 0.10501193317422435,
+      "accepted": 88,
+      "accuracy_when_accepted": 0.9431818181818182
+    },
+    {
+      "threshold": 0.85,
+      "coverage": 0.07756563245823389,
+      "accepted": 65,
+      "accuracy_when_accepted": 0.9692307692307692
+    },
+    {
+      "threshold": 0.9,
+      "coverage": 0.05369928400954654,
+      "accepted": 45,
+      "accuracy_when_accepted": 1.0
+    },
+    {
+      "threshold": 0.95,
+      "coverage": 0.03937947494033413,
+      "accepted": 33,
+      "accuracy_when_accepted": 1.0
+    }
+  ],
+  "evidence_status": "Smoke profile executed in local_notebook_qa; small pipeline check, not final population performance."
+}

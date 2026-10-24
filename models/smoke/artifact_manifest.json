@@ -1,0 +1,8 @@
+{
+  "model_sha256": "2bf0c0cf4404b1c2d27b8010dd7fda60fb8a5e75086d6f9b85482151c63eb75d",
+  "profile": "smoke",
+  "execution_environment": "local_notebook_qa",
+  "sklearn_version": "1.9.1",
+  "python_version": "3.13.15",
+  "warning": "Only load joblib files you generated or trust."
+}
