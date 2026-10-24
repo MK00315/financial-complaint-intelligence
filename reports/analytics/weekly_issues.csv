@@ -1,0 +1,1025 @@
+week,product,issue,complaints
+2024-12-30,Checking or savings account,Closing an account,92
+2024-12-30,Checking or savings account,Incorrect information on your report,1
+2024-12-30,Checking or savings account,Managing an account,368
+2024-12-30,Checking or savings account,Opening an account,71
+2024-12-30,Checking or savings account,Problem caused by your funds being low,75
+2024-12-30,Checking or savings account,Problem with a company's investigation into an existing problem,3
+2024-12-30,Checking or savings account,Problem with a lender or other company charging your account,84
+2024-12-30,Credit card,"Advertising and marketing, including promotional offers",41
+2024-12-30,Credit card,Closing your account,76
+2024-12-30,Credit card,Credit monitoring or identity theft protection services,5
+2024-12-30,Credit card,Fees or interest,119
+2024-12-30,Credit card,Getting a credit card,104
+2024-12-30,Credit card,Improper use of your report,18
+2024-12-30,Credit card,Incorrect information on your report,179
+2024-12-30,Credit card,"Other features, terms, or problems",113
+2024-12-30,Credit card,Problem when making payments,61
+2024-12-30,Credit card,Problem with a company's investigation into an existing problem,139
+2024-12-30,Credit card,Problem with a purchase shown on your statement,175
+2024-12-30,Credit card,Problem with fraud alerts or security freezes,1
+2024-12-30,Credit card,Struggling to pay your bill,11
+2024-12-30,Credit card,Trouble using your card,30
+2024-12-30,Credit card,Unable to get your credit report or credit score,1
+2024-12-30,Credit reporting or other personal consumer reports,Credit monitoring or identity theft protection services,101
+2024-12-30,Credit reporting or other personal consumer reports,Identity theft protection or other monitoring services,12
+2024-12-30,Credit reporting or other personal consumer reports,Improper use of your report,11073
+2024-12-30,Credit reporting or other personal consumer reports,Incorrect information on your report,21888
+2024-12-30,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing issue,39
+2024-12-30,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing problem,6529
+2024-12-30,Credit reporting or other personal consumer reports,Problem with fraud alerts or security freezes,84
+2024-12-30,Credit reporting or other personal consumer reports,Unable to get your credit report or credit score,126
+2024-12-30,Debt collection,Attempts to collect debt not owed,1280
+2024-12-30,Debt collection,Communication tactics,94
+2024-12-30,Debt collection,Electronic communications,45
+2024-12-30,Debt collection,False statements or representation,503
+2024-12-30,Debt collection,Threatened to contact someone or share information improperly,28
+2024-12-30,Debt collection,Took or threatened to take negative or legal action,245
+2024-12-30,Debt collection,Written notification about debt,664
+2024-12-30,Debt or credit management,Charged upfront or unexpected fees,36
+2024-12-30,Debt or credit management,Confusing or misleading advertising or marketing,20
+2024-12-30,Debt or credit management,Confusing or missing disclosures,7
+2024-12-30,Debt or credit management,Didn't provide services promised,41
+2024-12-30,Debt or credit management,Problem with customer service,4
+2024-12-30,Debt or credit management,Unauthorized withdrawals or charges,3
+2024-12-30,"Money transfer, virtual currency, or money service",Confusing or misleading advertising or marketing,1
+2024-12-30,"Money transfer, virtual currency, or money service",Confusing or missing disclosures,8
+2024-12-30,"Money transfer, virtual currency, or money service",Fraud or scam,83
+2024-12-30,"Money transfer, virtual currency, or money service",Lost or stolen money order,2
+2024-12-30,"Money transfer, virtual currency, or money service","Managing, opening, or closing your mobile wallet account",16
+2024-12-30,"Money transfer, virtual currency, or money service",Money was not available when promised,23
+2024-12-30,"Money transfer, virtual currency, or money service",Other service problem,6
+2024-12-30,"Money transfer, virtual currency, or money service",Other transaction problem,37
+2024-12-30,"Money transfer, virtual currency, or money service",Problem adding money,1
+2024-12-30,"Money transfer, virtual currency, or money service",Problem with customer service,4
+2024-12-30,"Money transfer, virtual currency, or money service",Trouble accessing funds in your mobile or digital wallet,19
+2024-12-30,"Money transfer, virtual currency, or money service",Unauthorized transactions or other transaction problem,29
+2024-12-30,"Money transfer, virtual currency, or money service",Unexpected or other fees,3
+2024-12-30,"Money transfer, virtual currency, or money service",Wrong amount charged or received,6
+2024-12-30,Mortgage,Applying for a mortgage or refinancing an existing mortgage,18
+2024-12-30,Mortgage,Closing on a mortgage,19
+2024-12-30,Mortgage,Incorrect information on your report,9
+2024-12-30,Mortgage,Problem with a company's investigation into an existing problem,4
+2024-12-30,Mortgage,Struggling to pay mortgage,61
+2024-12-30,Mortgage,Trouble during payment process,163
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Can't contact lender or servicer,1
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Can't stop withdrawals from your bank account,3
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Charged fees or interest you didn't expect,29
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Confusing or misleading advertising or marketing,1
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Getting a line of credit,7
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Getting the loan,8
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Improper use of your report,2
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Incorrect information on your report,8
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Issues with repayment,2
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Loan payment wasn't credited to your account,4
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Problem when making payments,17
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Problem with a company's investigation into an existing problem,1
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Problem with additional add-on products or services,9
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Problem with the payoff process at the end of the loan,10
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Problems receiving the advance,3
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Received a loan you didn't apply for,4
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan",Struggling to pay your loan,18
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan","Was approved for a loan, but didn't receive money",1
+2024-12-30,"Payday loan, title loan, personal loan, or advance loan","Was approved for a loan, but didn't receive the money",1
+2024-12-30,Prepaid card,Advertising,1
+2024-12-30,Prepaid card,Problem getting a card or closing an account,13
+2024-12-30,Prepaid card,Problem with a purchase or transfer,19
+2024-12-30,Prepaid card,Problem with overdraft,1
+2024-12-30,Prepaid card,Trouble using the card,76
+2024-12-30,Prepaid card,Unexpected or other fees,6
+2024-12-30,Student loan,Dealing with your lender or servicer,172
+2024-12-30,Student loan,Getting a loan,2
+2024-12-30,Student loan,Improper use of your report,5
+2024-12-30,Student loan,Incorrect information on your report,11
+2024-12-30,Student loan,Problem with a company's investigation into an existing problem,1
+2024-12-30,Student loan,Struggling to repay your loan,65
+2024-12-30,Vehicle loan or lease,Credit monitoring or identity theft protection services,1
+2024-12-30,Vehicle loan or lease,Getting a loan or lease,37
+2024-12-30,Vehicle loan or lease,Improper use of your report,8
+2024-12-30,Vehicle loan or lease,Incorrect information on your report,25
+2024-12-30,Vehicle loan or lease,Managing the loan or lease,62
+2024-12-30,Vehicle loan or lease,Problem with a company's investigation into an existing problem,4
+2024-12-30,Vehicle loan or lease,Problems at the end of the loan or lease,28
+2024-12-30,Vehicle loan or lease,Repossession,46
+2024-12-30,Vehicle loan or lease,Struggling to pay your loan,10
+2025-01-06,Checking or savings account,Closing an account,179
+2025-01-06,Checking or savings account,Incorrect information on your report,3
+2025-01-06,Checking or savings account,Managing an account,639
+2025-01-06,Checking or savings account,Opening an account,121
+2025-01-06,Checking or savings account,Problem caused by your funds being low,75
+2025-01-06,Checking or savings account,Problem with a company's investigation into an existing problem,5
+2025-01-06,Checking or savings account,Problem with a lender or other company charging your account,150
+2025-01-06,Credit card,"Advertising and marketing, including promotional offers",64
+2025-01-06,Credit card,Closing your account,89
+2025-01-06,Credit card,Credit monitoring or identity theft protection services,5
+2025-01-06,Credit card,Fees or interest,140
+2025-01-06,Credit card,Getting a credit card,217
+2025-01-06,Credit card,Improper use of your report,23
+2025-01-06,Credit card,Incorrect information on your report,151
+2025-01-06,Credit card,"Other features, terms, or problems",171
+2025-01-06,Credit card,Problem when making payments,151
+2025-01-06,Credit card,Problem with a company's investigation into an existing problem,362
+2025-01-06,Credit card,Problem with a purchase shown on your statement,271
+2025-01-06,Credit card,Problem with fraud alerts or security freezes,1
+2025-01-06,Credit card,Struggling to pay your bill,15
+2025-01-06,Credit card,Trouble using your card,50
+2025-01-06,Credit card,Unable to get your credit report or credit score,2
+2025-01-06,Credit reporting or other personal consumer reports,Credit monitoring or identity theft protection services,204
+2025-01-06,Credit reporting or other personal consumer reports,Identity theft protection or other monitoring services,14
+2025-01-06,Credit reporting or other personal consumer reports,Improper use of your report,19746
+2025-01-06,Credit reporting or other personal consumer reports,Incorrect information on your report,43326
+2025-01-06,Credit reporting or other personal consumer reports,Managing an account,1
+2025-01-06,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing issue,60
+2025-01-06,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing problem,13429
+2025-01-06,Credit reporting or other personal consumer reports,Problem with fraud alerts or security freezes,211
+2025-01-06,Credit reporting or other personal consumer reports,Unable to get your credit report or credit score,250
+2025-01-06,Debt collection,Attempts to collect debt not owed,2133
+2025-01-06,Debt collection,Communication tactics,191
+2025-01-06,Debt collection,Electronic communications,98
+2025-01-06,Debt collection,False statements or representation,915
+2025-01-06,Debt collection,Threatened to contact someone or share information improperly,52
+2025-01-06,Debt collection,Took or threatened to take negative or legal action,432
+2025-01-06,Debt collection,Written notification about debt,997
+2025-01-06,Debt or credit management,Charged upfront or unexpected fees,42
+2025-01-06,Debt or credit management,Confusing or misleading advertising or marketing,23
+2025-01-06,Debt or credit management,Confusing or missing disclosures,15
+2025-01-06,Debt or credit management,Didn't provide services promised,43
+2025-01-06,Debt or credit management,Problem with customer service,14
+2025-01-06,Debt or credit management,Unauthorized withdrawals or charges,11
+2025-01-06,"Money transfer, virtual currency, or money service",Confusing or misleading advertising or marketing,2
+2025-01-06,"Money transfer, virtual currency, or money service",Confusing or missing disclosures,18
+2025-01-06,"Money transfer, virtual currency, or money service",Fraud or scam,127
+2025-01-06,"Money transfer, virtual currency, or money service",Incorrect exchange rate,1
+2025-01-06,"Money transfer, virtual currency, or money service",Lost or stolen money order,6
+2025-01-06,"Money transfer, virtual currency, or money service","Managing, opening, or closing your mobile wallet account",17
+2025-01-06,"Money transfer, virtual currency, or money service",Money was not available when promised,38
+2025-01-06,"Money transfer, virtual currency, or money service",Other service problem,17
+2025-01-06,"Money transfer, virtual currency, or money service",Other transaction problem,83
+2025-01-06,"Money transfer, virtual currency, or money service",Problem adding money,4
+2025-01-06,"Money transfer, virtual currency, or money service",Problem with customer service,4
+2025-01-06,"Money transfer, virtual currency, or money service",Trouble accessing funds in your mobile or digital wallet,36
+2025-01-06,"Money transfer, virtual currency, or money service",Unauthorized transactions or other transaction problem,44
+2025-01-06,"Money transfer, virtual currency, or money service",Unexpected or other fees,5
+2025-01-06,"Money transfer, virtual currency, or money service",Wrong amount charged or received,9
+2025-01-06,Mortgage,Applying for a mortgage or refinancing an existing mortgage,53
+2025-01-06,Mortgage,Closing on a mortgage,35
+2025-01-06,Mortgage,Improper use of your report,1
+2025-01-06,Mortgage,Incorrect information on your report,11
+2025-01-06,Mortgage,Problem with a company's investigation into an existing problem,4
+2025-01-06,Mortgage,Struggling to pay mortgage,103
+2025-01-06,Mortgage,Trouble during payment process,304
+2025-01-06,Mortgage,Unable to get your credit report or credit score,1
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Can't contact lender or servicer,1
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Charged fees or interest you didn't expect,61
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Confusing or misleading advertising or marketing,2
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Credit limit changed,3
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Credit monitoring or identity theft protection services,1
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Getting a line of credit,12
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Getting the loan,13
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Improper use of your report,2
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Incorrect information on your report,13
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Loan payment wasn't credited to your account,3
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Money was taken from your bank account on the wrong day or for the wrong amount,4
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Problem when making payments,36
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Problem with a company's investigation into an existing problem,2
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Problem with additional add-on products or services,10
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Problem with fraud alerts or security freezes,1
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Problem with the payoff process at the end of the loan,20
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Problems receiving the advance,2
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Received a loan you didn't apply for,6
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Struggling to pay your loan,29
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Unexpected fees,1
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Vehicle was damaged or destroyed the vehicle,1
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",Vehicle was repossessed or sold the vehicle,3
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan","Was approved for a loan, but didn't receive money",1
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan","Was approved for a loan, but didn't receive the money",4
+2025-01-06,Prepaid card,Advertising,4
+2025-01-06,Prepaid card,Problem getting a card or closing an account,22
+2025-01-06,Prepaid card,Problem with a purchase or transfer,39
+2025-01-06,Prepaid card,Trouble using the card,84
+2025-01-06,Prepaid card,Unexpected or other fees,10
+2025-01-06,Student loan,Credit monitoring or identity theft protection services,3
+2025-01-06,Student loan,Dealing with your lender or servicer,292
+2025-01-06,Student loan,Getting a loan,9
+2025-01-06,Student loan,Incorrect information on your report,19
+2025-01-06,Student loan,Issue where my lender is my school,3
+2025-01-06,Student loan,Issue with income share agreement,2
+2025-01-06,Student loan,Problem with a company's investigation into an existing problem,4
+2025-01-06,Student loan,Struggling to repay your loan,91
+2025-01-06,Student loan,Unable to get your credit report or credit score,1
+2025-01-06,Vehicle loan or lease,Credit monitoring or identity theft protection services,4
+2025-01-06,Vehicle loan or lease,Getting a loan or lease,67
+2025-01-06,Vehicle loan or lease,Improper use of your report,3
+2025-01-06,Vehicle loan or lease,Incorrect information on your report,33
+2025-01-06,Vehicle loan or lease,Managing the loan or lease,117
+2025-01-06,Vehicle loan or lease,Problem with a company's investigation into an existing problem,9
+2025-01-06,Vehicle loan or lease,Problem with fraud alerts or security freezes,1
+2025-01-06,Vehicle loan or lease,Problems at the end of the loan or lease,43
+2025-01-06,Vehicle loan or lease,Repossession,95
+2025-01-06,Vehicle loan or lease,Struggling to pay your loan,23
+2025-01-06,Vehicle loan or lease,Unable to get your credit report or credit score,1
+2025-01-13,Checking or savings account,Closing an account,263
+2025-01-13,Checking or savings account,Credit monitoring or identity theft protection services,1
+2025-01-13,Checking or savings account,Improper use of your report,2
+2025-01-13,Checking or savings account,Incorrect information on your report,1
+2025-01-13,Checking or savings account,Managing an account,5296
+2025-01-13,Checking or savings account,Opening an account,209
+2025-01-13,Checking or savings account,Problem caused by your funds being low,4854
+2025-01-13,Checking or savings account,Problem with a company's investigation into an existing problem,3
+2025-01-13,Checking or savings account,Problem with a lender or other company charging your account,323
+2025-01-13,Checking or savings account,Unable to get your credit report or credit score,1
+2025-01-13,Credit card,"Advertising and marketing, including promotional offers",69
+2025-01-13,Credit card,Closing your account,145
+2025-01-13,Credit card,Credit monitoring or identity theft protection services,4
+2025-01-13,Credit card,Fees or interest,282
+2025-01-13,Credit card,Getting a credit card,272
+2025-01-13,Credit card,Improper use of your report,26
+2025-01-13,Credit card,Incorrect information on your report,336
+2025-01-13,Credit card,"Other features, terms, or problems",205
+2025-01-13,Credit card,Problem when making payments,177
+2025-01-13,Credit card,Problem with a company's investigation into an existing problem,386
+2025-01-13,Credit card,Problem with a purchase shown on your statement,381
+2025-01-13,Credit card,Problem with fraud alerts or security freezes,4
+2025-01-13,Credit card,Struggling to pay your bill,38
+2025-01-13,Credit card,Trouble using your card,85
+2025-01-13,Credit card,Unable to get your credit report or credit score,2
+2025-01-13,Credit reporting or other personal consumer reports,Credit monitoring or identity theft protection services,309
+2025-01-13,Credit reporting or other personal consumer reports,Identity theft protection or other monitoring services,19
+2025-01-13,Credit reporting or other personal consumer reports,Improper use of your report,19859
+2025-01-13,Credit reporting or other personal consumer reports,Incorrect information on your report,43846
+2025-01-13,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing issue,75
+2025-01-13,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing problem,19315
+2025-01-13,Credit reporting or other personal consumer reports,Problem with fraud alerts or security freezes,265
+2025-01-13,Credit reporting or other personal consumer reports,Unable to get your credit report or credit score,337
+2025-01-13,Debt collection,Attempts to collect debt not owed,2141
+2025-01-13,Debt collection,Communication tactics,219
+2025-01-13,Debt collection,Electronic communications,76
+2025-01-13,Debt collection,False statements or representation,968
+2025-01-13,Debt collection,Threatened to contact someone or share information improperly,58
+2025-01-13,Debt collection,Took or threatened to take negative or legal action,576
+2025-01-13,Debt collection,Written notification about debt,1267
+2025-01-13,Debt or credit management,Charged upfront or unexpected fees,41
+2025-01-13,Debt or credit management,Confusing or misleading advertising or marketing,32
+2025-01-13,Debt or credit management,Confusing or missing disclosures,28
+2025-01-13,Debt or credit management,Didn't provide services promised,58
+2025-01-13,Debt or credit management,Problem with customer service,19
+2025-01-13,Debt or credit management,Unauthorized withdrawals or charges,20
+2025-01-13,"Money transfer, virtual currency, or money service",Confusing or misleading advertising or marketing,76
+2025-01-13,"Money transfer, virtual currency, or money service",Confusing or missing disclosures,762
+2025-01-13,"Money transfer, virtual currency, or money service",Fraud or scam,1240
+2025-01-13,"Money transfer, virtual currency, or money service",Lost or stolen money order,9
+2025-01-13,"Money transfer, virtual currency, or money service","Managing, opening, or closing your mobile wallet account",54
+2025-01-13,"Money transfer, virtual currency, or money service",Money was not available when promised,153
+2025-01-13,"Money transfer, virtual currency, or money service",Other service problem,821
+2025-01-13,"Money transfer, virtual currency, or money service",Other transaction problem,32289
+2025-01-13,"Money transfer, virtual currency, or money service","Overdraft, savings, or rewards features",11
+2025-01-13,"Money transfer, virtual currency, or money service",Problem adding money,9
+2025-01-13,"Money transfer, virtual currency, or money service",Problem with customer service,27
+2025-01-13,"Money transfer, virtual currency, or money service",Trouble accessing funds in your mobile or digital wallet,84
+2025-01-13,"Money transfer, virtual currency, or money service",Unauthorized transactions or other transaction problem,601
+2025-01-13,"Money transfer, virtual currency, or money service",Unexpected or other fees,88
+2025-01-13,"Money transfer, virtual currency, or money service",Wrong amount charged or received,96
+2025-01-13,Mortgage,Applying for a mortgage or refinancing an existing mortgage,43
+2025-01-13,Mortgage,Closing on a mortgage,32
+2025-01-13,Mortgage,Improper use of your report,2
+2025-01-13,Mortgage,Incorrect information on your report,19
+2025-01-13,Mortgage,Problem with a company's investigation into an existing problem,11
+2025-01-13,Mortgage,Struggling to pay mortgage,112
+2025-01-13,Mortgage,Trouble during payment process,294
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Can't contact lender or servicer,6
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Can't stop withdrawals from your bank account,5
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Charged fees or interest you didn't expect,86
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Confusing or misleading advertising or marketing,1
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Confusing or missing disclosures,3
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Credit monitoring or identity theft protection services,1
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Getting a line of credit,8
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Getting the loan,20
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Improper use of your report,4
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Incorrect information on your report,18
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Issues with repayment,3
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Loan payment wasn't credited to your account,6
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Money was taken from your bank account on the wrong day or for the wrong amount,5
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Problem when making payments,32
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Problem with a company's investigation into an existing problem,2
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Problem with additional add-on products or services,18
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Problem with the payoff process at the end of the loan,35
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Property was sold,1
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Received a loan you didn't apply for,11
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Struggling to pay your loan,28
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Unable to get your credit report or credit score,2
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Unexpected fees,1
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Vehicle was damaged or destroyed the vehicle,1
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",Vehicle was repossessed or sold the vehicle,5
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan","Was approved for a loan, but didn't receive money",1
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan","Was approved for a loan, but didn't receive the money",2
+2025-01-13,Prepaid card,Advertising,5
+2025-01-13,Prepaid card,Problem getting a card or closing an account,25
+2025-01-13,Prepaid card,Problem with a purchase or transfer,42
+2025-01-13,Prepaid card,Trouble using the card,91
+2025-01-13,Prepaid card,Unexpected or other fees,26
+2025-01-13,Student loan,Credit monitoring or identity theft protection services,1
+2025-01-13,Student loan,Dealing with your lender or servicer,306
+2025-01-13,Student loan,Getting a loan,23
+2025-01-13,Student loan,Improper use of your report,8
+2025-01-13,Student loan,Incorrect information on your report,20
+2025-01-13,Student loan,Issue where my lender is my school,1
+2025-01-13,Student loan,Issue with income share agreement,1
+2025-01-13,Student loan,Problem with a company's investigation into an existing problem,1
+2025-01-13,Student loan,Problem with fraud alerts or security freezes,1
+2025-01-13,Student loan,Struggling to repay your loan,116
+2025-01-13,Vehicle loan or lease,Credit monitoring or identity theft protection services,4
+2025-01-13,Vehicle loan or lease,Getting a loan or lease,89
+2025-01-13,Vehicle loan or lease,Improper use of your report,16
+2025-01-13,Vehicle loan or lease,Incorrect information on your report,34
+2025-01-13,Vehicle loan or lease,Managing the loan or lease,115
+2025-01-13,Vehicle loan or lease,Problem with a company's investigation into an existing problem,9
+2025-01-13,Vehicle loan or lease,Problem with fraud alerts or security freezes,1
+2025-01-13,Vehicle loan or lease,Problems at the end of the loan or lease,55
+2025-01-13,Vehicle loan or lease,Repossession,128
+2025-01-13,Vehicle loan or lease,Struggling to pay your loan,29
+2025-01-13,Vehicle loan or lease,Unable to get your credit report or credit score,1
+2025-01-20,Checking or savings account,Closing an account,198
+2025-01-20,Checking or savings account,Credit monitoring or identity theft protection services,2
+2025-01-20,Checking or savings account,Incorrect information on your report,2
+2025-01-20,Checking or savings account,Managing an account,1174
+2025-01-20,Checking or savings account,Opening an account,147
+2025-01-20,Checking or savings account,Problem caused by your funds being low,1975
+2025-01-20,Checking or savings account,Problem with a company's investigation into an existing problem,6
+2025-01-20,Checking or savings account,Problem with a lender or other company charging your account,247
+2025-01-20,Checking or savings account,Problem with fraud alerts or security freezes,2
+2025-01-20,Credit card,"Advertising and marketing, including promotional offers",74
+2025-01-20,Credit card,Closing your account,143
+2025-01-20,Credit card,Credit monitoring or identity theft protection services,9
+2025-01-20,Credit card,Fees or interest,213
+2025-01-20,Credit card,Getting a credit card,262
+2025-01-20,Credit card,Improper use of your report,18
+2025-01-20,Credit card,Incorrect information on your report,290
+2025-01-20,Credit card,"Other features, terms, or problems",166
+2025-01-20,Credit card,Problem when making payments,129
+2025-01-20,Credit card,Problem with a company's investigation into an existing problem,380
+2025-01-20,Credit card,Problem with a purchase shown on your statement,346
+2025-01-20,Credit card,Problem with fraud alerts or security freezes,1
+2025-01-20,Credit card,Struggling to pay your bill,16
+2025-01-20,Credit card,Trouble using your card,67
+2025-01-20,Credit reporting or other personal consumer reports,Credit monitoring or identity theft protection services,248
+2025-01-20,Credit reporting or other personal consumer reports,Identity theft protection or other monitoring services,14
+2025-01-20,Credit reporting or other personal consumer reports,Improper use of your report,20639
+2025-01-20,Credit reporting or other personal consumer reports,Incorrect information on your report,47455
+2025-01-20,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing issue,97
+2025-01-20,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing problem,24363
+2025-01-20,Credit reporting or other personal consumer reports,Problem with fraud alerts or security freezes,191
+2025-01-20,Credit reporting or other personal consumer reports,Unable to get your credit report or credit score,348
+2025-01-20,Debt collection,Attempts to collect debt not owed,2610
+2025-01-20,Debt collection,Communication tactics,260
+2025-01-20,Debt collection,Electronic communications,108
+2025-01-20,Debt collection,False statements or representation,932
+2025-01-20,Debt collection,Threatened to contact someone or share information improperly,64
+2025-01-20,Debt collection,Took or threatened to take negative or legal action,722
+2025-01-20,Debt collection,Written notification about debt,1325
+2025-01-20,Debt or credit management,Charged upfront or unexpected fees,38
+2025-01-20,Debt or credit management,Confusing or misleading advertising or marketing,19
+2025-01-20,Debt or credit management,Confusing or missing disclosures,28
+2025-01-20,Debt or credit management,Didn't provide services promised,47
+2025-01-20,Debt or credit management,Problem with customer service,14
+2025-01-20,Debt or credit management,Unauthorized withdrawals or charges,15
+2025-01-20,"Money transfer, virtual currency, or money service",Confusing or misleading advertising or marketing,30
+2025-01-20,"Money transfer, virtual currency, or money service",Confusing or missing disclosures,242
+2025-01-20,"Money transfer, virtual currency, or money service",Fraud or scam,566
+2025-01-20,"Money transfer, virtual currency, or money service",Lost or stolen money order,6
+2025-01-20,"Money transfer, virtual currency, or money service","Managing, opening, or closing your mobile wallet account",42
+2025-01-20,"Money transfer, virtual currency, or money service",Money was not available when promised,62
+2025-01-20,"Money transfer, virtual currency, or money service",Other service problem,207
+2025-01-20,"Money transfer, virtual currency, or money service",Other transaction problem,8489
+2025-01-20,"Money transfer, virtual currency, or money service","Overdraft, savings, or rewards features",2
+2025-01-20,"Money transfer, virtual currency, or money service",Problem adding money,14
+2025-01-20,"Money transfer, virtual currency, or money service",Problem with customer service,12
+2025-01-20,"Money transfer, virtual currency, or money service",Trouble accessing funds in your mobile or digital wallet,82
+2025-01-20,"Money transfer, virtual currency, or money service",Unauthorized transactions or other transaction problem,433
+2025-01-20,"Money transfer, virtual currency, or money service",Unexpected or other fees,46
+2025-01-20,"Money transfer, virtual currency, or money service",Wrong amount charged or received,38
+2025-01-20,Mortgage,Applying for a mortgage or refinancing an existing mortgage,58
+2025-01-20,Mortgage,Closing on a mortgage,48
+2025-01-20,Mortgage,Credit monitoring or identity theft protection services,1
+2025-01-20,Mortgage,Improper use of your report,2
+2025-01-20,Mortgage,Incorrect information on your report,10
+2025-01-20,Mortgage,Problem with a company's investigation into an existing problem,6
+2025-01-20,Mortgage,Struggling to pay mortgage,127
+2025-01-20,Mortgage,Trouble during payment process,243
+2025-01-20,Mortgage,Unable to get your credit report or credit score,1
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Can't contact lender or servicer,6
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Can't stop withdrawals from your bank account,2
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Charged fees or interest you didn't expect,67
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Confusing or misleading advertising or marketing,2
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Confusing or missing disclosures,2
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Credit limit changed,1
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Credit monitoring or identity theft protection services,1
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Getting a line of credit,5
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Getting the loan,26
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Improper use of your report,4
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Incorrect information on your report,16
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Issues with repayment,4
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Loan payment wasn't credited to your account,3
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Money was taken from your bank account on the wrong day or for the wrong amount,1
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Problem when making payments,22
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Problem with a company's investigation into an existing problem,8
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Problem with additional add-on products or services,13
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Problem with cash advance,1
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Problem with the payoff process at the end of the loan,18
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Problems receiving the advance,1
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Received a loan you didn't apply for,8
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Struggling to pay your loan,31
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Unexpected fees,1
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",Vehicle was repossessed or sold the vehicle,1
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan","Was approved for a loan, but didn't receive money",1
+2025-01-20,Prepaid card,Advertising,6
+2025-01-20,Prepaid card,Problem getting a card or closing an account,18
+2025-01-20,Prepaid card,Problem with a purchase or transfer,35
+2025-01-20,Prepaid card,Problem with overdraft,3
+2025-01-20,Prepaid card,Trouble using the card,76
+2025-01-20,Prepaid card,Unexpected or other fees,14
+2025-01-20,Student loan,Credit monitoring or identity theft protection services,1
+2025-01-20,Student loan,Dealing with your lender or servicer,267
+2025-01-20,Student loan,Getting a loan,5
+2025-01-20,Student loan,Improper use of your report,8
+2025-01-20,Student loan,Incorrect information on your report,24
+2025-01-20,Student loan,Issue where my lender is my school,2
+2025-01-20,Student loan,Issue with income share agreement,2
+2025-01-20,Student loan,Problem with a company's investigation into an existing problem,8
+2025-01-20,Student loan,Problem with fraud alerts or security freezes,1
+2025-01-20,Student loan,Struggling to repay your loan,429
+2025-01-20,Vehicle loan or lease,Credit monitoring or identity theft protection services,2
+2025-01-20,Vehicle loan or lease,Getting a loan or lease,82
+2025-01-20,Vehicle loan or lease,Improper use of your report,7
+2025-01-20,Vehicle loan or lease,Incorrect information on your report,40
+2025-01-20,Vehicle loan or lease,Managing the loan or lease,137
+2025-01-20,Vehicle loan or lease,Problem with a company's investigation into an existing problem,18
+2025-01-20,Vehicle loan or lease,Problems at the end of the loan or lease,47
+2025-01-20,Vehicle loan or lease,Repossession,133
+2025-01-20,Vehicle loan or lease,Struggling to pay your loan,19
+2025-01-27,Checking or savings account,Closing an account,212
+2025-01-27,Checking or savings account,Credit monitoring or identity theft protection services,1
+2025-01-27,Checking or savings account,Incorrect information on your report,2
+2025-01-27,Checking or savings account,Managing an account,927
+2025-01-27,Checking or savings account,Opening an account,131
+2025-01-27,Checking or savings account,Problem caused by your funds being low,684
+2025-01-27,Checking or savings account,Problem with a company's investigation into an existing problem,4
+2025-01-27,Checking or savings account,Problem with a lender or other company charging your account,192
+2025-01-27,Checking or savings account,Problem with fraud alerts or security freezes,1
+2025-01-27,Credit card,"Advertising and marketing, including promotional offers",65
+2025-01-27,Credit card,Closing your account,105
+2025-01-27,Credit card,Credit monitoring or identity theft protection services,5
+2025-01-27,Credit card,Fees or interest,207
+2025-01-27,Credit card,Getting a credit card,267
+2025-01-27,Credit card,Improper use of your report,22
+2025-01-27,Credit card,Incorrect information on your report,308
+2025-01-27,Credit card,"Other features, terms, or problems",183
+2025-01-27,Credit card,Problem when making payments,96
+2025-01-27,Credit card,Problem with a company's investigation into an existing problem,336
+2025-01-27,Credit card,Problem with a purchase shown on your statement,380
+2025-01-27,Credit card,Problem with fraud alerts or security freezes,2
+2025-01-27,Credit card,Struggling to pay your bill,27
+2025-01-27,Credit card,Trouble using your card,59
+2025-01-27,Credit reporting or other personal consumer reports,Credit monitoring or identity theft protection services,172
+2025-01-27,Credit reporting or other personal consumer reports,Identity theft protection or other monitoring services,9
+2025-01-27,Credit reporting or other personal consumer reports,Improper use of your report,20632
+2025-01-27,Credit reporting or other personal consumer reports,Incorrect information on your report,44005
+2025-01-27,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing issue,60
+2025-01-27,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing problem,18729
+2025-01-27,Credit reporting or other personal consumer reports,Problem with fraud alerts or security freezes,228
+2025-01-27,Credit reporting or other personal consumer reports,Problems at the end of the loan or lease,2
+2025-01-27,Credit reporting or other personal consumer reports,Unable to get your credit report or credit score,305
+2025-01-27,Debt collection,Attempts to collect debt not owed,2747
+2025-01-27,Debt collection,Communication tactics,275
+2025-01-27,Debt collection,Electronic communications,98
+2025-01-27,Debt collection,False statements or representation,758
+2025-01-27,Debt collection,Threatened to contact someone or share information improperly,69
+2025-01-27,Debt collection,Took or threatened to take negative or legal action,568
+2025-01-27,Debt collection,Written notification about debt,1328
+2025-01-27,Debt or credit management,Charged upfront or unexpected fees,15
+2025-01-27,Debt or credit management,Confusing or misleading advertising or marketing,11
+2025-01-27,Debt or credit management,Confusing or missing disclosures,9
+2025-01-27,Debt or credit management,Didn't provide services promised,33
+2025-01-27,Debt or credit management,Problem with customer service,15
+2025-01-27,Debt or credit management,Unauthorized withdrawals or charges,13
+2025-01-27,"Money transfer, virtual currency, or money service",Confusing or misleading advertising or marketing,20
+2025-01-27,"Money transfer, virtual currency, or money service",Confusing or missing disclosures,88
+2025-01-27,"Money transfer, virtual currency, or money service",Fraud or scam,441
+2025-01-27,"Money transfer, virtual currency, or money service",Lost or stolen money order,5
+2025-01-27,"Money transfer, virtual currency, or money service","Managing, opening, or closing your mobile wallet account",48
+2025-01-27,"Money transfer, virtual currency, or money service",Money was not available when promised,59
+2025-01-27,"Money transfer, virtual currency, or money service",Other service problem,85
+2025-01-27,"Money transfer, virtual currency, or money service",Other transaction problem,2040
+2025-01-27,"Money transfer, virtual currency, or money service","Overdraft, savings, or rewards features",2
+2025-01-27,"Money transfer, virtual currency, or money service",Problem adding money,7
+2025-01-27,"Money transfer, virtual currency, or money service",Problem with customer service,13
+2025-01-27,"Money transfer, virtual currency, or money service",Trouble accessing funds in your mobile or digital wallet,69
+2025-01-27,"Money transfer, virtual currency, or money service",Unauthorized transactions or other transaction problem,276
+2025-01-27,"Money transfer, virtual currency, or money service",Unexpected or other fees,23
+2025-01-27,"Money transfer, virtual currency, or money service",Wrong amount charged or received,21
+2025-01-27,Mortgage,Applying for a mortgage or refinancing an existing mortgage,36
+2025-01-27,Mortgage,Closing on a mortgage,43
+2025-01-27,Mortgage,Improper use of your report,3
+2025-01-27,Mortgage,Incorrect information on your report,13
+2025-01-27,Mortgage,Problem with a company's investigation into an existing problem,7
+2025-01-27,Mortgage,Struggling to pay mortgage,112
+2025-01-27,Mortgage,Trouble during payment process,259
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Can't contact lender or servicer,4
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Can't stop withdrawals from your bank account,6
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Charged fees or interest you didn't expect,58
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Confusing or misleading advertising or marketing,2
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Confusing or missing disclosures,1
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Credit limit changed,1
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Credit monitoring or identity theft protection services,1
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Getting a line of credit,10
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Getting the loan,13
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Improper use of your report,4
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Incorrect information on your report,16
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Issues with repayment,2
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Loan payment wasn't credited to your account,3
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Money was taken from your bank account on the wrong day or for the wrong amount,2
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Problem when making payments,27
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Problem with a company's investigation into an existing problem,4
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Problem with additional add-on products or services,14
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Problem with cash advance,1
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Problem with fraud alerts or security freezes,2
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Problem with the payoff process at the end of the loan,19
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Problems receiving the advance,1
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Received a loan you didn't apply for,5
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Struggling to pay your loan,18
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Unexpected fees,2
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Vehicle was damaged or destroyed the vehicle,1
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",Vehicle was repossessed or sold the vehicle,1
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan","Was approved for a loan, but didn't receive the money",2
+2025-01-27,Prepaid card,Advertising,5
+2025-01-27,Prepaid card,Problem getting a card or closing an account,24
+2025-01-27,Prepaid card,Problem with a purchase or transfer,53
+2025-01-27,Prepaid card,Trouble using the card,72
+2025-01-27,Prepaid card,Unexpected or other fees,28
+2025-01-27,Student loan,Dealing with your lender or servicer,244
+2025-01-27,Student loan,Getting a loan,5
+2025-01-27,Student loan,Improper use of your report,8
+2025-01-27,Student loan,Incorrect information on your report,20
+2025-01-27,Student loan,Issue with income share agreement,1
+2025-01-27,Student loan,Problem with a company's investigation into an existing problem,6
+2025-01-27,Student loan,Struggling to repay your loan,103
+2025-01-27,Vehicle loan or lease,Getting a loan or lease,55
+2025-01-27,Vehicle loan or lease,Improper use of your report,11
+2025-01-27,Vehicle loan or lease,Incorrect information on your report,37
+2025-01-27,Vehicle loan or lease,Managing the loan or lease,96
+2025-01-27,Vehicle loan or lease,Problem with a company's investigation into an existing problem,15
+2025-01-27,Vehicle loan or lease,Problems at the end of the loan or lease,54
+2025-01-27,Vehicle loan or lease,Repossession,121
+2025-01-27,Vehicle loan or lease,Struggling to pay your loan,14
+2025-01-27,Vehicle loan or lease,Unable to get your credit report or credit score,1
+2025-02-03,Checking or savings account,Closing an account,192
+2025-02-03,Checking or savings account,Improper use of your report,1
+2025-02-03,Checking or savings account,Incorrect information on your report,6
+2025-02-03,Checking or savings account,Managing an account,789
+2025-02-03,Checking or savings account,Opening an account,131
+2025-02-03,Checking or savings account,Problem caused by your funds being low,326
+2025-02-03,Checking or savings account,Problem with a company's investigation into an existing problem,5
+2025-02-03,Checking or savings account,Problem with a lender or other company charging your account,175
+2025-02-03,Checking or savings account,Unable to get your credit report or credit score,1
+2025-02-03,Credit card,"Advertising and marketing, including promotional offers",62
+2025-02-03,Credit card,Closing your account,117
+2025-02-03,Credit card,Credit monitoring or identity theft protection services,2
+2025-02-03,Credit card,Fees or interest,166
+2025-02-03,Credit card,Getting a credit card,249
+2025-02-03,Credit card,Improper use of your report,14
+2025-02-03,Credit card,Incorrect information on your report,105
+2025-02-03,Credit card,"Other features, terms, or problems",188
+2025-02-03,Credit card,Problem when making payments,112
+2025-02-03,Credit card,Problem with a company's investigation into an existing problem,409
+2025-02-03,Credit card,Problem with a purchase shown on your statement,347
+2025-02-03,Credit card,Problem with fraud alerts or security freezes,1
+2025-02-03,Credit card,Struggling to pay your bill,16
+2025-02-03,Credit card,Trouble using your card,54
+2025-02-03,Credit card,Unable to get your credit report or credit score,1
+2025-02-03,Credit reporting or other personal consumer reports,Credit monitoring or identity theft protection services,199
+2025-02-03,Credit reporting or other personal consumer reports,Identity theft protection or other monitoring services,13
+2025-02-03,Credit reporting or other personal consumer reports,Improper use of your report,20153
+2025-02-03,Credit reporting or other personal consumer reports,Incorrect information on your report,45109
+2025-02-03,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing issue,62
+2025-02-03,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing problem,16885
+2025-02-03,Credit reporting or other personal consumer reports,Problem with fraud alerts or security freezes,243
+2025-02-03,Credit reporting or other personal consumer reports,Unable to get your credit report or credit score,293
+2025-02-03,Debt collection,Attempts to collect debt not owed,2628
+2025-02-03,Debt collection,Communication tactics,189
+2025-02-03,Debt collection,Electronic communications,61
+2025-02-03,Debt collection,False statements or representation,668
+2025-02-03,Debt collection,Threatened to contact someone or share information improperly,49
+2025-02-03,Debt collection,Took or threatened to take negative or legal action,507
+2025-02-03,Debt collection,Written notification about debt,966
+2025-02-03,Debt or credit management,Charged upfront or unexpected fees,20
+2025-02-03,Debt or credit management,Confusing or misleading advertising or marketing,15
+2025-02-03,Debt or credit management,Confusing or missing disclosures,22
+2025-02-03,Debt or credit management,Didn't provide services promised,32
+2025-02-03,Debt or credit management,Problem with customer service,13
+2025-02-03,Debt or credit management,Unauthorized withdrawals or charges,9
+2025-02-03,"Money transfer, virtual currency, or money service",Confusing or misleading advertising or marketing,10
+2025-02-03,"Money transfer, virtual currency, or money service",Confusing or missing disclosures,33
+2025-02-03,"Money transfer, virtual currency, or money service",Fraud or scam,262
+2025-02-03,"Money transfer, virtual currency, or money service",Lost or stolen money order,6
+2025-02-03,"Money transfer, virtual currency, or money service","Managing, opening, or closing your mobile wallet account",32
+2025-02-03,"Money transfer, virtual currency, or money service",Money was not available when promised,47
+2025-02-03,"Money transfer, virtual currency, or money service",Other service problem,64
+2025-02-03,"Money transfer, virtual currency, or money service",Other transaction problem,1437
+2025-02-03,"Money transfer, virtual currency, or money service","Overdraft, savings, or rewards features",2
+2025-02-03,"Money transfer, virtual currency, or money service",Problem adding money,9
+2025-02-03,"Money transfer, virtual currency, or money service",Problem with customer service,9
+2025-02-03,"Money transfer, virtual currency, or money service",Trouble accessing funds in your mobile or digital wallet,51
+2025-02-03,"Money transfer, virtual currency, or money service",Unauthorized transactions or other transaction problem,155
+2025-02-03,"Money transfer, virtual currency, or money service",Unexpected or other fees,23
+2025-02-03,"Money transfer, virtual currency, or money service",Wrong amount charged or received,14
+2025-02-03,Mortgage,Applying for a mortgage or refinancing an existing mortgage,45
+2025-02-03,Mortgage,Closing on a mortgage,43
+2025-02-03,Mortgage,Credit monitoring or identity theft protection services,1
+2025-02-03,Mortgage,Improper use of your report,3
+2025-02-03,Mortgage,Incorrect information on your report,21
+2025-02-03,Mortgage,Problem with a company's investigation into an existing problem,6
+2025-02-03,Mortgage,Struggling to pay mortgage,94
+2025-02-03,Mortgage,Trouble during payment process,325
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Can't contact lender or servicer,3
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Can't stop withdrawals from your bank account,2
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Charged fees or interest you didn't expect,59
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Credit monitoring or identity theft protection services,2
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Getting a line of credit,20
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Getting the loan,18
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Improper use of your report,2
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Incorrect information on your report,14
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Issues with repayment,2
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Loan payment wasn't credited to your account,1
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Money was taken from your bank account on the wrong day or for the wrong amount,2
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Problem when making payments,24
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Problem with a company's investigation into an existing problem,3
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Problem with additional add-on products or services,17
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Problem with cash advance,1
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Problem with fraud alerts or security freezes,1
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Problem with the payoff process at the end of the loan,17
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Problems receiving the advance,1
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Received a loan you didn't apply for,2
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Struggling to pay your loan,24
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Unexpected fees,1
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Vehicle was repossessed or sold the vehicle,2
+2025-02-03,Prepaid card,Advertising,2
+2025-02-03,Prepaid card,Problem getting a card or closing an account,31
+2025-02-03,Prepaid card,Problem with a purchase or transfer,39
+2025-02-03,Prepaid card,Problem with overdraft,1
+2025-02-03,Prepaid card,Trouble using the card,69
+2025-02-03,Prepaid card,Unexpected or other fees,18
+2025-02-03,Student loan,Credit monitoring or identity theft protection services,1
+2025-02-03,Student loan,Dealing with your lender or servicer,282
+2025-02-03,Student loan,Getting a loan,7
+2025-02-03,Student loan,Improper use of your report,35
+2025-02-03,Student loan,Incorrect information on your report,26
+2025-02-03,Student loan,Issue with income share agreement,1
+2025-02-03,Student loan,Problem with a company's investigation into an existing problem,7
+2025-02-03,Student loan,Problem with fraud alerts or security freezes,2
+2025-02-03,Student loan,Struggling to repay your loan,96
+2025-02-03,Student loan,Unable to get your credit report or credit score,3
+2025-02-03,Vehicle loan or lease,Credit monitoring or identity theft protection services,1
+2025-02-03,Vehicle loan or lease,Getting a loan or lease,55
+2025-02-03,Vehicle loan or lease,Improper use of your report,24
+2025-02-03,Vehicle loan or lease,Incorrect information on your report,19
+2025-02-03,Vehicle loan or lease,Managing the loan or lease,117
+2025-02-03,Vehicle loan or lease,Problem with a company's investigation into an existing problem,4
+2025-02-03,Vehicle loan or lease,Problem with fraud alerts or security freezes,1
+2025-02-03,Vehicle loan or lease,Problems at the end of the loan or lease,37
+2025-02-03,Vehicle loan or lease,Repossession,120
+2025-02-03,Vehicle loan or lease,Struggling to pay your loan,18
+2025-02-03,Vehicle loan or lease,Unable to get your credit report or credit score,1
+2025-02-10,Checking or savings account,Closing an account,159
+2025-02-10,Checking or savings account,Credit monitoring or identity theft protection services,1
+2025-02-10,Checking or savings account,Improper use of your report,2
+2025-02-10,Checking or savings account,Incorrect information on your report,7
+2025-02-10,Checking or savings account,Managing an account,641
+2025-02-10,Checking or savings account,Opening an account,131
+2025-02-10,Checking or savings account,Problem caused by your funds being low,200
+2025-02-10,Checking or savings account,Problem with a lender or other company charging your account,111
+2025-02-10,Checking or savings account,Problem with fraud alerts or security freezes,2
+2025-02-10,Checking or savings account,Unable to get your credit report or credit score,1
+2025-02-10,Credit card,"Advertising and marketing, including promotional offers",60
+2025-02-10,Credit card,Closing your account,94
+2025-02-10,Credit card,Credit monitoring or identity theft protection services,1
+2025-02-10,Credit card,Fees or interest,164
+2025-02-10,Credit card,Getting a credit card,182
+2025-02-10,Credit card,Improper use of your report,7
+2025-02-10,Credit card,Incorrect information on your report,78
+2025-02-10,Credit card,"Other features, terms, or problems",134
+2025-02-10,Credit card,Problem when making payments,80
+2025-02-10,Credit card,Problem with a company's investigation into an existing problem,252
+2025-02-10,Credit card,Problem with a purchase shown on your statement,306
+2025-02-10,Credit card,Struggling to pay your bill,32
+2025-02-10,Credit card,Trouble using your card,46
+2025-02-10,Credit reporting or other personal consumer reports,Credit monitoring or identity theft protection services,146
+2025-02-10,Credit reporting or other personal consumer reports,Dealing with your lender or servicer,1
+2025-02-10,Credit reporting or other personal consumer reports,Identity theft protection or other monitoring services,10
+2025-02-10,Credit reporting or other personal consumer reports,Improper use of your report,16414
+2025-02-10,Credit reporting or other personal consumer reports,Incorrect information on your report,38880
+2025-02-10,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing issue,34
+2025-02-10,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing problem,12245
+2025-02-10,Credit reporting or other personal consumer reports,Problem with a purchase shown on your statement,1
+2025-02-10,Credit reporting or other personal consumer reports,Problem with fraud alerts or security freezes,145
+2025-02-10,Credit reporting or other personal consumer reports,Unable to get your credit report or credit score,220
+2025-02-10,Debt collection,Attempts to collect debt not owed,1931
+2025-02-10,Debt collection,Communication tactics,200
+2025-02-10,Debt collection,Electronic communications,57
+2025-02-10,Debt collection,False statements or representation,394
+2025-02-10,Debt collection,Threatened to contact someone or share information improperly,35
+2025-02-10,Debt collection,Took or threatened to take negative or legal action,384
+2025-02-10,Debt collection,Written notification about debt,609
+2025-02-10,Debt or credit management,Charged upfront or unexpected fees,15
+2025-02-10,Debt or credit management,Confusing or misleading advertising or marketing,12
+2025-02-10,Debt or credit management,Confusing or missing disclosures,22
+2025-02-10,Debt or credit management,Didn't provide services promised,22
+2025-02-10,Debt or credit management,Problem with customer service,15
+2025-02-10,Debt or credit management,Unauthorized withdrawals or charges,11
+2025-02-10,"Money transfer, virtual currency, or money service",Confusing or misleading advertising or marketing,5
+2025-02-10,"Money transfer, virtual currency, or money service",Confusing or missing disclosures,32
+2025-02-10,"Money transfer, virtual currency, or money service",Fraud or scam,246
+2025-02-10,"Money transfer, virtual currency, or money service",Lost or stolen money order,4
+2025-02-10,"Money transfer, virtual currency, or money service","Managing, opening, or closing your mobile wallet account",34
+2025-02-10,"Money transfer, virtual currency, or money service",Money was not available when promised,48
+2025-02-10,"Money transfer, virtual currency, or money service",Other service problem,35
+2025-02-10,"Money transfer, virtual currency, or money service",Other transaction problem,993
+2025-02-10,"Money transfer, virtual currency, or money service",Problem adding money,2
+2025-02-10,"Money transfer, virtual currency, or money service",Problem with customer service,10
+2025-02-10,"Money transfer, virtual currency, or money service",Trouble accessing funds in your mobile or digital wallet,47
+2025-02-10,"Money transfer, virtual currency, or money service",Unauthorized transactions or other transaction problem,100
+2025-02-10,"Money transfer, virtual currency, or money service",Unexpected or other fees,10
+2025-02-10,"Money transfer, virtual currency, or money service",Wrong amount charged or received,10
+2025-02-10,Mortgage,Applying for a mortgage or refinancing an existing mortgage,32
+2025-02-10,Mortgage,Closing on a mortgage,32
+2025-02-10,Mortgage,Credit monitoring or identity theft protection services,1
+2025-02-10,Mortgage,Improper use of your report,2
+2025-02-10,Mortgage,Incorrect information on your report,11
+2025-02-10,Mortgage,Problem with a company's investigation into an existing problem,6
+2025-02-10,Mortgage,Struggling to pay mortgage,88
+2025-02-10,Mortgage,Trouble during payment process,246
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Can't contact lender or servicer,2
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Can't stop withdrawals from your bank account,3
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Charged fees or interest you didn't expect,53
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Confusing or misleading advertising or marketing,1
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Confusing or missing disclosures,3
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Credit limit changed,2
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Credit monitoring or identity theft protection services,2
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Getting a line of credit,8
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Getting the loan,11
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Improper use of your report,7
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Incorrect information on your report,6
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Issues with repayment,3
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Loan payment wasn't credited to your account,1
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Money was taken from your bank account on the wrong day or for the wrong amount,2
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Problem when making payments,18
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Problem with a company's investigation into an existing problem,3
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Problem with additional add-on products or services,10
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Problem with fraud alerts or security freezes,1
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Problem with the payoff process at the end of the loan,7
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Problems receiving the advance,1
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Received a loan you didn't apply for,5
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Struggling to pay your loan,23
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Unexpected fees,1
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Vehicle was damaged or destroyed the vehicle,1
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Vehicle was repossessed or sold the vehicle,1
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan","Was approved for a loan, but didn't receive the money",3
+2025-02-10,Prepaid card,Advertising,2
+2025-02-10,Prepaid card,Problem getting a card or closing an account,14
+2025-02-10,Prepaid card,Problem with a purchase or transfer,26
+2025-02-10,Prepaid card,Trouble using the card,49
+2025-02-10,Prepaid card,Unexpected or other fees,14
+2025-02-10,Student loan,Credit monitoring or identity theft protection services,10
+2025-02-10,Student loan,Dealing with your lender or servicer,377
+2025-02-10,Student loan,Getting a loan,5
+2025-02-10,Student loan,Improper use of your report,100
+2025-02-10,Student loan,Incorrect information on your report,23
+2025-02-10,Student loan,Issue where my lender is my school,2
+2025-02-10,Student loan,Problem with a company's investigation into an existing problem,8
+2025-02-10,Student loan,Problem with fraud alerts or security freezes,5
+2025-02-10,Student loan,Struggling to repay your loan,128
+2025-02-10,Vehicle loan or lease,Credit monitoring or identity theft protection services,3
+2025-02-10,Vehicle loan or lease,Getting a loan or lease,44
+2025-02-10,Vehicle loan or lease,Improper use of your report,5
+2025-02-10,Vehicle loan or lease,Incorrect information on your report,25
+2025-02-10,Vehicle loan or lease,Managing the loan or lease,89
+2025-02-10,Vehicle loan or lease,Problem with a company's investigation into an existing problem,12
+2025-02-10,Vehicle loan or lease,Problems at the end of the loan or lease,35
+2025-02-10,Vehicle loan or lease,Repossession,98
+2025-02-10,Vehicle loan or lease,Struggling to pay your loan,18
+2025-02-17,Checking or savings account,Closing an account,188
+2025-02-17,Checking or savings account,Improper use of your report,2
+2025-02-17,Checking or savings account,Incorrect information on your report,2
+2025-02-17,Checking or savings account,Managing an account,604
+2025-02-17,Checking or savings account,Opening an account,91
+2025-02-17,Checking or savings account,Problem caused by your funds being low,108
+2025-02-17,Checking or savings account,Problem with a company's investigation into an existing problem,5
+2025-02-17,Checking or savings account,Problem with a lender or other company charging your account,142
+2025-02-17,Credit card,"Advertising and marketing, including promotional offers",39
+2025-02-17,Credit card,Closing your account,97
+2025-02-17,Credit card,Credit monitoring or identity theft protection services,3
+2025-02-17,Credit card,Fees or interest,145
+2025-02-17,Credit card,Getting a credit card,188
+2025-02-17,Credit card,Improper use of your report,25
+2025-02-17,Credit card,Incorrect information on your report,74
+2025-02-17,Credit card,"Other features, terms, or problems",148
+2025-02-17,Credit card,Problem when making payments,72
+2025-02-17,Credit card,Problem with a company's investigation into an existing problem,224
+2025-02-17,Credit card,Problem with a purchase shown on your statement,291
+2025-02-17,Credit card,Problem with fraud alerts or security freezes,1
+2025-02-17,Credit card,Struggling to pay your bill,21
+2025-02-17,Credit card,Trouble using your card,30
+2025-02-17,Credit card,Unable to get your credit report or credit score,1
+2025-02-17,Credit reporting or other personal consumer reports,Credit monitoring or identity theft protection services,133
+2025-02-17,Credit reporting or other personal consumer reports,Identity theft protection or other monitoring services,6
+2025-02-17,Credit reporting or other personal consumer reports,Improper use of your report,16366
+2025-02-17,Credit reporting or other personal consumer reports,Incorrect information on your report,37780
+2025-02-17,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing issue,27
+2025-02-17,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing problem,11251
+2025-02-17,Credit reporting or other personal consumer reports,Problem with fraud alerts or security freezes,196
+2025-02-17,Credit reporting or other personal consumer reports,Unable to get your credit report or credit score,176
+2025-02-17,Debt collection,Attempts to collect debt not owed,1869
+2025-02-17,Debt collection,Communication tactics,150
+2025-02-17,Debt collection,Electronic communications,56
+2025-02-17,Debt collection,False statements or representation,412
+2025-02-17,Debt collection,Threatened to contact someone or share information improperly,42
+2025-02-17,Debt collection,Took or threatened to take negative or legal action,503
+2025-02-17,Debt collection,Written notification about debt,785
+2025-02-17,Debt or credit management,Charged upfront or unexpected fees,6
+2025-02-17,Debt or credit management,Confusing or misleading advertising or marketing,10
+2025-02-17,Debt or credit management,Confusing or missing disclosures,11
+2025-02-17,Debt or credit management,Didn't provide services promised,21
+2025-02-17,Debt or credit management,Problem with customer service,3
+2025-02-17,Debt or credit management,Unauthorized withdrawals or charges,3
+2025-02-17,"Money transfer, virtual currency, or money service",Confusing or misleading advertising or marketing,3
+2025-02-17,"Money transfer, virtual currency, or money service",Confusing or missing disclosures,21
+2025-02-17,"Money transfer, virtual currency, or money service",Fraud or scam,188
+2025-02-17,"Money transfer, virtual currency, or money service",Lost or stolen money order,3
+2025-02-17,"Money transfer, virtual currency, or money service","Managing, opening, or closing your mobile wallet account",16
+2025-02-17,"Money transfer, virtual currency, or money service",Money was not available when promised,35
+2025-02-17,"Money transfer, virtual currency, or money service",Other service problem,23
+2025-02-17,"Money transfer, virtual currency, or money service",Other transaction problem,445
+2025-02-17,"Money transfer, virtual currency, or money service",Problem adding money,4
+2025-02-17,"Money transfer, virtual currency, or money service",Problem with customer service,9
+2025-02-17,"Money transfer, virtual currency, or money service",Trouble accessing funds in your mobile or digital wallet,45
+2025-02-17,"Money transfer, virtual currency, or money service",Unauthorized transactions or other transaction problem,68
+2025-02-17,"Money transfer, virtual currency, or money service",Unexpected or other fees,5
+2025-02-17,"Money transfer, virtual currency, or money service",Wrong amount charged or received,3
+2025-02-17,Mortgage,Applying for a mortgage or refinancing an existing mortgage,34
+2025-02-17,Mortgage,Closing on a mortgage,23
+2025-02-17,Mortgage,Improper use of your report,1
+2025-02-17,Mortgage,Incorrect information on your report,17
+2025-02-17,Mortgage,Problem with a company's investigation into an existing problem,6
+2025-02-17,Mortgage,Struggling to pay mortgage,90
+2025-02-17,Mortgage,Trouble during payment process,206
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Can't contact lender or servicer,4
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Can't stop withdrawals from your bank account,4
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Charged fees or interest you didn't expect,54
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Credit monitoring or identity theft protection services,1
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Getting a line of credit,8
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Getting the loan,3
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Improper use of your report,4
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Incorrect information on your report,11
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Issues with repayment,4
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Problem when making payments,24
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Problem with a company's investigation into an existing problem,3
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Problem with additional add-on products or services,12
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Problem with cash advance,1
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Problem with the payoff process at the end of the loan,17
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Problems receiving the advance,2
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Received a loan you didn't apply for,11
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Struggling to pay your loan,23
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Unexpected fees,1
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Vehicle was repossessed or sold the vehicle,3
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan","Was approved for a loan, but didn't receive the money",1
+2025-02-17,Prepaid card,Advertising,1
+2025-02-17,Prepaid card,Problem getting a card or closing an account,15
+2025-02-17,Prepaid card,Problem with a purchase or transfer,23
+2025-02-17,Prepaid card,Trouble using the card,53
+2025-02-17,Prepaid card,Unexpected or other fees,13
+2025-02-17,Student loan,Credit monitoring or identity theft protection services,4
+2025-02-17,Student loan,Dealing with your lender or servicer,203
+2025-02-17,Student loan,Getting a loan,5
+2025-02-17,Student loan,Improper use of your report,18
+2025-02-17,Student loan,Incorrect information on your report,37
+2025-02-17,Student loan,Issue with income share agreement,2
+2025-02-17,Student loan,Problem with a company's investigation into an existing problem,2
+2025-02-17,Student loan,Problem with fraud alerts or security freezes,1
+2025-02-17,Student loan,Struggling to repay your loan,75
+2025-02-17,Vehicle loan or lease,Credit monitoring or identity theft protection services,1
+2025-02-17,Vehicle loan or lease,Getting a loan or lease,67
+2025-02-17,Vehicle loan or lease,Improper use of your report,1
+2025-02-17,Vehicle loan or lease,Incorrect information on your report,22
+2025-02-17,Vehicle loan or lease,Managing the loan or lease,72
+2025-02-17,Vehicle loan or lease,Problem with a company's investigation into an existing problem,3
+2025-02-17,Vehicle loan or lease,Problems at the end of the loan or lease,39
+2025-02-17,Vehicle loan or lease,Repossession,89
+2025-02-17,Vehicle loan or lease,Struggling to pay your loan,17
+2025-02-17,Vehicle loan or lease,Unable to get your credit report or credit score,1
+2025-02-24,Checking or savings account,Closing an account,151
+2025-02-24,Checking or savings account,Improper use of your report,1
+2025-02-24,Checking or savings account,Incorrect information on your report,4
+2025-02-24,Checking or savings account,Managing an account,563
+2025-02-24,Checking or savings account,Opening an account,115
+2025-02-24,Checking or savings account,Problem caused by your funds being low,110
+2025-02-24,Checking or savings account,Problem with a company's investigation into an existing problem,3
+2025-02-24,Checking or savings account,Problem with a lender or other company charging your account,123
+2025-02-24,Credit card,"Advertising and marketing, including promotional offers",20
+2025-02-24,Credit card,Closing your account,96
+2025-02-24,Credit card,Credit monitoring or identity theft protection services,1
+2025-02-24,Credit card,Fees or interest,135
+2025-02-24,Credit card,Getting a credit card,155
+2025-02-24,Credit card,Improper use of your report,8
+2025-02-24,Credit card,Incorrect information on your report,88
+2025-02-24,Credit card,"Other features, terms, or problems",125
+2025-02-24,Credit card,Problem when making payments,71
+2025-02-24,Credit card,Problem with a company's investigation into an existing problem,236
+2025-02-24,Credit card,Problem with a purchase shown on your statement,278
+2025-02-24,Credit card,Problem with fraud alerts or security freezes,2
+2025-02-24,Credit card,Struggling to pay your bill,25
+2025-02-24,Credit card,Trouble using your card,34
+2025-02-24,Credit card,Unable to get your credit report or credit score,1
+2025-02-24,Credit reporting or other personal consumer reports,Credit monitoring or identity theft protection services,117
+2025-02-24,Credit reporting or other personal consumer reports,Identity theft protection or other monitoring services,11
+2025-02-24,Credit reporting or other personal consumer reports,Improper use of your report,15974
+2025-02-24,Credit reporting or other personal consumer reports,Incorrect information on your report,36843
+2025-02-24,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing issue,25
+2025-02-24,Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing problem,10786
+2025-02-24,Credit reporting or other personal consumer reports,Problem with fraud alerts or security freezes,174
+2025-02-24,Credit reporting or other personal consumer reports,Struggling to repay your loan,1
+2025-02-24,Credit reporting or other personal consumer reports,Unable to get your credit report or credit score,166
+2025-02-24,Debt collection,Attempts to collect debt not owed,1734
+2025-02-24,Debt collection,Communication tactics,125
+2025-02-24,Debt collection,Electronic communications,56
+2025-02-24,Debt collection,False statements or representation,357
+2025-02-24,Debt collection,Threatened to contact someone or share information improperly,23
+2025-02-24,Debt collection,Took or threatened to take negative or legal action,360
+2025-02-24,Debt collection,Written notification about debt,866
+2025-02-24,Debt or credit management,Charged upfront or unexpected fees,16
+2025-02-24,Debt or credit management,Confusing or misleading advertising or marketing,6
+2025-02-24,Debt or credit management,Confusing or missing disclosures,12
+2025-02-24,Debt or credit management,Didn't provide services promised,20
+2025-02-24,Debt or credit management,Problem with customer service,9
+2025-02-24,Debt or credit management,Unauthorized withdrawals or charges,7
+2025-02-24,"Money transfer, virtual currency, or money service",Confusing or misleading advertising or marketing,7
+2025-02-24,"Money transfer, virtual currency, or money service",Confusing or missing disclosures,13
+2025-02-24,"Money transfer, virtual currency, or money service",Fraud or scam,172
+2025-02-24,"Money transfer, virtual currency, or money service",Incorrect exchange rate,1
+2025-02-24,"Money transfer, virtual currency, or money service",Lost or stolen money order,2
+2025-02-24,"Money transfer, virtual currency, or money service","Managing, opening, or closing your mobile wallet account",25
+2025-02-24,"Money transfer, virtual currency, or money service",Money was not available when promised,31
+2025-02-24,"Money transfer, virtual currency, or money service",Other service problem,22
+2025-02-24,"Money transfer, virtual currency, or money service",Other transaction problem,428
+2025-02-24,"Money transfer, virtual currency, or money service",Problem adding money,4
+2025-02-24,"Money transfer, virtual currency, or money service",Problem with customer service,7
+2025-02-24,"Money transfer, virtual currency, or money service",Trouble accessing funds in your mobile or digital wallet,34
+2025-02-24,"Money transfer, virtual currency, or money service",Unauthorized transactions or other transaction problem,73
+2025-02-24,"Money transfer, virtual currency, or money service",Unexpected or other fees,8
+2025-02-24,"Money transfer, virtual currency, or money service",Wrong amount charged or received,9
+2025-02-24,Mortgage,Applying for a mortgage or refinancing an existing mortgage,27
+2025-02-24,Mortgage,Closing on a mortgage,25
+2025-02-24,Mortgage,Improper use of your report,2
+2025-02-24,Mortgage,Incorrect information on your report,8
+2025-02-24,Mortgage,Problem with a company's investigation into an existing problem,2
+2025-02-24,Mortgage,Struggling to pay mortgage,86
+2025-02-24,Mortgage,Trouble during payment process,207
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Can't contact lender or servicer,2
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Can't stop withdrawals from your bank account,1
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Charged fees or interest you didn't expect,27
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Confusing or misleading advertising or marketing,1
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Getting a line of credit,4
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Getting the loan,12
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Incorrect information on your report,10
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Issues with repayment,1
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Money was taken from your bank account on the wrong day or for the wrong amount,4
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Problem when making payments,15
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Problem with a company's investigation into an existing problem,1
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Problem with additional add-on products or services,5
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Problem with the payoff process at the end of the loan,13
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Received a loan you didn't apply for,7
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Struggling to pay your loan,22
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Vehicle was damaged or destroyed the vehicle,1
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",Vehicle was repossessed or sold the vehicle,3
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan","Was approved for a loan, but didn't receive money",1
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan","Was approved for a loan, but didn't receive the money",1
+2025-02-24,Prepaid card,Advertising,1
+2025-02-24,Prepaid card,Problem getting a card or closing an account,13
+2025-02-24,Prepaid card,Problem with a purchase or transfer,27
+2025-02-24,Prepaid card,Trouble using the card,27
+2025-02-24,Prepaid card,Unexpected or other fees,15
+2025-02-24,Student loan,Credit monitoring or identity theft protection services,4
+2025-02-24,Student loan,Dealing with your lender or servicer,203
+2025-02-24,Student loan,Getting a loan,3
+2025-02-24,Student loan,Improper use of your report,27
+2025-02-24,Student loan,Incorrect information on your report,16
+2025-02-24,Student loan,Issue with income share agreement,1
+2025-02-24,Student loan,Problem with a company's investigation into an existing problem,8
+2025-02-24,Student loan,Problem with fraud alerts or security freezes,3
+2025-02-24,Student loan,Struggling to repay your loan,78
+2025-02-24,Vehicle loan or lease,Credit monitoring or identity theft protection services,1
+2025-02-24,Vehicle loan or lease,Getting a loan or lease,41
+2025-02-24,Vehicle loan or lease,Improper use of your report,2
+2025-02-24,Vehicle loan or lease,Incorrect information on your report,12
+2025-02-24,Vehicle loan or lease,Managing the loan or lease,66
+2025-02-24,Vehicle loan or lease,Problem with a company's investigation into an existing problem,6
+2025-02-24,Vehicle loan or lease,Problems at the end of the loan or lease,34
+2025-02-24,Vehicle loan or lease,Repossession,77
+2025-02-24,Vehicle loan or lease,Struggling to pay your loan,14

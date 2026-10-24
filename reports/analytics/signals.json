@@ -1,0 +1,15 @@
+{
+  "status": "descriptive_heuristic",
+  "week_start": "2025-02-17",
+  "baseline_weeks": [
+    "2025-01-20",
+    "2025-01-27",
+    "2025-02-03",
+    "2025-02-10"
+  ],
+  "current_week_total": 74507,
+  "baseline_four_week_total": 390250,
+  "rule": "count >=30, baseline weekly mean >=5, volume >=1.5x baseline, share increase >=0.5 percentage points",
+  "limitations": "Exploratory signals, not statistically confirmed anomalies or proof of company misconduct. Only seven complete weeks are available.",
+  "items": []
+}

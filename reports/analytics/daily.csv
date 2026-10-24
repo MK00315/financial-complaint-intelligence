@@ -1,0 +1,650 @@
+date,product,complaints,narratives
+2025-01-01,Checking or savings account,80,48
+2025-01-01,Credit card,120,64
+2025-01-01,Credit reporting or other personal consumer reports,4750,1087
+2025-01-01,Debt collection,348,133
+2025-01-01,Debt or credit management,19,9
+2025-01-01,"Money transfer, virtual currency, or money service",21,16
+2025-01-01,Mortgage,35,26
+2025-01-01,"Payday loan, title loan, personal loan, or advance loan",16,10
+2025-01-01,Prepaid card,18,15
+2025-01-01,Student loan,28,16
+2025-01-01,Vehicle loan or lease,18,13
+2025-01-02,Checking or savings account,185,97
+2025-01-02,Credit card,323,127
+2025-01-02,Credit reporting or other personal consumer reports,11287,2862
+2025-01-02,Debt collection,823,273
+2025-01-02,Debt or credit management,23,15
+2025-01-02,"Money transfer, virtual currency, or money service",70,47
+2025-01-02,Mortgage,83,50
+2025-01-02,"Payday loan, title loan, personal loan, or advance loan",32,20
+2025-01-02,Prepaid card,23,12
+2025-01-02,Student loan,48,24
+2025-01-02,Vehicle loan or lease,67,43
+2025-01-03,Checking or savings account,239,145
+2025-01-03,Credit card,360,116
+2025-01-03,Credit reporting or other personal consumer reports,12285,3319
+2025-01-03,Debt collection,839,194
+2025-01-03,Debt or credit management,29,17
+2025-01-03,"Money transfer, virtual currency, or money service",72,49
+2025-01-03,Mortgage,81,51
+2025-01-03,"Payday loan, title loan, personal loan, or advance loan",41,21
+2025-01-03,Prepaid card,37,21
+2025-01-03,Student loan,67,45
+2025-01-03,Vehicle loan or lease,71,36
+2025-01-04,Checking or savings account,108,64
+2025-01-04,Credit card,161,87
+2025-01-04,Credit reporting or other personal consumer reports,6477,1377
+2025-01-04,Debt collection,514,199
+2025-01-04,Debt or credit management,21,13
+2025-01-04,"Money transfer, virtual currency, or money service",42,32
+2025-01-04,Mortgage,39,29
+2025-01-04,"Payday loan, title loan, personal loan, or advance loan",21,10
+2025-01-04,Prepaid card,23,15
+2025-01-04,Student loan,89,44
+2025-01-04,Vehicle loan or lease,33,22
+2025-01-05,Checking or savings account,82,53
+2025-01-05,Credit card,109,69
+2025-01-05,Credit reporting or other personal consumer reports,5053,1207
+2025-01-05,Debt collection,335,133
+2025-01-05,Debt or credit management,19,13
+2025-01-05,"Money transfer, virtual currency, or money service",33,18
+2025-01-05,Mortgage,36,28
+2025-01-05,"Payday loan, title loan, personal loan, or advance loan",19,12
+2025-01-05,Prepaid card,15,9
+2025-01-05,Student loan,24,14
+2025-01-05,Vehicle loan or lease,32,16
+2025-01-06,Checking or savings account,193,106
+2025-01-06,Credit card,276,119
+2025-01-06,Credit reporting or other personal consumer reports,11871,3047
+2025-01-06,Debt collection,729,243
+2025-01-06,Debt or credit management,19,8
+2025-01-06,"Money transfer, virtual currency, or money service",81,51
+2025-01-06,Mortgage,84,41
+2025-01-06,"Payday loan, title loan, personal loan, or advance loan",33,22
+2025-01-06,Prepaid card,25,14
+2025-01-06,Student loan,80,43
+2025-01-06,Vehicle loan or lease,69,30
+2025-01-07,Checking or savings account,255,134
+2025-01-07,Credit card,289,140
+2025-01-07,Credit reporting or other personal consumer reports,13063,3345
+2025-01-07,Debt collection,781,256
+2025-01-07,Debt or credit management,23,9
+2025-01-07,"Money transfer, virtual currency, or money service",71,48
+2025-01-07,Mortgage,97,63
+2025-01-07,"Payday loan, title loan, personal loan, or advance loan",36,22
+2025-01-07,Prepaid card,26,17
+2025-01-07,Student loan,77,37
+2025-01-07,Vehicle loan or lease,75,50
+2025-01-08,Checking or savings account,206,113
+2025-01-08,Credit card,300,116
+2025-01-08,Credit reporting or other personal consumer reports,13087,3323
+2025-01-08,Debt collection,805,300
+2025-01-08,Debt or credit management,28,16
+2025-01-08,"Money transfer, virtual currency, or money service",56,34
+2025-01-08,Mortgage,87,53
+2025-01-08,"Payday loan, title loan, personal loan, or advance loan",42,24
+2025-01-08,Prepaid card,15,9
+2025-01-08,Student loan,47,28
+2025-01-08,Vehicle loan or lease,64,42
+2025-01-09,Checking or savings account,183,95
+2025-01-09,Credit card,324,135
+2025-01-09,Credit reporting or other personal consumer reports,13048,3315
+2025-01-09,Debt collection,836,321
+2025-01-09,Debt or credit management,24,14
+2025-01-09,"Money transfer, virtual currency, or money service",71,47
+2025-01-09,Mortgage,78,49
+2025-01-09,"Payday loan, title loan, personal loan, or advance loan",34,20
+2025-01-09,Prepaid card,26,12
+2025-01-09,Student loan,62,29
+2025-01-09,Vehicle loan or lease,59,38
+2025-01-10,Checking or savings account,182,106
+2025-01-10,Credit card,252,124
+2025-01-10,Credit reporting or other personal consumer reports,12528,3160
+2025-01-10,Debt collection,737,261
+2025-01-10,Debt or credit management,19,8
+2025-01-10,"Money transfer, virtual currency, or money service",61,45
+2025-01-10,Mortgage,88,59
+2025-01-10,"Payday loan, title loan, personal loan, or advance loan",35,23
+2025-01-10,Prepaid card,40,27
+2025-01-10,Student loan,76,43
+2025-01-10,Vehicle loan or lease,66,44
+2025-01-11,Checking or savings account,92,61
+2025-01-11,Credit card,150,101
+2025-01-11,Credit reporting or other personal consumer reports,7947,1632
+2025-01-11,Debt collection,497,206
+2025-01-11,Debt or credit management,20,15
+2025-01-11,"Money transfer, virtual currency, or money service",47,32
+2025-01-11,Mortgage,47,28
+2025-01-11,"Payday loan, title loan, personal loan, or advance loan",36,22
+2025-01-11,Prepaid card,11,5
+2025-01-11,Student loan,49,29
+2025-01-11,Vehicle loan or lease,36,20
+2025-01-12,Checking or savings account,61,43
+2025-01-12,Credit card,121,61
+2025-01-12,Credit reporting or other personal consumer reports,5697,1376
+2025-01-12,Debt collection,433,169
+2025-01-12,Debt or credit management,15,10
+2025-01-12,"Money transfer, virtual currency, or money service",24,16
+2025-01-12,Mortgage,31,24
+2025-01-12,"Payday loan, title loan, personal loan, or advance loan",15,8
+2025-01-12,Prepaid card,16,13
+2025-01-12,Student loan,33,10
+2025-01-12,Vehicle loan or lease,27,12
+2025-01-13,Checking or savings account,210,114
+2025-01-13,Credit card,322,126
+2025-01-13,Credit reporting or other personal consumer reports,11936,3258
+2025-01-13,Debt collection,765,280
+2025-01-13,Debt or credit management,23,14
+2025-01-13,"Money transfer, virtual currency, or money service",55,36
+2025-01-13,Mortgage,80,58
+2025-01-13,"Payday loan, title loan, personal loan, or advance loan",44,33
+2025-01-13,Prepaid card,28,16
+2025-01-13,Student loan,67,33
+2025-01-13,Vehicle loan or lease,60,38
+2025-01-14,Checking or savings account,273,142
+2025-01-14,Credit card,344,149
+2025-01-14,Credit reporting or other personal consumer reports,14232,4089
+2025-01-14,Debt collection,873,345
+2025-01-14,Debt or credit management,25,16
+2025-01-14,"Money transfer, virtual currency, or money service",260,157
+2025-01-14,Mortgage,88,47
+2025-01-14,"Payday loan, title loan, personal loan, or advance loan",47,28
+2025-01-14,Prepaid card,27,11
+2025-01-14,Student loan,94,47
+2025-01-14,Vehicle loan or lease,75,45
+2025-01-15,Checking or savings account,1421,1097
+2025-01-15,Credit card,375,172
+2025-01-15,Credit reporting or other personal consumer reports,13650,4299
+2025-01-15,Debt collection,846,324
+2025-01-15,Debt or credit management,33,18
+2025-01-15,"Money transfer, virtual currency, or money service",4725,3970
+2025-01-15,Mortgage,87,54
+2025-01-15,"Payday loan, title loan, personal loan, or advance loan",46,31
+2025-01-15,Prepaid card,11,5
+2025-01-15,Student loan,80,47
+2025-01-15,Vehicle loan or lease,86,47
+2025-01-16,Checking or savings account,2322,1839
+2025-01-16,Credit card,527,183
+2025-01-16,Credit reporting or other personal consumer reports,15523,4303
+2025-01-16,Debt collection,1032,330
+2025-01-16,Debt or credit management,32,20
+2025-01-16,"Money transfer, virtual currency, or money service",4356,3663
+2025-01-16,Mortgage,93,55
+2025-01-16,"Payday loan, title loan, personal loan, or advance loan",47,30
+2025-01-16,Prepaid card,28,12
+2025-01-16,Student loan,79,45
+2025-01-16,Vehicle loan or lease,80,34
+2025-01-17,Checking or savings account,4144,3321
+2025-01-17,Credit card,435,196
+2025-01-17,Credit reporting or other personal consumer reports,13689,4100
+2025-01-17,Debt collection,934,339
+2025-01-17,Debt or credit management,45,32
+2025-01-17,"Money transfer, virtual currency, or money service",14490,12325
+2025-01-17,Mortgage,85,45
+2025-01-17,"Payday loan, title loan, personal loan, or advance loan",67,43
+2025-01-17,Prepaid card,47,31
+2025-01-17,Student loan,83,52
+2025-01-17,Vehicle loan or lease,72,40
+2025-01-18,Checking or savings account,2020,1611
+2025-01-18,Credit card,211,123
+2025-01-18,Credit reporting or other personal consumer reports,8772,2753
+2025-01-18,Debt collection,466,201
+2025-01-18,Debt or credit management,22,15
+2025-01-18,"Money transfer, virtual currency, or money service",9477,8132
+2025-01-18,Mortgage,53,36
+2025-01-18,"Payday loan, title loan, personal loan, or advance loan",35,21
+2025-01-18,Prepaid card,24,16
+2025-01-18,Student loan,41,20
+2025-01-18,Vehicle loan or lease,58,39
+2025-01-19,Checking or savings account,563,446
+2025-01-19,Credit card,198,132
+2025-01-19,Credit reporting or other personal consumer reports,6223,1933
+2025-01-19,Debt collection,389,178
+2025-01-19,Debt or credit management,18,11
+2025-01-19,"Money transfer, virtual currency, or money service",2957,2453
+2025-01-19,Mortgage,27,18
+2025-01-19,"Payday loan, title loan, personal loan, or advance loan",19,14
+2025-01-19,Prepaid card,24,19
+2025-01-19,Student loan,34,21
+2025-01-19,Vehicle loan or lease,50,30
+2025-01-20,Checking or savings account,653,533
+2025-01-20,Credit card,282,150
+2025-01-20,Credit reporting or other personal consumer reports,13453,3901
+2025-01-20,Debt collection,734,258
+2025-01-20,Debt or credit management,28,20
+2025-01-20,"Money transfer, virtual currency, or money service",4403,3729
+2025-01-20,Mortgage,42,24
+2025-01-20,"Payday loan, title loan, personal loan, or advance loan",31,22
+2025-01-20,Prepaid card,17,12
+2025-01-20,Student loan,246,121
+2025-01-20,Vehicle loan or lease,49,34
+2025-01-21,Checking or savings account,625,465
+2025-01-21,Credit card,358,143
+2025-01-21,Credit reporting or other personal consumer reports,14279,3942
+2025-01-21,Debt collection,920,351
+2025-01-21,Debt or credit management,25,18
+2025-01-21,"Money transfer, virtual currency, or money service",2120,1787
+2025-01-21,Mortgage,86,55
+2025-01-21,"Payday loan, title loan, personal loan, or advance loan",43,23
+2025-01-21,Prepaid card,25,11
+2025-01-21,Student loan,167,84
+2025-01-21,Vehicle loan or lease,94,46
+2025-01-22,Checking or savings account,691,526
+2025-01-22,Credit card,392,176
+2025-01-22,Credit reporting or other personal consumer reports,14925,4172
+2025-01-22,Debt collection,973,397
+2025-01-22,Debt or credit management,19,13
+2025-01-22,"Money transfer, virtual currency, or money service",1221,976
+2025-01-22,Mortgage,108,58
+2025-01-22,"Payday loan, title loan, personal loan, or advance loan",39,20
+2025-01-22,Prepaid card,27,16
+2025-01-22,Student loan,99,46
+2025-01-22,Vehicle loan or lease,81,39
+2025-01-23,Checking or savings account,690,524
+2025-01-23,Credit card,407,164
+2025-01-23,Credit reporting or other personal consumer reports,18157,5702
+2025-01-23,Debt collection,1091,431
+2025-01-23,Debt or credit management,23,14
+2025-01-23,"Money transfer, virtual currency, or money service",1044,829
+2025-01-23,Mortgage,92,44
+2025-01-23,"Payday loan, title loan, personal loan, or advance loan",40,26
+2025-01-23,Prepaid card,33,21
+2025-01-23,Student loan,82,48
+2025-01-23,Vehicle loan or lease,89,55
+2025-01-24,Checking or savings account,567,399
+2025-01-24,Credit card,362,144
+2025-01-24,Credit reporting or other personal consumer reports,17123,5097
+2025-01-24,Debt collection,1138,422
+2025-01-24,Debt or credit management,28,15
+2025-01-24,"Money transfer, virtual currency, or money service",755,610
+2025-01-24,Mortgage,98,60
+2025-01-24,"Payday loan, title loan, personal loan, or advance loan",42,15
+2025-01-24,Prepaid card,15,10
+2025-01-24,Student loan,72,49
+2025-01-24,Vehicle loan or lease,95,48
+2025-01-25,Checking or savings account,257,188
+2025-01-25,Credit card,181,93
+2025-01-25,Credit reporting or other personal consumer reports,9186,2630
+2025-01-25,Debt collection,618,275
+2025-01-25,Debt or credit management,21,13
+2025-01-25,"Money transfer, virtual currency, or money service",386,303
+2025-01-25,Mortgage,47,32
+2025-01-25,"Payday loan, title loan, personal loan, or advance loan",27,17
+2025-01-25,Prepaid card,14,10
+2025-01-25,Student loan,36,18
+2025-01-25,Vehicle loan or lease,37,25
+2025-01-26,Checking or savings account,270,208
+2025-01-26,Credit card,132,75
+2025-01-26,Credit reporting or other personal consumer reports,6232,1831
+2025-01-26,Debt collection,547,218
+2025-01-26,Debt or credit management,17,15
+2025-01-26,"Money transfer, virtual currency, or money service",342,264
+2025-01-26,Mortgage,23,16
+2025-01-26,"Payday loan, title loan, personal loan, or advance loan",23,18
+2025-01-26,Prepaid card,21,11
+2025-01-26,Student loan,45,22
+2025-01-26,Vehicle loan or lease,40,23
+2025-01-27,Checking or savings account,373,264
+2025-01-27,Credit card,302,115
+2025-01-27,Credit reporting or other personal consumer reports,13743,3617
+2025-01-27,Debt collection,904,315
+2025-01-27,Debt or credit management,14,5
+2025-01-27,"Money transfer, virtual currency, or money service",408,321
+2025-01-27,Mortgage,79,52
+2025-01-27,"Payday loan, title loan, personal loan, or advance loan",34,19
+2025-01-27,Prepaid card,26,16
+2025-01-27,Student loan,56,33
+2025-01-27,Vehicle loan or lease,60,34
+2025-01-28,Checking or savings account,387,260
+2025-01-28,Credit card,372,154
+2025-01-28,Credit reporting or other personal consumer reports,14713,3614
+2025-01-28,Debt collection,978,373
+2025-01-28,Debt or credit management,11,6
+2025-01-28,"Money transfer, virtual currency, or money service",448,347
+2025-01-28,Mortgage,85,38
+2025-01-28,"Payday loan, title loan, personal loan, or advance loan",36,21
+2025-01-28,Prepaid card,22,13
+2025-01-28,Student loan,64,42
+2025-01-28,Vehicle loan or lease,75,49
+2025-01-29,Checking or savings account,378,260
+2025-01-29,Credit card,339,146
+2025-01-29,Credit reporting or other personal consumer reports,14658,3777
+2025-01-29,Debt collection,963,375
+2025-01-29,Debt or credit management,20,10
+2025-01-29,"Money transfer, virtual currency, or money service",571,472
+2025-01-29,Mortgage,87,46
+2025-01-29,"Payday loan, title loan, personal loan, or advance loan",42,21
+2025-01-29,Prepaid card,23,13
+2025-01-29,Student loan,77,50
+2025-01-29,Vehicle loan or lease,68,38
+2025-01-30,Checking or savings account,330,230
+2025-01-30,Credit card,386,133
+2025-01-30,Credit reporting or other personal consumer reports,14670,3963
+2025-01-30,Debt collection,1085,338
+2025-01-30,Debt or credit management,20,16
+2025-01-30,"Money transfer, virtual currency, or money service",575,440
+2025-01-30,Mortgage,89,45
+2025-01-30,"Payday loan, title loan, personal loan, or advance loan",46,31
+2025-01-30,Prepaid card,47,26
+2025-01-30,Student loan,59,30
+2025-01-30,Vehicle loan or lease,82,45
+2025-01-31,Checking or savings account,327,204
+2025-01-31,Credit card,363,159
+2025-01-31,Credit reporting or other personal consumer reports,13610,3678
+2025-01-31,Debt collection,897,300
+2025-01-31,Debt or credit management,10,8
+2025-01-31,"Money transfer, virtual currency, or money service",501,369
+2025-01-31,Mortgage,69,41
+2025-01-31,"Payday loan, title loan, personal loan, or advance loan",30,21
+2025-01-31,Prepaid card,22,15
+2025-01-31,Student loan,71,39
+2025-01-31,Vehicle loan or lease,52,28
+2025-02-01,Checking or savings account,201,142
+2025-02-01,Credit card,172,99
+2025-02-01,Credit reporting or other personal consumer reports,7334,1714
+2025-02-01,Debt collection,547,186
+2025-02-01,Debt or credit management,10,7
+2025-02-01,"Money transfer, virtual currency, or money service",321,240
+2025-02-01,Mortgage,45,22
+2025-02-01,"Payday loan, title loan, personal loan, or advance loan",16,9
+2025-02-01,Prepaid card,20,11
+2025-02-01,Student loan,32,18
+2025-02-01,Vehicle loan or lease,38,30
+2025-02-02,Checking or savings account,158,112
+2025-02-02,Credit card,128,79
+2025-02-02,Credit reporting or other personal consumer reports,5414,1397
+2025-02-02,Debt collection,469,201
+2025-02-02,Debt or credit management,11,6
+2025-02-02,"Money transfer, virtual currency, or money service",373,279
+2025-02-02,Mortgage,19,9
+2025-02-02,"Payday loan, title loan, personal loan, or advance loan",16,10
+2025-02-02,Prepaid card,22,19
+2025-02-02,Student loan,28,16
+2025-02-02,Vehicle loan or lease,29,14
+2025-02-03,Checking or savings account,254,167
+2025-02-03,Credit card,287,128
+2025-02-03,Credit reporting or other personal consumer reports,12933,3640
+2025-02-03,Debt collection,730,276
+2025-02-03,Debt or credit management,14,9
+2025-02-03,"Money transfer, virtual currency, or money service",298,220
+2025-02-03,Mortgage,100,65
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",38,24
+2025-02-03,Prepaid card,21,11
+2025-02-03,Student loan,39,18
+2025-02-03,Vehicle loan or lease,57,36
+2025-02-04,Checking or savings account,271,177
+2025-02-04,Credit card,316,118
+2025-02-04,Credit reporting or other personal consumer reports,14567,3872
+2025-02-04,Debt collection,949,358
+2025-02-04,Debt or credit management,21,15
+2025-02-04,"Money transfer, virtual currency, or money service",427,326
+2025-02-04,Mortgage,94,51
+2025-02-04,"Payday loan, title loan, personal loan, or advance loan",39,23
+2025-02-04,Prepaid card,41,23
+2025-02-04,Student loan,54,24
+2025-02-04,Vehicle loan or lease,93,53
+2025-02-05,Checking or savings account,297,185
+2025-02-05,Credit card,333,134
+2025-02-05,Credit reporting or other personal consumer reports,14527,3509
+2025-02-05,Debt collection,970,344
+2025-02-05,Debt or credit management,21,15
+2025-02-05,"Money transfer, virtual currency, or money service",386,302
+2025-02-05,Mortgage,93,42
+2025-02-05,"Payday loan, title loan, personal loan, or advance loan",34,19
+2025-02-05,Prepaid card,22,14
+2025-02-05,Student loan,62,33
+2025-02-05,Vehicle loan or lease,64,43
+2025-02-06,Checking or savings account,277,168
+2025-02-06,Credit card,382,144
+2025-02-06,Credit reporting or other personal consumer reports,15162,3817
+2025-02-06,Debt collection,868,313
+2025-02-06,Debt or credit management,13,10
+2025-02-06,"Money transfer, virtual currency, or money service",347,262
+2025-02-06,Mortgage,92,56
+2025-02-06,"Payday loan, title loan, personal loan, or advance loan",38,18
+2025-02-06,Prepaid card,25,13
+2025-02-06,Student loan,55,34
+2025-02-06,Vehicle loan or lease,64,45
+2025-02-07,Checking or savings account,264,150
+2025-02-07,Credit card,266,113
+2025-02-07,Credit reporting or other personal consumer reports,13897,3375
+2025-02-07,Debt collection,704,239
+2025-02-07,Debt or credit management,13,6
+2025-02-07,"Money transfer, virtual currency, or money service",310,245
+2025-02-07,Mortgage,95,46
+2025-02-07,"Payday loan, title loan, personal loan, or advance loan",35,22
+2025-02-07,Prepaid card,28,14
+2025-02-07,Student loan,64,36
+2025-02-07,Vehicle loan or lease,49,31
+2025-02-08,Checking or savings account,142,97
+2025-02-08,Credit card,159,93
+2025-02-08,Credit reporting or other personal consumer reports,6964,1598
+2025-02-08,Debt collection,465,200
+2025-02-08,Debt or credit management,13,10
+2025-02-08,"Money transfer, virtual currency, or money service",166,128
+2025-02-08,Mortgage,41,25
+2025-02-08,"Payday loan, title loan, personal loan, or advance loan",19,14
+2025-02-08,Prepaid card,16,9
+2025-02-08,Student loan,34,21
+2025-02-08,Vehicle loan or lease,37,23
+2025-02-09,Checking or savings account,121,93
+2025-02-09,Credit card,100,67
+2025-02-09,Credit reporting or other personal consumer reports,4907,1389
+2025-02-09,Debt collection,382,149
+2025-02-09,Debt or credit management,16,9
+2025-02-09,"Money transfer, virtual currency, or money service",220,186
+2025-02-09,Mortgage,23,16
+2025-02-09,"Payday loan, title loan, personal loan, or advance loan",15,11
+2025-02-09,Prepaid card,7,4
+2025-02-09,Student loan,152,72
+2025-02-09,Vehicle loan or lease,33,16
+2025-02-10,Checking or savings account,189,99
+2025-02-10,Credit card,238,105
+2025-02-10,Credit reporting or other personal consumer reports,10328,2743
+2025-02-10,Debt collection,614,244
+2025-02-10,Debt or credit management,12,8
+2025-02-10,"Money transfer, virtual currency, or money service",378,288
+2025-02-10,Mortgage,70,43
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",23,14
+2025-02-10,Prepaid card,21,12
+2025-02-10,Student loan,208,105
+2025-02-10,Vehicle loan or lease,51,31
+2025-02-11,Checking or savings account,247,134
+2025-02-11,Credit card,278,109
+2025-02-11,Credit reporting or other personal consumer reports,12754,3489
+2025-02-11,Debt collection,717,264
+2025-02-11,Debt or credit management,18,10
+2025-02-11,"Money transfer, virtual currency, or money service",372,290
+2025-02-11,Mortgage,88,41
+2025-02-11,"Payday loan, title loan, personal loan, or advance loan",38,24
+2025-02-11,Prepaid card,15,6
+2025-02-11,Student loan,147,79
+2025-02-11,Vehicle loan or lease,66,33
+2025-02-12,Checking or savings account,228,152
+2025-02-12,Credit card,275,130
+2025-02-12,Credit reporting or other personal consumer reports,12625,3485
+2025-02-12,Debt collection,625,254
+2025-02-12,Debt or credit management,16,13
+2025-02-12,"Money transfer, virtual currency, or money service",263,210
+2025-02-12,Mortgage,70,43
+2025-02-12,"Payday loan, title loan, personal loan, or advance loan",37,19
+2025-02-12,Prepaid card,19,13
+2025-02-12,Student loan,114,59
+2025-02-12,Vehicle loan or lease,62,39
+2025-02-13,Checking or savings account,236,142
+2025-02-13,Credit card,292,133
+2025-02-13,Credit reporting or other personal consumer reports,12652,3177
+2025-02-13,Debt collection,627,241
+2025-02-13,Debt or credit management,23,14
+2025-02-13,"Money transfer, virtual currency, or money service",199,138
+2025-02-13,Mortgage,80,40
+2025-02-13,"Payday loan, title loan, personal loan, or advance loan",27,17
+2025-02-13,Prepaid card,20,11
+2025-02-13,Student loan,58,32
+2025-02-13,Vehicle loan or lease,62,34
+2025-02-14,Checking or savings account,160,103
+2025-02-14,Credit card,174,83
+2025-02-14,Credit reporting or other personal consumer reports,10744,2809
+2025-02-14,Debt collection,502,194
+2025-02-14,Debt or credit management,9,7
+2025-02-14,"Money transfer, virtual currency, or money service",164,118
+2025-02-14,Mortgage,62,34
+2025-02-14,"Payday loan, title loan, personal loan, or advance loan",27,14
+2025-02-14,Prepaid card,8,4
+2025-02-14,Student loan,60,30
+2025-02-14,Vehicle loan or lease,41,28
+2025-02-15,Checking or savings account,111,81
+2025-02-15,Credit card,97,55
+2025-02-15,Credit reporting or other personal consumer reports,5042,1109
+2025-02-15,Debt collection,256,138
+2025-02-15,Debt or credit management,7,4
+2025-02-15,"Money transfer, virtual currency, or money service",89,72
+2025-02-15,Mortgage,35,21
+2025-02-15,"Payday loan, title loan, personal loan, or advance loan",17,11
+2025-02-15,Prepaid card,14,6
+2025-02-15,Student loan,34,19
+2025-02-15,Vehicle loan or lease,24,15
+2025-02-16,Checking or savings account,84,51
+2025-02-16,Credit card,82,46
+2025-02-16,Credit reporting or other personal consumer reports,3951,898
+2025-02-16,Debt collection,269,111
+2025-02-16,Debt or credit management,12,8
+2025-02-16,"Money transfer, virtual currency, or money service",111,83
+2025-02-16,Mortgage,13,11
+2025-02-16,"Payday loan, title loan, personal loan, or advance loan",9,8
+2025-02-16,Prepaid card,8,6
+2025-02-16,Student loan,37,25
+2025-02-16,Vehicle loan or lease,23,15
+2025-02-17,Checking or savings account,106,78
+2025-02-17,Credit card,135,85
+2025-02-17,Credit reporting or other personal consumer reports,9864,2207
+2025-02-17,Debt collection,449,184
+2025-02-17,Debt or credit management,5,5
+2025-02-17,"Money transfer, virtual currency, or money service",109,81
+2025-02-17,Mortgage,55,36
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",26,13
+2025-02-17,Prepaid card,15,11
+2025-02-17,Student loan,53,24
+2025-02-17,Vehicle loan or lease,37,26
+2025-02-18,Checking or savings account,192,121
+2025-02-18,Credit card,217,108
+2025-02-18,Credit reporting or other personal consumer reports,11361,2335
+2025-02-18,Debt collection,631,257
+2025-02-18,Debt or credit management,11,8
+2025-02-18,"Money transfer, virtual currency, or money service",118,83
+2025-02-18,Mortgage,58,34
+2025-02-18,"Payday loan, title loan, personal loan, or advance loan",28,12
+2025-02-18,Prepaid card,17,11
+2025-02-18,Student loan,62,32
+2025-02-18,Vehicle loan or lease,51,29
+2025-02-19,Checking or savings account,229,142
+2025-02-19,Credit card,293,126
+2025-02-19,Credit reporting or other personal consumer reports,11292,2688
+2025-02-19,Debt collection,740,289
+2025-02-19,Debt or credit management,12,6
+2025-02-19,"Money transfer, virtual currency, or money service",136,100
+2025-02-19,Mortgage,93,57
+2025-02-19,"Payday loan, title loan, personal loan, or advance loan",33,21
+2025-02-19,Prepaid card,16,9
+2025-02-19,Student loan,51,37
+2025-02-19,Vehicle loan or lease,72,39
+2025-02-20,Checking or savings account,207,107
+2025-02-20,Credit card,257,128
+2025-02-20,Credit reporting or other personal consumer reports,11673,2593
+2025-02-20,Debt collection,689,280
+2025-02-20,Debt or credit management,8,3
+2025-02-20,"Money transfer, virtual currency, or money service",122,82
+2025-02-20,Mortgage,66,35
+2025-02-20,"Payday loan, title loan, personal loan, or advance loan",35,22
+2025-02-20,Prepaid card,16,8
+2025-02-20,Student loan,66,28
+2025-02-20,Vehicle loan or lease,55,29
+2025-02-21,Checking or savings account,219,141
+2025-02-21,Credit card,237,113
+2025-02-21,Credit reporting or other personal consumer reports,11181,2407
+2025-02-21,Debt collection,633,242
+2025-02-21,Debt or credit management,8,6
+2025-02-21,"Money transfer, virtual currency, or money service",216,165
+2025-02-21,Mortgage,67,43
+2025-02-21,"Payday loan, title loan, personal loan, or advance loan",37,25
+2025-02-21,Prepaid card,18,10
+2025-02-21,Student loan,52,31
+2025-02-21,Vehicle loan or lease,49,27
+2025-02-22,Checking or savings account,106,62
+2025-02-22,Credit card,131,92
+2025-02-22,Credit reporting or other personal consumer reports,6023,1223
+2025-02-22,Debt collection,357,173
+2025-02-22,Debt or credit management,4,2
+2025-02-22,"Money transfer, virtual currency, or money service",78,55
+2025-02-22,Mortgage,22,12
+2025-02-22,"Payday loan, title loan, personal loan, or advance loan",17,8
+2025-02-22,Prepaid card,14,11
+2025-02-22,Student loan,30,15
+2025-02-22,Vehicle loan or lease,25,20
+2025-02-23,Checking or savings account,83,57
+2025-02-23,Credit card,89,62
+2025-02-23,Credit reporting or other personal consumer reports,4541,991
+2025-02-23,Debt collection,318,133
+2025-02-23,Debt or credit management,6,5
+2025-02-23,"Money transfer, virtual currency, or money service",89,73
+2025-02-23,Mortgage,16,13
+2025-02-23,"Payday loan, title loan, personal loan, or advance loan",15,13
+2025-02-23,Prepaid card,9,8
+2025-02-23,Student loan,33,17
+2025-02-23,Vehicle loan or lease,23,13
+2025-02-24,Checking or savings account,206,116
+2025-02-24,Credit card,208,113
+2025-02-24,Credit reporting or other personal consumer reports,10518,2403
+2025-02-24,Debt collection,626,228
+2025-02-24,Debt or credit management,9,3
+2025-02-24,"Money transfer, virtual currency, or money service",194,145
+2025-02-24,Mortgage,58,30
+2025-02-24,"Payday loan, title loan, personal loan, or advance loan",17,11
+2025-02-24,Prepaid card,9,4
+2025-02-24,Student loan,51,26
+2025-02-24,Vehicle loan or lease,50,31
+2025-02-25,Checking or savings account,247,126
+2025-02-25,Credit card,303,145
+2025-02-25,Credit reporting or other personal consumer reports,13274,3058
+2025-02-25,Debt collection,716,241
+2025-02-25,Debt or credit management,16,12
+2025-02-25,"Money transfer, virtual currency, or money service",167,111
+2025-02-25,Mortgage,62,35
+2025-02-25,"Payday loan, title loan, personal loan, or advance loan",32,19
+2025-02-25,Prepaid card,28,17
+2025-02-25,Student loan,61,35
+2025-02-25,Vehicle loan or lease,52,24
+2025-02-26,Checking or savings account,201,121
+2025-02-26,Credit card,255,128
+2025-02-26,Credit reporting or other personal consumer reports,13490,3162
+2025-02-26,Debt collection,712,291
+2025-02-26,Debt or credit management,17,14
+2025-02-26,"Money transfer, virtual currency, or money service",186,145
+2025-02-26,Mortgage,74,43
+2025-02-26,"Payday loan, title loan, personal loan, or advance loan",23,17
+2025-02-26,Prepaid card,15,8
+2025-02-26,Student loan,77,44
+2025-02-26,Vehicle loan or lease,60,34
+2025-02-27,Checking or savings account,212,125
+2025-02-27,Credit card,252,111
+2025-02-27,Credit reporting or other personal consumer reports,13477,3127
+2025-02-27,Debt collection,781,259
+2025-02-27,Debt or credit management,16,9
+2025-02-27,"Money transfer, virtual currency, or money service",171,124
+2025-02-27,Mortgage,89,51
+2025-02-27,"Payday loan, title loan, personal loan, or advance loan",34,24
+2025-02-27,Prepaid card,19,13
+2025-02-27,Student loan,82,37
+2025-02-27,Vehicle loan or lease,42,24
+2025-02-28,Checking or savings account,204,125
+2025-02-28,Credit card,257,119
+2025-02-28,Credit reporting or other personal consumer reports,13338,2939
+2025-02-28,Debt collection,686,261
+2025-02-28,Debt or credit management,12,9
+2025-02-28,"Money transfer, virtual currency, or money service",118,89
+2025-02-28,Mortgage,74,51
+2025-02-28,"Payday loan, title loan, personal loan, or advance loan",25,11
+2025-02-28,Prepaid card,12,8
+2025-02-28,Student loan,72,45
+2025-02-28,Vehicle loan or lease,49,25
