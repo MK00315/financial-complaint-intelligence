@@ -1,0 +1,542 @@
+{
+  "Products": {
+    "columns": [
+      [
+        "Product ID",
+        "int64"
+      ],
+      [
+        "Product",
+        "string"
+      ],
+      [
+        "Product Short",
+        "string"
+      ]
+    ],
+    "rows": 11,
+    "measures": []
+  },
+  "Issues": {
+    "columns": [
+      [
+        "Issue ID",
+        "int64"
+      ],
+      [
+        "Issue",
+        "string"
+      ],
+      [
+        "Product",
+        "string"
+      ]
+    ],
+    "rows": 135,
+    "measures": []
+  },
+  "Calendar": {
+    "columns": [
+      [
+        "Date",
+        "dateTime"
+      ],
+      [
+        "Month",
+        "string"
+      ],
+      [
+        "Month Number",
+        "int64"
+      ],
+      [
+        "Day",
+        "int64"
+      ],
+      [
+        "Week Start",
+        "dateTime"
+      ]
+    ],
+    "rows": 59,
+    "measures": []
+  },
+  "Complaints": {
+    "columns": [
+      [
+        "Date",
+        "dateTime"
+      ],
+      [
+        "Product ID",
+        "int64"
+      ],
+      [
+        "Issue ID",
+        "int64"
+      ],
+      [
+        "Complaint Count",
+        "int64"
+      ],
+      [
+        "Narrative Count",
+        "int64"
+      ],
+      [
+        "Timely Count",
+        "int64"
+      ],
+      [
+        "Known Timeliness Count",
+        "int64"
+      ]
+    ],
+    "rows": 5024,
+    "measures": [
+      [
+        "Total Complaints",
+        "SUM('Complaints'[Complaint Count])",
+        "#,##0"
+      ],
+      [
+        "Written Complaints",
+        "SUM('Complaints'[Narrative Count])",
+        "#,##0"
+      ],
+      [
+        "Narrative Coverage",
+        "DIVIDE([Written Complaints], [Total Complaints])",
+        "0.00%"
+      ],
+      [
+        "Timely Response Rate",
+        "DIVIDE(SUM('Complaints'[Timely Count]), SUM('Complaints'[Known Timeliness Count]))",
+        "0.00%"
+      ],
+      [
+        "Products in Selection",
+        "DISTINCTCOUNT('Complaints'[Product ID])",
+        "0"
+      ],
+      [
+        "Issues in Selection",
+        "DISTINCTCOUNT('Complaints'[Issue ID])",
+        "0"
+      ],
+      [
+        "Reporting Days",
+        "DISTINCTCOUNT('Complaints'[Date])",
+        "0"
+      ],
+      [
+        "Average Daily Complaints",
+        "DIVIDE([Total Complaints], [Reporting Days])",
+        "#,##0"
+      ],
+      [
+        "Share of Selected Complaints",
+        "DIVIDE([Total Complaints], CALCULATE([Total Complaints], ALLSELECTED('Products'), ALLSELECTED('Issues')))",
+        "0.0%"
+      ]
+    ]
+  },
+  "Model": {
+    "columns": [
+      [
+        "Accuracy",
+        "double"
+      ],
+      [
+        "Macro F1",
+        "double"
+      ],
+      [
+        "Balanced Accuracy",
+        "double"
+      ],
+      [
+        "Weighted F1",
+        "double"
+      ],
+      [
+        "Test Rows",
+        "int64"
+      ],
+      [
+        "Train Rows",
+        "int64"
+      ],
+      [
+        "Validation Rows",
+        "int64"
+      ],
+      [
+        "Review Threshold",
+        "double"
+      ],
+      [
+        "Accepted Rows",
+        "int64"
+      ],
+      [
+        "Routing Coverage Value",
+        "double"
+      ],
+      [
+        "Accepted Accuracy",
+        "double"
+      ]
+    ],
+    "rows": 1,
+    "measures": [
+      [
+        "Test Accuracy",
+        "MAX('Model'[Accuracy])",
+        "0.00%"
+      ],
+      [
+        "Test Macro F1",
+        "MAX('Model'[Macro F1])",
+        "0.0000"
+      ],
+      [
+        "Test Balanced Accuracy",
+        "MAX('Model'[Balanced Accuracy])",
+        "0.00%"
+      ],
+      [
+        "Test Weighted F1",
+        "MAX('Model'[Weighted F1])",
+        "0.0000"
+      ],
+      [
+        "Held-out Narratives",
+        "MAX('Model'[Test Rows])",
+        "#,##0"
+      ],
+      [
+        "Training Narratives",
+        "MAX('Model'[Train Rows])",
+        "#,##0"
+      ],
+      [
+        "Routing Coverage",
+        "MAX('Model'[Routing Coverage Value])",
+        "0.00%"
+      ],
+      [
+        "Accepted-only Accuracy",
+        "MAX('Model'[Accepted Accuracy])",
+        "0.00%"
+      ]
+    ]
+  },
+  "Class Performance": {
+    "columns": [
+      [
+        "Product",
+        "string"
+      ],
+      [
+        "Product Short",
+        "string"
+      ],
+      [
+        "Precision",
+        "double"
+      ],
+      [
+        "Recall",
+        "double"
+      ],
+      [
+        "F1",
+        "double"
+      ],
+      [
+        "Support",
+        "int64"
+      ]
+    ],
+    "rows": 11,
+    "measures": [
+      [
+        "Class F1",
+        "AVERAGE('Class Performance'[F1])",
+        "0.000"
+      ],
+      [
+        "Class Precision",
+        "AVERAGE('Class Performance'[Precision])",
+        "0.0%"
+      ],
+      [
+        "Class Recall",
+        "AVERAGE('Class Performance'[Recall])",
+        "0.0%"
+      ],
+      [
+        "Class Support",
+        "SUM('Class Performance'[Support])",
+        "#,##0"
+      ]
+    ]
+  },
+  "Confusion": {
+    "columns": [
+      [
+        "Actual",
+        "string"
+      ],
+      [
+        "Actual Short",
+        "string"
+      ],
+      [
+        "Predicted",
+        "string"
+      ],
+      [
+        "Predicted Short",
+        "string"
+      ],
+      [
+        "Cases",
+        "int64"
+      ],
+      [
+        "Predicted Code",
+        "string"
+      ]
+    ],
+    "rows": 121,
+    "measures": [
+      [
+        "Confusion Cases",
+        "SUM('Confusion'[Cases])",
+        "#,##0"
+      ],
+      [
+        "Confusion Row Share",
+        "DIVIDE([Confusion Cases], CALCULATE([Confusion Cases], REMOVEFILTERS('Confusion'[Predicted], 'Confusion'[Predicted Short], 'Confusion'[Predicted Code])))",
+        "0.0%"
+      ]
+    ]
+  },
+  "Validation Models": {
+    "columns": [
+      [
+        "Model",
+        "string"
+      ],
+      [
+        "Macro F1",
+        "double"
+      ],
+      [
+        "Accuracy",
+        "double"
+      ]
+    ],
+    "rows": 3,
+    "measures": [
+      [
+        "Validation Macro F1",
+        "MAX('Validation Models'[Macro F1])",
+        "0.0000"
+      ]
+    ]
+  },
+  "Splits": {
+    "columns": [
+      [
+        "Split",
+        "string"
+      ],
+      [
+        "Rows",
+        "int64"
+      ],
+      [
+        "From",
+        "dateTime"
+      ],
+      [
+        "To",
+        "dateTime"
+      ],
+      [
+        "Order",
+        "int64"
+      ]
+    ],
+    "rows": 3,
+    "measures": [
+      [
+        "Narratives in Split",
+        "SUM('Splits'[Rows])",
+        "#,##0"
+      ]
+    ]
+  },
+  "Cleaning": {
+    "columns": [
+      [
+        "Stage",
+        "string"
+      ],
+      [
+        "Rows",
+        "int64"
+      ],
+      [
+        "Order",
+        "int64"
+      ]
+    ],
+    "rows": 4,
+    "measures": [
+      [
+        "Rows at Stage",
+        "SUM('Cleaning'[Rows])",
+        "#,##0"
+      ]
+    ]
+  },
+  "Signal Weeks": {
+    "columns": [
+      [
+        "Week",
+        "dateTime"
+      ],
+      [
+        "Week Label",
+        "string"
+      ]
+    ],
+    "rows": 3,
+    "measures": [
+      [
+        "Selected Signal Week",
+        "SELECTEDVALUE('Signal Weeks'[Week], MAX('Signal Weeks'[Week]))",
+        "dd MMM yyyy"
+      ]
+    ]
+  },
+  "Signal Details": {
+    "columns": [
+      [
+        "Week",
+        "dateTime"
+      ],
+      [
+        "Product",
+        "string"
+      ],
+      [
+        "Product Short",
+        "string"
+      ],
+      [
+        "Issue",
+        "string"
+      ],
+      [
+        "Current Count",
+        "int64"
+      ],
+      [
+        "Baseline Mean",
+        "double"
+      ],
+      [
+        "Volume Multiple",
+        "double"
+      ],
+      [
+        "Share Growth pp",
+        "double"
+      ],
+      [
+        "Flag",
+        "int64"
+      ]
+    ],
+    "rows": 405,
+    "measures": [
+      [
+        "Issue Week Complaints",
+        "VAR w = [Selected Signal Week] RETURN CALCULATE(SUM('Signal Details'[Current Count]), 'Signal Details'[Week] = w)",
+        "#,##0"
+      ],
+      [
+        "Issue Baseline Mean",
+        "VAR w = [Selected Signal Week] RETURN CALCULATE(SUM('Signal Details'[Baseline Mean]), 'Signal Details'[Week] = w)",
+        "#,##0.0"
+      ],
+      [
+        "Issue Volume Multiple",
+        "VAR w = [Selected Signal Week] RETURN CALCULATE(MAX('Signal Details'[Volume Multiple]), 'Signal Details'[Week] = w)",
+        "0.00x"
+      ],
+      [
+        "Issue Share Growth pp",
+        "VAR w = [Selected Signal Week] RETURN CALCULATE(MAX('Signal Details'[Share Growth pp]), 'Signal Details'[Week] = w)",
+        "+0.00;-0.00;0.00"
+      ],
+      [
+        "Issue Flag",
+        "VAR w = [Selected Signal Week] RETURN CALCULATE(MAX('Signal Details'[Flag]), 'Signal Details'[Week] = w)",
+        "0"
+      ]
+    ]
+  },
+  "Signal Summary": {
+    "columns": [
+      [
+        "Week",
+        "dateTime"
+      ],
+      [
+        "Archive Total",
+        "int64"
+      ],
+      [
+        "Baseline Archive Mean",
+        "double"
+      ],
+      [
+        "Flags",
+        "int64"
+      ],
+      [
+        "Issue Pairs",
+        "int64"
+      ]
+    ],
+    "rows": 3,
+    "measures": [
+      [
+        "Signal Archive Complaints",
+        "VAR w = [Selected Signal Week] RETURN CALCULATE(MAX('Signal Summary'[Archive Total]), 'Signal Summary'[Week] = w)",
+        "#,##0"
+      ],
+      [
+        "Baseline Weekly Complaints",
+        "VAR w = [Selected Signal Week] RETURN CALCULATE(MAX('Signal Summary'[Baseline Archive Mean]), 'Signal Summary'[Week] = w)",
+        "#,##0.0"
+      ],
+      [
+        "Qualifying Signals",
+        "VAR w = [Selected Signal Week] RETURN CALCULATE(MAX('Signal Summary'[Flags]), 'Signal Summary'[Week] = w)",
+        "0"
+      ],
+      [
+        "Issue Pairs Assessed",
+        "VAR w = [Selected Signal Week] RETURN CALCULATE(MAX('Signal Summary'[Issue Pairs]), 'Signal Summary'[Week] = w)",
+        "0"
+      ]
+    ]
+  }
+}

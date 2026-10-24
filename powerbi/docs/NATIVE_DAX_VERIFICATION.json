@@ -1,0 +1,122 @@
+{
+  "CheckedAt": "2026-10-24T22:05:34.1662757+05:30",
+  "Passed": true,
+  "NativeEngine": "Power BI Desktop Analysis Services",
+  "AuthoredTableCount": 13,
+  "NativeTableCountIncludingAutomaticDateTables": 21,
+  "ReadOnlyQueries": 6,
+  "Results": {
+    "Headlines": [
+      {
+        "Complaints": 811019,
+        "Narratives": 265405,
+        "Coverage": 0.327248806748054,
+        "Products": 11,
+        "Issues": 135,
+        "Days": 59,
+        "Accuracy": 0.7951267056530215,
+        "MacroF1": 0.667181565430843,
+        "BalancedAccuracy": 0.7184844992741485,
+        "TestRows": 15390
+      }
+    ],
+    "CreditCardJanuary": [
+      {
+        "Complaints": 9073,
+        "Narratives": 3992,
+        "AccuracyFixed": 0.7951267056530215
+      }
+    ],
+    "SignalLatest": [
+      {
+        "Week": "2025-02-17T00:00:00",
+        "Volume": 74507,
+        "BaselineMean": 97562.5,
+        "Flags": 0,
+        "Pairs": 135
+      }
+    ],
+    "SignalFirstWeek": [
+      {
+        "Week": "2025-02-03T00:00:00",
+        "Volume": 95532,
+        "BaselineMean": 111340.75,
+        "Flags": 0
+      }
+    ],
+    "ConfusionCheck": [
+      {
+        "Confusion[Actual Short]": "Credit reporting",
+        "Confusion[Predicted Code]": "SAV",
+        "Cases": 32,
+        "RowShare": 0.003738317757009346
+      },
+      {
+        "Confusion[Actual Short]": "Credit reporting",
+        "Confusion[Predicted Code]": "CRD",
+        "Cases": 281,
+        "RowShare": 0.032827102803738316
+      },
+      {
+        "Confusion[Actual Short]": "Credit reporting",
+        "Confusion[Predicted Code]": "CRP",
+        "Cases": 6898,
+        "RowShare": 0.805841121495327
+      },
+      {
+        "Confusion[Actual Short]": "Credit reporting",
+        "Confusion[Predicted Code]": "COL",
+        "Cases": 867,
+        "RowShare": 0.10128504672897196
+      },
+      {
+        "Confusion[Actual Short]": "Credit reporting",
+        "Confusion[Predicted Code]": "DMG",
+        "Cases": 21,
+        "RowShare": 0.002453271028037383
+      },
+      {
+        "Confusion[Actual Short]": "Credit reporting",
+        "Confusion[Predicted Code]": "MTR",
+        "Cases": 8,
+        "RowShare": 0.0009345794392523365
+      },
+      {
+        "Confusion[Actual Short]": "Credit reporting",
+        "Confusion[Predicted Code]": "MOR",
+        "Cases": 77,
+        "RowShare": 0.008995327102803739
+      },
+      {
+        "Confusion[Actual Short]": "Credit reporting",
+        "Confusion[Predicted Code]": "PLN",
+        "Cases": 46,
+        "RowShare": 0.005373831775700935
+      },
+      {
+        "Confusion[Actual Short]": "Credit reporting",
+        "Confusion[Predicted Code]": "PRE",
+        "Cases": 1,
+        "RowShare": 0.00011682242990654206
+      },
+      {
+        "Confusion[Actual Short]": "Credit reporting",
+        "Confusion[Predicted Code]": "STU",
+        "Cases": 142,
+        "RowShare": 0.016588785046728973
+      },
+      {
+        "Confusion[Actual Short]": "Credit reporting",
+        "Confusion[Predicted Code]": "VEH",
+        "Cases": 187,
+        "RowShare": 0.021845794392523366
+      }
+    ],
+    "SmallestClass": [
+      {
+        "Support": 80,
+        "F1": 0.28378378378378377
+      }
+    ]
+  }
+}

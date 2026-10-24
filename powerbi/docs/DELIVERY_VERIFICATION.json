@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-10-24T22:07:43.258746+05:30",
+  "saved_native_file": "Financial_Complaint_Intelligence.pbix",
+  "pbix_bytes": 326405,
+  "pbix_sha256": "ac6ebec65ef2d097f2af005ec5a9d93c2bab32e542c3cd611477023fe74d3168",
+  "pbix_zip_crc_passed": true,
+  "embedded_model_present": true,
+  "native_save_confirmed": true,
+  "unsaved_changes": false,
+  "desktop_version": "2.159.883.0",
+  "pages": [
+    "Overview",
+    "Issue Explorer",
+    "Emerging Issues",
+    "Model & Data"
+  ],
+  "visual_count_including_navigation_and_text": 63,
+  "authored_tables": 13,
+  "dax_measures": 36,
+  "business_relationships": 3,
+  "native_tables_including_automatic_date_tables": 21,
+  "native_dax_checks_passed": 6,
+  "screenshots_visually_reviewed": [
+    "Overview.png",
+    "Issue_Explorer.png",
+    "Emerging_Issues.png",
+    "Model_and_Data.png"
+  ],
+  "native_ui_filter_check": {
+    "page": "Overview",
+    "selection": "Credit card; full date range",
+    "complaints": 15286,
+    "narratives": 6958,
+    "test_accuracy_unchanged": "79.51%",
+    "restored": "All products; 01 Jan-28 Feb 2025; Overview active; saved"
+  },
+  "limitations": [
+    "Save and native rendering verified on this laptop; no separate-device test performed.",
+    "Historical embedded snapshot; refresh reloads the snapshot rather than fetching new CFPB data.",
+    "No cloud publishing, Azure, Databricks, or Power BI Service deployment performed.",
+    "Source validator reported one warning: Microsoft's visualContainer/2.14.0/schema.json returns HTTP 404, so JSON schema checks for 17 Desktop-upgraded visuals were skipped. Native rendering and DAX checks passed. Definitions were preserved without downgrading their schema hints."
+  ],
+  "report_definition_errors": 0,
+  "report_definition_warnings": 1
+}

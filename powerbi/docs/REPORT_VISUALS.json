@@ -1,0 +1,443 @@
+[
+  {
+    "page": "9515549beac546ae9052",
+    "key": "brand",
+    "id": "1a5888de7c2ee498140a",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "snapshot",
+    "id": "df7fddb4830bc49cfbff",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "navigation",
+    "id": "0de70b05a55d0e2afd99",
+    "type": "pageNavigator",
+    "title": null
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "heading",
+    "id": "0004bfa47e160635a1cb",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "subtitle",
+    "id": "a32dd057517a42373af0",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "footer",
+    "id": "c630743794553416e243",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "product_filter",
+    "id": "f540275fa47f31611a09",
+    "type": "slicer",
+    "title": null
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "date_filter",
+    "id": "1f0e16390d6fe22fad33",
+    "type": "slicer",
+    "title": null
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "total",
+    "id": "de6401729dbe2416d869",
+    "type": "card",
+    "title": "Archived complaints"
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "narratives",
+    "id": "42da62702cf03c389cf6",
+    "type": "card",
+    "title": "Written narratives"
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "coverage",
+    "id": "d2441ed3bd1512ef6ec7",
+    "type": "card",
+    "title": "Narrative coverage"
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "accuracy",
+    "id": "5715a487082f3447837b",
+    "type": "card",
+    "title": "Model test accuracy"
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "volume",
+    "id": "5b9310bd7b8e4d337786",
+    "type": "lineChart",
+    "title": "Daily complaint reporting"
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "product_mix",
+    "id": "ccf9b52ca5a1cbfe469f",
+    "type": "barChart",
+    "title": "Complaints by product"
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "issues",
+    "id": "158f1a1aa7dbf96166fc",
+    "type": "tableEx",
+    "title": "Reported issues · select a row to explore"
+  },
+  {
+    "page": "9515549beac546ae9052",
+    "key": "coverage_by_product",
+    "id": "7d18c3d7c2315aff3b1e",
+    "type": "barChart",
+    "title": "Narrative coverage by product"
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "brand",
+    "id": "21f6a2c6297a669e18da",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "snapshot",
+    "id": "b5efd990830592c1a509",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "navigation",
+    "id": "3eadbfa30d036efbe2a9",
+    "type": "pageNavigator",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "heading",
+    "id": "9fb2d9a03787bb474f78",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "subtitle",
+    "id": "b77bdad2f4eed6ebdd25",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "footer",
+    "id": "cac646e5bc35c3a81f50",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "product_filter",
+    "id": "96029e6e16eff5084cb3",
+    "type": "slicer",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "issue_filter",
+    "id": "1e844a3542340bbdcffa",
+    "type": "slicer",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "date_filter",
+    "id": "5ff33848b1594f29db0a",
+    "type": "slicer",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "total",
+    "id": "29431e77ef2d0754ea03",
+    "type": "card",
+    "title": "Complaints in selection"
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "narratives",
+    "id": "0dfa42a1db37f59cda6f",
+    "type": "card",
+    "title": "Written narratives"
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "coverage",
+    "id": "8f608f48e00d3361eea1",
+    "type": "card",
+    "title": "Narrative coverage"
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "issue_count",
+    "id": "f656fccc72765acb820e",
+    "type": "card",
+    "title": "Product / issue combinations"
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "volume",
+    "id": "02550446a827b550bc86",
+    "type": "lineChart",
+    "title": "Reporting trend for the current selection"
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "reading_guide",
+    "id": "6f41de34c12ac319bab5",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9101",
+    "key": "all_issues",
+    "id": "d2fb27366e751b6bb1e7",
+    "type": "tableEx",
+    "title": "Product and issue detail"
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "brand",
+    "id": "7b1069bb89be857502b8",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "snapshot",
+    "id": "0583a86505c0b7f80fa1",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "navigation",
+    "id": "96a736be94598ca333e4",
+    "type": "pageNavigator",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "heading",
+    "id": "eedf1842b599d44d2f93",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "subtitle",
+    "id": "ca551354a13039894581",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "footer",
+    "id": "17996ea858899e8f3d08",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "week_filter",
+    "id": "b8cd6e7ccc8a755f4a7f",
+    "type": "slicer",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "current",
+    "id": "31b435da336d00d193a4",
+    "type": "card",
+    "title": "Complaints in signal week"
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "baseline",
+    "id": "cab35ccf671e3ff8344a",
+    "type": "card",
+    "title": "Prior four-week average"
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "flags",
+    "id": "ec4ed969f08a261ccd66",
+    "type": "card",
+    "title": "Issues meeting every rule"
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "pairs",
+    "id": "ac67dddc415fcdda0bcf",
+    "type": "card",
+    "title": "Product / issue pairs assessed"
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "candidates",
+    "id": "ec428093f626b89d2166",
+    "type": "tableEx",
+    "title": "Issue growth candidates · ranking does not imply a flag"
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "signal_rules",
+    "id": "8885f998b5317a4caa79",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "week_context",
+    "id": "841dc9559d0f68ec28bf",
+    "type": "tableEx",
+    "title": "Complete-week context"
+  },
+  {
+    "page": "ac07e44fb14e88af9102",
+    "key": "signal_scope",
+    "id": "45ea26036b95b6a0a315",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "brand",
+    "id": "5300e1954e8ad2176ebf",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "snapshot",
+    "id": "6b33b41f35895d94a365",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "navigation",
+    "id": "66a898a7949f75f7f158",
+    "type": "pageNavigator",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "heading",
+    "id": "589bef558f5c88ac2b2f",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "subtitle",
+    "id": "7fa525184602758452ef",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "footer",
+    "id": "522cce89de0c97bdd479",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "fixed_scope",
+    "id": "c1e425c63185e4f7769b",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "accuracy",
+    "id": "30e920d23b985e366c68",
+    "type": "card",
+    "title": "Test accuracy"
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "f1",
+    "id": "335e141dbc13bbab4c36",
+    "type": "card",
+    "title": "Macro F1"
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "balanced",
+    "id": "a0c1b6b30c00014efa91",
+    "type": "card",
+    "title": "Balanced accuracy"
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "support",
+    "id": "33348b3f473cc98f6d76",
+    "type": "card",
+    "title": "Held-out narratives"
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "class_f1",
+    "id": "74db458bb2d6620531ef",
+    "type": "barChart",
+    "title": "Test F1 by product category"
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "confusion",
+    "id": "53a89b60cba572e20e9f",
+    "type": "pivotTable",
+    "title": "Confusion matrix · actual rows / predicted columns · row %"
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "matrix_key",
+    "id": "28bc597220ffd2abb7bf",
+    "type": "textbox",
+    "title": null
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "validation_models",
+    "id": "91c1ee0e08122c936cac",
+    "type": "barChart",
+    "title": "Validation selection · macro F1"
+  },
+  {
+    "page": "ac07e44fb14e88af9103",
+    "key": "methodology",
+    "id": "91aa7aa90bb16e726d28",
+    "type": "textbox",
+    "title": null
+  }
+]

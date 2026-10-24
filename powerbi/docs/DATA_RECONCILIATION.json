@@ -1,0 +1,92 @@
+{
+  "source_sha256": "11c18bb0973eed8f5e4f66e2979346af0671a3aefcb5a6b9eec73009d53cff64",
+  "tables": [
+    {
+      "table": "Products",
+      "rows": 11,
+      "columns": 3,
+      "csv_sha256": "15a1bb66c63b1b917a15a08076184dab74c1fa0d1c51090ee088f2b62c2b97d9"
+    },
+    {
+      "table": "Issues",
+      "rows": 135,
+      "columns": 3,
+      "csv_sha256": "0b3f8e1eea06e534d6fde75a8ccce9332602f26f1f08b5f75f09086f9f44eaf6"
+    },
+    {
+      "table": "Calendar",
+      "rows": 59,
+      "columns": 5,
+      "csv_sha256": "64bc1afa5a1a40322dd2ab597e823890f9d9756e89507944b42818a958dc5af9"
+    },
+    {
+      "table": "Complaints",
+      "rows": 5024,
+      "columns": 7,
+      "csv_sha256": "845d7453ef68684e80e5f14707a579c422fe3fe7d61be00a3151203505804634"
+    },
+    {
+      "table": "Model",
+      "rows": 1,
+      "columns": 11,
+      "csv_sha256": "490805acd34b48bf36991814c7fba9ed463786d4bd03c31915e9a6177a0af205"
+    },
+    {
+      "table": "Class Performance",
+      "rows": 11,
+      "columns": 6,
+      "csv_sha256": "4328f2c84501b5bc769d7440f9bc197bfbab2158ba665cc9e08cb054d32f84b6"
+    },
+    {
+      "table": "Confusion",
+      "rows": 121,
+      "columns": 6,
+      "csv_sha256": "d157e3f6ce05d51fc66ddb38223016164906da78ccabf0e8f0c7a412cdccf4db"
+    },
+    {
+      "table": "Validation Models",
+      "rows": 3,
+      "columns": 3,
+      "csv_sha256": "f30610fa8eb86dfca56cf715dca27b68b23bb4b1ace3740e7d6c773d738da162"
+    },
+    {
+      "table": "Splits",
+      "rows": 3,
+      "columns": 5,
+      "csv_sha256": "98b8f46c22594d93b82d3122d46209682edecea610ed1c565c4d24e04d80f337"
+    },
+    {
+      "table": "Cleaning",
+      "rows": 4,
+      "columns": 3,
+      "csv_sha256": "cceaa6907c6095b6018e7ea45b799db08591d2924da982b5fda9e14bdece1f24"
+    },
+    {
+      "table": "Signal Weeks",
+      "rows": 3,
+      "columns": 2,
+      "csv_sha256": "ae8bdaab0f25a45347d3670f11784ab99470d5e859a08d9e503cb323b743726a"
+    },
+    {
+      "table": "Signal Details",
+      "rows": 405,
+      "columns": 9,
+      "csv_sha256": "147e21f669d068dbbd98b3566d54686d3d662beadcd81e44a8f2b7f71cb35ca5"
+    },
+    {
+      "table": "Signal Summary",
+      "rows": 3,
+      "columns": 5,
+      "csv_sha256": "7bf27ddeebebb1b00353120974522fe9355305ae9ed16466ab190f27a322adf2"
+    }
+  ],
+  "source_records": 811019,
+  "narratives": 265405,
+  "test_rows": 15390,
+  "test_accuracy": 0.7951267056530215,
+  "macro_f1": 0.667181565430843,
+  "signal_flags_all_evaluable_weeks": 0,
+  "credit_card_january_complaints": 9073,
+  "credit_card_january_narratives": 3992,
+  "stage": "Source checks and six native DAX queries passed; all four native report pages visually reviewed."
+}

@@ -1,0 +1,19 @@
+{
+  "data": {
+    "result": "succeededWithWarnings",
+    "errorCount": 0,
+    "warningCount": 1,
+    "reportPath": "<local-workspace>\\outputs\\Complaint_PowerBI\\Complaint.Report",
+    "diagnostics": {
+      "PBIR_SCHEMA_UNREACHABLE": {
+        "severity": "warning",
+        "items": [
+          {
+            "message": "JSON Schema \"https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json\" could not be fetched; schema validation skipped for: <local-workspace>\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\9515549beac546ae9052\\visuals\\158f1a1aa7dbf96166fc\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\9515549beac546ae9052\\visuals\\1f0e16390d6fe22fad33\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\9515549beac546ae9052\\visuals\\5b9310bd7b8e4d337786\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\9515549beac546ae9052\\visuals\\7d18c3d7c2315aff3b1e\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\9515549beac546ae9052\\visuals\\ccf9b52ca5a1cbfe469f\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\9515549beac546ae9052\\visuals\\f540275fa47f31611a09\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\ac07e44fb14e88af9101\\visuals\\02550446a827b550bc86\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\ac07e44fb14e88af9101\\visuals\\1e844a3542340bbdcffa\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\ac07e44fb14e88af9101\\visuals\\5ff33848b1594f29db0a\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\ac07e44fb14e88af9101\\visuals\\96029e6e16eff5084cb3\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\ac07e44fb14e88af9101\\visuals\\d2fb27366e751b6bb1e7\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\ac07e44fb14e88af9102\\visuals\\841dc9559d0f68ec28bf\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\ac07e44fb14e88af9102\\visuals\\b8cd6e7ccc8a755f4a7f\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\ac07e44fb14e88af9102\\visuals\\ec428093f626b89d2166\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\ac07e44fb14e88af9103\\visuals\\53a89b60cba572e20e9f\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\ac07e44fb14e88af9103\\visuals\\74db458bb2d6620531ef\\visual.json, C:\\Users\\mahen\\Documents\\Codex\\2026-10-24\\s\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\ac07e44fb14e88af9103\\visuals\\91c1ee0e08122c936cac\\visual.json",
+            "file": "<local-workspace>\\outputs\\Complaint_PowerBI\\Complaint.Report\\definition\\pages\\9515549beac546ae9052\\visuals\\158f1a1aa7dbf96166fc\\visual.json"
+          }
+        ]
+      }
+    }
+  }
+}

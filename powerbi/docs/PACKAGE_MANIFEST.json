@@ -1,0 +1,666 @@
+{
+  "scope": "public repository copy",
+  "self_excluded": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 54,
+      "sha256": "cad865bb3202e1b91d897fb12daec502f138de07038cc18643866093fab01a79"
+    },
+    {
+      "path": "Complaint.pbip",
+      "bytes": 290,
+      "sha256": "1054385018f5d8d18028c20dc7cad0acbdf52424668a4227b1fb3e14d7e4cfbf"
+    },
+    {
+      "path": "Complaint.Report/.platform",
+      "bytes": 303,
+      "sha256": "aa799b50e4bbb5d1597aa8993b297b2e8edaf3142e2c27088baf994a7553e97c"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/page.json",
+      "bytes": 1270,
+      "sha256": "9577775bce93e4ddd990200d81abe2e8e390d5b3fd24bbc63d10b186eca67290"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/0004bfa47e160635a1cb/visual.json",
+      "bytes": 5507,
+      "sha256": "e8a710cf9e4508347cefc0533819386a77b3e617281d1af2b20cf798c849f1c5"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/0de70b05a55d0e2afd99/visual.json",
+      "bytes": 9714,
+      "sha256": "6d8c6dbc5cd4aaeeb8fbd74c22312f06b18f1ead9ee0bb1622ab445e7b977fa2"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/158f1a1aa7dbf96166fc/visual.json",
+      "bytes": 11111,
+      "sha256": "5e2c777372f9bfe68267e5e3a7371eea1ba4db46013e523981a37920511ad72c"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/1a5888de7c2ee498140a/visual.json",
+      "bytes": 5520,
+      "sha256": "2ac99de5363719de5a5c3d5144872b356f2c13c025ce7686cd39f6dfa09ee7b6"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/1f0e16390d6fe22fad33/visual.json",
+      "bytes": 7470,
+      "sha256": "918e10beb6e17e7e823ad8af0201ffc1d1c6cfbd6d599a87b0f4131f5d6b23c9"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/42da62702cf03c389cf6/visual.json",
+      "bytes": 6961,
+      "sha256": "533e3936e652f6a6e2f619de74323249bf151a638e09923b1ee5c1f9597e00ad"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/5715a487082f3447837b/visual.json",
+      "bytes": 7845,
+      "sha256": "ae9617c388431b44d4e557871c2ca38aa498885427c5f5e215f456281123f1bb"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/5b9310bd7b8e4d337786/visual.json",
+      "bytes": 10458,
+      "sha256": "026bd8ecb6027a501d6073db75f24efaeb603752b67be44e8fdee9a4d22a5900"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/7d18c3d7c2315aff3b1e/visual.json",
+      "bytes": 10179,
+      "sha256": "031614d396f30a12a1ee1cbff81241d3f5764036065b5a35a72c4aeeb4dab92d"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/a32dd057517a42373af0/visual.json",
+      "bytes": 5551,
+      "sha256": "43a579e2930a7c315c2b1602bbe84493e02a5b1756b692c40e3029c12b17b4e5"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/c630743794553416e243/visual.json",
+      "bytes": 5590,
+      "sha256": "51b5f821ca4f92fc66220b1b53a2ec97a5fbba61916afdc6fa744ca55bd57ba4"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/ccf9b52ca5a1cbfe469f/visual.json",
+      "bytes": 10166,
+      "sha256": "94370fab96c8240d01d7a72ff069155d49fbd7c43dbf6bace38e1e5c69d36f9d"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/d2441ed3bd1512ef6ec7/visual.json",
+      "bytes": 6962,
+      "sha256": "655c6a8bfb065c2302aaf43aaf0fec0b2a525c901cdc2d9c56f308511e74ca39"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/de6401729dbe2416d869/visual.json",
+      "bytes": 6954,
+      "sha256": "0ff5837689fc9698a34db06378c2871ce7e53975831f0b5bacb1f29e7c8e281f"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/df7fddb4830bc49cfbff/visual.json",
+      "bytes": 5528,
+      "sha256": "a2ad6d94f9b4d64f6e6088d241ca4a32f2582ac81d6f80c620ed832a63a5d8ff"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/9515549beac546ae9052/visuals/f540275fa47f31611a09/visual.json",
+      "bytes": 7531,
+      "sha256": "baa091c6ef9d97e7e2d7a8782a7196455d91636a0173d46fb6c433ce914b6a86"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/page.json",
+      "bytes": 1276,
+      "sha256": "e695982dc888640a3b5f89934ec004bfde4e6d49aa60e053f84cea46f5775b6c"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/02550446a827b550bc86/visual.json",
+      "bytes": 10475,
+      "sha256": "6d9a2fd55970616c26dc15b5fc9f742a714320677b3a58466542b0ed56ebc99b"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/0dfa42a1db37f59cda6f/visual.json",
+      "bytes": 6962,
+      "sha256": "0c771050486c32fe60238c5a0734507fd97eebb7b2dcb64e19ede084b2551c28"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/1e844a3542340bbdcffa/visual.json",
+      "bytes": 7462,
+      "sha256": "41cc9b43ca8632d5e063b002e9a0b1f715791038cd7aa354c6787357d3c7506c"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/21f6a2c6297a669e18da/visual.json",
+      "bytes": 5522,
+      "sha256": "e1075f0e2d71e7cab8274aa115eee57d78bad4b23693e6e35f88d963eb84bba3"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/29431e77ef2d0754ea03/visual.json",
+      "bytes": 6960,
+      "sha256": "4575d679cd6d056928afff723ec3a09f405fe1872ed7611da4e0a17aebd2213f"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/3eadbfa30d036efbe2a9/visual.json",
+      "bytes": 9716,
+      "sha256": "57f8c2fa6ab82e0ff11b0a51fcbcf4ecf1d960f4227a647eef269462385aad87"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/5ff33848b1594f29db0a/visual.json",
+      "bytes": 7472,
+      "sha256": "ab6ae3fbfdb95c36069234e7be9471e71180832918846e853cb02a8526107b33"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/6f41de34c12ac319bab5/visual.json",
+      "bytes": 8197,
+      "sha256": "2765ef347d4b56376064fc3d5340fbeaa83d6f5e34e107ba4113eed99e2127da"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/8f608f48e00d3361eea1/visual.json",
+      "bytes": 6962,
+      "sha256": "ed73323dd1d764802fe5d94bfe1474853893e193e53e08c28fc0c5245a5d9c9c"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/96029e6e16eff5084cb3/visual.json",
+      "bytes": 7533,
+      "sha256": "9d49a3642a5091ab75da5e9a6ee36ba593c00c5ea6a5751ee00d99ffc891c0e8"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/9fb2d9a03787bb474f78/visual.json",
+      "bytes": 5505,
+      "sha256": "c05f313b27128aedf76e99f65c960e0734e09fd7b30c36a181bb1b4d1dab1d85"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/b5efd990830592c1a509/visual.json",
+      "bytes": 5530,
+      "sha256": "d85a587fdcc801f13b129d014fe6c9eac5d1393b30b30825262cdac0aaf54127"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/b77bdad2f4eed6ebdd25/visual.json",
+      "bytes": 5566,
+      "sha256": "54b7db6b422bc08382bf87ed2a391f3aea8571f266293aefe498db599f354f11"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/cac646e5bc35c3a81f50/visual.json",
+      "bytes": 5592,
+      "sha256": "5df1c74ee0ed2fa0f34f554ab4fb11b03502637b5b1ea0bea6dc5ed0530fc0f7"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/d2fb27366e751b6bb1e7/visual.json",
+      "bytes": 12004,
+      "sha256": "8457f38ac06035c36bdc8f068549dff9456359fad38062a702f333451b2f0d6f"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9101/visuals/f656fccc72765acb820e/visual.json",
+      "bytes": 6976,
+      "sha256": "6e191253e264321b5d9ccf0148e05a671ad68bb95e0836d4b0b92de70beda521"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/page.json",
+      "bytes": 1277,
+      "sha256": "e05cdd083df0685c22916a5f296d49f713be54627c39afa80fb3f84c63e2d380"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/0583a86505c0b7f80fa1/visual.json",
+      "bytes": 5530,
+      "sha256": "65bc9ffe601d329c000fece43244370209db8fd1d71e0e37b093e0e3a4eb554c"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/17996ea858899e8f3d08/visual.json",
+      "bytes": 5592,
+      "sha256": "a8fdf91656bcaa3a38aca9c0caef8c96367240ee52b87d33df4e7c2439cb08fc"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/31b435da336d00d193a4/visual.json",
+      "bytes": 6997,
+      "sha256": "47650c046cd0fc02935f6a2686d18c162cee028734cfc5827daf9a552e1d4a8a"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/45ea26036b95b6a0a315/visual.json",
+      "bytes": 6491,
+      "sha256": "d7f03376bf7d0233bc3b3acd56c1de28236dcc80dd1877bf9f72d9bb3aeb1b3e"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/7b1069bb89be857502b8/visual.json",
+      "bytes": 5522,
+      "sha256": "482f1da51d2b6034a67f9ef27d0eee23b7eb9219c531706b0bae056f5243d936"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/841dc9559d0f68ec28bf/visual.json",
+      "bytes": 11055,
+      "sha256": "f6009d55792f85282f23b3e99206d4ef3863b3b9aa01d020974674e0dc0ce423"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/8885f998b5317a4caa79/visual.json",
+      "bytes": 10317,
+      "sha256": "72196199c31eb245ca412dd21d814bd2d301300c761f7a1bc825791d755f861c"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/96a736be94598ca333e4/visual.json",
+      "bytes": 9716,
+      "sha256": "485c484dcf7fb1379f18aaa8f40ec9c59d8511d6fb58c8dfec0de47280e3ca77"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/ac67dddc415fcdda0bcf/visual.json",
+      "bytes": 6989,
+      "sha256": "92ea76bf33ee57499ffb28dcf571fff62d0da0733c9483dcbd623ac4bc3db21a"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/b8cd6e7ccc8a755f4a7f/visual.json",
+      "bytes": 7507,
+      "sha256": "d2e201cdc6c522c6c7bcb3fde39602908287bf43a973a1c2356c1099cf3302c3"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/ca551354a13039894581/visual.json",
+      "bytes": 5559,
+      "sha256": "7b0ca97f05816909f4ec09def456e9c519e35f8bddcb721da9301396a457cc7a"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/cab35ccf671e3ff8344a/visual.json",
+      "bytes": 6999,
+      "sha256": "a050019f869d50973715d19bccd497990f92df4e29b6b72b8e46a53e7e1603fb"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/ec428093f626b89d2166/visual.json",
+      "bytes": 12326,
+      "sha256": "e3ca74b05a2f1c6f1586fe11dc0ed17a65a46841fc7f937a65bca372df67dce1"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/ec4ed969f08a261ccd66/visual.json",
+      "bytes": 6977,
+      "sha256": "d28cc7490dc3c47f59faddfbc267249c97f3473612dc3cd8beebf53bc1a30dcd"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9102/visuals/eedf1842b599d44d2f93/visual.json",
+      "bytes": 5506,
+      "sha256": "b0210e16314c9adbcbba137f9a1cd4c601b1acc3ec00bc662ed9e018cfad8ea4"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/page.json",
+      "bytes": 1274,
+      "sha256": "a9b6a06749edabac19e9acfdf6d4f292d6bc35f062de43df93696baab25e5448"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/28bc597220ffd2abb7bf/visual.json",
+      "bytes": 6544,
+      "sha256": "a60e2d9c852923d0c4c760892da029e907037b498516f4f5b5808e9892fd55b5"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/30e920d23b985e366c68/visual.json",
+      "bytes": 6931,
+      "sha256": "497c51fb4fdc1d9765b28913d7ff286d829fac69b0ab0b2e85b855f62c0dd821"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/33348b3f473cc98f6d76/visual.json",
+      "bytes": 6957,
+      "sha256": "17046e500dba7ee6e627cf21c7b2f76bd5a07796b87e547e170563cd1974b3f9"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/335e141dbc13bbab4c36/visual.json",
+      "bytes": 6927,
+      "sha256": "f725092bf66b5f5c00d1c27bd3c4735d1c1b199d477f57103ce1f43a78e4439d"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/522cce89de0c97bdd479/visual.json",
+      "bytes": 5592,
+      "sha256": "9407a1b00c5aeec9d048a99b6b1fa5b491aaf7c131e802d3736536f264d63a74"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/5300e1954e8ad2176ebf/visual.json",
+      "bytes": 5522,
+      "sha256": "82b2482fb6cdc8b8313cef53ddd75f68d813f52f214f1cc4bd0e0f0f7b99f343"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/53a89b60cba572e20e9f/visual.json",
+      "bytes": 11270,
+      "sha256": "277b416c822ced6f43e8158d655f60dd067868cb757a6bfa52f5eee0a0380296"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/589bef558f5c88ac2b2f/visual.json",
+      "bytes": 5505,
+      "sha256": "16285a404a94e39f7d7d1421fff8183d6dee447e2e1059fa81224a12488bf2c7"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/66a898a7949f75f7f158/visual.json",
+      "bytes": 9716,
+      "sha256": "82ac0b7496fa1c243172937c5a7af5088c2ff5081e05bc8aae600134a259508a"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/6b33b41f35895d94a365/visual.json",
+      "bytes": 5530,
+      "sha256": "df54b8c0cf244466281508a4f0b410f7c8515a7a3a56e496e1574d984a7db27c"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/74db458bb2d6620531ef/visual.json",
+      "bytes": 10174,
+      "sha256": "5aaa9f57a51ef5a7cb1bd0d425c2a5d81c88bd43e3008c6842291a995bbae55c"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/7fa525184602758452ef/visual.json",
+      "bytes": 5564,
+      "sha256": "bdc5a5b1a2bdbbe12f6e135165e234669b2144cf738392f13cc3db78de8d54c0"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/91aa7aa90bb16e726d28/visual.json",
+      "bytes": 7617,
+      "sha256": "0b0b6eea4690cb4a93e144fae5f2291a1e23c22c43668b356042627b40ade37a"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/91c1ee0e08122c936cac/visual.json",
+      "bytes": 10158,
+      "sha256": "6e216e210c83cb4a56aa2251125b5981902120528819149bea4ed948af790795"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/a0c1b6b30c00014efa91/visual.json",
+      "bytes": 6963,
+      "sha256": "e14083aca6f1347c6ef4ca93e249c987e6307266432d0fb9146ea18c3759e4e9"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/ac07e44fb14e88af9103/visuals/c1e425c63185e4f7769b/visual.json",
+      "bytes": 5581,
+      "sha256": "2382bbc2b4dbb780e5f4db0c215d8b1d40b010235b1e46d13c0bf6c49dce7e6b"
+    },
+    {
+      "path": "Complaint.Report/definition/pages/pages.json",
+      "bytes": 313,
+      "sha256": "62164d8afbfde4e406324e6c15e1359099790a82127355e72ed0e663bbc5f968"
+    },
+    {
+      "path": "Complaint.Report/definition/report.json",
+      "bytes": 1950,
+      "sha256": "212e8aff954548cafea5eb83a591142eb1d848b984e850bc1432e7d32defc7e4"
+    },
+    {
+      "path": "Complaint.Report/definition/version.json",
+      "bytes": 154,
+      "sha256": "79141fb0e4ed866953772344c3fc65ec1e5a10beac56fedbad151518396dccfb"
+    },
+    {
+      "path": "Complaint.Report/definition.pbir",
+      "bytes": 245,
+      "sha256": "24b9c414bbb073ae9bcd941a7453eb5383e618c2de07e64bfd19b427d45eca73"
+    },
+    {
+      "path": "Complaint.Report/StaticResources/RegisteredResources/ComplaintSkyBlue-20261024.json",
+      "bytes": 612,
+      "sha256": "c1bb4d82514b0be635bbdd6131076093a1ce76c9964055411118783e66170bd1"
+    },
+    {
+      "path": "Complaint.Report/StaticResources/SharedResources/BaseThemes/Fluent2-CY26SU10.json",
+      "bytes": 99785,
+      "sha256": "93b10674fc7f70713f2da043d4232edc85ad2d6cdf553f97f5a34380944da844"
+    },
+    {
+      "path": "Complaint.SemanticModel/.platform",
+      "bytes": 323,
+      "sha256": "a24523c62eb788e2d213286c217c4c0737f43d904458916536d4a8ec0fc94be6"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/cultures/en-US.tmdl",
+      "bytes": 4873,
+      "sha256": "0f8662af8c991788f61e4ac3bba95849a18d6f06aae129a73f66dd0874c6c808"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/database.tmdl",
+      "bytes": 37,
+      "sha256": "68febeb4286c9d9be6691b3ba8a7e12eb2ad797bd250c9309225e062b2edab83"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/model.tmdl",
+      "bytes": 1301,
+      "sha256": "aeeae032424c54600c162489fa3bdb3200f5e258b98b999db6e585dff2db50d4"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/relationships.tmdl",
+      "bytes": 1670,
+      "sha256": "65fab74dea439ae14f7e85447cf97870558946b9ff538069b1aad145c5552f48"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/Calendar.tmdl",
+      "bytes": 2339,
+      "sha256": "6cbb3493d30f08ceb9f353cdfb6fd91689bd02c941349357878e88659df8e8dc"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/Class Performance.tmdl",
+      "bytes": 2882,
+      "sha256": "41c10876581dbf422f3f2f8e8bb9a39cc36263d1aca350f64635547f3a1a7792"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/Cleaning.tmdl",
+      "bytes": 1172,
+      "sha256": "0806b0c66ecea92b16e260d74c09138327890ca0f2ee02ba2854b6662f57c294"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/Complaints.tmdl",
+      "bytes": 43517,
+      "sha256": "f417629b0f4318b8a993c1affae805d621317d6695f40dd024089208cea3b7cd"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/Confusion.tmdl",
+      "bytes": 3405,
+      "sha256": "0c6f08e6cbfbaad37b14f767fdbfdea7cae2f02c91e8dea493c174439d98f990"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/DateTableTemplate_b87f8f90-138d-4b63-8f7c-243c7c9203fa.tmdl",
+      "bytes": 2744,
+      "sha256": "0fc519883399f0cbfcec0ee4d4594ef6683f5d69a8838a06f9d2ea00fa1ef17a"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/Issues.tmdl",
+      "bytes": 3541,
+      "sha256": "e2c738bd09bc566d4b21bf05a908703a4fc1f8a41e0436af3746ceb34b06e5a1"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/LocalDateTable_10447894-9d91-4922-81cc-656525cd6698.tmdl",
+      "bytes": 2747,
+      "sha256": "8fd36a752d62d247afc82d63fa5ccdc0dd8ae3d02636bc36dc80253de080e04f"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/LocalDateTable_39f3665e-8795-4084-89dd-4da5fea6707e.tmdl",
+      "bytes": 2767,
+      "sha256": "d2709ad08e980a983c83406ef3d2549f5ec12ee491986c1911e7c2f4e8123da0"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/LocalDateTable_72b02c77-eb17-41bc-bc99-f9356011ca97.tmdl",
+      "bytes": 2767,
+      "sha256": "1287196614af594c86e630bc5bb50d6533c9f1ed1cced50b794db4deab45d1a4"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/LocalDateTable_7332ca22-b8cc-434a-a3c9-d44a6638159e.tmdl",
+      "bytes": 2763,
+      "sha256": "51b934627df5e660deec2444a35ab469655457a4aefdbb74f8e822901ad86e05"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/LocalDateTable_ab6f1351-9c5f-4cd8-9e16-cb6bdf3f01ab.tmdl",
+      "bytes": 2751,
+      "sha256": "7be25358ec5db3a30771b776e1e95cdece6aff9aebc6d2cddbddd75b1a01784b"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/LocalDateTable_c66f1302-c66d-4d8f-9a90-ad71e2a7724d.tmdl",
+      "bytes": 2767,
+      "sha256": "185cb7afa44c1e4113673298f78cca79590468bcb0b3986c49d2c1709e5f8728"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/LocalDateTable_cab0568b-c684-4c9c-874f-d4743d7831f9.tmdl",
+      "bytes": 2755,
+      "sha256": "a74707fd20ccc5714e34347179f8ab03925fe0fd5763efe7ff0143aace5d4c12"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/Model.tmdl",
+      "bytes": 4094,
+      "sha256": "b8bb2367c91c4091bdd78f21a75b8e462b6a3447df848fc00a42b18adeef0752"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/Products.tmdl",
+      "bytes": 1319,
+      "sha256": "eb9eac25875de5ebe4580a0b45efc63b6ee6d35e50dd9bae819fd218597f96c7"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/Signal Details.tmdl",
+      "bytes": 18988,
+      "sha256": "94fce136ce8c45d801f0bdc2b51f913f0a756d5cf2e1e37cf5f2eb38fe87131e"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/Signal Summary.tmdl",
+      "bytes": 2848,
+      "sha256": "d229058740955c1582eb3e3d6fd94b9352231525fd2ac15a806ce453234abd85"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/Signal Weeks.tmdl",
+      "bytes": 1247,
+      "sha256": "4cdb7a9588af34abca2f79a48a7be020e710dd399f05b22cc4d23f1840d25a72"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/Splits.tmdl",
+      "bytes": 2072,
+      "sha256": "293a0a226921ae06c7dc911267b8a049daae94acfd95b0c9bfa7abceb799511b"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition/tables/Validation Models.tmdl",
+      "bytes": 1305,
+      "sha256": "87090edfe83cca6ea76c922288d8117c86492d4953763340977b39673713534f"
+    },
+    {
+      "path": "Complaint.SemanticModel/definition.pbism",
+      "bytes": 43,
+      "sha256": "ed99ec078efd2ff27fc1c65cc97902138d7d3c438acdb7770ae37dc71c7f06c8"
+    },
+    {
+      "path": "Complaint.SemanticModel/diagramLayout.json",
+      "bytes": 5052,
+      "sha256": "b564ff2e14a9c85d550ace22bc020c2e9c0660b82bb97d05ca3a9ff688144773"
+    },
+    {
+      "path": "data/Calendar.csv",
+      "bytes": 2205,
+      "sha256": "64bc1afa5a1a40322dd2ab597e823890f9d9756e89507944b42818a958dc5af9"
+    },
+    {
+      "path": "data/Class Performance.csv",
+      "bytes": 1167,
+      "sha256": "4328f2c84501b5bc769d7440f9bc197bfbab2158ba665cc9e08cb054d32f84b6"
+    },
+    {
+      "path": "data/Cleaning.csv",
+      "bytes": 141,
+      "sha256": "cceaa6907c6095b6018e7ea45b799db08591d2924da982b5fda9e14bdece1f24"
+    },
+    {
+      "path": "data/Complaints.csv",
+      "bytes": 137236,
+      "sha256": "845d7453ef68684e80e5f14707a579c422fe3fe7d61be00a3151203505804634"
+    },
+    {
+      "path": "data/Confusion.csv",
+      "bytes": 11393,
+      "sha256": "d157e3f6ce05d51fc66ddb38223016164906da78ccabf0e8f0c7a412cdccf4db"
+    },
+    {
+      "path": "data/Issues.csv",
+      "bytes": 10329,
+      "sha256": "0b3f8e1eea06e534d6fde75a8ccce9332602f26f1f08b5f75f09086f9f44eaf6"
+    },
+    {
+      "path": "data/Model.csv",
+      "bytes": 301,
+      "sha256": "490805acd34b48bf36991814c7fba9ed463786d4bd03c31915e9a6177a0af205"
+    },
+    {
+      "path": "data/Products.csv",
+      "bytes": 542,
+      "sha256": "15a1bb66c63b1b917a15a08076184dab74c1fa0d1c51090ee088f2b62c2b97d9"
+    },
+    {
+      "path": "data/Signal Details.csv",
+      "bytes": 59583,
+      "sha256": "147e21f669d068dbbd98b3566d54686d3d662beadcd81e44a8f2b7f71cb35ca5"
+    },
+    {
+      "path": "data/Signal Summary.csv",
+      "bytes": 160,
+      "sha256": "7bf27ddeebebb1b00353120974522fe9355305ae9ed16466ab190f27a322adf2"
+    },
+    {
+      "path": "data/Signal Weeks.csv",
+      "bytes": 89,
+      "sha256": "ae8bdaab0f25a45347d3670f11784ab99470d5e859a08d9e503cb323b743726a"
+    },
+    {
+      "path": "data/Splits.csv",
+      "bytes": 141,
+      "sha256": "98b8f46c22594d93b82d3122d46209682edecea610ed1c565c4d24e04d80f337"
+    },
+    {
+      "path": "data/Validation Models.csv",
+      "bytes": 192,
+      "sha256": "f30610fa8eb86dfca56cf715dca27b68b23bb4b1ace3740e7d6c773d738da162"
+    },
+    {
+      "path": "docs/DATA_AND_METHOD.md",
+      "bytes": 4595,
+      "sha256": "cd15ce485d424a6619ed4fd6b22d82074444c5fe9858ef9f842b8a250b7cca68"
+    },
+    {
+      "path": "docs/DATA_RECONCILIATION.json",
+      "bytes": 2757,
+      "sha256": "0e84f37d7f92ac1c3137f1d814b07770d62341934a18f82f0c00fd0821883bb6"
+    },
+    {
+      "path": "docs/DELIVERY_VERIFICATION.json",
+      "bytes": 1825,
+      "sha256": "31b6be72f42365e67260a65aa65c4cce882a519d22748b0486d401c9148d8495"
+    },
+    {
+      "path": "docs/MODEL_INVENTORY.json",
+      "bytes": 10225,
+      "sha256": "a736e127ca439f7f9d8629505d82a39067682179f4d8c8b58ee5dcb3d6265fe5"
+    },
+    {
+      "path": "docs/NATIVE_DAX_VERIFICATION.json",
+      "bytes": 3329,
+      "sha256": "1593db5973f34eb75d8a6a1667378c1b60cd8b5017d99d09d71e5966a4781b66"
+    },
+    {
+      "path": "docs/NATIVE_SAVE_STATUS.json",
+      "bytes": 315,
+      "sha256": "b558f04e9330e3476e0f25ce685d9910beb3c29a4544d8485ab8bc5243bfcc56"
+    },
+    {
+      "path": "docs/PBIR_VALIDATION.json",
+      "bytes": 3798,
+      "sha256": "5ec9ac6d99a019f8f3bd0bb59b530ef7bd187f92b7d23747834febab8879e2c3"
+    },
+    {
+      "path": "docs/REPORT_VISUALS.json",
+      "bytes": 10124,
+      "sha256": "3d387cb6e5b3beeec6dc92d72abea62bbaab258354a438cdab74a586e6bce497"
+    },
+    {
+      "path": "docs/USER_GUIDE.md",
+      "bytes": 2778,
+      "sha256": "15d6789fd1bec5d08cdedca737ba850c9fa411057dd5955611974cad1195e873"
+    },
+    {
+      "path": "Financial_Complaint_Intelligence.pbix",
+      "bytes": 326405,
+      "sha256": "ac6ebec65ef2d097f2af005ec5a9d93c2bab32e542c3cd611477023fe74d3168"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4446,
+      "sha256": "6c8e907fe09300646a9e4e88ce517d259f6a11bab291afc1454a800a0b491ff4"
+    },
+    {
+      "path": "screenshots/Emerging_Issues.png",
+      "bytes": 204978,
+      "sha256": "9f7aa144524d1e61b7354c0cd7bc46f62c29eec3cabcfabc1db2af20823299d5"
+    },
+    {
+      "path": "screenshots/Issue_Explorer.png",
+      "bytes": 199586,
+      "sha256": "06e90a8c4c8c93d917e8de629d0701a2cc90541fc842bde6cc39773f24a1323e"
+    },
+    {
+      "path": "screenshots/Model_and_Data.png",
+      "bytes": 223461,
+      "sha256": "84128abb41832442ecbe2fc53b0624972599fce8b9f14fb4b7e99d4ccc600af4"
+    },
+    {
+      "path": "screenshots/Overview.png",
+      "bytes": 217298,
+      "sha256": "c220b39156e5b3cf3c30b648b80a511cc2dbc03661960e7fcbbce872650aabf7"
+    }
+  ]
+}
