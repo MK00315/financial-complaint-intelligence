@@ -1,0 +1,78 @@
+{
+  "source": "CFPB official narratives archive",
+  "source_page": "https://www.consumerfinance.gov/foia-requests/foia-electronic-reading-room/cfpb-consumer-complaint-database-narratives-archive/",
+  "download_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_9_January_2025_through_February_2025.zip",
+  "archive": "cfpb_2025_01_02.zip",
+  "archive_bytes": 75475199,
+  "sha256": "11c18bb0973eed8f5e4f66e2979346af0671a3aefcb5a6b9eec73009d53cff64",
+  "total_rows": 811019,
+  "rows_with_narrative": 265405,
+  "narrative_product_counts": {
+    "Credit reporting or other personal consumer reports": 170863,
+    "Money transfer, virtual currency, or money service": 46258,
+    "Debt collection": 15288,
+    "Vehicle loan or lease": 1910,
+    "Mortgage": 2330,
+    "Checking or savings account": 17070,
+    "Credit card": 6958,
+    "Student loan": 2201,
+    "Prepaid card": 747,
+    "Debt or credit management": 659,
+    "Payday loan, title loan, personal loan, or advance loan": 1121
+  },
+  "all_product_counts": {
+    "Credit reporting or other personal consumer reports": 659700,
+    "Checking or savings account": 23819,
+    "Money transfer, virtual currency, or money service": 55871,
+    "Debt collection": 40862,
+    "Credit card": 15286,
+    "Vehicle loan or lease": 3278,
+    "Mortgage": 3958,
+    "Prepaid card": 1251,
+    "Student loan": 4100,
+    "Payday loan, title loan, personal loan, or advance loan": 1848,
+    "Debt or credit management": 1046
+  },
+  "monthly_counts": {
+    "2025-01": 475783,
+    "2025-02": 335236
+  },
+  "narrative_monthly_counts": {
+    "2025-02": 92468,
+    "2025-01": 172937
+  },
+  "narrative_length_characters": {
+    "minimum": 10,
+    "maximum": 31865,
+    "sum": 243338965,
+    "mean": 916.9
+  },
+  "date_received_min": "2025-01-01",
+  "date_received_max": "2025-02-28",
+  "csv_members": [
+    {
+      "name": "CCDB_Export_9_January_2025_through_February_2025.csv",
+      "uncompressed_bytes": 491908736
+    }
+  ],
+  "columns": [
+    "Date received",
+    "Product",
+    "Sub-product",
+    "Issue",
+    "Sub-issue",
+    "Consumer complaint narrative",
+    "Company public response",
+    "Company",
+    "State",
+    "ZIP code",
+    "Tags",
+    "Submitted via",
+    "Date sent to company",
+    "Company response to consumer",
+    "Timely response?",
+    "Complaint ID"
+  ],
+  "narrative_coverage_pct": 32.72,
+  "status": "Source profiling only. No model trained or dashboard built yet."
+}
