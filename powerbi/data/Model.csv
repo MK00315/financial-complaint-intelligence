@@ -1,0 +1,2 @@
+Accuracy,Macro F1,Balanced Accuracy,Weighted F1,Test Rows,Train Rows,Validation Rows,Review Threshold,Accepted Rows,Routing Coverage Value,Accepted Accuracy
+0.7951267056530215,0.667181565430843,0.7184844992741485,0.8028009987116919,15390,101935,9411,0.55,12158,0.7899935022742041,0.8655206448429018

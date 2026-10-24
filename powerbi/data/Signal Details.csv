@@ -1,0 +1,406 @@
+Week,Product,Product Short,Issue,Current Count,Baseline Mean,Volume Multiple,Share Growth pp,Flag
+2025-02-03,Checking or savings account,Checking / savings,Closing an account,192,213.0,0.9014084507042254,0.009675155235810496,0
+2025-02-03,Checking or savings account,Checking / savings,Credit monitoring or identity theft protection services,0,1.0,0.0,-0.0008981437613811654,0
+2025-02-03,Checking or savings account,Checking / savings,Improper use of your report,1,0.5,2.0,0.000597697788111494,0
+2025-02-03,Checking or savings account,Checking / savings,Incorrect information on your report,6,2.0,3.0,0.00448433049005013,0
+2025-02-03,Checking or savings account,Checking / savings,Managing an account,789,2009.0,0.39273270283723244,-0.978469547929923,0
+2025-02-03,Checking or savings account,Checking / savings,Opening an account,131,152.0,0.8618421052631579,0.0006089748831349063,0
+2025-02-03,Checking or savings account,Checking / savings,Problem caused by your funds being low,326,1897.0,0.17185028993147075,-1.3625318033105938,0
+2025-02-03,Checking or savings account,Checking / savings,Problem with a company's investigation into an existing problem,5,4.5,1.1111111111111112,0.0011922014177951394,0
+2025-02-03,Checking or savings account,Checking / savings,Problem with a lender or other company charging your account,175,228.0,0.7675438596491229,-0.0215920855545423,0
+2025-02-03,Checking or savings account,Checking / savings,Problem with fraud alerts or security freezes,0,0.75,0.0,-0.0006736078210358742,0
+2025-02-03,Checking or savings account,Checking / savings,Unable to get your credit report or credit score,1,0.25,4.0,0.0008222337284567852,0
+2025-02-03,Credit card,Credit card,"Advertising and marketing, including promotional offers",62,68.0,0.9117647058823529,0.0038259436918095034,0
+2025-02-03,Credit card,Credit card,Closing your account,117,120.5,0.970954356846473,0.014245728003412558,0
+2025-02-03,Credit card,Credit card,Credit monitoring or identity theft protection services,2,5.75,0.34782608695652173,-0.003070787290337548,0
+2025-02-03,Credit card,Credit card,Fees or interest,166,210.5,0.7885985748218527,-0.015295496749590593,0
+2025-02-03,Credit card,Credit card,Getting a credit card,249,254.5,0.9783889980353635,0.032068060260210474,0
+2025-02-03,Credit card,Credit card,Improper use of your report,14,22.25,0.6292134831460674,-0.0053289233275018565,0
+2025-02-03,Credit card,Credit card,Incorrect information on your report,105,271.25,0.3870967741935484,-0.13371068005042305,0
+2025-02-03,Credit card,Credit card,"Other features, terms, or problems",188,181.25,1.0372413793103448,0.034004140984454215,0
+2025-02-03,Credit card,Credit card,Problem when making payments,112,138.25,0.810126582278481,-0.006930172105113516,0
+2025-02-03,Credit card,Credit card,Problem with a company's investigation into an existing problem,409,366.0,1.1174863387978142,0.09940817787454284,0
+2025-02-03,Credit card,Credit card,Problem with a purchase shown on your statement,347,344.5,1.007256894049347,0.05381854927850914,0
+2025-02-03,Credit card,Credit card,Problem with fraud alerts or security freezes,1,2.0,0.5,-0.0007495178539602541,0
+2025-02-03,Credit card,Credit card,Struggling to pay your bill,16,24.0,0.6666666666666666,-0.004807135572314745,0
+2025-02-03,Credit card,Credit card,Trouble using your card,54,65.25,0.8275862068965517,-0.0020783183148089055,0
+2025-02-03,Credit card,Credit card,Unable to get your credit report or credit score,1,1.0,1.0,0.0001486259074209113,0
+2025-02-03,Credit reporting or other personal consumer reports,Credit reporting,Credit monitoring or identity theft protection services,199,233.25,0.8531618435155413,-0.001184868250543548,0
+2025-02-03,Credit reporting or other personal consumer reports,Credit reporting,Dealing with your lender or servicer,0,0.0,,0.0,0
+2025-02-03,Credit reporting or other personal consumer reports,Credit reporting,Identity theft protection or other monitoring services,13,14.0,0.9285714285714286,0.00103399303509068,0
+2025-02-03,Credit reporting or other personal consumer reports,Credit reporting,Improper use of your report,20153,20219.0,0.996735743607498,2.9359804240024685,0
+2025-02-03,Credit reporting or other personal consumer reports,Credit reporting,Incorrect information on your report,45109,44658.0,1.010098974427874,7.109428894232794,0
+2025-02-03,Credit reporting or other personal consumer reports,Credit reporting,Managing an account,0,0.25,0.0,-0.00022453594034529134,0
+2025-02-03,Credit reporting or other personal consumer reports,Credit reporting,Problem with a company's investigation into an existing issue,62,73.0,0.8493150684931506,-0.0006647751150963186,0
+2025-02-03,Credit reporting or other personal consumer reports,Credit reporting,Problem with a company's investigation into an existing problem,16885,18959.0,0.8906060446226067,0.6467982856975502,0
+2025-02-03,Credit reporting or other personal consumer reports,Credit reporting,Problem with a purchase shown on your statement,0,0.0,,0.0,0
+2025-02-03,Credit reporting or other personal consumer reports,Credit reporting,Problem with fraud alerts or security freezes,243,223.75,1.0860335195530726,0.0534053629098689,0
+2025-02-03,Credit reporting or other personal consumer reports,Credit reporting,Problems at the end of the loan or lease,0,0.5,0.0,-0.0004490718806905827,0
+2025-02-03,Credit reporting or other personal consumer reports,Credit reporting,Struggling to repay your loan,0,0.0,,0.0,0
+2025-02-03,Credit reporting or other personal consumer reports,Credit reporting,Unable to get your credit report or credit score,293,310.0,0.9451612903225807,0.028278946930847173,0
+2025-02-03,Debt collection,Debt collection,Attempts to collect debt not owed,2628,2407.75,1.0914754438791403,0.5884050481463565,0
+2025-02-03,Debt collection,Debt collection,Communication tactics,189,236.25,0.8,-0.01434699622270782,0
+2025-02-03,Debt collection,Debt collection,Electronic communications,61,95.0,0.6421052631578947,-0.021470707534284032,0
+2025-02-03,Debt collection,Debt collection,False statements or representation,668,893.25,0.7478309543800727,-0.10302477609393876,0
+2025-02-03,Debt collection,Debt collection,Threatened to contact someone or share information improperly,49,60.75,0.8065843621399177,-0.003270519732604044,0
+2025-02-03,Debt collection,Debt collection,Took or threatened to take negative or legal action,507,574.5,0.8825065274151436,0.014728631169173313,0
+2025-02-03,Debt collection,Debt collection,Written notification about debt,966,1229.25,0.7858450274557657,-0.09286371861499144,0
+2025-02-03,Debt or credit management,Debt management,Charged upfront or unexpected fees,20,34.0,0.5882352941176471,-0.009601494510918091,0
+2025-02-03,Debt or credit management,Debt management,Confusing or misleading advertising or marketing,15,21.25,0.7058823529411765,-0.0033840098973186134,0
+2025-02-03,Debt or credit management,Debt management,Confusing or missing disclosures,22,20.0,1.1,0.00506605748602238,0
+2025-02-03,Debt or credit management,Debt management,Didn't provide services promised,32,45.25,0.7071823204419889,-0.007144375800831283,0
+2025-02-03,Debt or credit management,Debt management,Problem with customer service,13,15.5,0.8387096774193549,-0.0003132226069810668,0
+2025-02-03,Debt or credit management,Debt management,Unauthorized withdrawals or charges,9,14.75,0.6101694915254238,-0.0038266934611535003,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Confusing or misleading advertising or marketing,10,32.0,0.3125,-0.018272903676176525,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Confusing or missing disclosures,33,277.5,0.11891891891891893,-0.21469149471280488,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Fraud or scam,262,593.5,0.44144903117101936,-0.2587946691535776,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Incorrect exchange rate,0,0.25,0.0,-0.00022453594034529134,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Lost or stolen money order,6,6.5,0.9230769230769231,0.0004426835638348856,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,"Managing, opening, or closing your mobile wallet account",32,40.25,0.7950310559006211,-0.0026536569939254557,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Money was not available when promised,47,78.0,0.6025641025641025,-0.020857038954033298,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Other service problem,64,282.5,0.22654867256637168,-0.18673235378684633,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Other transaction problem,1437,10725.25,0.1339828908417053,-8.12860836268476,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,"Overdraft, savings, or rewards features",2,3.75,0.5333333333333333,-0.001274499767575217,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Problem adding money,9,8.5,1.0588235294117647,0.001786705047478784,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Problem with customer service,9,14.0,0.6428571428571429,-0.0031530856401176272,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Trouble accessing funds in your mobile or digital wallet,51,67.75,0.7527675276752768,-0.007463986724668043,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Unauthorized transactions or other transaction problem,155,338.5,0.45790251107828656,-0.14177236456320264,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Unexpected or other fees,23,40.5,0.5679012345679012,-0.012299119953489436,0
+2025-02-03,"Money transfer, virtual currency, or money service",Money transfers,Wrong amount charged or received,14,41.0,0.34146341463414637,-0.022169118853398707,0
+2025-02-03,Mortgage,Mortgage,Applying for a mortgage or refinancing an existing mortgage,45,47.5,0.9473684210526315,0.004442806430488097,0
+2025-02-03,Mortgage,Mortgage,Closing on a mortgage,43,39.5,1.0886075949367089,0.009534417183933266,0
+2025-02-03,Mortgage,Mortgage,Credit monitoring or identity theft protection services,1,0.25,4.0,0.0008222337284567852,0
+2025-02-03,Mortgage,Mortgage,Improper use of your report,3,2.0,1.5,0.0013440214836438996,0
+2025-02-03,Mortgage,Mortgage,Incorrect information on your report,21,13.25,1.5849056603773586,0.010081758206543168,0
+2025-02-03,Mortgage,Mortgage,Problem with a company's investigation into an existing problem,6,7.0,0.8571428571428571,-6.38831685569795e-06,0
+2025-02-03,Mortgage,Mortgage,Struggling to pay mortgage,94,113.5,0.8281938325991189,-0.0035429680493670544,0
+2025-02-03,Mortgage,Mortgage,Trouble during payment process,325,275.0,1.1818181818181819,0.09321060798085445,0
+2025-02-03,Mortgage,Mortgage,Unable to get your credit report or credit score,0,0.5,0.0,-0.0004490718806905827,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Can't contact lender or servicer,3,4.25,0.7058823529411765,-0.0006768019794637229,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Can't stop withdrawals from your bank account,2,3.25,0.6153846153846154,-0.0008254278868846342,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Charged fees or interest you didn't expect,59,68.0,0.8676470588235294,0.0006856346854032763,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Confusing or misleading advertising or marketing,0,1.75,0.0,-0.0015717515824170396,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Confusing or missing disclosures,0,1.5,0.0,-0.0013472156420717483,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Credit limit changed,0,1.25,0.0,-0.0011226797017264568,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Credit monitoring or identity theft protection services,2,1.0,2.0,0.001195395576222988,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Getting a line of credit,20,8.75,2.2857142857142856,0.013076635463956337,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Getting the loan,18,18.0,1.0,0.0026752663335764034,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Improper use of your report,2,3.5,0.5714285714285714,-0.001049963827229926,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Incorrect information on your report,14,15.75,0.8888888888888888,0.0005090111214757205,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Issues with repayment,2,2.25,0.8888888888888888,7.271587449653116e-05,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Loan payment wasn't credited to your account,1,3.75,0.26666666666666666,-0.002321269436377294,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Money was taken from your bank account on the wrong day or for the wrong amount,2,3.0,0.6666666666666666,-0.0006008919465393431,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem when making payments,24,29.25,0.8205128205128205,-0.0011482329691492473,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with a company's investigation into an existing problem,3,4.0,0.75,-0.00045226603911843115,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with additional add-on products or services,17,13.75,1.2363636363636363,0.005445607650644281,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with cash advance,1,0.5,2.0,0.000597697788111494,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with fraud alerts or security freezes,1,0.75,1.3333333333333333,0.00037316184776620256,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with the payoff process at the end of the loan,17,23.0,0.7391304347826086,-0.0028622221421314995,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problems receiving the advance,1,1.0,1.0,0.0001486259074209113,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Property was sold,0,0.25,0.0,-0.00022453594034529134,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Received a loan you didn't apply for,2,7.5,0.26666666666666666,-0.004642538872754588,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Struggling to pay your loan,24,26.5,0.9056603773584906,0.0013216623746489576,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Unable to get your credit report or credit score,0,0.5,0.0,-0.0004490718806905827,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Unexpected fees,1,1.25,0.8,-7.591003292438014e-05,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Vehicle was damaged or destroyed the vehicle,0,0.75,0.0,-0.0006736078210358742,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Vehicle was repossessed or sold the vehicle,2,2.5,0.8,-0.00015182006584876028,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,"Was approved for a loan, but didn't receive money",0,0.75,0.0,-0.0006736078210358742,0
+2025-02-03,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,"Was approved for a loan, but didn't receive the money",0,2.0,0.0,-0.0017962875227623307,0
+2025-02-03,Prepaid card,Prepaid card,Advertising,2,5.0,0.4,-0.002397179469301674,0
+2025-02-03,Prepaid card,Prepaid card,Problem getting a card or closing an account,31,22.25,1.3932584269662922,0.012466161042133448,0
+2025-02-03,Prepaid card,Prepaid card,Problem with a purchase or transfer,39,42.25,0.9230769230769231,0.0028774431649267566,0
+2025-02-03,Prepaid card,Prepaid card,Problem with overdraft,1,0.75,1.3333333333333333,0.00037316184776620256,0
+2025-02-03,Prepaid card,Prepaid card,Trouble using the card,69,80.75,0.8544891640866873,-0.0002980015841858182,0
+2025-02-03,Prepaid card,Prepaid card,Unexpected or other fees,18,19.5,0.9230769230769231,0.0013280506915046542,0
+2025-02-03,Student loan,Student loan,Credit monitoring or identity theft protection services,1,1.25,0.8,-7.591003292438014e-05,0
+2025-02-03,Student loan,Student loan,Dealing with your lender or servicer,282,277.25,1.0171325518485121,0.0461786887592575,0
+2025-02-03,Student loan,Student loan,Getting a loan,7,10.5,0.6666666666666666,-0.002103121812887699,0
+2025-02-03,Student loan,Student loan,Improper use of your report,35,6.0,5.833333333333333,0.031248075839785696,0
+2025-02-03,Student loan,Student loan,Incorrect information on your report,26,20.75,1.2530120481927711,0.008579528340194813,0
+2025-02-03,Student loan,Student loan,Issue where my lender is my school,0,1.5,0.0,-0.0013472156420717483,0
+2025-02-03,Student loan,Student loan,Issue with income share agreement,1,1.5,0.6666666666666666,-0.00030044597326967155,0
+2025-02-03,Student loan,Student loan,Problem with a company's investigation into an existing problem,7,4.75,1.4736842105263157,0.003061204815054002,0
+2025-02-03,Student loan,Student loan,Problem with fraud alerts or security freezes,2,0.5,4.0,0.0016444674569135705,0
+2025-02-03,Student loan,Student loan,Struggling to repay your loan,96,184.75,0.5196211096075778,-0.06544217171017094,0
+2025-02-03,Student loan,Student loan,Unable to get your credit report or credit score,3,0.25,12.0,0.0029157730660609392,0
+2025-02-03,Vehicle loan or lease,Vehicle finance,Credit monitoring or identity theft protection services,1,2.5,0.4,-0.001198589734650837,0
+2025-02-03,Vehicle loan or lease,Vehicle finance,Getting a loan or lease,55,73.25,0.7508532423208191,-0.008216698737056145,0
+2025-02-03,Vehicle loan or lease,Vehicle finance,Improper use of your report,24,9.25,2.5945945945945947,0.016814642258474063,0
+2025-02-03,Vehicle loan or lease,Vehicle finance,Incorrect information on your report,19,36.0,0.5277777777777778,-0.012444551702482496,0
+2025-02-03,Vehicle loan or lease,Vehicle finance,Managing the loan or lease,117,116.25,1.0064516129032257,0.0180628389892825,0
+2025-02-03,Vehicle loan or lease,Vehicle finance,Problem with a company's investigation into an existing problem,4,12.75,0.3137254901960784,-0.007264254282401553,0
+2025-02-03,Vehicle loan or lease,Vehicle finance,Problem with fraud alerts or security freezes,1,0.5,2.0,0.000597697788111494,0
+2025-02-03,Vehicle loan or lease,Vehicle finance,Problems at the end of the loan or lease,37,49.75,0.7437185929648241,-0.005952174383036144,0
+2025-02-03,Vehicle loan or lease,Vehicle finance,Repossession,120,119.25,1.0062893081761006,0.018508716711545234,0
+2025-02-03,Vehicle loan or lease,Vehicle finance,Struggling to pay your loan,18,21.25,0.8470588235294118,-0.0002437008909123836,0
+2025-02-03,Vehicle loan or lease,Vehicle finance,Unable to get your credit report or credit score,1,0.75,1.3333333333333333,0.00037316184776620256,0
+2025-02-10,Checking or savings account,Checking / savings,Closing an account,159,216.25,0.7352601156069364,0.013813763116769014,0
+2025-02-10,Checking or savings account,Checking / savings,Credit monitoring or identity theft protection services,1,1.0,1.0,0.0004043451004834607,0
+2025-02-10,Checking or savings account,Checking / savings,Improper use of your report,2,0.75,2.6666666666666665,0.0019108104599210973,0
+2025-02-10,Checking or savings account,Checking / savings,Incorrect information on your report,7,2.75,2.5454545454545454,0.006577624583828425,0
+2025-02-10,Checking or savings account,Checking / savings,Managing an account,641,2046.5,0.31321768873686784,-0.9800388097581773,0
+2025-02-10,Checking or savings account,Checking / savings,Opening an account,131,154.5,0.8478964401294499,0.03224934729499484,0
+2025-02-10,Checking or savings account,Checking / savings,Problem caused by your funds being low,200,1959.75,0.10205383339711697,-1.4706958804589967,0
+2025-02-10,Checking or savings account,Checking / savings,Problem with a company's investigation into an existing problem,0,4.5,0.0,-0.0039676329322350335,0
+2025-02-10,Checking or savings account,Checking / savings,Problem with a lender or other company charging your account,111,234.25,0.47385272145144075,-0.0637867513792176,0
+2025-02-10,Checking or savings account,Checking / savings,Problem with fraud alerts or security freezes,2,0.75,2.6666666666666665,0.0019108104599210973,0
+2025-02-10,Checking or savings account,Checking / savings,Unable to get your credit report or credit score,1,0.5,2.0,0.0008451932040651311,0
+2025-02-10,Credit card,Credit card,"Advertising and marketing, including promotional offers",60,67.5,0.8888888888888888,0.017647984475282597,0
+2025-02-10,Credit card,Credit card,Closing your account,94,127.5,0.7372549019607844,0.008471616505473387,0
+2025-02-10,Credit card,Credit card,Credit monitoring or identity theft protection services,1,5.0,0.2,-0.003122439728169903,0
+2025-02-10,Credit card,Credit card,Fees or interest,164,217.0,0.7557603686635944,0.019582697499630514,0
+2025-02-10,Credit card,Credit card,Getting a credit card,182,262.5,0.6933333333333334,0.0026142636113409175,0
+2025-02-10,Credit card,Credit card,Improper use of your report,7,20.0,0.35,-0.008631634989739206,0
+2025-02-10,Credit card,Credit card,Incorrect information on your report,78,259.75,0.30028873917228105,-0.12870936781422726,0
+2025-02-10,Credit card,Credit card,"Other features, terms, or problems",134,185.5,0.7223719676549866,0.008774888795871688,0
+2025-02-10,Credit card,Credit card,Problem when making payments,80,128.5,0.622568093385214,-0.010414658008745165,0
+2025-02-10,Credit card,Credit card,Problem with a company's investigation into an existing problem,252,377.75,0.6671078755790867,-0.008978332728957995,0
+2025-02-10,Credit card,Credit card,Problem with a purchase shown on your statement,306,363.5,0.8418156808803301,0.07303206883604689,0
+2025-02-10,Credit card,Credit card,Problem with fraud alerts or security freezes,0,2.0,0.0,-0.0017633924143266816,0
+2025-02-10,Credit card,Credit card,Struggling to pay your bill,32,24.25,1.3195876288659794,0.019772188820986636,0
+2025-02-10,Credit card,Credit card,Trouble using your card,46,66.25,0.6943396226415094,0.0007455264271815439,0
+2025-02-10,Credit card,Credit card,Unable to get your credit report or credit score,0,0.75,0.0,-0.0006612721553725056,0
+2025-02-10,Credit reporting or other personal consumer reports,Credit reporting,Credit monitoring or identity theft protection services,146,232.0,0.6293103448275862,-0.016791489145462052,0
+2025-02-10,Credit reporting or other personal consumer reports,Credit reporting,Dealing with your lender or servicer,1,0.0,,0.0012860413076468016,0
+2025-02-10,Credit reporting or other personal consumer reports,Credit reporting,Identity theft protection or other monitoring services,10,13.75,0.7272727272727273,0.0007370902279720793,0
+2025-02-10,Credit reporting or other personal consumer reports,Credit reporting,Improper use of your report,16414,20320.75,0.8077457770997626,3.1923538220001433,0
+2025-02-10,Credit reporting or other personal consumer reports,Credit reporting,Incorrect information on your report,38880,45103.75,0.8620125821023751,10.233480737464113,0
+2025-02-10,Credit reporting or other personal consumer reports,Credit reporting,Managing an account,0,0.0,,0.0,0
+2025-02-10,Credit reporting or other personal consumer reports,Credit reporting,Problem with a company's investigation into an existing issue,34,73.5,0.46258503401360546,-0.021079266766514296,0
+2025-02-10,Credit reporting or other personal consumer reports,Credit reporting,Problem with a company's investigation into an existing problem,12245,19823.0,0.6177167936235686,-1.73028810246382,0
+2025-02-10,Credit reporting or other personal consumer reports,Credit reporting,Problem with a purchase shown on your statement,1,0.0,,0.0012860413076468016,0
+2025-02-10,Credit reporting or other personal consumer reports,Credit reporting,Problem with fraud alerts or security freezes,145,231.75,0.6256742179072277,-0.017857106401318015,0
+2025-02-10,Credit reporting or other personal consumer reports,Credit reporting,Problems at the end of the loan or lease,0,0.5,0.0,-0.0004408481035816704,0
+2025-02-10,Credit reporting or other personal consumer reports,Credit reporting,Struggling to repay your loan,0,0.0,,0.0,0
+2025-02-10,Credit reporting or other personal consumer reports,Credit reporting,Unable to get your credit report or credit score,220,320.75,0.6858924395946999,0.00012502923465479605,0
+2025-02-10,Debt collection,Debt collection,Attempts to collect debt not owed,1931,2531.5,0.7627888603594707,0.2513318166319764,0
+2025-02-10,Debt collection,Debt collection,Communication tactics,200,235.75,0.848356309650053,0.04934838069060271,0
+2025-02-10,Debt collection,Debt collection,Electronic communications,57,85.75,0.6647230320699709,-0.002301095228388788,0
+2025-02-10,Debt collection,Debt collection,False statements or representation,394,831.5,0.47384245339747444,-0.22643012104347804,0
+2025-02-10,Debt collection,Debt collection,Threatened to contact someone or share information improperly,35,60.0,0.5833333333333334,-0.007890326662162394,0
+2025-02-10,Debt collection,Debt collection,Took or threatened to take negative or legal action,384,593.25,0.6472819216182049,-0.029226412763280144,0
+2025-02-10,Debt collection,Debt collection,Written notification about debt,609,1221.5,0.498567335243553,-0.29379276069311877,0
+2025-02-10,Debt or credit management,Debt management,Charged upfront or unexpected fees,15,28.5,0.5263157894736842,-0.005837722289453191,0
+2025-02-10,Debt or credit management,Debt management,Confusing or misleading advertising or marketing,12,19.25,0.6233766233766234,-0.00154015629613269,0
+2025-02-10,Debt or credit management,Debt management,Confusing or missing disclosures,22,21.75,1.0114942528735633,0.00911601626242697,0
+2025-02-10,Debt or credit management,Debt management,Didn't provide services promised,22,42.5,0.5176470588235295,-0.009179180036212351,0
+2025-02-10,Debt or credit management,Debt management,Problem with customer service,15,15.25,0.9836065573770492,0.005844752455461076,0
+2025-02-10,Debt or credit management,Debt management,Unauthorized withdrawals or charges,11,14.25,0.7719298245614035,0.0015822834320372093,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Confusing or misleading advertising or marketing,5,34.0,0.14705882352941177,-0.023547464505319582,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Confusing or missing disclosures,32,281.25,0.11377777777777778,-0.20682373641999194,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Fraud or scam,246,627.25,0.39218812275807097,-0.23667778426209235,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Incorrect exchange rate,0,0.0,,0.0,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Lost or stolen money order,4,6.5,0.6153846153846154,-0.0005868601159745091,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,"Managing, opening, or closing your mobile wallet account",34,44.0,0.7727272727272727,0.004930771344804257,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Money was not available when promised,48,80.25,0.5981308411214953,-0.009026137857811624,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Other service problem,35,294.25,0.11894647408666101,-0.21442766319017498,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Other transaction problem,993,11063.75,0.08975257033103604,-8.477827393510138,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,"Overdraft, savings, or rewards features",0,4.25,0.0,-0.0037472088804441986,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Problem adding money,2,9.75,0.20512820512820512,-0.00602445540454897,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Problem with customer service,10,15.25,0.6557377049180327,-0.0005854540827729323,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Trouble accessing funds in your mobile or digital wallet,47,71.5,0.6573426573426573,-0.002597337352779191,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Unauthorized transactions or other transaction problem,100,366.25,0.27303754266211605,-0.19431710510889344,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Unexpected or other fees,10,45.0,0.2222222222222222,-0.02681591624588232,0
+2025-02-10,"Money transfer, virtual currency, or money service",Money transfers,Wrong amount charged or received,10,42.25,0.23668639053254437,-0.024391251676183133,0
+2025-02-10,Mortgage,Mortgage,Applying for a mortgage or refinancing an existing mortgage,32,45.5,0.7032967032967034,0.0010361444187656401,0
+2025-02-10,Mortgage,Mortgage,Closing on a mortgage,32,41.5,0.7710843373493976,0.004562929247419004,0
+2025-02-10,Mortgage,Mortgage,Credit monitoring or identity theft protection services,1,0.5,2.0,0.0008451932040651311,0
+2025-02-10,Mortgage,Mortgage,Improper use of your report,2,2.5,0.8,0.0003678420973852509,0
+2025-02-10,Mortgage,Mortgage,Incorrect information on your report,11,15.75,0.6984126984126984,0.0002597391212921991,0
+2025-02-10,Mortgage,Mortgage,Problem with a company's investigation into an existing problem,6,7.5,0.8,0.0011035262921557537,0
+2025-02-10,Mortgage,Mortgage,Struggling to pay mortgage,88,111.25,0.7910112359550562,0.015082932025996861,0
+2025-02-10,Mortgage,Mortgage,Trouble during payment process,246,280.25,0.8777876895628903,0.06927079962358693,0
+2025-02-10,Mortgage,Mortgage,Unable to get your credit report or credit score,0,0.25,0.0,-0.0002204240517908352,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Can't contact lender or servicer,2,4.75,0.42105263157894735,-0.0016159743687322661,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Can't stop withdrawals from your bank account,3,3.75,0.8,0.0005517631460778768,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Charged fees or interest you didn't expect,53,67.5,0.7851851851851852,0.008645695321754987,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Confusing or misleading advertising or marketing,1,1.25,0.8,0.00018392104869262546,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Confusing or missing disclosures,3,1.5,2.0,0.002535579612195394,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Credit limit changed,2,0.5,4.0,0.0021312345117119325,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Credit monitoring or identity theft protection services,2,1.25,1.6,0.001469962356339427,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Getting a line of credit,8,10.75,0.7441860465116279,0.0008100962341684986,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Getting the loan,11,19.25,0.5714285714285714,-0.0028261976037794933,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Improper use of your report,7,3.5,2.0,0.005916352428455919,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Incorrect information on your report,6,16.0,0.375,-0.006390891468732644,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Issues with repayment,3,2.75,1.0909090909090908,0.0014334593532412175,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Loan payment wasn't credited to your account,1,3.25,0.3076923076923077,-0.001579471365634056,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Money was taken from your bank account on the wrong day or for the wrong amount,2,2.5,0.8,0.0003678420973852509,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem when making payments,18,26.25,0.6857142857142857,4.218099604731641e-06,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with a company's investigation into an existing problem,3,4.25,0.7058823529411765,0.00011091504249620635,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with additional add-on products or services,10,15.5,0.6451612903225806,-0.0008058781345637655,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with cash advance,0,0.75,0.0,-0.0006612721553725056,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with fraud alerts or security freezes,1,0.75,1.3333333333333333,0.000624769152274296,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with the payoff process at the end of the loan,7,22.25,0.3146067415730337,-0.010615451455856722,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problems receiving the advance,1,0.75,1.3333333333333333,0.000624769152274296,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Property was sold,0,0.25,0.0,-0.0002204240517908352,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Received a loan you didn't apply for,5,6.5,0.7692307692307693,0.0006991811916722928,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Struggling to pay your loan,23,25.25,0.9108910891089109,0.007316120845002084,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Unable to get your credit report or credit score,0,0.5,0.0,-0.0004408481035816704,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Unexpected fees,1,1.25,0.8,0.00018392104869262546,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Vehicle was damaged or destroyed the vehicle,1,0.5,2.0,0.0008451932040651311,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Vehicle was repossessed or sold the vehicle,1,2.25,0.4444444444444444,-0.0006977751584707154,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,"Was approved for a loan, but didn't receive money",0,0.5,0.0,-0.0004408481035816704,0
+2025-02-10,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,"Was approved for a loan, but didn't receive the money",3,1.0,3.0,0.002976427715777064,0
+2025-02-10,Prepaid card,Prepaid card,Advertising,2,4.5,0.4444444444444444,-0.0013955503169414307,0
+2025-02-10,Prepaid card,Prepaid card,Problem getting a card or closing an account,14,24.5,0.5714285714285714,-0.0035969787684466273,0
+2025-02-10,Prepaid card,Prepaid card,Problem with a purchase or transfer,26,42.25,0.6153846153846154,-0.0038145907538343097,0
+2025-02-10,Prepaid card,Prepaid card,Problem with overdraft,0,1.0,0.0,-0.0008816962071633408,0
+2025-02-10,Prepaid card,Prepaid card,Trouble using the card,49,77.0,0.6363636363636364,-0.004874583876883965,0
+2025-02-10,Prepaid card,Prepaid card,Unexpected or other fees,14,21.5,0.6511627906976745,-0.000951890146956604,0
+2025-02-10,Student loan,Student loan,Credit monitoring or identity theft protection services,10,0.75,13.333333333333334,0.012199140921095511,0
+2025-02-10,Student loan,Student loan,Dealing with your lender or servicer,377,274.75,1.3721565059144678,0.24259154006471628,0
+2025-02-10,Student loan,Student loan,Getting a loan,5,10.0,0.5,-0.0023867555333994006,0
+2025-02-10,Student loan,Student loan,Improper use of your report,100,14.75,6.779661016949152,0.11559911170902089,0
+2025-02-10,Student loan,Student loan,Incorrect information on your report,23,22.5,1.0222222222222221,0.00974078541470127,0
+2025-02-10,Student loan,Student loan,Issue where my lender is my school,2,0.75,2.6666666666666665,0.0019108104599210973,0
+2025-02-10,Student loan,Student loan,Issue with income share agreement,0,1.25,0.0,-0.001102120258954176,0
+2025-02-10,Student loan,Student loan,Problem with a company's investigation into an existing problem,8,5.5,1.4545454545454546,0.005439001321776038,0
+2025-02-10,Student loan,Student loan,Problem with fraud alerts or security freezes,5,1.0,5.0,0.005548510331070667,0
+2025-02-10,Student loan,Student loan,Struggling to repay your loan,128,186.0,0.6881720430107527,0.0006177928464092073,0
+2025-02-10,Student loan,Student loan,Unable to get your credit report or credit score,0,0.75,0.0,-0.0006612721553725056,0
+2025-02-10,Vehicle loan or lease,Vehicle finance,Credit monitoring or identity theft protection services,3,1.75,1.7142857142857142,0.0023151555604045584,0
+2025-02-10,Vehicle loan or lease,Vehicle finance,Getting a loan or lease,44,70.25,0.6263345195729537,-0.005353341016765432,0
+2025-02-10,Vehicle loan or lease,Vehicle finance,Improper use of your report,5,14.5,0.3448275862068966,-0.006354388465634435,0
+2025-02-10,Vehicle loan or lease,Vehicle finance,Incorrect information on your report,25,32.5,0.7692307692307693,0.0034959059583614615,0
+2025-02-10,Vehicle loan or lease,Vehicle finance,Managing the loan or lease,89,116.25,0.7655913978494624,0.011960492297826971,0
+2025-02-10,Vehicle loan or lease,Vehicle finance,Problem with a company's investigation into an existing problem,12,11.5,1.0434782608695652,0.005292989309383201,0
+2025-02-10,Vehicle loan or lease,Vehicle finance,Problem with fraud alerts or security freezes,0,0.5,0.0,-0.0004408481035816704,0
+2025-02-10,Vehicle loan or lease,Vehicle finance,Problems at the end of the loan or lease,35,48.25,0.7253886010362695,0.0024696037720068603,0
+2025-02-10,Vehicle loan or lease,Vehicle finance,Repossession,98,125.5,0.7808764940239044,0.015379174150387274,0
+2025-02-10,Vehicle loan or lease,Vehicle finance,Struggling to pay your loan,18,20.0,0.9,0.005514819394375611,0
+2025-02-10,Vehicle loan or lease,Vehicle finance,Unable to get your credit report or credit score,0,0.75,0.0,-0.0006612721553725056,0
+2025-02-17,Checking or savings account,Checking / savings,Closing an account,188,190.25,0.988173455978975,0.05732208179761034,0
+2025-02-17,Checking or savings account,Checking / savings,Credit monitoring or identity theft protection services,0,1.0,0.0,-0.0010249839846252402,0
+2025-02-17,Checking or savings account,Checking / savings,Improper use of your report,2,0.75,2.6666666666666665,0.001915573552728541,0
+2025-02-17,Checking or savings account,Checking / savings,Incorrect information on your report,2,4.25,0.47058823529411764,-0.0016718703934598,0
+2025-02-17,Checking or savings account,Checking / savings,Managing an account,604,882.75,0.6842254318889833,-0.09414252698629437,0
+2025-02-17,Checking or savings account,Checking / savings,Opening an account,91,135.0,0.674074074074074,-0.01623666279992248,0
+2025-02-17,Checking or savings account,Checking / savings,Problem caused by your funds being low,108,796.25,0.13563579277864993,-0.671190674533184,0
+2025-02-17,Checking or savings account,Checking / savings,Problem with a company's investigation into an existing problem,5,3.75,1.3333333333333333,0.002867088910649028,0
+2025-02-17,Checking or savings account,Checking / savings,Problem with a lender or other company charging your account,142,181.25,0.783448275862069,0.004807772211695683,0
+2025-02-17,Checking or savings account,Checking / savings,Problem with fraud alerts or security freezes,0,1.25,0.0,-0.0012812299807815502,0
+2025-02-17,Checking or savings account,Checking / savings,Unable to get your credit report or credit score,0,0.5,0.0,-0.0005124919923126201,0
+2025-02-17,Credit card,Credit card,"Advertising and marketing, including promotional offers",39,65.25,0.5977011494252874,-0.014536129943446236,0
+2025-02-17,Credit card,Credit card,Closing your account,97,114.75,0.8453159041394336,0.01257219751233103,0
+2025-02-17,Credit card,Credit card,Credit monitoring or identity theft protection services,3,4.25,0.7058823529411765,-0.000329714622861064,0
+2025-02-17,Credit card,Credit card,Fees or interest,145,187.5,0.7733333333333333,0.0024280896195841284,0
+2025-02-17,Credit card,Credit card,Getting a credit card,188,240.0,0.7833333333333333,0.006329128562504623,0
+2025-02-17,Credit card,Credit card,Improper use of your report,25,15.25,1.639344262295082,0.01792288849943348,0
+2025-02-17,Credit card,Credit card,Incorrect information on your report,74,195.25,0.37900128040973113,-0.10080859597377172,0
+2025-02-17,Credit card,Credit card,"Other features, terms, or problems",148,167.75,0.8822652757078987,0.026697990627728832,0
+2025-02-17,Credit card,Credit card,Problem when making payments,72,104.25,0.6906474820143885,-0.010219364914072326,0
+2025-02-17,Credit card,Credit card,Problem with a company's investigation into an existing problem,224,344.25,0.6506899055918663,-0.052207844093122166,0
+2025-02-17,Credit card,Credit card,Problem with a purchase shown on your statement,291,344.75,0.8440899202320522,0.03720410054468054,0
+2025-02-17,Credit card,Credit card,Problem with fraud alerts or security freezes,1,1.0,1.0,0.00031717178597349537,0
+2025-02-17,Credit card,Credit card,Struggling to pay your bill,21,22.75,0.9230769230769231,0.004866885532349235,0
+2025-02-17,Credit card,Credit card,Trouble using your card,30,56.5,0.5309734513274337,-0.017646922013364007,0
+2025-02-17,Credit card,Credit card,Unable to get your credit report or credit score,1,0.25,4.0,0.0010859097744424257,0
+2025-02-17,Credit reporting or other personal consumer reports,Credit reporting,Credit monitoring or identity theft protection services,133,191.25,0.6954248366013072,-0.01752146956994535,0
+2025-02-17,Credit reporting or other personal consumer reports,Credit reporting,Dealing with your lender or servicer,0,0.25,0.0,-0.00025624599615631005,0
+2025-02-17,Credit reporting or other personal consumer reports,Credit reporting,Identity theft protection or other monitoring services,6,11.5,0.5217391304347826,-0.0037343811995978484,0
+2025-02-17,Credit reporting or other personal consumer reports,Credit reporting,Improper use of your report,16366,19459.5,0.8410288034122151,2.0200454928040457,0
+2025-02-17,Credit reporting or other personal consumer reports,Credit reporting,Incorrect information on your report,37780,43862.25,0.8613329229576686,5.748541233591786,0
+2025-02-17,Credit reporting or other personal consumer reports,Credit reporting,Managing an account,0,0.0,,0.0,0
+2025-02-17,Credit reporting or other personal consumer reports,Credit reporting,Problem with a company's investigation into an existing issue,27,63.25,0.4268774703557312,-0.028592031221380584,0
+2025-02-17,Credit reporting or other personal consumer reports,Credit reporting,Problem with a company's investigation into an existing problem,11251,18055.5,0.6231342250283847,-3.406003759394649,0
+2025-02-17,Credit reporting or other personal consumer reports,Credit reporting,Problem with a purchase shown on your statement,0,0.25,0.0,-0.00025624599615631005,0
+2025-02-17,Credit reporting or other personal consumer reports,Credit reporting,Problem with fraud alerts or security freezes,196,201.75,0.9714993804213135,0.05627201213920996,0
+2025-02-17,Credit reporting or other personal consumer reports,Credit reporting,Problems at the end of the loan or lease,0,0.5,0.0,-0.0005124919923126201,0
+2025-02-17,Credit reporting or other personal consumer reports,Credit reporting,Struggling to repay your loan,0,0.0,,0.0,0
+2025-02-17,Credit reporting or other personal consumer reports,Credit reporting,Unable to get your credit report or credit score,176,291.5,0.6037735849056604,-0.06256341589288006,0
+2025-02-17,Debt collection,Debt collection,Attempts to collect debt not owed,1869,2479.0,0.7539330375151271,-0.0324461626369333,0
+2025-02-17,Debt collection,Debt collection,Communication tactics,150,231.0,0.6493506493506493,-0.03544793485862011,0
+2025-02-17,Debt collection,Debt collection,Electronic communications,56,81.0,0.691358024691358,-0.007862979601115259,0
+2025-02-17,Debt collection,Debt collection,False statements or representation,412,688.0,0.5988372093023255,-0.1522208039354862,0
+2025-02-17,Debt collection,Debt collection,Threatened to contact someone or share information improperly,42,54.25,0.7741935483870968,0.0007651611992276204,0
+2025-02-17,Debt collection,Debt collection,Took or threatened to take negative or legal action,503,545.25,0.9225126088950023,0.11623183499425184,0
+2025-02-17,Debt collection,Debt collection,Written notification about debt,785,1057.0,0.7426679280983917,-0.029815791828871445,0
+2025-02-17,Debt or credit management,Debt management,Charged upfront or unexpected fees,6,22.0,0.2727272727272727,-0.01449671303816287,0
+2025-02-17,Debt or credit management,Debt management,Confusing or misleading advertising or marketing,10,14.25,0.7017543859649122,-0.001184464074922316,0
+2025-02-17,Debt or credit management,Debt management,Confusing or missing disclosures,11,20.25,0.5432098765432098,-0.005992212212075021,0
+2025-02-17,Debt or credit management,Debt management,Didn't provide services promised,21,33.5,0.6268656716417911,-0.0061516923023721,0
+2025-02-17,Debt or credit management,Debt management,Problem with customer service,3,14.25,0.21052631578947367,-0.010579554469113467,0
+2025-02-17,Debt or credit management,Debt management,Unauthorized withdrawals or charges,3,12.0,0.25,-0.008273340503706678,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Confusing or misleading advertising or marketing,3,16.25,0.18461538461538463,-0.012629522438363947,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Confusing or missing disclosures,21,98.75,0.21265822784810126,-0.07303189729916901,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Fraud or scam,188,378.75,0.49636963696369635,-0.13588739930424748,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Incorrect exchange rate,0,0.0,,0.0,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Lost or stolen money order,3,5.25,0.5714285714285714,-0.0013546986074863042,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,"Managing, opening, or closing your mobile wallet account",16,39.0,0.41025641025641024,-0.018499883070804597,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Money was not available when promised,35,54.0,0.6481481481481481,-0.008373683198807224,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Other service problem,23,97.75,0.23529411764705882,-0.0693226017733463,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Other transaction problem,445,3239.75,0.1373562774905471,-2.7234325462731848,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,"Overdraft, savings, or rewards features",0,1.5,0.0,-0.0015374759769378604,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Problem adding money,4,8.0,0.5,-0.00283124879460698,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Problem with customer service,9,11.0,0.8181818181818182,0.0008045781045109781,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Trouble accessing funds in your mobile or digital wallet,45,62.25,0.7228915662650602,-0.0034082433659780994,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Unauthorized transactions or other transaction problem,68,241.0,0.2821576763485477,-0.15575454789396886,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Unexpected or other fees,5,25.5,0.19607843137254902,-0.019426312754949947,0
+2025-02-17,"Money transfer, virtual currency, or money service",Money transfers,Wrong amount charged or received,3,20.75,0.14457831325301204,-0.017241950369177528,0
+2025-02-17,Mortgage,Mortgage,Applying for a mortgage or refinancing an existing mortgage,34,42.75,0.7953216374269005,0.0018152308576279937,0
+2025-02-17,Mortgage,Mortgage,Closing on a mortgage,23,41.5,0.5542168674698795,-0.01166725263817655,0
+2025-02-17,Mortgage,Mortgage,Credit monitoring or identity theft protection services,0,0.75,0.0,-0.0007687379884689302,0
+2025-02-17,Mortgage,Mortgage,Improper use of your report,1,2.5,0.4,-0.001220304190964365,0
+2025-02-17,Mortgage,Mortgage,Incorrect information on your report,17,13.75,1.2363636363636363,0.008723118311581454,0
+2025-02-17,Mortgage,Mortgage,Problem with a company's investigation into an existing problem,6,6.25,0.96,0.0016467847196846629,0
+2025-02-17,Mortgage,Mortgage,Struggling to pay mortgage,90,105.25,0.8551068883610451,0.012914454972079676,0
+2025-02-17,Mortgage,Mortgage,Trouble during payment process,206,268.25,0.7679403541472507,0.0015321348676188614,0
+2025-02-17,Mortgage,Mortgage,Unable to get your credit report or credit score,0,0.25,0.0,-0.00025624599615631005,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Can't contact lender or servicer,4,3.75,1.0666666666666667,0.0015249331400502915,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Can't stop withdrawals from your bank account,4,3.25,1.2307692307692308,0.0020374251323629117,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Charged fees or interest you didn't expect,54,59.25,0.9113924050632911,0.011746110523286238,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Confusing or misleading advertising or marketing,0,1.25,0.0,-0.0012812299807815502,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Confusing or missing disclosures,0,1.5,0.0,-0.0015374759769378604,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Credit limit changed,0,1.0,0.0,-0.0010249839846252402,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Credit monitoring or identity theft protection services,1,1.5,0.6666666666666666,-0.00019532020633912484,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Getting a line of credit,8,10.75,0.7441860465116279,-0.000281331669931448,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Getting the loan,3,17.0,0.17647058823529413,-0.013398260426832878,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Improper use of your report,4,4.25,0.9411764705882353,0.0010124411477376715,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Incorrect information on your report,11,13.0,0.8461538461538461,0.0014389216764579688,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Issues with repayment,4,2.75,1.4545454545454546,0.002549917124675532,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Loan payment wasn't credited to your account,0,2.0,0.0,-0.0020499679692504804,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Money was taken from your bank account on the wrong day or for the wrong amount,0,1.75,0.0,-0.0017937219730941704,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem when making payments,24,22.75,1.054945054945055,0.008893352844145441,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with a company's investigation into an existing problem,3,4.5,0.6666666666666666,-0.000585960619017374,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with additional add-on products or services,12,13.5,0.8888888888888888,0.0022685854547440857,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with cash advance,1,0.75,1.3333333333333333,0.0005734177821298054,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with fraud alerts or security freezes,0,1.0,0.0,-0.0010249839846252402,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problem with the payoff process at the end of the loan,17,15.25,1.1147540983606556,0.007185642334643592,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Problems receiving the advance,2,1.0,2.0,0.001659327556572231,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Property was sold,0,0.0,,0.0,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Received a loan you didn't apply for,11,5.0,2.2,0.009638793553459892,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Struggling to pay your loan,23,24.0,0.9583333333333334,0.006269967092765154,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Unable to get your credit report or credit score,0,0.0,,0.0,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Unexpected fees,1,1.25,0.8,6.0925789817185345e-05,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Vehicle was damaged or destroyed the vehicle,0,0.5,0.0,-0.0005124919923126201,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Vehicle was repossessed or sold the vehicle,3,1.25,2.4,0.002745237331014657,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,"Was approved for a loan, but didn't receive money",0,0.25,0.0,-0.00025624599615631005,0
+2025-02-17,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,"Was approved for a loan, but didn't receive the money",1,1.25,0.8,6.0925789817185345e-05,0
+2025-02-17,Prepaid card,Prepaid card,Advertising,1,3.75,0.26666666666666666,-0.002501534171745916,0
+2025-02-17,Prepaid card,Prepaid card,Problem getting a card or closing an account,15,21.75,0.6896551724137931,-0.002161065106617941,0
+2025-02-17,Prepaid card,Prepaid card,Problem with a purchase or transfer,23,38.25,0.6013071895424836,-0.008336054688144518,0
+2025-02-17,Prepaid card,Prepaid card,Problem with overdraft,0,1.0,0.0,-0.0010249839846252402,0
+2025-02-17,Prepaid card,Prepaid card,Trouble using the card,53,66.5,0.7969924812030075,0.0029728208641545254,0
+2025-02-17,Prepaid card,Prepaid card,Unexpected or other fees,13,18.5,0.7027027027027027,-0.0015141786977833794,0
+2025-02-17,Student loan,Student loan,Credit monitoring or identity theft protection services,4,3.0,1.3333333333333333,0.0022936711285192215,0
+2025-02-17,Student loan,Student loan,Dealing with your lender or servicer,203,292.5,0.694017094017094,-0.027350194071339456,0
+2025-02-17,Student loan,Student loan,Getting a loan,5,5.5,0.9090909090909091,0.0010733669375548574,0
+2025-02-17,Student loan,Student loan,Improper use of your report,18,37.75,0.4768211920529801,-0.014534341548825578,0
+2025-02-17,Student loan,Student loan,Incorrect information on your report,37,23.25,1.5913978494623655,0.02582888586961638,0
+2025-02-17,Student loan,Student loan,Issue where my lender is my school,0,1.0,0.0,-0.0010249839846252402,0
+2025-02-17,Student loan,Student loan,Issue with income share agreement,2,1.0,2.0,0.001659327556572231,0
+2025-02-17,Student loan,Student loan,Problem with a company's investigation into an existing problem,2,7.25,0.27586206896551724,-0.00474682234733552,0
+2025-02-17,Student loan,Student loan,Problem with fraud alerts or security freezes,1,2.0,0.5,-0.000707812198651745,0
+2025-02-17,Student loan,Student loan,Struggling to repay your loan,75,189.0,0.3968253968253968,-0.09306029029926523,0
+2025-02-17,Student loan,Student loan,Unable to get your credit report or credit score,0,0.75,0.0,-0.0007687379884689302,0
+2025-02-17,Vehicle loan or lease,Vehicle finance,Credit monitoring or identity theft protection services,1,1.5,0.6666666666666666,-0.00019532020633912484,0
+2025-02-17,Vehicle loan or lease,Vehicle finance,Getting a loan or lease,67,59.0,1.1355932203389831,0.029450381537226122,0
+2025-02-17,Vehicle loan or lease,Vehicle finance,Improper use of your report,1,11.75,0.0851063829787234,-0.010701406048747837,0
+2025-02-17,Vehicle loan or lease,Vehicle finance,Incorrect information on your report,22,30.25,0.7272727272727273,-0.001478338581741332,0
+2025-02-17,Vehicle loan or lease,Vehicle finance,Managing the loan or lease,72,109.75,0.6560364464692483,-0.015856776829511154,0
+2025-02-17,Vehicle loan or lease,Vehicle finance,Problem with a company's investigation into an existing problem,3,12.25,0.24489795918367346,-0.008529586499862987,0
+2025-02-17,Vehicle loan or lease,Vehicle finance,Problem with fraud alerts or security freezes,0,0.25,0.0,-0.00025624599615631005,0
+2025-02-17,Vehicle loan or lease,Vehicle finance,Problems at the end of the loan or lease,39,43.25,0.9017341040462428,0.008013517718309047,0
+2025-02-17,Vehicle loan or lease,Vehicle finance,Repossession,89,118.0,0.7542372881355932,-0.0014962466024908642,0
+2025-02-17,Vehicle loan or lease,Vehicle finance,Struggling to pay your loan,17,17.25,0.9855072463768116,0.005135674365393112,0
+2025-02-17,Vehicle loan or lease,Vehicle finance,Unable to get your credit report or credit score,1,0.5,2.0,0.0008296637782861155,0

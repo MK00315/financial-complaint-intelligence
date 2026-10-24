@@ -1,0 +1,122 @@
+Actual,Actual Short,Predicted,Predicted Short,Cases,Predicted Code
+Checking or savings account,Checking / savings,Checking or savings account,Checking / savings,1039,SAV
+Checking or savings account,Checking / savings,Credit card,Credit card,91,CRD
+Checking or savings account,Checking / savings,Credit reporting or other personal consumer reports,Credit reporting,22,CRP
+Checking or savings account,Checking / savings,Debt collection,Debt collection,8,COL
+Checking or savings account,Checking / savings,Debt or credit management,Debt management,3,DMG
+Checking or savings account,Checking / savings,"Money transfer, virtual currency, or money service",Money transfers,60,MTR
+Checking or savings account,Checking / savings,Mortgage,Mortgage,8,MOR
+Checking or savings account,Checking / savings,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,12,PLN
+Checking or savings account,Checking / savings,Prepaid card,Prepaid card,23,PRE
+Checking or savings account,Checking / savings,Student loan,Student loan,1,STU
+Checking or savings account,Checking / savings,Vehicle loan or lease,Vehicle finance,6,VEH
+Credit card,Credit card,Checking or savings account,Checking / savings,55,SAV
+Credit card,Credit card,Credit card,Credit card,932,CRD
+Credit card,Credit card,Credit reporting or other personal consumer reports,Credit reporting,62,CRP
+Credit card,Credit card,Debt collection,Debt collection,58,COL
+Credit card,Credit card,Debt or credit management,Debt management,2,DMG
+Credit card,Credit card,"Money transfer, virtual currency, or money service",Money transfers,9,MTR
+Credit card,Credit card,Mortgage,Mortgage,6,MOR
+Credit card,Credit card,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,21,PLN
+Credit card,Credit card,Prepaid card,Prepaid card,17,PRE
+Credit card,Credit card,Student loan,Student loan,2,STU
+Credit card,Credit card,Vehicle loan or lease,Vehicle finance,14,VEH
+Credit reporting or other personal consumer reports,Credit reporting,Checking or savings account,Checking / savings,32,SAV
+Credit reporting or other personal consumer reports,Credit reporting,Credit card,Credit card,281,CRD
+Credit reporting or other personal consumer reports,Credit reporting,Credit reporting or other personal consumer reports,Credit reporting,6898,CRP
+Credit reporting or other personal consumer reports,Credit reporting,Debt collection,Debt collection,867,COL
+Credit reporting or other personal consumer reports,Credit reporting,Debt or credit management,Debt management,21,DMG
+Credit reporting or other personal consumer reports,Credit reporting,"Money transfer, virtual currency, or money service",Money transfers,8,MTR
+Credit reporting or other personal consumer reports,Credit reporting,Mortgage,Mortgage,77,MOR
+Credit reporting or other personal consumer reports,Credit reporting,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,46,PLN
+Credit reporting or other personal consumer reports,Credit reporting,Prepaid card,Prepaid card,1,PRE
+Credit reporting or other personal consumer reports,Credit reporting,Student loan,Student loan,142,STU
+Credit reporting or other personal consumer reports,Credit reporting,Vehicle loan or lease,Vehicle finance,187,VEH
+Debt collection,Debt collection,Checking or savings account,Checking / savings,13,SAV
+Debt collection,Debt collection,Credit card,Credit card,68,CRD
+Debt collection,Debt collection,Credit reporting or other personal consumer reports,Credit reporting,214,CRP
+Debt collection,Debt collection,Debt collection,Debt collection,1657,COL
+Debt collection,Debt collection,Debt or credit management,Debt management,11,DMG
+Debt collection,Debt collection,"Money transfer, virtual currency, or money service",Money transfers,1,MTR
+Debt collection,Debt collection,Mortgage,Mortgage,18,MOR
+Debt collection,Debt collection,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,28,PLN
+Debt collection,Debt collection,Prepaid card,Prepaid card,1,PRE
+Debt collection,Debt collection,Student loan,Student loan,10,STU
+Debt collection,Debt collection,Vehicle loan or lease,Vehicle finance,36,VEH
+Debt or credit management,Debt management,Checking or savings account,Checking / savings,2,SAV
+Debt or credit management,Debt management,Credit card,Credit card,8,CRD
+Debt or credit management,Debt management,Credit reporting or other personal consumer reports,Credit reporting,8,CRP
+Debt or credit management,Debt management,Debt collection,Debt collection,29,COL
+Debt or credit management,Debt management,Debt or credit management,Debt management,21,DMG
+Debt or credit management,Debt management,"Money transfer, virtual currency, or money service",Money transfers,0,MTR
+Debt or credit management,Debt management,Mortgage,Mortgage,5,MOR
+Debt or credit management,Debt management,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,5,PLN
+Debt or credit management,Debt management,Prepaid card,Prepaid card,1,PRE
+Debt or credit management,Debt management,Student loan,Student loan,0,STU
+Debt or credit management,Debt management,Vehicle loan or lease,Vehicle finance,1,VEH
+"Money transfer, virtual currency, or money service",Money transfers,Checking or savings account,Checking / savings,192,SAV
+"Money transfer, virtual currency, or money service",Money transfers,Credit card,Credit card,42,CRD
+"Money transfer, virtual currency, or money service",Money transfers,Credit reporting or other personal consumer reports,Credit reporting,1,CRP
+"Money transfer, virtual currency, or money service",Money transfers,Debt collection,Debt collection,6,COL
+"Money transfer, virtual currency, or money service",Money transfers,Debt or credit management,Debt management,4,DMG
+"Money transfer, virtual currency, or money service",Money transfers,"Money transfer, virtual currency, or money service",Money transfers,538,MTR
+"Money transfer, virtual currency, or money service",Money transfers,Mortgage,Mortgage,3,MOR
+"Money transfer, virtual currency, or money service",Money transfers,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,8,PLN
+"Money transfer, virtual currency, or money service",Money transfers,Prepaid card,Prepaid card,14,PRE
+"Money transfer, virtual currency, or money service",Money transfers,Student loan,Student loan,1,STU
+"Money transfer, virtual currency, or money service",Money transfers,Vehicle loan or lease,Vehicle finance,4,VEH
+Mortgage,Mortgage,Checking or savings account,Checking / savings,7,SAV
+Mortgage,Mortgage,Credit card,Credit card,6,CRD
+Mortgage,Mortgage,Credit reporting or other personal consumer reports,Credit reporting,6,CRP
+Mortgage,Mortgage,Debt collection,Debt collection,6,COL
+Mortgage,Mortgage,Debt or credit management,Debt management,0,DMG
+Mortgage,Mortgage,"Money transfer, virtual currency, or money service",Money transfers,1,MTR
+Mortgage,Mortgage,Mortgage,Mortgage,399,MOR
+Mortgage,Mortgage,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,10,PLN
+Mortgage,Mortgage,Prepaid card,Prepaid card,0,PRE
+Mortgage,Mortgage,Student loan,Student loan,2,STU
+Mortgage,Mortgage,Vehicle loan or lease,Vehicle finance,2,VEH
+"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Checking or savings account,Checking / savings,8,SAV
+"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Credit card,Credit card,15,CRD
+"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Credit reporting or other personal consumer reports,Credit reporting,9,CRP
+"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Debt collection,Debt collection,18,COL
+"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Debt or credit management,Debt management,4,DMG
+"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,"Money transfer, virtual currency, or money service",Money transfers,0,MTR
+"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Mortgage,Mortgage,6,MOR
+"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,113,PLN
+"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Prepaid card,Prepaid card,0,PRE
+"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Student loan,Student loan,3,STU
+"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,Vehicle loan or lease,Vehicle finance,17,VEH
+Prepaid card,Prepaid card,Checking or savings account,Checking / savings,16,SAV
+Prepaid card,Prepaid card,Credit card,Credit card,17,CRD
+Prepaid card,Prepaid card,Credit reporting or other personal consumer reports,Credit reporting,1,CRP
+Prepaid card,Prepaid card,Debt collection,Debt collection,1,COL
+Prepaid card,Prepaid card,Debt or credit management,Debt management,0,DMG
+Prepaid card,Prepaid card,"Money transfer, virtual currency, or money service",Money transfers,12,MTR
+Prepaid card,Prepaid card,Mortgage,Mortgage,0,MOR
+Prepaid card,Prepaid card,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,0,PLN
+Prepaid card,Prepaid card,Prepaid card,Prepaid card,69,PRE
+Prepaid card,Prepaid card,Student loan,Student loan,0,STU
+Prepaid card,Prepaid card,Vehicle loan or lease,Vehicle finance,0,VEH
+Student loan,Student loan,Checking or savings account,Checking / savings,3,SAV
+Student loan,Student loan,Credit card,Credit card,2,CRD
+Student loan,Student loan,Credit reporting or other personal consumer reports,Credit reporting,15,CRP
+Student loan,Student loan,Debt collection,Debt collection,13,COL
+Student loan,Student loan,Debt or credit management,Debt management,1,DMG
+Student loan,Student loan,"Money transfer, virtual currency, or money service",Money transfers,1,MTR
+Student loan,Student loan,Mortgage,Mortgage,2,MOR
+Student loan,Student loan,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,7,PLN
+Student loan,Student loan,Prepaid card,Prepaid card,0,PRE
+Student loan,Student loan,Student loan,Student loan,320,STU
+Student loan,Student loan,Vehicle loan or lease,Vehicle finance,2,VEH
+Vehicle loan or lease,Vehicle finance,Checking or savings account,Checking / savings,5,SAV
+Vehicle loan or lease,Vehicle finance,Credit card,Credit card,11,CRD
+Vehicle loan or lease,Vehicle finance,Credit reporting or other personal consumer reports,Credit reporting,17,CRP
+Vehicle loan or lease,Vehicle finance,Debt collection,Debt collection,12,COL
+Vehicle loan or lease,Vehicle finance,Debt or credit management,Debt management,1,DMG
+Vehicle loan or lease,Vehicle finance,"Money transfer, virtual currency, or money service",Money transfers,0,MTR
+Vehicle loan or lease,Vehicle finance,Mortgage,Mortgage,8,MOR
+Vehicle loan or lease,Vehicle finance,"Payday loan, title loan, personal loan, or advance loan",Personal / payday loans,9,PLN
+Vehicle loan or lease,Vehicle finance,Prepaid card,Prepaid card,0,PRE
+Vehicle loan or lease,Vehicle finance,Student loan,Student loan,1,STU
+Vehicle loan or lease,Vehicle finance,Vehicle loan or lease,Vehicle finance,251,VEH
