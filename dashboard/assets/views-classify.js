@@ -1,0 +1,34 @@
+import {icon} from './icons.js';
+import {e,n,score} from './utils.js';
+import {heading,route} from './views.js';
+
+export const examples = [
+  {key:'report',label:'Credit report',text:'My credit report lists an account that does not belong to me. I disputed the incorrect information with the credit bureau, but the account still appears on my report and is affecting my credit history.'},
+  {key:'card',label:'Card purchase',text:'There is a purchase on my credit card statement that I did not authorize. I contacted the card issuer to dispute this charge, but the investigation was closed and I am still being asked to pay for it.'},
+  {key:'bank',label:'Bank fee',text:'My bank charged an unexpected overdraft fee on my checking account even though I had enough money available. I asked the bank to explain the charge and return the money, but the fee has not been refunded.'},
+];
+
+export function classificationResult(ctx) {
+  if(ctx.classifying)return `<div class="result-empty" role="status"><span class="spinner" style="width:28px;height:28px;margin-bottom:20px"></span><h3>Analyzing your complaint</h3><p>The saved model is comparing the text with its learned product categories.</p></div>`;
+  const result=ctx.prediction;
+  if(!result)return `<div class="result-empty"><span class="empty-icon">${icon('tag')}</span><h3>Ready when you are</h3><p>Enter a financial complaint or load an example to see a product suggestion and review route.</p></div>`;
+  const threshold=ctx.data.model.routing.threshold;
+  return `<div class="result-content view-enter"><span class="route-badge ${result.human_review?'review':''}">${icon(result.human_review?'alert':'check')}${result.human_review?'Human review recommended':'Suggested category'}</span><h3 class="result-category">${e(result.category)}</h3><p class="small muted">${result.human_review?'The top score is below the review threshold. Check the complaint before routing it.':'Review this suggestion against the complaint before routing it.'}</p>
+    <div class="result-score"><span>Top model score</span><strong class="numeric">${Number(result.score).toFixed(3)}</strong></div><div class="track"><span style="width:${result.score*100}%"></span></div><p class="score-note">An uncalibrated model score, not a guaranteed probability. Review threshold: ${threshold.toFixed(2)}.</p>
+    <h4 style="font:500 12px Inter,sans-serif">Top three product matches</h4><div class="alternatives">${result.alternatives.map((row,i)=>`<div><div class="alternative-head"><span class="alternative-name"><span class="alternative-rank">0${i+1}</span>${e(row.category)}</span><span class="alternative-score">${Number(row.score).toFixed(3)}</span></div><div class="track" style="height:4px"><span style="width:${row.score*100}%;opacity:${1-i*.22}"></span></div></div>`).join('')}</div>
+  </div><div class="result-foot">This model suggests a product category. It does not determine whether a complaint is valid or make financial decisions.<a class="model-link-row" href="${e(route('model',ctx.filters))}">Review model performance & limitations ${icon('arrow')}</a></div>`;
+}
+
+export function classifyView(ctx) {
+  const words=ctx.narrative.trim()?ctx.narrative.trim().split(/\s+/).length:0;
+  const serving=ctx.model.serving || {label:'LOCAL PROCESSING',text_note:'Your text is processed by the local model and is not saved by this application.'};
+  return `<div class="view-enter">${heading('Classify a complaint','Turn written complaint text into a reviewable product suggestion.','11 product categories',`<a class="button secondary" href="${e(route('model',ctx.filters))}">${icon('cpu')}Model & Data</a>`)}
+    <div class="grid-12"><section class="panel narrative-card span-7" aria-labelledby="narrative-heading"><div class="panel-head"><div><h2 id="narrative-heading">Complaint narrative</h2><p>The model uses only the complaint text.</p></div><span class="tag">${e(serving.label)}</span></div><form id="classify-form" class="input-panel" novalidate><label for="complaint-text" class="narrative-label">Describe the financial complaint<span>At least 12 meaningful words</span></label>
+      <textarea id="complaint-text" name="text" maxlength="12000" aria-describedby="narrative-hint narrative-error" aria-invalid="${!!ctx.classificationError}" placeholder="For example: My credit report lists an account that does not belong to me. I disputed the information with the credit bureau, but…">${e(ctx.narrative)}</textarea><div class="narrative-meta"><span id="narrative-hint">${ctx.exampleLabel?`Illustrative example · ${e(ctx.exampleLabel)}`:'Remove names, account numbers and other personal details.'}</span><span id="character-count" class="numeric">${n(ctx.narrative.length)} / 12,000</span></div><p class="inline-error" id="narrative-error" role="alert" ${ctx.classificationError?'':'hidden'}>${e(ctx.classificationError)}</p>
+      <p class="example-label">Load an illustrative example</p><div class="example-chips">${examples.map(example=>`<button class="example-chip" type="button" data-action="load-example" data-example="${example.key}">${icon('text')}${example.label}</button>`).join('')}</div><div class="classify-actions"><button type="button" class="button ghost" data-action="clear-narrative" ${!ctx.narrative?'disabled':''}>Clear text</button><button class="button" type="submit" id="classify-submit" ${ctx.classifying || !ctx.narrative.trim()?'disabled':''}>${ctx.classifying?'<span class="spinner"></span>':icon('tag')}${ctx.classifying?'Analyzing…':'Classify complaint'}</button></div>
+    </form><p class="privacy-note">${icon('shield')}<span>${e(serving.text_note)} The examples above are illustrative text, separate from the evaluation dataset.</span></p></section>
+    <section class="panel result-card span-5" aria-labelledby="result-heading"><div class="panel-head"><h2 id="result-heading">Classification result</h2><span class="tag">${ctx.model.profile==='uncapped'?'VERIFIED MODEL':e(ctx.model.profile.toUpperCase())}</span></div><div id="classification-result">${classificationResult(ctx)}</div></section></div>
+    <p class="sr-only" id="classification-announcement" aria-live="polite"></p>
+    <section class="panel explain-strip" aria-label="How to interpret the result"><div>${icon('text')}<h3>Text in, product suggestion out</h3><p>TF-IDF features and Logistic Regression assign one of the archive’s 11 financial product categories.</p></div><div>${icon('alert')}<h3>Uncertainty stays visible</h3><p>Scores below ${ctx.data.model.routing.threshold.toFixed(2)} are routed to human review in this demonstration. Every suggestion can still be reviewed.</p></div><div>${icon('chart')}<h3>Measured on unseen complaints</h3><p>${(ctx.data.model.test.accuracy*100).toFixed(2)}% test accuracy on ${n(ctx.model.split.splits.test.rows)} held-out complaints. Performance varies across categories.</p></div></section>
+  </div>`;
+}
