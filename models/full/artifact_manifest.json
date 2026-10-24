@@ -1,0 +1,8 @@
+{
+  "model_sha256": "a16b92549b9e7d8967e11b92e1cab4925fa8dd858c01f4e4c057bf855f1c5ee6",
+  "profile": "full",
+  "execution_environment": "colab_cpu",
+  "sklearn_version": "1.9.1",
+  "python_version": "3.13.16",
+  "warning": "Only load joblib files you generated or trust."
+}

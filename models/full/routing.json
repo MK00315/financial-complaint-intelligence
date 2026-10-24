@@ -1,0 +1,9 @@
+{
+  "threshold": 0.55,
+  "validation_target_accuracy": 0.85,
+  "validation_target_met": true,
+  "test_coverage": 0.7416504223521767,
+  "test_accepted": 11414,
+  "test_accuracy_when_accepted": 0.8664797616961626,
+  "score_note": "Uncalibrated model score; not a guaranteed probability. Review route is a demonstration, not autonomous financial decision-making."
+}

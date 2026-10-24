@@ -1,0 +1,26 @@
+{
+  "source_sha256": "11c18bb0973eed8f5e4f66e2979346af0671a3aefcb5a6b9eec73009d53cff64",
+  "reference_archive_sha256": "f29504445d3d7754ce4ed2850bd22f26c5066c8844663c4eb9781f1d1381e359",
+  "execution_environment": "colab_cpu",
+  "selected_model": "logistic_regression",
+  "selected_validation_macro_f1": 0.6538825375829431,
+  "selected_validation_accuracy": 0.7783444904898523,
+  "training_rows": 60444,
+  "train_cap_per_class": 15000,
+  "test": {
+    "accuracy": 0.7842105263157895,
+    "balanced_accuracy": 0.7223780261934952,
+    "macro_f1": 0.6579507178401467,
+    "weighted_f1": 0.79346057280516
+  },
+  "holdout_membership": {
+    "validation": {
+      "rows": 9411,
+      "fingerprint": "0c1cf57bd276e52752ebed1cbd2d521a64ad360b77712a6a18c04f9edf66061a"
+    },
+    "test": {
+      "rows": 15390,
+      "fingerprint": "a00bd0d820045066a5ac98627b6a231060294c7ab4eb924b261481e432b1f328"
+    }
+  }
+}
