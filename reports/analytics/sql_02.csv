@@ -1,0 +1,34 @@
+product,issue,complaints,issue_rank
+Checking or savings account,Managing an account,11001,1
+Checking or savings account,Problem caused by your funds being low,8407,2
+Checking or savings account,Closing an account,1634,3
+Credit card,Problem with a purchase shown on your statement,2775,1
+Credit card,Problem with a company's investigation into an existing problem,2724,2
+Credit card,Getting a credit card,1896,3
+Credit reporting or other personal consumer reports,Incorrect information on your report,359132,1
+Credit reporting or other personal consumer reports,Improper use of your report,160856,2
+Credit reporting or other personal consumer reports,Problem with a company's investigation into an existing problem,133532,3
+Debt collection,Attempts to collect debt not owed,19073,1
+Debt collection,Written notification about debt,8807,2
+Debt collection,False statements or representation,5907,3
+Debt or credit management,Didn't provide services promised,317,1
+Debt or credit management,Charged upfront or unexpected fees,229,2
+Debt or credit management,Confusing or missing disclosures,154,3
+"Money transfer, virtual currency, or money service",Other transaction problem,46241,1
+"Money transfer, virtual currency, or money service",Fraud or scam,3325,2
+"Money transfer, virtual currency, or money service",Unauthorized transactions or other transaction problem,1779,3
+Mortgage,Trouble during payment process,2247,1
+Mortgage,Struggling to pay mortgage,873,2
+Mortgage,Applying for a mortgage or refinancing an existing mortgage,346,3
+"Payday loan, title loan, personal loan, or advance loan",Charged fees or interest you didn't expect,494,1
+"Payday loan, title loan, personal loan, or advance loan",Struggling to pay your loan,216,2
+"Payday loan, title loan, personal loan, or advance loan",Problem when making payments,215,3
+Prepaid card,Trouble using the card,597,1
+Prepaid card,Problem with a purchase or transfer,303,2
+Prepaid card,Problem getting a card or closing an account,175,3
+Student loan,Dealing with your lender or servicer,2346,1
+Student loan,Struggling to repay your loan,1181,2
+Student loan,Improper use of your report,209,3
+Vehicle loan or lease,Repossession,907,1
+Vehicle loan or lease,Managing the loan or lease,871,2
+Vehicle loan or lease,Getting a loan or lease,537,3

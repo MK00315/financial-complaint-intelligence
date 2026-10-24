@@ -1,0 +1,23 @@
+month,product,complaints,prior_month,change_pct
+2025-01,Checking or savings account,18367,,
+2025-02,Checking or savings account,5452,18367.0,-70.32
+2025-01,Credit card,9073,,
+2025-02,Credit card,6213,9073.0,-31.52
+2025-01,Credit reporting or other personal consumer reports,365867,,
+2025-02,Credit reporting or other personal consumer reports,293833,365867.0,-19.69
+2025-01,Debt collection,23830,,
+2025-02,Debt collection,17032,23830.0,-28.53
+2025-01,Debt or credit management,693,,
+2025-02,Debt or credit management,353,693.0,-49.06
+2025-01,"Money transfer, virtual currency, or money service",49743,,
+2025-02,"Money transfer, virtual currency, or money service",6128,49743.0,-87.68
+2025-01,Mortgage,2204,,
+2025-02,Mortgage,1754,2204.0,-20.42
+2025-01,"Payday loan, title loan, personal loan, or advance loan",1098,,
+2025-02,"Payday loan, title loan, personal loan, or advance loan",750,1098.0,-31.69
+2025-01,Prepaid card,756,,
+2025-02,Prepaid card,495,756.0,-34.52
+2025-01,Student loan,2232,,
+2025-02,Student loan,1868,2232.0,-16.31
+2025-01,Vehicle loan or lease,1920,,
+2025-02,Vehicle loan or lease,1358,1920.0,-29.27
