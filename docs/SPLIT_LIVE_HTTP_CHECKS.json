@@ -1,0 +1,139 @@
+{
+  "checked_at": "2026-10-25T21:18:41.100879+05:30",
+  "frontend": "https://complaint-intelligence-mk.vercel.app",
+  "backend": "https://financial-complaint-intelligence.onrender.com",
+  "checks": [
+    {
+      "check": "Public production frontend, no sign-in redirect",
+      "status": 200,
+      "bytes": 3923,
+      "initial_connection_screen": true,
+      "initial_workspace_hidden": true
+    },
+    {
+      "check": "Static scripts, styles, fonts and favicon match source",
+      "files": [
+        {
+          "path": "/assets/app.css",
+          "bytes": 36196,
+          "sha256": "2c607cf1083b0bf757be73f905dd000f53f8727ba5da28738190c62336e96e6b"
+        },
+        {
+          "path": "/assets/app.js",
+          "bytes": 15267,
+          "sha256": "e3a3019e086cf7ecb21e05ab6b359d74e8bec4ee7c5570435fe8bfd33b0628d4"
+        },
+        {
+          "path": "/assets/charts.js",
+          "bytes": 5060,
+          "sha256": "519a8bd1db6a8aefc0fdde7636a9750fb2da9f78c7bbb4e02e5c45e42f56db94"
+        },
+        {
+          "path": "/assets/connection.js",
+          "bytes": 9100,
+          "sha256": "fe15c87a0a1ab9f530ecd7bba80dec9abf2128f004916cdea2c5470bca1b46e1"
+        },
+        {
+          "path": "/assets/favicon.svg",
+          "bytes": 251,
+          "sha256": "ec89cace41a0924ed0036a8b678f06ffdd5964b18e140ed12a80299e8bb79e4f"
+        },
+        {
+          "path": "/assets/icons.js",
+          "bytes": 2289,
+          "sha256": "4c4b8b079a5cce200ed696a864d96570b7c02bc19eff4b04e10229ce33a7ec13"
+        },
+        {
+          "path": "/assets/utils.js",
+          "bytes": 2380,
+          "sha256": "d9464592117deb916d9947407841d9509d1bcf4c93a6d762a37fa45da7e20c23"
+        },
+        {
+          "path": "/assets/views-classify.js",
+          "bytes": 6886,
+          "sha256": "b27414dc55861a0dfa35a86d3a868b716781c851d067be9485351bf67bacb4f8"
+        },
+        {
+          "path": "/assets/views-model.js",
+          "bytes": 13211,
+          "sha256": "e58e9f1814616ee72119d7814fcd7c6a70eb9833672c0c4623729ac998516ce5"
+        },
+        {
+          "path": "/assets/views.js",
+          "bytes": 16229,
+          "sha256": "bf04e043717a5c8dc78f290455eb8cb9b338afcddd633e964ca5f61472be6b81"
+        },
+        {
+          "path": "/assets/fonts/inter-OFL.txt",
+          "bytes": 4376,
+          "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39"
+        },
+        {
+          "path": "/assets/fonts/inter.woff2",
+          "bytes": 48256,
+          "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+        },
+        {
+          "path": "/assets/fonts/jetbrains-mono-OFL.txt",
+          "bytes": 4399,
+          "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d"
+        },
+        {
+          "path": "/assets/fonts/jetbrains-mono.woff2",
+          "bytes": 40404,
+          "sha256": "18be452724bfdc236c074ca94a249a7f41a86752c7d04ab258ce9ed5651f6a7e"
+        },
+        {
+          "path": "/assets/fonts/space-grotesk-OFL.txt",
+          "bytes": 4494,
+          "sha256": "c9a6f76d065b19ee383e42c8a114915e733bcbaed9759de41f4016b64d502cd5"
+        },
+        {
+          "path": "/assets/fonts/space-grotesk.woff2",
+          "bytes": 22288,
+          "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+        }
+      ]
+    },
+    {
+      "check": "Vercel API rewrite and preserved existing Render deployment",
+      "health": {
+        "status": "ok",
+        "profile": "uncapped",
+        "project": "Financial Complaint Intelligence",
+        "app_version": "1.2.0"
+      },
+      "render_root_status": 200
+    },
+    {
+      "check": "Actual uncapped source summary, not cached",
+      "records": 811019
+    },
+    {
+      "check": "Credit-card January filters through proxy",
+      "complaints": 9073,
+      "narratives": 3992
+    },
+    {
+      "check": "Hosted processing disclosure and preserved model",
+      "profile": "uncapped",
+      "processing_mode": "hosted"
+    },
+    {
+      "check": "Real saved-model prediction through Vercel POST",
+      "category": "Credit reporting or other personal consumer reports",
+      "score": 0.893051028251648,
+      "human_review": false
+    },
+    {
+      "check": "POST validation remains 422 with readable field messages",
+      "status": 422
+    },
+    {
+      "check": "Filtered CSV download through proxy",
+      "daily_rows": 31,
+      "complaints": 9073
+    }
+  ],
+  "passed": true
+}

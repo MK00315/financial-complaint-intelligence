@@ -1,0 +1,52 @@
+{
+  "verified_at": "2026-10-25T21:22:39.593901+05:30",
+  "frontend": "https://complaint-intelligence-mk.vercel.app/",
+  "backend": "https://financial-complaint-intelligence.onrender.com",
+  "repository": "https://github.com/MK00315/financial-complaint-intelligence",
+  "vercel": {
+    "project": "mk00315/complaint-intelligence-mk",
+    "deployment_id": "dpl_9EcupcyPyFdmfznWm7w7JZJswZUf",
+    "deployment_source_commit": "ef05ea237e1ae0cbe625b90d5edd969ec6aa3970",
+    "uploaded_directory": "dashboard/",
+    "mode": "static, direct CLI production deployment",
+    "ready": true
+  },
+  "render": {
+    "reused_existing_service": true,
+    "redeployed_for_this_change": false,
+    "previous_link_preserved": true,
+    "health": {
+      "status": "ok",
+      "profile": "uncapped",
+      "project": "Financial Complaint Intelligence",
+      "app_version": "1.2.0"
+    }
+  },
+  "model_sha256": "8fbef834d40978411c85be0b63c182f75cca3f4f727486543e5136af41d50c0c",
+  "model_retrained": false,
+  "paid_resources_created": false,
+  "checks": {
+    "python": "40 passed, 3 raw-database checks skipped in portable copy",
+    "frontend": "15 passed",
+    "live_http": "9 checks including all 16 assets",
+    "ci": "https://github.com/MK00315/financial-complaint-intelligence/actions/runs/40208609476"
+  },
+  "startup": {
+    "budget_seconds": 180,
+    "per_request_timeout_seconds": 20,
+    "health_timeout_seconds": 15,
+    "retry_delays_seconds": [
+      1.5,
+      2.5,
+      4,
+      6
+    ],
+    "permanent_keepalive": false
+  },
+  "limitations": [
+    "Controlled startup outage, timeout and recovery were tested with an isolated local fixture; its 1.5-second test timeout is not the deployed 180-second timeout.",
+    "No deliberate 15-minute Render idle cycle was performed.",
+    "Responsive browser viewport checks are not physical-device tests.",
+    "GitHub Actions runs CI only; hosting updates are manual."
+  ]
+}

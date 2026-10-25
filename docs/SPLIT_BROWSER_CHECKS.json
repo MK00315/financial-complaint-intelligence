@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "check": "Controlled unavailable API then automatic recovery",
+      "passed": true
+    },
+    {
+      "check": "Controlled 1.5-second timeout and manual retry recovery",
+      "passed": true
+    },
+    {
+      "check": "Connection screen at 1440×1000 and 390×844 without horizontal overflow",
+      "passed": true
+    },
+    {
+      "check": "Live illustrative credit-report prediction",
+      "result": "Classification result\nVERIFIED MODEL\nSuggested category\nCredit reporting or other personal consumer reports\n\nReview this suggestion against the complaint before routing it.\n\nTop model score\n0.893\n\nAn uncalibrated model score, not a guaranteed probability. Review threshold: 0.55.\n\nTop three product matches\n01Credit reporting or other personal consumer reports\n0.893\n02Debt collection\n0.093\n03Credit card\n0.009\nThis model suggests a product category. It does not determine whether a complaint is valid or make financial decisions.\nReview model performance & limitations"
+    },
+    {
+      "check": "Live Issue Explorer product filter",
+      "product": "Credit card",
+      "visibleRows": 10,
+      "passed": true
+    },
+    {
+      "check": "Live Model & Data and direct-link refresh retain requested page",
+      "passed": true
+    },
+    {
+      "check": "Live overview at 390×844",
+      "actual": {
+        "allProducts": true,
+        "fullTotal": true,
+        "heading": "Complaint overview",
+        "overflow": false,
+        "width": 390
+      },
+      "passed": true
+    },
+    {
+      "check": "No console errors during normal production navigation, filtering, inference and refresh",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "limits": [
+    "Local timeout fixture used 1.5 seconds; production budget is 180 seconds.",
+    "Responsive browser checks, not physical devices.",
+    "No deliberately idled Render cycle was performed."
+  ]
+}

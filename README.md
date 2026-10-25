@@ -2,7 +2,9 @@
 
 An analytics and NLP project for exploring financial complaint reporting, investigating issues and reviewing model-assisted product classification. It includes a sky-blue web dashboard and a separate four-page Power BI report.
 
-**Live demo:** [Open Financial Complaint Intelligence](https://financial-complaint-intelligence.onrender.com). Free hosting can take about a minute to wake up after inactivity.
+**Live demo:** [Open Financial Complaint Intelligence](https://complaint-intelligence-mk.vercel.app/). The frontend loads from Vercel and shows a sky-blue connection screen while the existing Render analysis server wakes up.
+
+**Backend / previous link:** [Render dashboard and API](https://financial-complaint-intelligence.onrender.com) remains available. [Split-hosting verification](docs/SPLIT_HOSTING_VERIFICATION.json).
 
 **Power BI:** [download the report](powerbi/Financial_Complaint_Intelligence.pbix) · [report guide](powerbi/README.md) · [deployment instructions](docs/DEPLOYMENT.md).
 

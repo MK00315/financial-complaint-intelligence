@@ -1,38 +1,58 @@
 # Deployment
 
-The app serves its dashboard and Python API from the same origin. It loads the saved uncapped classifier and aggregate counts at startup. Hosting does not download the CFPB dataset or train a new model.
+The main demo is **https://complaint-intelligence-mk.vercel.app/**. Vercel serves the static interface and bundled fonts. Requests under `/api/` are forwarded to the existing **https://financial-complaint-intelligence.onrender.com** Python service. The original Render link still serves its dashboard and API; no service was deleted or replaced.
 
-The verified live service is [financial-complaint-intelligence.onrender.com](https://financial-complaint-intelligence.onrender.com), running on Render's Free plan in Oregon. It was created from this public Git repository. No new GitHub permissions or persistent access keys were required. The first deployment of commit `4ec8fc507eec6d0cb869cfcd457ccfae163e8e4e` was verified with 11 HTTP checks and all four browser views. Later documentation updates do not change the model or application assets.
+## Connection screen
 
-## Render configuration
+The first HTML response contains the complete sky-blue connection screen, with the workspace hidden. It checks the real service health, including project identity and the selected uncapped profile, before loading summary, model details and any analytics required by the requested initial page. A live elapsed-time counter and actual startup steps replace fake progress percentages.
 
-`render.yaml` defines one **free Python web service** with:
+Requests have bounded timeouts and serial retry delays. After three minutes without a complete startup, polling stops and **Try again** is available. Offline startup shows a reconnect message. The screen fades into the workspace only after its initial data is ready and respects reduced-motion settings. There is no continuous keep-alive job.
 
-- Python 3.13.16, matching the training runtime's Python minor version.
-- Build: `pip install -r requirements.txt`.
-- Start: `uvicorn api:app --host 0.0.0.0 --port $PORT --workers 1 --no-access-log`.
-- Health check: `/api/health`.
-- `COMPLAINT_PROFILE=uncapped` and `COMPLAINT_HOSTED=1`.
-- One numerical-library thread per worker to limit resource use.
+Free Render hosting can sleep after inactivity and take about a minute to wake. This split keeps the frontend available during that wait; it does not eliminate backend startup time. Provider availability and free-plan limits still apply.
 
-Connect this repository to Render and use the Blueprint configuration, or create a Python Web Service using those settings. Select the **Free** instance. No paid plan or persistent database is required by this demonstration. A service URL is a completed result only after Render reports a successful deployment and the HTTP checks pass.
+## Update the frontend
 
-Render's free web service sleeps after 15 minutes without incoming traffic and can take about a minute to start on the next visit. Monthly free usage limits also apply. Open the demo before an interview so it is ready when the presentation begins. No artificial keep-alive jobs are configured.
+From the repository root, with the official Vercel CLI signed into the existing `mk00315` team:
+
+```powershell
+npx --yes vercel@latest deploy --cwd dashboard --project complaint-intelligence-mk --prod --yes --scope mk00315
+```
+
+Deploy **only `dashboard/`**. This is a static deployment with no framework, build or package-install step. The deployment contains HTML, browser scripts, CSS, fonts and the favicon; model files, data, native reports and Python are not uploaded to Vercel. No frontend secret or API key is required.
+
+`dashboard/vercel.json` forwards `/api/:path*` to Render, preserving queries and POST requests under the same browser origin. API caching is disabled. The browser does not need wildcard CORS. All fonts are bundled locally and the content-security policy restricts scripts and network requests to the site's own origin.
+
+The current Vercel release was deployed directly with the CLI. **GitHub Actions runs tests; it does not deploy either host.** GitHub is not connected for automatic Vercel deployments. Redeploy explicitly after future frontend changes.
+
+## Existing Render backend
+
+Keep the existing Python service, saved model and configuration. Its checked-in `render.yaml` specifies:
+
+- Build: `pip install -r requirements.txt`
+- Start: `uvicorn api:app --host 0.0.0.0 --port $PORT --workers 1 --no-access-log`
+- Health: `/api/health`
+- `COMPLAINT_PROFILE=uncapped`, `COMPLAINT_HOSTED=1` and single-thread numeric-library settings.
+
+This frontend split required no Render redeployment, model retraining, cloud-data migration, account upgrade or paid service. Future API/model changes need their own Render deployment and verification.
 
 ## Processing and storage
 
-The hosted classification page explicitly says input is sent to the hosted model. The application does not save complaint input, train on it, or include it in its access logs. Visitors should use illustrative or anonymized complaints. Infrastructure request metadata is governed by the hosting provider's policies.
+Classification text travels through Vercel to the existing hosted model. The application does not save complaint input or train on it, and access logging remains disabled in the configured server command. Visitors should use illustrative or anonymized complaints. Infrastructure request metadata is governed by the hosting providers' policies.
 
-The repository includes read-only historical aggregates and trusted saved model artifacts. No database creation, background training or user-file upload is required. Local execution uses the existing Windows launcher and keeps the local processing description.
+Historical aggregates and trusted saved model artifacts remain on Render. The existing Windows launcher still runs the complete application locally with the local-processing disclosure. The new connection client expects the selected uncapped profile. Opening the dashboard does not require Colab, Azure or Databricks.
 
-## Verification after deployment
+## Verify an update
 
-1. Confirm `/api/health` returns `status: ok` and `profile: uncapped`.
-2. Confirm `/api/summary` reports 811,019 records and the correct test metrics.
-3. Query `/api/analytics?product=Credit%20card&start=2025-01-01&end=2025-01-31`; expect 9,073 complaints and 3,992 narratives.
-4. Submit the illustrative credit-report example to `/api/classify`; verify real inference, three product matches and an explicit review route.
-5. Visit the four browser views, inspect the hosted processing notice, filters, CSV export and navigation.
+1. Open the production Vercel URL without signing in. Check the static connection screen, then the four routes.
+2. Confirm `/api/health` returns `status: ok`, project `Financial Complaint Intelligence`, and `profile: uncapped`.
+3. Check `/api/summary`: 811,019 source records.
+4. Query `/api/analytics?product=Credit%20card&start=2025-01-01&end=2025-01-31`: 9,073 complaints and 3,992 narratives.
+5. Classify the illustrative credit-report example: three suggestions and top score about 0.893. Short input must remain a readable 422 validation error.
+6. Download a filtered CSV; check that the period, product and totals match.
+7. Confirm the old Render URL still works. Check that the new production URL has no Vercel sign-in redirect.
 
-The Power BI report remains a downloadable local file in `powerbi/`. No Power BI Service or Publish to web deployment is included.
+Local checks: `python -m pytest tests -q` and `node --test tests/connection.test.cjs`. The portable copy intentionally skips three SQL comparisons requiring the excluded raw database. The existing full-workspace raw-data verification remains separate.
 
-References: [Render FastAPI guide](https://render.com/docs/deploy-fastapi), [Python version selection](https://render.com/docs/python-version), [free service behavior](https://render.com/docs/free).
+The Power BI report remains a downloadable local file in `powerbi/`. No Power BI Service publication is included.
+
+References: [Vercel external rewrites](https://vercel.com/docs/routing/rewrites), [Render FastAPI](https://render.com/docs/deploy-fastapi), [Render free-service behavior](https://render.com/docs/free).
