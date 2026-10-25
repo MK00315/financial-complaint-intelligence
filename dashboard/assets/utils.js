@@ -1,3 +1,4 @@
+import './connection.js';
 export const FIRST = '2025-01-01';
 export const LAST = '2025-02-28';
 const number = new Intl.NumberFormat('en-US');
@@ -29,15 +30,8 @@ export function weekLabel(start) {
 export function params(values) {
   return new URLSearchParams(Object.entries(values).filter(([,value]) => value !== '' && value != null)).toString();
 }
-export async function getJSON(url, options = {}) {
-  const response = await fetch(url, options);
-  let value;
-  try { value = await response.json(); } catch { throw new Error('The workspace could not read the server response. Please try again.'); }
-  if (!response.ok) {
-    const message = Array.isArray(value.detail) ? value.detail.map(item => item.msg).join(' ') : value.detail;
-    throw new Error(message || 'The request could not be completed. Please try again.');
-  }
-  return value;
+export function getJSON(url, options = {}) {
+  return window.ComplaintConnection.request(url, options);
 }
 export function issueMatches(rows, query = '', sort = 'count_desc') {
   const search = query.trim().toLocaleLowerCase('en-US');

@@ -6,11 +6,35 @@
   <meta name="theme-color" content="#F3F9FE">
   <meta name="description" content="Explore historical financial complaints, investigate reporting patterns and review model-assisted product classification.">
   <title>Financial Complaint Intelligence</title>
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/app.css">
-  <script type="module" src="/assets/app.js"></script>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/app.css?v=20261025-connection">
+  <script type="module" src="/assets/app.js?v=20261025-connection"></script>
 </head>
 <body>
+<section id="connection-screen" class="connection-screen" aria-labelledby="connection-heading" aria-busy="true" data-state="connecting">
+  <div class="connection-panel">
+    <div class="connection-left">
+      <div class="connection-brand">Financial Complaint<br>Intelligence<span>Analyst workspace</span></div>
+      <div>
+        <div class="eyebrow">Workspace connection</div>
+        <h1 id="connection-heading" class="connection-heading">Getting ready.</h1>
+        <h2 id="connection-status" class="connection-status" role="status" aria-live="polite">Connecting to your workspace</h2>
+        <p id="connection-description" class="connection-description">The dashboard is ready. We are connecting to the analysis server.</p>
+        <button id="connection-retry" class="button primary connection-retry" type="button" hidden>Try again <span aria-hidden="true">↻</span></button>
+      </div>
+      <p class="connection-note">After a quiet period, the server may need a minute to wake up.<br>CFPB historical complaints · January–February 2025</p>
+    </div>
+    <div class="connection-right">
+      <ol class="connection-steps" aria-label="Workspace startup progress">
+        <li class="connection-step completed"><span class="connection-icon" aria-hidden="true">✓</span><div><h3>Website loaded</h3><p>Your dashboard interface is ready</p></div></li>
+        <li class="connection-step current" id="connection-server-step"><span class="connection-icon" id="connection-server-icon" aria-hidden="true">2</span><div><h3>Connecting to server</h3><p>Waiting for the workspace service</p></div></li>
+        <li class="connection-step pending" id="connection-workspace-step"><span class="connection-icon" id="connection-workspace-icon" aria-hidden="true">3</span><div><h3>Preparing workspace</h3><p>Loading complaint trends and model details</p></div></li>
+      </ol>
+      <div class="connection-timer"><span id="connection-elapsed">0:00</span><span>Elapsed time</span></div>
+    </div>
+  </div>
+</section>
+<div id="workspace" hidden>
   <a class="skip-link" href="#main-content">Skip to content</a>
   <header class="app-nav">
     <div class="nav-inner">
@@ -25,6 +49,7 @@
   <footer class="app-footer">Source: CFPB historical complaint archive · January–February 2025.<a href="#/model">Model &amp; Data limitations <span aria-hidden="true">→</span></a></footer>
   <dialog id="issue-dialog" class="issue-dialog" aria-labelledby="issue-dialog-title"></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
-  <noscript><p class="noscript">Enable JavaScript to use the charts, filters and classification workspace.</p></noscript>
+  </div>
+  <noscript><style>#connection-screen{display:none}</style><p class="noscript">Enable JavaScript to use the charts, filters and classification workspace.</p></noscript>
 </body>
 </html>

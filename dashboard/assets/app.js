@@ -47,18 +47,15 @@ function render({focus=false}={}) {
 
 async function bootstrap() {
   const initial=readRoute();
-  Object.assign(state,initial);
+  Object.assign(state,initial,{data:null,model:null,analytics:null});
   nav.innerHTML=navigation(state.screen,state.filters);
-  main.innerHTML='<div class="loading-screen" role="status"><span class="spinner"></span>Opening the analyst workspace…</div>';
-  try {
-    const [data,model]=await Promise.all([getJSON('/api/summary'),getJSON('/api/model')]);
-    state.data=data;state.model=model;
-    await syncRoute(false);
-  } catch(error){errorPage(error);}
+  const [data,model]=await Promise.all([getJSON('/api/summary'),getJSON('/api/model')]);
+  state.data=data;state.model=model;
+  if(!await syncRoute(false,true))throw new Error('The initial view could not be loaded.');
 }
 
-async function syncRoute(focus=true) {
-  if(!state.data)return;
+async function syncRoute(focus=true,startup=false) {
+  if(!state.data)return false;
   const next=readRoute(),changed=next.screen!==state.screen;
   state.screen=next.screen;state.filters=next.filters;
   const generation=++routeGeneration;
@@ -73,14 +70,17 @@ async function syncRoute(focus=true) {
     main.firstElementChild?.classList.add('loading-overlay');
     try {
       const analytics=await getJSON(`/api/analytics?${params(state.filters)}`,{signal:analyticsController.signal});
-      if(generation!==routeGeneration)return;
+      if(generation!==routeGeneration)return false;
       state.analytics=analytics;state.issuePage=1;
     } catch(error){
-      if(error.name==='AbortError' || generation!==routeGeneration)return;
+      if(startup)throw error;
+      if(error.name==='AbortError' || generation!==routeGeneration)return false;
       main.removeAttribute('aria-busy');errorPage(error,true);return;
     }
   }
-  if(generation===routeGeneration)render({focus:focus&&changed});
+  if(generation!==routeGeneration)return false;
+  render({focus:focus&&changed});
+  return true;
 }
 
 function setFilters(update) {
@@ -184,7 +184,7 @@ document.addEventListener('click',event=>{
   if(!target || target.disabled)return;
   event.preventDefault();
   const action=target.dataset.action;
-  if(action==='retry-bootstrap')bootstrap();
+  if(action==='retry-bootstrap')window.ComplaintConnection.start(bootstrap);
   if(action==='reset-filters'){state.issueSearch='';state.issuePage=1;setFilters({product:'',start:FIRST,end:LAST});}
   if(action==='reset-dates'){pendingFocus='#date-control summary';setFilters({start:FIRST,end:LAST});}
   if(action==='filter-product'){pendingFocus='#product-filter';setFilters({product:target.dataset.product});}
@@ -249,4 +249,4 @@ dialog.addEventListener('close',()=>{dialogController?.abort();activeDialog=null
 document.addEventListener('keydown',event=>{if(event.key==='Escape'){const control=document.getElementById('date-control');if(control?.open){control.open=false;control.querySelector('summary').focus();}}});
 window.addEventListener('hashchange',()=>syncRoute(true));
 if(!location.hash)history.replaceState(null,'',route('overview',state.filters));
-bootstrap();
+window.ComplaintConnection.start(bootstrap);
