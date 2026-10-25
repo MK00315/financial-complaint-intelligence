@@ -20,3 +20,7 @@ data/complaints.sqlite*
 reports/**/*_membership.csv
 reports/**/test_predictions.csv
 .runtime_restart_required.json
+
+# Local design/auth/deployment metadata
+.superdesign/
+.vercel/
