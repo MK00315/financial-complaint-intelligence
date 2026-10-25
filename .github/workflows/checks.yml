@@ -28,3 +28,6 @@ jobs:
           for file in dashboard/assets/*.js; do
             node --check "$file"
           done
+
+      - name: Check startup and retry behavior
+        run: node --test tests/connection.test.cjs
