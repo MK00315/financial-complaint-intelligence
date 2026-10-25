@@ -4,8 +4,6 @@ An analytics and NLP project for exploring financial complaint reporting, invest
 
 **Live demo:** [Open Financial Complaint Intelligence](https://complaint-intelligence-mk.vercel.app/). The frontend loads from Vercel and shows a sky-blue connection screen while the existing Render analysis server wakes up.
 
-[Split-hosting verification](docs/SPLIT_HOSTING_VERIFICATION.json).
-
 **Power BI:** [download the report](powerbi/Financial_Complaint_Intelligence.pbix) · [report guide](powerbi/README.md) · [deployment instructions](docs/DEPLOYMENT.md).
 
 ![Web dashboard Overview](docs/screenshots/Financial_Complaint_Dashboard_Overview.png)
